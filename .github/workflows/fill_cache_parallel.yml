@@ -37,6 +37,8 @@ jobs:
         run: |
           git config user.name "bot"
           git config user.email "bot@github.com"
+          git pull --rebase || true
           git add cache_av.json
           git commit -m "Chunk ${{ matrix.chunk }} updated" || true
           git push || true
+
