@@ -107,8 +107,8 @@ def main():
         save_cache(cache)
 
         # Required to avoid Alpha Vantage throttling
-        print(BLUE + "⏳ Waiting 15 seconds..." + RESET)
-        time.sleep(15)
+        print(BLUE + "⏳ Waiting 12 seconds..." + RESET)
+        time.sleep(12)
 
     print(GREEN + f"\n🎉 Finished. API calls today: {calls_used}" + RESET)
 
