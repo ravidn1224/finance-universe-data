@@ -23,18 +23,20 @@ jobs:
       CHUNK_FILE: tickers_${{ matrix.chunk_id }}.txt
 
     steps:
-      - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
+    - uses: actions/checkout@v4
 
-      - run: pip install pandas requests
+    - uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
 
-      - name: Run cache for this chunk
-        run: python -u cache.py
+    - run: pip install pandas requests
 
-      - name: Save partial cache
-        run: |
-          mkdir -p partials
-          cp cache_part_${{ matrix.chunk_id }}.json partials/
+    - name: Run cache for this chunk
+      run: python -u cache.py
+
+    - name: Upload partial cache
+      uses: actions/upload-artifact@v4
+      with:
+        name: partials
+        path: cache_part_${{ matrix.chunk_id }}.json

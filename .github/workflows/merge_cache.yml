@@ -11,20 +11,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
+    - uses: actions/checkout@v4
 
-      - run: pip install pandas
+    - uses: actions/download-artifact@v4
+      with:
+        name: partials
+        path: partials
 
-      - name: Merge cache
-        run: python merge_cache_parts.py
+    - uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
 
-      - name: Commit merged cache
-        run: |
-          git config user.name "bot"
-          git config user.email "bot@github.com"
-          git add cache_av.json
-          git commit -m "merged cache" || true
-          git push || true
+    - run: pip install pandas
+
+    - name: Merge cache parts
+      run: python merge_cache_parts.py
+
+    - name: Commit merged cache
+      run: |
+        git config user.name "bot"
+        git config user.email "bot@github.com"
+        git add cache_av.json
+        git commit -m "Merged full cache" || true
+        git push || true
