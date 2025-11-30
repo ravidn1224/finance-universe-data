@@ -374,5 +374,205 @@
     "industry": "ASSET MANAGEMENT",
     "marketCap": "162489565000",
     "price": "1110.06"
+  },
+  "C": {
+    "symbol": "C",
+    "name": "Citigroup Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "190717018000",
+    "price": "99.8"
+  },
+  "MUFG": {
+    "symbol": "MUFG",
+    "name": "Mitsubishi UFJ Financial Group Inc ADR",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "181488517000",
+    "price": "15.35"
+  },
+  "GEV": {
+    "symbol": "GEV",
+    "name": "GE Vernova LLC",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "163271754000",
+    "price": "592.91"
+  },
+  "NEE": {
+    "symbol": "NEE",
+    "name": "Nextera Energy Inc",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "179708396000",
+    "price": "82.04"
+  },
+  "VZ": {
+    "symbol": "VZ",
+    "name": "Verizon Communications Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "173337248000",
+    "price": "41.01"
+  },
+  "SCHW": {
+    "symbol": "SCHW",
+    "name": "Charles Schwab Corp",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "168325300000",
+    "price": "93.83"
+  },
+  "HDB": {
+    "symbol": "HDB",
+    "name": "HDFC Bank Limited ADR",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "188794208000",
+    "price": "35.81"
+  },
+  "BA": {
+    "symbol": "BA",
+    "name": "The Boeing Company",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "143658041000",
+    "price": "206.37"
+  },
+  "ACN": {
+    "symbol": "ACN",
+    "name": "Accenture plc",
+    "sector": "TECHNOLOGY",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "marketCap": "155713176000",
+    "price": "244.94"
+  },
+  "TJX": {
+    "symbol": "TJX",
+    "name": "The TJX Companies Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "APPAREL RETAIL",
+    "marketCap": "169484321000",
+    "price": "143.97"
+  },
+  "APH": {
+    "symbol": "APH",
+    "name": "Amphenol Corporation",
+    "sector": "TECHNOLOGY",
+    "industry": "ELECTRONIC COMPONENTS",
+    "marketCap": "172469420000",
+    "price": "131.12"
+  },
+  "SPGI": {
+    "symbol": "SPGI",
+    "name": "S&P Global Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "FINANCIAL DATA & STOCK EXCHANGES",
+    "marketCap": "152292803000",
+    "price": "489.0"
+  },
+  "SAN": {
+    "symbol": "SAN",
+    "name": "Banco Santander SA ADR",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "157992813000",
+    "price": "10.2"
+  },
+  "ETN": {
+    "symbol": "ETN",
+    "name": "Eaton Corporation PLC",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "134654984000",
+    "price": "367.55"
+  },
+  "DHR": {
+    "symbol": "DHR",
+    "name": "Danaher Corporation",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "162386182000",
+    "price": "211.47"
+  },
+  "UL": {
+    "symbol": "UL",
+    "name": "Unilever PLC ADR",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "HOUSEHOLD & PERSONAL PRODUCTS",
+    "marketCap": "149036499000",
+    "price": "60.46"
+  },
+  "BSX": {
+    "symbol": "BSX",
+    "name": "Boston Scientific Corp",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DEVICES",
+    "marketCap": "150586458000",
+    "price": "99.12"
+  },
+  "PFE": {
+    "symbol": "PFE",
+    "name": "Pfizer Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "146350113000",
+    "price": "24.97"
+  },
+  "BHP": {
+    "symbol": "BHP",
+    "name": "BHP Group Limited",
+    "sector": "BASIC MATERIALS",
+    "industry": "OTHER INDUSTRIAL METALS & MINING",
+    "marketCap": "140593840000",
+    "price": "55.27"
+  },
+  "PGR": {
+    "symbol": "PGR",
+    "name": "Progressive Corp",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "134162448000",
+    "price": "227.6"
+  },
+  "SYK": {
+    "symbol": "SYK",
+    "name": "Stryker Corporation",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DEVICES",
+    "marketCap": "141948010000",
+    "price": "369.04"
+  },
+  "SPOT": {
+    "symbol": "SPOT",
+    "name": "Spotify Technology SA",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "123303748000",
+    "price": "660.44"
+  },
+  "UNP": {
+    "symbol": "UNP",
+    "name": "Union Pacific Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "RAILROADS",
+    "marketCap": "137512485000",
+    "price": "225.7"
+  },
+  "TD": {
+    "symbol": "TD",
+    "name": "Toronto Dominion Bank",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "144782131000",
+    "price": "80.76"
+  },
+  "COF": {
+    "symbol": "COF",
+    "name": "Capital One Financial Corporation",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CREDIT SERVICES",
+    "marketCap": "140099060000",
+    "price": "215.83"
   }
 }
