@@ -2,36 +2,47 @@ name: Daily Stock Update
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # מריץ כל יום 03:00 UTC (~ 05:00 בישראל)
-  workflow_dispatch:      # להרצה ידנית מה-UI
+    - cron: "0 3 * * *"        # ⏰ מריץ כל יום ב-03:00 UTC
+  workflow_dispatch:            # ▶️ אפשרות להריץ ידנית
 
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+
+    - name: 🎯 Checkout repository
       uses: actions/checkout@v4
 
-    - name: Set up Python
+    - name: 🐍 Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: "3.11"
 
-    - name: Install dependencies
+    - name: 📦 Install dependencies
       run: |
+        echo -e "\033[94m📦 Installing Python dependencies...\033[0m"
         pip install pandas requests
+        echo -e "\033[92m✔ Dependencies installed\033[0m"
 
-    - name: Run cache update (25 tickers/day)
-      run: python cache.py
-
-    - name: Regenerate MASTER
-      run: python generate_master.py
-
-    - name: Commit and push changes
+    - name: 🔄 Update CACHE (cache.py)
       run: |
+        echo -e "\033[96m🔄 Running cache.py ...\033[0m"
+        python cache.py
+        echo -e "\033[92m✔ cache.py completed\033[0m"
+
+    - name: 🧱 Rebuild MASTER (generate_master.py)
+      run: |
+        echo -e "\033[96m🧱 Running generate_master.py ...\033[0m"
+        python generate_master.py
+        echo -e "\033[92m✔ MASTER rebuilt\033[0m"
+
+    - name: 💾 Commit & Push updated files
+      run: |
+        echo -e "\033[93m💾 Preparing commit...\033[0m"
         git config user.name "Automation Bot"
         git config user.email "bot@github.com"
         git add master_stocks.csv cache_av.json
-        git commit -m "Daily auto-update" || echo "No changes"
+        git commit -m "Daily auto update" || echo -e "\033[93m⚠️ No changes to commit\033[0m"
         git push
+        echo -e "\033[92m🚀 Update pushed to GitHub!\033[0m"

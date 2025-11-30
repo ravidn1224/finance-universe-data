@@ -1,40 +1,68 @@
 import json
 import pandas as pd
 from datetime import datetime
+import os
+
+# 🎨 ANSI Colors
+GREEN  = "\033[92m"
+YELLOW = "\033[93m"
+RED    = "\033[91m"
+BLUE   = "\033[94m"
+RESET  = "\033[0m"
 
 CACHE_FILE = "cache_av.json"
 TICKERS_FILE = "clean_tickers.txt"
 OUTPUT_FILE = "master_stocks.csv"
 
+
+# ---------------------------------
+# Utility functions
+# ---------------------------------
+
 def load_cache():
-    with open(CACHE_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+    if os.path.exists(CACHE_FILE) and os.path.getsize(CACHE_FILE) > 0:
+        print(BLUE + f"📂 Loading cache file: {CACHE_FILE}" + RESET)
+        with open(CACHE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    print(RED + "⚠️ cache_av.json missing or empty!" + RESET)
+    return {}
+
 
 def load_tickers():
+    print(BLUE + f"📄 Loading tickers from {TICKERS_FILE} ..." + RESET)
     with open(TICKERS_FILE, "r") as f:
-        return [line.strip() for line in f if line.strip()]
+        tickers = [line.strip() for line in f if line.strip()]
+    print(BLUE + f"🔢 Total tickers loaded: {len(tickers)}" + RESET)
+    return tickers
+
 
 def fix_symbol(sym):
-    # Handle weird tickers like BRK.B -> BRK-B
+    # Handle BRK.B → BRK-B, MKC.V → MKC-V
     if "." in sym:
-        sym = sym.replace(".", "-")
+        return sym.replace(".", "-").upper()
     return sym.upper()
 
-def main():
-    print("Loading cache...")
-    cache = load_cache()
 
-    print("Loading ticker list...")
+# ---------------------------------
+# Main Builder
+# ---------------------------------
+
+def main():
+    print(BLUE + "\n=== Building MASTER CSV ===" + RESET)
+
+    cache = load_cache()
     tickers = load_tickers()
 
     rows = []
 
-    for raw in tickers:
-        sym = fix_symbol(raw)
+    for original in tickers:
+        sym = fix_symbol(original)
 
         if sym in cache:
+            print(GREEN + f"✔ Using cached: {sym}" + RESET)
             rows.append(cache[sym])
         else:
+            print(YELLOW + f"⚠️ Missing in cache: {sym} (added blank row)" + RESET)
             rows.append({
                 "symbol": sym,
                 "name": "",
@@ -44,11 +72,16 @@ def main():
                 "price": ""
             })
 
+    print(BLUE + "\n🧱 Converting rows to DataFrame..." + RESET)
     df = pd.DataFrame(rows)
+
     df["last_updated"] = datetime.utcnow().isoformat()
 
+    print(GREEN + f"💾 Saving MASTER file: {OUTPUT_FILE}" + RESET)
     df.to_csv(OUTPUT_FILE, index=False)
-    print("MASTER created:", OUTPUT_FILE)
+
+    print(GREEN + "\n🎉 MASTER build completed successfully!" + RESET)
+
 
 if __name__ == "__main__":
     main()

@@ -5,38 +5,63 @@ import os
 import time
 from datetime import datetime
 
-API_KEY = "2GW4W6Y9R8Q8ILEY"
+# 🎨 צבעים
+GREEN  = "\033[92m"
+YELLOW = "\033[93m"
+RED    = "\033[91m"
+BLUE   = "\033[94m"
+RESET  = "\033[0m"
+
+API_KEY = "VI5JL4DUZA37DRTW"
 
 CACHE_FILE = "cache_av.json"
 CLEAN_TICKERS_FILE = "clean_tickers.txt"
 
 ALPHA_URL = "https://www.alphavantage.co/query?function=OVERVIEW&symbol={}&apikey={}"
 
+# ----------------------------
+# Load / Save Cache
+# ----------------------------
+
 def load_cache():
-    if os.path.exists(CACHE_FILE):
+    if os.path.exists(CACHE_FILE) and os.path.getsize(CACHE_FILE) > 0:
+        print(BLUE + f"📂 Loading existing cache..." + RESET)
         with open(CACHE_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
+    print(YELLOW + "⚠️ No cache found. Creating new cache..." + RESET)
     return {}
 
 def save_cache(cache):
     with open(CACHE_FILE, "w", encoding="utf-8") as f:
         json.dump(cache, f, indent=2)
-        print("Cache saved:", CACHE_FILE)
+    print(GREEN + f"💾 Cache saved ({len(cache)} symbols)" + RESET)
+
+
+# ----------------------------
+# Load Tickers
+# ----------------------------
 
 def load_clean_tickers():
+    print(BLUE + "📄 Loading tickers from clean_tickers.txt..." + RESET)
     with open(CLEAN_TICKERS_FILE, "r") as f:
         return [line.strip() for line in f if line.strip()]
 
+
+# ----------------------------
+# Fetch one ticker
+# ----------------------------
+
 def fetch_one(symbol):
+    print(f"{BLUE}▶️ Fetching: {symbol}{RESET}")
     url = ALPHA_URL.format(symbol, API_KEY)
     r = requests.get(url)
     data = r.json()
 
-    # Alpha Vantage returns an error object when limit reached or missing data
     if "Symbol" not in data:
-        print(f"❌ Skipped (no data / limit reached): {symbol}")
+        print(f"{RED}   ❌ Skipped/no data/limit reached: {symbol}{RESET}")
         return None
 
+    print(f"{GREEN}   ✔ Success: {symbol}{RESET}")
     return {
         "symbol": symbol,
         "name": data.get("Name", ""),
@@ -46,36 +71,47 @@ def fetch_one(symbol):
         "price": data.get("50DayMovingAverage", "")
     }
 
+
+# ----------------------------
+# MAIN
+# ----------------------------
+
 def main():
-    print("Loading existing cache...")
     cache = load_cache()
-
-    print("Loading tickers...")
     tickers = load_clean_tickers()
-    print("Total tickers:", len(tickers))
 
-    calls_left = 25    # Alpha Vantage Free Tier (25/day)
-    new_calls = 0
+    print(BLUE + f"🔢 Total tickers: {len(tickers)}" + RESET)
+
+    calls_used = 0
+    calls_daily_limit = 25
 
     for sym in tickers:
+        # Already cached
         if sym in cache and cache[sym].get("sector", "") != "":
-            continue  # Already in cache
+            print(GREEN + f"✔ Cached (skip): {sym}" + RESET)
+            continue
 
-        if new_calls >= calls_left:
-            print("📌 Reached Alpha Vantage limit for today (25/day).")
+        # Daily limit reached
+        if calls_used >= calls_daily_limit:
+            print(RED + "\n⛔ REACHED DAILY API LIMIT — stopping." + RESET)
             break
 
-        print("Fetching:", sym)
-        profile = fetch_one(sym)
+        print(YELLOW + f"\n=== API CALL #{calls_used+1} — {sym} ===" + RESET)
 
-        if profile:
-            cache[sym] = profile
-            new_calls += 1
+        result = fetch_one(sym)
+
+        if result:
+            cache[sym] = result
+            calls_used += 1
 
         save_cache(cache)
-        time.sleep(15)  # Required to avoid API lockout
 
-    print("Finished. New API calls used:", new_calls)
+        # Required to avoid Alpha Vantage throttling
+        print(BLUE + "⏳ Waiting 15 seconds..." + RESET)
+        time.sleep(15)
+
+    print(GREEN + f"\n🎉 Finished. API calls today: {calls_used}" + RESET)
+
 
 if __name__ == "__main__":
     main()
