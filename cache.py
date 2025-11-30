@@ -109,7 +109,7 @@ def main():
             break
 
         print(BLUE + "⏳ Waiting 12 seconds..." + RESET, flush=True)
-        time.sleep(12)
+        time.sleep(10)
 
     print(GREEN + f"\n🎉 Done. API calls in this chunk: {calls_used}" + RESET, flush=True)
 

@@ -9,6 +9,7 @@ permissions:
 jobs:
   process:
     runs-on: ubuntu-latest
+    timeout-minutes: 15   # ⬅⬅⬅ הכי חשוב
 
     strategy:
       max-parallel: 40
@@ -23,20 +24,17 @@ jobs:
       CHUNK_FILE: tickers_${{ matrix.chunk_id }}.txt
 
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+      - run: pip install pandas requests
 
-    - uses: actions/checkout@v4
+      - name: Run cache
+        run: python -u cache.py
 
-    - uses: actions/setup-python@v4
-      with:
-        python-version: "3.11"
-
-    - run: pip install pandas requests
-
-    - name: Run cache for this chunk
-      run: python -u cache.py
-
-    - name: Upload partial cache
-      uses: actions/upload-artifact@v4
-      with:
-        name: partials
-        path: cache_part_${{ matrix.chunk_id }}.json
+      - name: Upload partial result
+        uses: actions/upload-artifact@v4
+        with:
+          name: partials
+          path: cache_part_${{ matrix.chunk_id }}.json
