@@ -15,7 +15,9 @@ RESET  = "\033[0m"
 API_KEY = "VI5JL4DUZA37DRTW"
 
 CACHE_FILE = "cache_av.json"
-CLEAN_TICKERS_FILE = "clean_tickers.txt"
+# CLEAN_TICKERS_FILE = "clean_tickers.txt"
+CHUNK_FILE = os.environ.get("CHUNK_FILE", "clean_tickers.txt")
+
 
 ALPHA_URL = "https://www.alphavantage.co/query?function=OVERVIEW&symbol={}&apikey={}"
 
@@ -43,7 +45,7 @@ def save_cache(cache):
 
 def load_clean_tickers():
     print(BLUE + "📄 Loading tickers from clean_tickers.txt..." + RESET)
-    with open(CLEAN_TICKERS_FILE, "r") as f:
+    with open(CHUNK_FILE, "r") as f:
         return [line.strip() for line in f if line.strip()]
 
 

@@ -1,0 +1,40 @@
+name: Fill Cache Fast (parallel)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        chunk: [0,1,2,3,4,5,6,7,8,9,
+                10,11,12,13,14,15,16,17,18,19,
+                20,21,22,23,24,25,26,27,28,29,
+                30,31,32,33,34,35,36,37,38,39]
+      max-parallel: 40  # חשוב!
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - run: pip install pandas requests
+
+      - name: Run chunk
+        env:
+          CHUNK_FILE: tickers_${{ matrix.chunk }}.txt
+        run: python cache.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "bot"
+          git config user.email "bot@github.com"
+          git add cache_av.json
+          git commit -m "Chunk ${{ matrix.chunk }} updated" || true
+          git push || true
