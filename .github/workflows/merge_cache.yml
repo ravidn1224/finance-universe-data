@@ -1,0 +1,27 @@
+name: Merge Cache Parts
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v4
+      with:
+        python-version: "3.11"
+
+    - run: pip install pandas
+    - run: python merge_cache_parts.py
+
+    - run: |
+        git config user.email "bot@github.com"
+        git config user.name "bot"
+        git add cache_av.json
+        git commit -m "Merged cache" || true
+        git push || true

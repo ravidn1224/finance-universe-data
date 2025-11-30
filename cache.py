@@ -86,40 +86,38 @@ def fetch_one(symbol):
 # ----------------------------
 
 def main():
-    cache = load_cache()
     tickers = load_clean_tickers()
 
-    print(BLUE + f"🔢 Total tickers: {len(tickers)}" + RESET, flush=True)
+    print(BLUE + f"🔢 Total tickers in this chunk: {len(tickers)}" + RESET, flush=True)
+
+    partial_cache = {}  # <-- כל Chunk בונה cache חלקי משלו
 
     calls_used = 0
     calls_daily_limit = 25
 
     for sym in tickers:
-        # Already cached
-        if sym in cache and cache[sym].get("sector", "") != "":
-            print(GREEN + f"✔ Cached (skip): {sym}" + RESET, flush=True)
-            continue
-
-        # Daily limit reached
-        if calls_used >= calls_daily_limit:
-            print(RED + "\n⛔ REACHED DAILY API LIMIT — stopping." + RESET, flush=True)
-            break
-
         print(YELLOW + f"\n=== API CALL #{calls_used+1} — {sym} ===" + RESET, flush=True)
 
         result = fetch_one(sym)
 
         if result:
-            cache[sym] = result
+            partial_cache[sym] = result
             calls_used += 1
 
-        save_cache(cache)
+        if calls_used >= calls_daily_limit:
+            print(RED + "\n⛔ REACHED DAILY API LIMIT — stopping." + RESET, flush=True)
+            break
 
-        # Required to avoid Alpha Vantage throttling
         print(BLUE + "⏳ Waiting 12 seconds..." + RESET, flush=True)
         time.sleep(12)
 
-    print(GREEN + f"\n🎉 Finished. API calls today: {calls_used}" + RESET, flush=True)
+    print(GREEN + f"\n🎉 Done. API calls in this chunk: {calls_used}" + RESET, flush=True)
+
+    partial_file = f"cache_part_{os.environ.get('CHUNK_ID','0')}.json"
+    with open(partial_file, "w", encoding="utf-8") as f:
+        json.dump(partial_cache, f, indent=2)
+        print(f"{GREEN}💾 Saved partial: {partial_file}{RESET}", flush=True)
+
 
 
 if __name__ == "__main__":
