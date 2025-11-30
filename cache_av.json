@@ -574,5 +574,165 @@
     "industry": "CREDIT SERVICES",
     "marketCap": "140099060000",
     "price": "215.83"
+  },
+  "LOW": {
+    "symbol": "LOW",
+    "name": "Lowe's Companies Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "HOME IMPROVEMENT RETAIL",
+    "marketCap": "136019517000",
+    "price": "240.71"
+  },
+  "TTE": {
+    "symbol": "TTE",
+    "name": "TotalEnergies SE ADR",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS INTEGRATED",
+    "marketCap": "141623427000",
+    "price": "61.91"
+  },
+  "UBS": {
+    "symbol": "UBS",
+    "name": "UBS Group AG",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "121636332000",
+    "price": "39.21"
+  },
+  "MDT": {
+    "symbol": "MDT",
+    "name": "Medtronic PLC",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DEVICES",
+    "marketCap": "135097950000",
+    "price": "95.87"
+  },
+  "DE": {
+    "symbol": "DE",
+    "name": "Deere & Company",
+    "sector": "INDUSTRIALS",
+    "industry": "FARM & HEAVY CONSTRUCTION MACHINERY",
+    "marketCap": "125565305000",
+    "price": "467.08"
+  },
+  "LMT": {
+    "symbol": "LMT",
+    "name": "Lockheed Martin Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "106894303000",
+    "price": "483.15"
+  },
+  "BUD": {
+    "symbol": "BUD",
+    "name": "Anheuser Busch Inbev NV ADR",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - BREWERS",
+    "marketCap": "120532468000",
+    "price": "61.14"
+  },
+  "RIO": {
+    "symbol": "RIO",
+    "name": "Rio Tinto ADR",
+    "sector": "BASIC MATERIALS",
+    "industry": "OTHER INDUSTRIAL METALS & MINING",
+    "marketCap": "117630616000",
+    "price": "68.62"
+  },
+  "COP": {
+    "symbol": "COP",
+    "name": "ConocoPhillips",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "110768701000",
+    "price": "89.99"
+  },
+  "CB": {
+    "symbol": "CB",
+    "name": "Chubb Ltd",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "118084092000",
+    "price": "284.06"
+  },
+  "WELL": {
+    "symbol": "WELL",
+    "name": "Welltower Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - HEALTHCARE FACILITIES",
+    "marketCap": "142907228000",
+    "price": "181.97"
+  },
+  "SE": {
+    "symbol": "SE",
+    "name": "Sea Ltd",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "INTERNET RETAIL",
+    "marketCap": "82296685000",
+    "price": "163.15"
+  },
+  "BTI": {
+    "symbol": "BTI",
+    "name": "British American Tobacco p.l.c.",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "TOBACCO",
+    "marketCap": "127563276000",
+    "price": "53.11"
+  },
+  "IBN": {
+    "symbol": "IBN",
+    "name": "ICICI Bank Limited",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "111625380000",
+    "price": "30.96"
+  },
+  "KKR": {
+    "symbol": "KKR",
+    "name": "KKR & Co LP",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "113249518000",
+    "price": "123.75"
+  },
+  "MO": {
+    "symbol": "MO",
+    "name": "Altria Group",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "TOBACCO",
+    "marketCap": "99130360000",
+    "price": "61.99"
+  },
+  "PLD": {
+    "symbol": "PLD",
+    "name": "Prologis Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - INDUSTRIAL",
+    "marketCap": "119387275000",
+    "price": "121.22"
+  },
+  "ENB": {
+    "symbol": "ENB",
+    "name": "Enbridge Inc",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "106715554000",
+    "price": "48.13"
+  },
+  "BBVA": {
+    "symbol": "BBVA",
+    "name": "Banco Bilbao Viscaya Argentaria SA ADR",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "123706491000",
+    "price": "19.85"
+  },
+  "SCCO": {
+    "symbol": "SCCO",
+    "name": "Southern Copper Corporation",
+    "sector": "BASIC MATERIALS",
+    "industry": "COPPER",
+    "marketCap": "110397686000",
+    "price": "128.2"
   }
 }
