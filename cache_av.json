@@ -174,5 +174,205 @@
     "industry": "DRUG MANUFACTURERS - GENERAL",
     "marketCap": "219285717000",
     "price": "53.06"
+  },
+  "BRK-B": {
+    "symbol": "BRK-B",
+    "name": "Berkshire Hathaway Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - DIVERSIFIED",
+    "marketCap": "1108460175000",
+    "price": "496.0"
+  },
+  "NVS": {
+    "symbol": "NVS",
+    "name": "Novartis AG ADR",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "250210468000",
+    "price": "128.16"
+  },
+  "WFC": {
+    "symbol": "WFC",
+    "name": "Wells Fargo & Company",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "275015434000",
+    "price": "84.25"
+  },
+  "TM": {
+    "symbol": "TM",
+    "name": "Toyota Motor Corporation ADR",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO MANUFACTURERS",
+    "marketCap": "263105020000",
+    "price": "199.53"
+  },
+  "MS": {
+    "symbol": "MS",
+    "name": "Morgan Stanley",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "270834336000",
+    "price": "161.17"
+  },
+  "GS": {
+    "symbol": "GS",
+    "name": "Goldman Sachs Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "250059719000",
+    "price": "787.13"
+  },
+  "PM": {
+    "symbol": "PM",
+    "name": "Philip Morris International Inc",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "TOBACCO",
+    "marketCap": "245139456000",
+    "price": "155.81"
+  },
+  "CAT": {
+    "symbol": "CAT",
+    "name": "Caterpillar Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "FARM & HEAVY CONSTRUCTION MACHINERY",
+    "marketCap": "269731430000",
+    "price": "528.23"
+  },
+  "CRM": {
+    "symbol": "CRM",
+    "name": "Salesforce.com Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "220396241000",
+    "price": "243.85"
+  },
+  "ABT": {
+    "symbol": "ABT",
+    "name": "Abbott Laboratories",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DEVICES",
+    "marketCap": "224345162000",
+    "price": "129.55"
+  },
+  "HSBC": {
+    "symbol": "HSBC",
+    "name": "HSBC Holdings PLC ADR",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "244305592000",
+    "price": "69.55"
+  },
+  "AXP": {
+    "symbol": "AXP",
+    "name": "American Express Company",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CREDIT SERVICES",
+    "marketCap": "254184899000",
+    "price": "347.72"
+  },
+  "MRK": {
+    "symbol": "MRK",
+    "name": "Merck & Company Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "261842633000",
+    "price": "88.18"
+  },
+  "RTX": {
+    "symbol": "RTX",
+    "name": "Raytheon Technologies Corp",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "234514432000",
+    "price": "169.92"
+  },
+  "SHEL": {
+    "symbol": "SHEL",
+    "name": "Shell PLC ADR",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS INTEGRATED",
+    "marketCap": "210964382000",
+    "price": "73.79"
+  },
+  "MCD": {
+    "symbol": "MCD",
+    "name": "McDonald\u2019s Corporation",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESTAURANTS",
+    "marketCap": "222516134000",
+    "price": "303.59"
+  },
+  "RY": {
+    "symbol": "RY",
+    "name": "Royal Bank of Canada",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "217314132000",
+    "price": "147.26"
+  },
+  "TMO": {
+    "symbol": "TMO",
+    "name": "Thermo Fisher Scientific Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "221979607000",
+    "price": "546.05"
+  },
+  "UBER": {
+    "symbol": "UBER",
+    "name": "Uber Technologies Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "182557540000",
+    "price": "93.91"
+  },
+  "DIS": {
+    "symbol": "DIS",
+    "name": "Walt Disney Company",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ENTERTAINMENT",
+    "marketCap": "187830141000",
+    "price": "110.58"
+  },
+  "BX": {
+    "symbol": "BX",
+    "name": "Blackstone Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "179665945000",
+    "price": "155.91"
+  },
+  "NOW": {
+    "symbol": "NOW",
+    "name": "ServiceNow Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "169103950000",
+    "price": "892.84"
+  },
+  "T": {
+    "symbol": "T",
+    "name": "AT&T Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "184467472000",
+    "price": "26.09"
+  },
+  "SONY": {
+    "symbol": "SONY",
+    "name": "Sony Group Corp",
+    "sector": "TECHNOLOGY",
+    "industry": "CONSUMER ELECTRONICS",
+    "marketCap": "175097709000",
+    "price": "28.89"
+  },
+  "BLK": {
+    "symbol": "BLK",
+    "name": "BlackRock Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "162489565000",
+    "price": "1110.06"
   }
 }
