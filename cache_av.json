@@ -1,0 +1,178 @@
+{
+  "MA": {
+    "symbol": "MA",
+    "name": "Mastercard Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CREDIT SERVICES",
+    "marketCap": "497685660000",
+    "price": "559.88"
+  },
+  "ANET": {
+    "symbol": "ANET",
+    "name": "Arista Networks",
+    "sector": "TECHNOLOGY",
+    "industry": "COMPUTER HARDWARE",
+    "marketCap": "164563370000",
+    "price": "142.47"
+  },
+  "TSM": {
+    "symbol": "TSM",
+    "name": "Taiwan Semiconductor Manufacturing",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "1511918010000",
+    "price": "289.71"
+  },
+  "ORCL": {
+    "symbol": "ORCL",
+    "name": "Oracle Corporation",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "575717573000",
+    "price": "264.8"
+  },
+  "JPM": {
+    "symbol": "JPM",
+    "name": "JPMorgan Chase & Co",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "860892889000",
+    "price": "307.01"
+  },
+  "WMT": {
+    "symbol": "WMT",
+    "name": "Walmart Inc",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "DISCOUNT STORES",
+    "marketCap": "881915986000",
+    "price": "103.85"
+  },
+  "LLY": {
+    "symbol": "LLY",
+    "name": "Eli Lilly and Company",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "964112351000",
+    "price": "882.49"
+  },
+  "V": {
+    "symbol": "V",
+    "name": "Visa Inc. Class A",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CREDIT SERVICES",
+    "marketCap": "649128641000",
+    "price": "339.9"
+  },
+  "XOM": {
+    "symbol": "XOM",
+    "name": "Exxon Mobil Corp",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS INTEGRATED",
+    "marketCap": "494195606000",
+    "price": "114.79"
+  },
+  "JNJ": {
+    "symbol": "JNJ",
+    "name": "Johnson & Johnson",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "498531336000",
+    "price": "190.71"
+  },
+  "ABBV": {
+    "symbol": "ABBV",
+    "name": "AbbVie Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "402433475000",
+    "price": "227.54"
+  },
+  "BABA": {
+    "symbol": "BABA",
+    "name": "Alibaba Group Holding Ltd",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "INTERNET RETAIL",
+    "marketCap": "375317234000",
+    "price": "168.4"
+  },
+  "HD": {
+    "symbol": "HD",
+    "name": "The Home Depot Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "HOME IMPROVEMENT RETAIL",
+    "marketCap": "355317973000",
+    "price": "379.76"
+  },
+  "BAC": {
+    "symbol": "BAC",
+    "name": "Bank of America Corp",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "397382746000",
+    "price": "51.89"
+  },
+  "PG": {
+    "symbol": "PG",
+    "name": "Procter & Gamble Company",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "HOUSEHOLD & PERSONAL PRODUCTS",
+    "marketCap": "346766311000",
+    "price": "149.94"
+  },
+  "UNH": {
+    "symbol": "UNH",
+    "name": "UnitedHealth Group Incorporated",
+    "sector": "HEALTHCARE",
+    "industry": "HEALTHCARE PLANS",
+    "marketCap": "298718396000",
+    "price": "343.54"
+  },
+  "SAP": {
+    "symbol": "SAP",
+    "name": "SAP SE ADR",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "282072547000",
+    "price": "261.03"
+  },
+  "GE": {
+    "symbol": "GE",
+    "name": "GE Aerospace",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "316488155000",
+    "price": "301.72"
+  },
+  "CVX": {
+    "symbol": "CVX",
+    "name": "Chevron Corp",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS INTEGRATED",
+    "marketCap": "304500113000",
+    "price": "154.09"
+  },
+  "KO": {
+    "symbol": "KO",
+    "name": "The Coca-Cola Company",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - NON-ALCOHOLIC",
+    "marketCap": "314684146000",
+    "price": "68.89"
+  },
+  "IBM": {
+    "symbol": "IBM",
+    "name": "International Business Machines",
+    "sector": "TECHNOLOGY",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "marketCap": "288440582000",
+    "price": "293.15"
+  },
+  "NVO": {
+    "symbol": "NVO",
+    "name": "Novo Nordisk A/S",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "219285717000",
+    "price": "53.06"
+  }
+}

@@ -1,70 +1,54 @@
-import time
-import yfinance as yf
+import json
 import pandas as pd
 from datetime import datetime
 
-TICKERS_FILE = "tickers.txt"
-OUTPUT_CSV = "master_stocks.csv"
+CACHE_FILE = "cache_av.json"
+TICKERS_FILE = "clean_tickers.txt"
+OUTPUT_FILE = "master_stocks.csv"
 
-def load_tickers(path: str) -> list[str]:
-    with open(path, "r", encoding="utf-8") as f:
-        lines = [l.strip() for l in f.readlines()]
-    return [t for t in lines if t and not t.startswith("#")]
+def load_cache():
+    with open(CACHE_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-def fetch_one_ticker(ticker: str) -> dict:
-    try:
-        t = yf.Ticker(ticker)
-        info = t.info  # yfinance מחזיר dict גדול
+def load_tickers():
+    with open(TICKERS_FILE, "r") as f:
+        return [line.strip() for line in f if line.strip()]
 
-        return {
-            "symbol": ticker,
-            "name": info.get("shortName") or info.get("longName") or "",
-            "sector": info.get("sector", ""),
-            "industry": info.get("industry", ""),
-            "exchange": info.get("exchange", ""),
-            "marketCap": info.get("marketCap", ""),
-            "beta": info.get("beta", ""),
-            "trailingPE": info.get("trailingPE", ""),
-            "forwardPE": info.get("forwardPE", ""),
-            "priceToBook": info.get("priceToBook", ""),
-            "dividendYield": info.get("dividendYield", ""),
-            "currency": info.get("currency", ""),
-        }
-    except Exception as e:
-        print(f"[ERROR] {ticker}: {e}")
-        return {
-            "symbol": ticker,
-            "name": "",
-            "sector": "",
-            "industry": "",
-            "exchange": "",
-            "marketCap": "",
-            "beta": "",
-            "trailingPE": "",
-            "forwardPE": "",
-            "priceToBook": "",
-            "dividendYield": "",
-            "currency": "",
-        }
+def fix_symbol(sym):
+    # Handle weird tickers like BRK.B -> BRK-B
+    if "." in sym:
+        sym = sym.replace(".", "-")
+    return sym.upper()
 
 def main():
-    tickers = load_tickers(TICKERS_FILE)
-    print(f"Loaded {len(tickers)} tickers")
+    print("Loading cache...")
+    cache = load_cache()
+
+    print("Loading ticker list...")
+    tickers = load_tickers()
 
     rows = []
-    for i, ticker in enumerate(tickers, start=1):
-        print(f"[{i}/{len(tickers)}] Fetching {ticker}...")
-        row = fetch_one_ticker(ticker)
-        rows.append(row)
-        time.sleep(0.2)  # לא להעמיס על yfinance / Yahoo
+
+    for raw in tickers:
+        sym = fix_symbol(raw)
+
+        if sym in cache:
+            rows.append(cache[sym])
+        else:
+            rows.append({
+                "symbol": sym,
+                "name": "",
+                "sector": "",
+                "industry": "",
+                "marketCap": "",
+                "price": ""
+            })
 
     df = pd.DataFrame(rows)
+    df["last_updated"] = datetime.utcnow().isoformat()
 
-    # מוסיף timestamp כדי שתדע מתי זה נבנה
-    df["lastUpdated"] = datetime.utcnow().isoformat() + "Z"
-
-    df.to_csv(OUTPUT_CSV, index=False)
-    print(f"Saved {OUTPUT_CSV} with {len(df)} rows.")
+    df.to_csv(OUTPUT_FILE, index=False)
+    print("MASTER created:", OUTPUT_FILE)
 
 if __name__ == "__main__":
     main()
