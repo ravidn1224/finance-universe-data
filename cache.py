@@ -15,7 +15,7 @@ RESET  = "\033[0m"
 API_KEY = "VI5JL4DUZA37DRTW"
 
 CACHE_FILE = "cache_av.json"
-# CLEAN_TICKERS_FILE = "clean_tickers.txt"
+CLEAN_TICKERS_FILE = "clean_tickers.txt"
 CHUNK_FILE = os.environ.get("CHUNK_FILE", "clean_tickers.txt")
 
 
@@ -27,16 +27,16 @@ ALPHA_URL = "https://www.alphavantage.co/query?function=OVERVIEW&symbol={}&apike
 
 def load_cache():
     if os.path.exists(CACHE_FILE) and os.path.getsize(CACHE_FILE) > 0:
-        print(BLUE + f"📂 Loading existing cache..." + RESET)
+        print(BLUE + f"📂 Loading existing cache..." + RESET, flush=True)
         with open(CACHE_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
-    print(YELLOW + "⚠️ No cache found. Creating new cache..." + RESET)
+    print(YELLOW + "⚠️ No cache found. Creating new cache..." + RESET, flush=True)
     return {}
 
 def save_cache(cache):
     with open(CACHE_FILE, "w", encoding="utf-8") as f:
         json.dump(cache, f, indent=2)
-    print(GREEN + f"💾 Cache saved ({len(cache)} symbols)" + RESET)
+    print(GREEN + f"💾 Cache saved ({len(cache)} symbols)" + RESET, flush=True)
 
 
 # ----------------------------
@@ -44,9 +44,16 @@ def save_cache(cache):
 # ----------------------------
 
 def load_clean_tickers():
-    print(BLUE + "📄 Loading tickers from clean_tickers.txt..." + RESET)
+    print(BLUE + f"📄 Loading tickers from {CHUNK_FILE}..." + RESET, flush=True)
+    
+    if not os.path.exists(CHUNK_FILE):
+        print(RED + f"❌ ERROR: File not found: {CHUNK_FILE}" + RESET)
+        print(RED + "   Did you forget to run split_tickers.py or commit tickers_X.txt ?" + RESET, flush=True)
+        return []
+
     with open(CHUNK_FILE, "r") as f:
         return [line.strip() for line in f if line.strip()]
+
 
 
 # ----------------------------
@@ -54,7 +61,7 @@ def load_clean_tickers():
 # ----------------------------
 
 def fetch_one(symbol):
-    print(f"{BLUE}▶️ Fetching: {symbol}{RESET}")
+    print(f"{BLUE}▶️ Fetching: {symbol}{RESET}", flush=True)
     url = ALPHA_URL.format(symbol, API_KEY)
     r = requests.get(url)
     data = r.json()
@@ -82,7 +89,7 @@ def main():
     cache = load_cache()
     tickers = load_clean_tickers()
 
-    print(BLUE + f"🔢 Total tickers: {len(tickers)}" + RESET)
+    print(BLUE + f"🔢 Total tickers: {len(tickers)}" + RESET, flush=True)
 
     calls_used = 0
     calls_daily_limit = 25
@@ -90,15 +97,15 @@ def main():
     for sym in tickers:
         # Already cached
         if sym in cache and cache[sym].get("sector", "") != "":
-            print(GREEN + f"✔ Cached (skip): {sym}" + RESET)
+            print(GREEN + f"✔ Cached (skip): {sym}" + RESET, flush=True)
             continue
 
         # Daily limit reached
         if calls_used >= calls_daily_limit:
-            print(RED + "\n⛔ REACHED DAILY API LIMIT — stopping." + RESET)
+            print(RED + "\n⛔ REACHED DAILY API LIMIT — stopping." + RESET, flush=True)
             break
 
-        print(YELLOW + f"\n=== API CALL #{calls_used+1} — {sym} ===" + RESET)
+        print(YELLOW + f"\n=== API CALL #{calls_used+1} — {sym} ===" + RESET, flush=True)
 
         result = fetch_one(sym)
 
@@ -109,10 +116,10 @@ def main():
         save_cache(cache)
 
         # Required to avoid Alpha Vantage throttling
-        print(BLUE + "⏳ Waiting 12 seconds..." + RESET)
+        print(BLUE + "⏳ Waiting 12 seconds..." + RESET, flush=True)
         time.sleep(12)
 
-    print(GREEN + f"\n🎉 Finished. API calls today: {calls_used}" + RESET)
+    print(GREEN + f"\n🎉 Finished. API calls today: {calls_used}" + RESET, flush=True)
 
 
 if __name__ == "__main__":

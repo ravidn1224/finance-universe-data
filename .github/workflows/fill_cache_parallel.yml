@@ -29,7 +29,9 @@ jobs:
       - name: Run chunk
         env:
           CHUNK_FILE: tickers_${{ matrix.chunk }}.txt
-        run: python cache.py
+        run: |
+          set -eux
+          python cache.py
 
       - name: Commit changes
         run: |
