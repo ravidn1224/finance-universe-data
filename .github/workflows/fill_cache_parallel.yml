@@ -9,6 +9,7 @@ permissions:
 jobs:
   process:
     runs-on: ubuntu-latest
+
     strategy:
       max-parallel: 40
       matrix:
@@ -16,20 +17,24 @@ jobs:
                    10,11,12,13,14,15,16,17,18,19,
                    20,21,22,23,24,25,26,27,28,29,
                    30,31,32,33,34,35,36,37,38,39]
+
     env:
       CHUNK_ID: ${{ matrix.chunk_id }}
       CHUNK_FILE: tickers_${{ matrix.chunk_id }}.txt
 
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v4
         with:
           python-version: "3.11"
+
       - run: pip install pandas requests
-      - run: python -u cache.py
-      - run: |
-          git config user.name "bot"
-          git config user.email "bot@github.com"
-          git add cache_part_${{ matrix.chunk_id }}.json
-          git commit -m "chunk ${{ matrix.chunk_id }}" || true
-          git push || true
+
+      - name: Run cache for this chunk
+        run: python -u cache.py
+
+      - name: Save partial cache
+        run: |
+          mkdir -p partials
+          cp cache_part_${{ matrix.chunk_id }}.json partials/
