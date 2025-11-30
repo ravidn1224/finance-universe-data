@@ -43,6 +43,13 @@ def fix_symbol(sym):
     return sym.upper()
 
 
+# ⭐ Text formatting (Title Case)
+def clean_text(text):
+    if not text:
+        return ""
+    return text.title()
+
+
 # ---------------------------------
 # Main Builder
 # ---------------------------------
@@ -74,6 +81,10 @@ def main():
 
     print(BLUE + "\n🧱 Converting rows to DataFrame..." + RESET)
     df = pd.DataFrame(rows)
+
+    # ⭐ Apply Title Case to sector & industry
+    df["sector"] = df["sector"].astype(str).apply(clean_text)
+    df["industry"] = df["industry"].astype(str).apply(clean_text)
 
     df["last_updated"] = datetime.utcnow().isoformat()
 
