@@ -135,7 +135,7 @@ def main():
         # Wait between calls (only if not the last one)
         if calls_used < calls_daily_limit and calls_used < len(tickers_to_fetch):
             print(BLUE + "⏳ Waiting 12 seconds..." + RESET, flush=True)
-            time.sleep(10)
+            time.sleep(3)
 
     print(GREEN + f"\n🎉 Done. New API calls made: {calls_used}" + RESET, flush=True)
     
