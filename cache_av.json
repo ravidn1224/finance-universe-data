@@ -3534,5 +3534,205 @@
     "industry": "PACKAGED FOODS",
     "marketCap": "18063024000",
     "price": "65.93"
+  },
+  "WY": {
+    "symbol": "WY",
+    "name": "Weyerhaeuser Company",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - SPECIALTY",
+    "marketCap": "16024758000",
+    "price": "23.39"
+  },
+  "SGI": {
+    "symbol": "SGI",
+    "name": "Somnigroup International Inc.",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "FURNISHINGS, FIXTURES & APPLIANCES",
+    "marketCap": "11660662000",
+    "price": "61.19"
+  },
+  "TWLO": {
+    "symbol": "TWLO",
+    "name": "Twilio Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "19898804000",
+    "price": "115.43"
+  },
+  "KOF": {
+    "symbol": "KOF",
+    "name": "Coca-Cola Femsa SAB de CV ADR",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - NON-ALCOHOLIC",
+    "marketCap": "18426401000",
+    "price": "85.58"
+  },
+  "ACM": {
+    "symbol": "ACM",
+    "name": "Aecom Technology Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "ENGINEERING & CONSTRUCTION",
+    "marketCap": "13595971000",
+    "price": "127.76"
+  },
+  "CRBG": {
+    "symbol": "CRBG",
+    "name": "Corebridge Financial Inc.",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "15141499000",
+    "price": "31.15"
+  },
+  "SNA": {
+    "symbol": "SNA",
+    "name": "Snap-On Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "TOOLS & ACCESSORIES",
+    "marketCap": "17738154000",
+    "price": "339.12"
+  },
+  "ESS": {
+    "symbol": "ESS",
+    "name": "Essex Property Trust Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - RESIDENTIAL",
+    "marketCap": "18207830000",
+    "price": "259.97"
+  },
+  "INVH": {
+    "symbol": "INVH",
+    "name": "Invitation Homes Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - RESIDENTIAL",
+    "marketCap": "17287182000",
+    "price": "28.47"
+  },
+  "THC": {
+    "symbol": "THC",
+    "name": "Tenet Healthcare Corporation",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL CARE FACILITIES",
+    "marketCap": "19158030000",
+    "price": "201.32"
+  },
+  "RBRK": {
+    "symbol": "RBRK",
+    "name": "Rubrik, Inc.",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "13687837000",
+    "price": "76.44"
+  },
+  "USFD": {
+    "symbol": "USFD",
+    "name": "US Foods Holding Corp",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "FOOD DISTRIBUTION",
+    "marketCap": "17714250000",
+    "price": "74.86"
+  },
+  "PAAS": {
+    "symbol": "PAAS",
+    "name": "Pan American Silver Corp.",
+    "sector": "BASIC MATERIALS",
+    "industry": "GOLD",
+    "marketCap": "19274885000",
+    "price": "37.82"
+  },
+  "GFL": {
+    "symbol": "GFL",
+    "name": "Gfl Environmental Holdings Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "WASTE MANAGEMENT",
+    "marketCap": "16358359000",
+    "price": "45.28"
+  },
+  "FTV": {
+    "symbol": "FTV",
+    "name": "Fortive Corp",
+    "sector": "TECHNOLOGY",
+    "industry": "SCIENTIFIC & TECHNICAL INSTRUMENTS",
+    "marketCap": "18094227000",
+    "price": "50.1"
+  },
+  "LUV": {
+    "symbol": "LUV",
+    "name": "Southwest Airlines Company",
+    "sector": "INDUSTRIALS",
+    "industry": "AIRLINES",
+    "marketCap": "18281785000",
+    "price": "32.43"
+  },
+  "U": {
+    "symbol": "U",
+    "name": "Unity Software Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "18194854000",
+    "price": "39.02"
+  },
+  "MTZ": {
+    "symbol": "MTZ",
+    "name": "MasTec Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "ENGINEERING & CONSTRUCTION",
+    "marketCap": "16876833000",
+    "price": "204.85"
+  },
+  "BG": {
+    "symbol": "BG",
+    "name": "Bunge Limited",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "FARM PRODUCTS",
+    "marketCap": "19219958000",
+    "price": "90.35"
+  },
+  "CHWY": {
+    "symbol": "CHWY",
+    "name": "Chewy Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "INTERNET RETAIL",
+    "marketCap": "14423291000",
+    "price": "35.98"
+  },
+  "BURL": {
+    "symbol": "BURL",
+    "name": "Burlington Stores Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "APPAREL RETAIL",
+    "marketCap": "15872079000",
+    "price": "269.86"
+  },
+  "XPO": {
+    "symbol": "XPO",
+    "name": "XPO Logistics Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "TRUCKING",
+    "marketCap": "16729281000",
+    "price": "132.5"
+  },
+  "KEP": {
+    "symbol": "KEP",
+    "name": "Korea Electric Power Corp ADR",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "23380330000",
+    "price": "14.91"
+  },
+  "MAA": {
+    "symbol": "MAA",
+    "name": "Mid-America Apartment Communities Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - RESIDENTIAL",
+    "marketCap": "16311067000",
+    "price": "133.6"
+  },
+  "BIP": {
+    "symbol": "BIP",
+    "name": "Brookfield Infrastructure Partners LP",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - DIVERSIFIED",
+    "marketCap": "16732802000",
+    "price": "34.28"
   }
 }
