@@ -934,5 +934,85 @@
     "industry": "REIT - SPECIALTY",
     "marketCap": "84860944000",
     "price": "185.85"
+  },
+  "SNOW": {
+    "symbol": "SNOW",
+    "name": "Snowflake Inc.",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "85120115000",
+    "price": "248.47"
+  },
+  "RCL": {
+    "symbol": "RCL",
+    "name": "Royal Caribbean Cruises Ltd",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "TRAVEL SERVICES",
+    "marketCap": "72609825000",
+    "price": "292.24"
+  },
+  "SHW": {
+    "symbol": "SHW",
+    "name": "Sherwin-Williams Co",
+    "sector": "BASIC MATERIALS",
+    "industry": "SPECIALTY CHEMICALS",
+    "marketCap": "85693366000",
+    "price": "338.73"
+  },
+  "RELX": {
+    "symbol": "RELX",
+    "name": "Relx PLC ADR",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY BUSINESS SERVICES",
+    "marketCap": "73126740000",
+    "price": "44.31"
+  },
+  "CI": {
+    "symbol": "CI",
+    "name": "Cigna Corp",
+    "sector": "HEALTHCARE",
+    "industry": "HEALTHCARE PLANS",
+    "marketCap": "74068648000",
+    "price": "285.18"
+  },
+  "MMM": {
+    "symbol": "MMM",
+    "name": "3M Company",
+    "sector": "INDUSTRIALS",
+    "industry": "CONGLOMERATES",
+    "marketCap": "91638940000",
+    "price": "161.55"
+  },
+  "AEM": {
+    "symbol": "AEM",
+    "name": "Agnico Eagle Mines Limited",
+    "sector": "BASIC MATERIALS",
+    "industry": "GOLD",
+    "marketCap": "87571980000",
+    "price": "165.82"
+  },
+  "ELV": {
+    "symbol": "ELV",
+    "name": "Elevance Health Inc",
+    "sector": "HEALTHCARE",
+    "industry": "HEALTHCARE PLANS",
+    "marketCap": "76168815000",
+    "price": "332.78"
+  },
+  "MFG": {
+    "symbol": "MFG",
+    "name": "Mizuho Financial Group Inc.",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "88418370000",
+    "price": "6.61"
+  },
+  "BNS": {
+    "symbol": "BNS",
+    "name": "Bank of Nova Scotia",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "86529024000",
+    "price": "65.49"
   }
 }
