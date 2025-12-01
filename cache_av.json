@@ -3334,5 +3334,205 @@
     "industry": "INSURANCE - DIVERSIFIED",
     "marketCap": "12884604000",
     "price": "45.51"
+  },
+  "WST": {
+    "symbol": "WST",
+    "name": "West Pharmaceutical Services Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL INSTRUMENTS & SUPPLIES",
+    "marketCap": "19946310000",
+    "price": "270.95"
+  },
+  "PKG": {
+    "symbol": "PKG",
+    "name": "Packaging Corp of America",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "PACKAGING & CONTAINERS",
+    "marketCap": "18361971000",
+    "price": "205.38"
+  },
+  "LII": {
+    "symbol": "LII",
+    "name": "Lennox International Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "BUILDING PRODUCTS & EQUIPMENT",
+    "marketCap": "17522448000",
+    "price": "506.42"
+  },
+  "UMC": {
+    "symbol": "UMC",
+    "name": "United Microelectronics",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "18732474000",
+    "price": "7.4"
+  },
+  "TS": {
+    "symbol": "TS",
+    "name": "Tenaris SA ADR",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS EQUIPMENT & SERVICES",
+    "marketCap": "20806513000",
+    "price": "37.53"
+  },
+  "EC": {
+    "symbol": "EC",
+    "name": "Ecopetrol SA ADR",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS INTEGRATED",
+    "marketCap": "21067147000",
+    "price": "9.42"
+  },
+  "J": {
+    "symbol": "J",
+    "name": "Jacobs Solutions Inc.",
+    "sector": "INDUSTRIALS",
+    "industry": "ENGINEERING & CONSTRUCTION",
+    "marketCap": "16198255000",
+    "price": "151.76"
+  },
+  "CNC": {
+    "symbol": "CNC",
+    "name": "Centene Corp",
+    "sector": "HEALTHCARE",
+    "industry": "HEALTHCARE PLANS",
+    "marketCap": "19336319000",
+    "price": "35.99"
+  },
+  "GDDY": {
+    "symbol": "GDDY",
+    "name": "Godaddy Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "17702093000",
+    "price": "132.65"
+  },
+  "IT": {
+    "symbol": "IT",
+    "name": "Gartner Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "marketCap": "17626749000",
+    "price": "243.48"
+  },
+  "IHG": {
+    "symbol": "IHG",
+    "name": "InterContinental Hotels Group PLC ADR",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "LODGING",
+    "marketCap": "20161901000",
+    "price": "124.63"
+  },
+  "NIO": {
+    "symbol": "NIO",
+    "name": "Nio Inc Class A ADR",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO MANUFACTURERS",
+    "marketCap": "13907626000",
+    "price": "6.83"
+  },
+  "TSN": {
+    "symbol": "TSN",
+    "name": "Tyson Foods Inc",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "FARM PRODUCTS",
+    "marketCap": "20494789000",
+    "price": "53.39"
+  },
+  "GPC": {
+    "symbol": "GPC",
+    "name": "Genuine Parts Co",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO PARTS",
+    "marketCap": "18140008000",
+    "price": "131.49"
+  },
+  "BEP": {
+    "symbol": "BEP",
+    "name": "Brookfield Renewable Partners LP",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - RENEWABLE",
+    "marketCap": "18884512000",
+    "price": "28.33"
+  },
+  "AMCR": {
+    "symbol": "AMCR",
+    "name": "Amcor PLC",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "PACKAGING & CONTAINERS",
+    "marketCap": "19667229000",
+    "price": "8.2"
+  },
+  "CTRA": {
+    "symbol": "CTRA",
+    "name": "Coterra Energy Inc",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "20482677000",
+    "price": "24.45"
+  },
+  "APTV": {
+    "symbol": "APTV",
+    "name": "Aptiv PLC",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO PARTS",
+    "marketCap": "16887273000",
+    "price": "82.44"
+  },
+  "PNR": {
+    "symbol": "PNR",
+    "name": "Pentair PLC",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "17252127000",
+    "price": "108.11"
+  },
+  "AS": {
+    "symbol": "AS",
+    "name": "Amer Sports, Inc.",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "LEISURE",
+    "marketCap": "20591239000",
+    "price": "32.84"
+  },
+  "TLK": {
+    "symbol": "TLK",
+    "name": "Telkom Indonesia (Persero) Tbk PT ADR Rep 100 B",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "21347906000",
+    "price": "19.79"
+  },
+  "DKS": {
+    "symbol": "DKS",
+    "name": "Dick\u2019s Sporting Goods Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "SPECIALTY RETAIL",
+    "marketCap": "18524439000",
+    "price": "221.46"
+  },
+  "BWXT": {
+    "symbol": "BWXT",
+    "name": "BWX Technologies Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "16354417000",
+    "price": "191.26"
+  },
+  "MKC": {
+    "symbol": "MKC",
+    "name": "McCormick & Company Incorporated",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "PACKAGED FOODS",
+    "marketCap": "18109991000",
+    "price": "66.08"
+  },
+  "MKC-V": {
+    "symbol": "MKC-V",
+    "name": "McCormick & Company Incorporated",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "PACKAGED FOODS",
+    "marketCap": "18063024000",
+    "price": "65.93"
   }
 }
