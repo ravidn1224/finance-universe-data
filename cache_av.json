@@ -4334,5 +4334,205 @@
     "industry": "INSURANCE - REINSURANCE",
     "marketCap": "12477085000",
     "price": "189.75"
+  },
+  "LTM": {
+    "symbol": "LTM",
+    "name": "LATAM Airlines Group S.A.",
+    "sector": "INDUSTRIALS",
+    "industry": "AIRLINES",
+    "marketCap": "13847219000",
+    "price": "44.8"
+  },
+  "UHS": {
+    "symbol": "UHS",
+    "name": "Universal Health Services Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL CARE FACILITIES",
+    "marketCap": "15504295000",
+    "price": "214.72"
+  },
+  "MP": {
+    "symbol": "MP",
+    "name": "MP Materials Corp",
+    "sector": "BASIC MATERIALS",
+    "industry": "OTHER INDUSTRIAL METALS & MINING",
+    "marketCap": "10979428000",
+    "price": "68.01"
+  },
+  "SNX": {
+    "symbol": "SNX",
+    "name": "Synnex Corporation",
+    "sector": "TECHNOLOGY",
+    "industry": "ELECTRONICS & COMPUTER DISTRIBUTION",
+    "marketCap": "12574580000",
+    "price": "154.07"
+  },
+  "ELS": {
+    "symbol": "ELS",
+    "name": "Equity Lifestyle Properties Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - RESIDENTIAL",
+    "marketCap": "12755635000",
+    "price": "61.64"
+  },
+  "STN": {
+    "symbol": "STN",
+    "name": "Stantec Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "ENGINEERING & CONSTRUCTION",
+    "marketCap": "11029320000",
+    "price": "107.35"
+  },
+  "BSAC": {
+    "symbol": "BSAC",
+    "name": "Banco Santander Chile",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "14100482000",
+    "price": "28.02"
+  },
+  "BXP": {
+    "symbol": "BXP",
+    "name": "Boston Properties Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - OFFICE",
+    "marketCap": "12800234000",
+    "price": "72.31"
+  },
+  "SN": {
+    "symbol": "SN",
+    "name": "SharkNinja, Inc.",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "FURNISHINGS, FIXTURES & APPLIANCES",
+    "marketCap": "13771675000",
+    "price": "94.41"
+  },
+  "AVY": {
+    "symbol": "AVY",
+    "name": "Avery Dennison Corp",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "PACKAGING & CONTAINERS",
+    "marketCap": "13323406000",
+    "price": "168.2"
+  },
+  "CRS": {
+    "symbol": "CRS",
+    "name": "Carpenter Technology Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "METAL FABRICATION",
+    "marketCap": "15879250000",
+    "price": "283.08"
+  },
+  "IEX": {
+    "symbol": "IEX",
+    "name": "IDEX Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "13094717000",
+    "price": "166.13"
+  },
+  "CNA": {
+    "symbol": "CNA",
+    "name": "CNA Financial Corporation",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "12653663000",
+    "price": "45.81"
+  },
+  "CLH": {
+    "symbol": "CLH",
+    "name": "Clean Harbors Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "WASTE MANAGEMENT",
+    "marketCap": "12204636000",
+    "price": "224.94"
+  },
+  "SOLV": {
+    "symbol": "SOLV",
+    "name": "Solventum Corp.",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL INSTRUMENTS & SUPPLIES",
+    "marketCap": "14788139000",
+    "price": "73.56"
+  },
+  "TOL": {
+    "symbol": "TOL",
+    "name": "Toll Brothers Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESIDENTIAL CONSTRUCTION",
+    "marketCap": "13728649000",
+    "price": "134.68"
+  },
+  "EHC": {
+    "symbol": "EHC",
+    "name": "Encompass Health Corp",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL CARE FACILITIES",
+    "marketCap": "11693588000",
+    "price": "120.59"
+  },
+  "EVR": {
+    "symbol": "EVR",
+    "name": "Evercore Partners Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "12379705000",
+    "price": "317.86"
+  },
+  "JHX": {
+    "symbol": "JHX",
+    "name": "James Hardie Industries PLC ADR",
+    "sector": "BASIC MATERIALS",
+    "industry": "BUILDING MATERIALS",
+    "marketCap": "11457716000",
+    "price": "19.79"
+  },
+  "SQM": {
+    "symbol": "SQM",
+    "name": "Sociedad Quimica y Minera de Chile SA ADR B",
+    "sector": "BASIC MATERIALS",
+    "industry": "SPECIALTY CHEMICALS",
+    "marketCap": "18372225000",
+    "price": "48.41"
+  },
+  "OHI": {
+    "symbol": "OHI",
+    "name": "Omega Healthcare Investors Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - HEALTHCARE FACILITIES",
+    "marketCap": "13947695000",
+    "price": "42.12"
+  },
+  "BAH": {
+    "symbol": "BAH",
+    "name": "Booz Allen Hamilton Holding",
+    "sector": "INDUSTRIALS",
+    "industry": "CONSULTING SERVICES",
+    "marketCap": "10286335000",
+    "price": "92.13"
+  },
+  "BEN": {
+    "symbol": "BEN",
+    "name": "Franklin Resources Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "11768726000",
+    "price": "22.79"
+  },
+  "RNR": {
+    "symbol": "RNR",
+    "name": "Renaissancere Holdings Ltd",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - REINSURANCE",
+    "marketCap": "12292284000",
+    "price": "256.27"
+  },
+  "AEG": {
+    "symbol": "AEG",
+    "name": "Aegon NV ADR",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - DIVERSIFIED",
+    "marketCap": "12690153000",
+    "price": "7.68"
   }
 }
