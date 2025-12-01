@@ -1814,5 +1814,205 @@
     "industry": "REAL ESTATE SERVICES",
     "marketCap": "48159474000",
     "price": "156.03"
+  },
+  "TAK": {
+    "symbol": "TAK",
+    "name": "Takeda Pharmaceutical Co Ltd ADR",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC",
+    "marketCap": "47986168000",
+    "price": "14.17"
+  },
+  "EW": {
+    "symbol": "EW",
+    "name": "Edwards Lifesciences Corp",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DEVICES",
+    "marketCap": "50883957000",
+    "price": "79.66"
+  },
+  "HEI": {
+    "symbol": "HEI",
+    "name": "Heico Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "44115927000",
+    "price": "315.54"
+  },
+  "OXY": {
+    "symbol": "OXY",
+    "name": "Occidental Petroleum Corporation",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "41378836000",
+    "price": "42.9"
+  },
+  "WCN": {
+    "symbol": "WCN",
+    "name": "Waste Connections Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "WASTE MANAGEMENT",
+    "marketCap": "45393445000",
+    "price": "172.09"
+  },
+  "FLUT": {
+    "symbol": "FLUT",
+    "name": "Flutter Entertainment plc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "GAMBLING",
+    "marketCap": "36533957000",
+    "price": "237.12"
+  },
+  "MSCI": {
+    "symbol": "MSCI",
+    "name": "MSCI Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "FINANCIAL DATA & STOCK EXCHANGES",
+    "marketCap": "42357658000",
+    "price": "562.36"
+  },
+  "ETR": {
+    "symbol": "ETR",
+    "name": "Entergy Corporation",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "43552129000",
+    "price": "95.07"
+  },
+  "CTVA": {
+    "symbol": "CTVA",
+    "name": "Corteva Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "AGRICULTURAL INPUTS",
+    "marketCap": "45818880000",
+    "price": "64.56"
+  },
+  "AME": {
+    "symbol": "AME",
+    "name": "Ametek Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "45703479000",
+    "price": "189.84"
+  },
+  "UI": {
+    "symbol": "UI",
+    "name": "Ubiquiti Networks Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "COMMUNICATION EQUIPMENT",
+    "marketCap": "35276747000",
+    "price": "663.92"
+  },
+  "CCI": {
+    "symbol": "CCI",
+    "name": "Crown Castle",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - SPECIALTY",
+    "marketCap": "39750525000",
+    "price": "93.83"
+  },
+  "FICO": {
+    "symbol": "FICO",
+    "name": "Fair Isaac Corporation",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "43346522000",
+    "price": "1670.22"
+  },
+  "PEG": {
+    "symbol": "PEG",
+    "name": "Public Service Enterprise Group Inc",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "41689338000",
+    "price": "82.31"
+  },
+  "RMD": {
+    "symbol": "RMD",
+    "name": "ResMed Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL INSTRUMENTS & SUPPLIES",
+    "marketCap": "37342556000",
+    "price": "261.89"
+  },
+  "TGT": {
+    "symbol": "TGT",
+    "name": "Target Corporation",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "DISCOUNT STORES",
+    "marketCap": "41177649000",
+    "price": "90.0"
+  },
+  "HLN": {
+    "symbol": "HLN",
+    "name": "Haleon plc",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC",
+    "marketCap": "43778195000",
+    "price": "9.29"
+  },
+  "VMC": {
+    "symbol": "VMC",
+    "name": "Vulcan Materials Company",
+    "sector": "BASIC MATERIALS",
+    "industry": "BUILDING MATERIALS",
+    "marketCap": "39274590000",
+    "price": "294.67"
+  },
+  "HMC": {
+    "symbol": "HMC",
+    "name": "Honda Motor Co Ltd ADR",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO MANUFACTURERS",
+    "marketCap": "39249883000",
+    "price": "30.92"
+  },
+  "A": {
+    "symbol": "A",
+    "name": "Agilent Technologies Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "43517313000",
+    "price": "141.84"
+  },
+  "RDDT": {
+    "symbol": "RDDT",
+    "name": "Reddit, Inc.",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "41020146000",
+    "price": "207.26"
+  },
+  "YUM": {
+    "symbol": "YUM",
+    "name": "Yum! Brands Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESTAURANTS",
+    "marketCap": "42539192000",
+    "price": "147.55"
+  },
+  "FNV": {
+    "symbol": "FNV",
+    "name": "Franco-Nevada Corporation",
+    "sector": "BASIC MATERIALS",
+    "industry": "GOLD",
+    "marketCap": "40610951000",
+    "price": "202.14"
+  },
+  "HSY": {
+    "symbol": "HSY",
+    "name": "Hershey Co",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "CONFECTIONERS",
+    "marketCap": "38139826000",
+    "price": "183.34"
+  },
+  "HEI-A": {
+    "symbol": "HEI-A",
+    "name": "HEICO Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "38075367000",
+    "price": "247.2"
   }
 }
