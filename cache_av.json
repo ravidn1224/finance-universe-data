@@ -3134,5 +3134,205 @@
     "industry": "CAPITAL MARKETS",
     "marketCap": "22240459000",
     "price": "7.17"
+  },
+  "AER": {
+    "symbol": "AER",
+    "name": "AerCap Holdings NV",
+    "sector": "INDUSTRIALS",
+    "industry": "RENTAL & LEASING SERVICES",
+    "marketCap": "23893508000",
+    "price": "126.81"
+  },
+  "GPN": {
+    "symbol": "GPN",
+    "name": "Global Payments Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY BUSINESS SERVICES",
+    "marketCap": "18379915000",
+    "price": "81.51"
+  },
+  "TECK": {
+    "symbol": "TECK",
+    "name": "Teck Resources Ltd Class B",
+    "sector": "BASIC MATERIALS",
+    "industry": "OTHER INDUSTRIAL METALS & MINING",
+    "marketCap": "20994972000",
+    "price": "42.12"
+  },
+  "TPL": {
+    "symbol": "TPL",
+    "name": "Texas Pacific Land Trust",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "22725947000",
+    "price": "933.62"
+  },
+  "CW": {
+    "symbol": "CW",
+    "name": "Curtiss-Wright Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "21261382000",
+    "price": "554.63"
+  },
+  "BAP": {
+    "symbol": "BAP",
+    "name": "Credicorp Ltd",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "20413811000",
+    "price": "258.38"
+  },
+  "CPAY": {
+    "symbol": "CPAY",
+    "name": "Corpay Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "20887734000",
+    "price": "283.85"
+  },
+  "EIX": {
+    "symbol": "EIX",
+    "name": "Edison International",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "22660110000",
+    "price": "56.39"
+  },
+  "OKLO": {
+    "symbol": "OKLO",
+    "name": "Oklo Inc.",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - INDEPENDENT POWER PRODUCERS",
+    "marketCap": "14277857000",
+    "price": "124.18"
+  },
+  "DGX": {
+    "symbol": "DGX",
+    "name": "Quest Diagnostics Incorporated",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "21154757000",
+    "price": "184.15"
+  },
+  "BE": {
+    "symbol": "BE",
+    "name": "Bloom Energy Corp",
+    "sector": "INDUSTRIALS",
+    "industry": "ELECTRICAL EQUIPMENT & PARTS",
+    "marketCap": "25836433000",
+    "price": "104.36"
+  },
+  "NI": {
+    "symbol": "NI",
+    "name": "NiSource Inc",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED GAS",
+    "marketCap": "20883753000",
+    "price": "43.06"
+  },
+  "GIB": {
+    "symbol": "GIB",
+    "name": "CGI Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "marketCap": "19802104000",
+    "price": "88.3"
+  },
+  "GWRE": {
+    "symbol": "GWRE",
+    "name": "Guidewire Software Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "18362380000",
+    "price": "231.35"
+  },
+  "HAL": {
+    "symbol": "HAL",
+    "name": "Halliburton Company",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS EQUIPMENT & SERVICES",
+    "marketCap": "22355227000",
+    "price": "25.33"
+  },
+  "KEY": {
+    "symbol": "KEY",
+    "name": "KeyCorp",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "20153960000",
+    "price": "17.92"
+  },
+  "WAT": {
+    "symbol": "WAT",
+    "name": "Waters Corporation",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "24017506000",
+    "price": "347.86"
+  },
+  "RCI": {
+    "symbol": "RCI",
+    "name": "Rogers Communications Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "21258764000",
+    "price": "37.25"
+  },
+  "BSBR": {
+    "symbol": "BSBR",
+    "name": "Banco Santander Brasil SA ADR",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "47142380000",
+    "price": "5.53"
+  },
+  "RL": {
+    "symbol": "RL",
+    "name": "Ralph Lauren Corp Class A",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "APPAREL MANUFACTURING",
+    "marketCap": "22275131000",
+    "price": "326.42"
+  },
+  "VIV": {
+    "symbol": "VIV",
+    "name": "Telefonica Brasil SA ADR",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "21184817000",
+    "price": "12.52"
+  },
+  "ZBH": {
+    "symbol": "ZBH",
+    "name": "Zimmer Biomet Holdings Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DEVICES",
+    "marketCap": "19326665000",
+    "price": "96.88"
+  },
+  "RBA": {
+    "symbol": "RBA",
+    "name": "RB Global Inc.",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY BUSINESS SERVICES",
+    "marketCap": "18282037000",
+    "price": "102.68"
+  },
+  "COHR": {
+    "symbol": "COHR",
+    "name": "Coherent Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SCIENTIFIC & TECHNICAL INSTRUMENTS",
+    "marketCap": "25814053000",
+    "price": "128.37"
+  },
+  "BNT": {
+    "symbol": "BNT",
+    "name": "Brookfield Wealth Solutions Ltd.",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - DIVERSIFIED",
+    "marketCap": "12884604000",
+    "price": "45.51"
   }
 }
