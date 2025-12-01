@@ -64,8 +64,14 @@ def fetch_one(symbol):
     r = requests.get(url)
     data = r.json()
 
+    # Check for API rate limit errors
+    if "Note" in data or "Information" in data:
+        error_msg = data.get("Note", data.get("Information", ""))
+        print(f"{RED}   ⛔ API LIMIT: {error_msg}{RESET}")
+        return "LIMIT_REACHED"
+    
     if "Symbol" not in data:
-        print(f"{RED}   ❌ Skipped/no data/limit reached: {symbol}{RESET}")
+        print(f"{RED}   ❌ No data found for: {symbol}{RESET}")
         return None
 
     print(f"{GREEN}   ✔ Success: {symbol}{RESET}")
@@ -104,16 +110,29 @@ def main():
 
         result = fetch_one(sym)
 
-        if result:
+        # Check if we hit the rate limit
+        if result == "LIMIT_REACHED":
+            print(RED + f"\n⛔ REACHED API LIMIT after {calls_used} successful calls — stopping." + RESET, flush=True)
+            break
+        
+        # Only save and increment if we got valid data
+        if result and isinstance(result, dict):
             cache[sym] = result
             calls_used += 1
+            
+            # Save cache after each successful fetch (in case of interruption)
+            if calls_used % 5 == 0:  # Save every 5 calls
+                save_cache(cache)
+                print(BLUE + f"   💾 Progress saved ({calls_used} calls)" + RESET, flush=True)
 
         if calls_used >= calls_daily_limit:
             print(RED + "\n⛔ REACHED DAILY API LIMIT — stopping." + RESET, flush=True)
             break
 
-        print(BLUE + "⏳ Waiting 12 seconds..." + RESET, flush=True)
-        time.sleep(12)
+        # Wait between calls (only if not the last one)
+        if calls_used < calls_daily_limit and calls_used < len(tickers_to_fetch):
+            print(BLUE + "⏳ Waiting 12 seconds..." + RESET, flush=True)
+            time.sleep(12)
 
     print(GREEN + f"\n🎉 Done. New API calls made: {calls_used}" + RESET, flush=True)
     
