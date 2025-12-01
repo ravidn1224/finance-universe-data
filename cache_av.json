@@ -3734,5 +3734,205 @@
     "industry": "UTILITIES - DIVERSIFIED",
     "marketCap": "16732802000",
     "price": "34.28"
+  },
+  "SBS": {
+    "symbol": "SBS",
+    "name": "Companhia de Saneamento Basico do Estado de Sao Paulo SABESP ADR",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED WATER",
+    "marketCap": "18010747000",
+    "price": "24.71"
+  },
+  "FMS": {
+    "symbol": "FMS",
+    "name": "Fresenius Medical Care Corporation",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL CARE FACILITIES",
+    "marketCap": "13866373000",
+    "price": "25.56"
+  },
+  "BBY": {
+    "symbol": "BBY",
+    "name": "Best Buy Co. Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "SPECIALTY RETAIL",
+    "marketCap": "16755566000",
+    "price": "77.8"
+  },
+  "EXPD": {
+    "symbol": "EXPD",
+    "name": "Expeditors International of Washington, Inc.",
+    "sector": "INDUSTRIALS",
+    "industry": "INTEGRATED FREIGHT & LOGISTICS",
+    "marketCap": "19937051000",
+    "price": "127.41"
+  },
+  "BCH": {
+    "symbol": "BCH",
+    "name": "Banco De Chile",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "19082125000",
+    "price": "33.55"
+  },
+  "NVT": {
+    "symbol": "NVT",
+    "name": "nVent Electric PLC",
+    "sector": "INDUSTRIALS",
+    "industry": "ELECTRICAL EQUIPMENT & PARTS",
+    "marketCap": "17309039000",
+    "price": "102.8"
+  },
+  "PFGC": {
+    "symbol": "PFGC",
+    "name": "Performance Food Group Co",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "FOOD DISTRIBUTION",
+    "marketCap": "15221755000",
+    "price": "99.49"
+  },
+  "SUI": {
+    "symbol": "SUI",
+    "name": "Sun Communities Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - RESIDENTIAL",
+    "marketCap": "16575589000",
+    "price": "125.96"
+  },
+  "DOW": {
+    "symbol": "DOW",
+    "name": "Dow Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "CHEMICALS",
+    "marketCap": "16951802000",
+    "price": "22.8"
+  },
+  "KLAR": {
+    "symbol": "KLAR",
+    "name": "Klarna Group plc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "13865023000",
+    "price": "39.65"
+  },
+  "IFF": {
+    "symbol": "IFF",
+    "name": "International Flavors & Fragrances Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "SPECIALTY CHEMICALS",
+    "marketCap": "17806828000",
+    "price": "63.63"
+  },
+  "TRU": {
+    "symbol": "TRU",
+    "name": "TransUnion",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "FINANCIAL DATA & STOCK EXCHANGES",
+    "marketCap": "16567740000",
+    "price": "81.6"
+  },
+  "YUMC": {
+    "symbol": "YUMC",
+    "name": "Yum China Holdings Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESTAURANTS",
+    "marketCap": "17239011000",
+    "price": "44.52"
+  },
+  "SNN": {
+    "symbol": "SNN",
+    "name": "Smith & Nephew SNATS Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DEVICES",
+    "marketCap": "14164636000",
+    "price": "35.12"
+  },
+  "LYB": {
+    "symbol": "LYB",
+    "name": "LyondellBasell Industries NV",
+    "sector": "BASIC MATERIALS",
+    "industry": "SPECIALTY CHEMICALS",
+    "marketCap": "15768557000",
+    "price": "46.66"
+  },
+  "ZTO": {
+    "symbol": "ZTO",
+    "name": "ZTO Express (Cayman) Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "INTEGRATED FREIGHT & LOGISTICS",
+    "marketCap": "16441120000",
+    "price": "19.1"
+  },
+  "FTI": {
+    "symbol": "FTI",
+    "name": "TechnipFMC PLC",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS EQUIPMENT & SERVICES",
+    "marketCap": "18308579000",
+    "price": "40.46"
+  },
+  "TXT": {
+    "symbol": "TXT",
+    "name": "Textron Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "14819553000",
+    "price": "82.29"
+  },
+  "ALLE": {
+    "symbol": "ALLE",
+    "name": "Allegion PLC",
+    "sector": "INDUSTRIALS",
+    "industry": "SECURITY & PROTECTION SERVICES",
+    "marketCap": "14283885000",
+    "price": "170.69"
+  },
+  "FNF": {
+    "symbol": "FNF",
+    "name": "Fidelity National Financial Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - SPECIALTY",
+    "marketCap": "16148472000",
+    "price": "57.45"
+  },
+  "OMC": {
+    "symbol": "OMC",
+    "name": "Omnicom Group Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ADVERTISING AGENCIES",
+    "marketCap": "22727834000",
+    "price": "75.95"
+  },
+  "EQH": {
+    "symbol": "EQH",
+    "name": "Axa Equitable Holdings Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "13985358000",
+    "price": "48.25"
+  },
+  "EG": {
+    "symbol": "EG",
+    "name": "Everest Group Ltd",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - REINSURANCE",
+    "marketCap": "13193284000",
+    "price": "334.31"
+  },
+  "DT": {
+    "symbol": "DT",
+    "name": "Dynatrace Holdings LLC",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "13435119000",
+    "price": "47.87"
+  },
+  "RS": {
+    "symbol": "RS",
+    "name": "Reliance Steel & Aluminum Co",
+    "sector": "BASIC MATERIALS",
+    "industry": "STEEL",
+    "marketCap": "14690429000",
+    "price": "277.22"
   }
 }
