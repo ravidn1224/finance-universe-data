@@ -2934,5 +2934,205 @@
     "industry": "SPECIALTY RETAIL",
     "marketCap": "21489721000",
     "price": "190.34"
+  },
+  "PBA": {
+    "symbol": "PBA",
+    "name": "Pembina Pipeline Corp",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "22650538000",
+    "price": "38.8"
+  },
+  "TEVA": {
+    "symbol": "TEVA",
+    "name": "Teva Pharma Industries Ltd ADR",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC",
+    "marketCap": "30850427000",
+    "price": "21.45"
+  },
+  "IOT": {
+    "symbol": "IOT",
+    "name": "Samsara Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "21815325000",
+    "price": "38.31"
+  },
+  "RF": {
+    "symbol": "RF",
+    "name": "Regions Financial Corporation",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "22709248000",
+    "price": "25.04"
+  },
+  "PPG": {
+    "symbol": "PPG",
+    "name": "PPG Industries Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "SPECIALTY CHEMICALS",
+    "marketCap": "22579028000",
+    "price": "100.49"
+  },
+  "CFG": {
+    "symbol": "CFG",
+    "name": "Citizens Financial Group, Inc.",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "23335979000",
+    "price": "51.85"
+  },
+  "SW": {
+    "symbol": "SW",
+    "name": "Smurfit WestRock plc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "PACKAGING & CONTAINERS",
+    "marketCap": "18636829000",
+    "price": "39.24"
+  },
+  "HUBB": {
+    "symbol": "HUBB",
+    "name": "Hubbell Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "ELECTRICAL EQUIPMENT & PARTS",
+    "marketCap": "22928241000",
+    "price": "434.49"
+  },
+  "DOV": {
+    "symbol": "DOV",
+    "name": "Dover Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "25411748000",
+    "price": "174.06"
+  },
+  "AXIA": {
+    "symbol": "AXIA",
+    "name": "Centrais El\u00e9tricas Brasileiras S.A. - Eletrobr\u00e1s",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - RENEWABLE",
+    "marketCap": "None",
+    "price": "0"
+  },
+  "JBL": {
+    "symbol": "JBL",
+    "name": "Jabil Circuit Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "ELECTRONIC COMPONENTS",
+    "marketCap": "22613154000",
+    "price": "209.79"
+  },
+  "CMS": {
+    "symbol": "CMS",
+    "name": "CMS Energy Corporation",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "22957885000",
+    "price": "73.5"
+  },
+  "TYL": {
+    "symbol": "TYL",
+    "name": "Tyler Technologies Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "20316613000",
+    "price": "492.56"
+  },
+  "NVR": {
+    "symbol": "NVR",
+    "name": "NVR Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESIDENTIAL CONSTRUCTION",
+    "marketCap": "20743424000",
+    "price": "7567.52"
+  },
+  "XPEV": {
+    "symbol": "XPEV",
+    "name": "Xpeng Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO MANUFACTURERS",
+    "marketCap": "21346470000",
+    "price": "22.66"
+  },
+  "DVN": {
+    "symbol": "DVN",
+    "name": "Devon Energy Corporation",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "23525689000",
+    "price": "34.09"
+  },
+  "DG": {
+    "symbol": "DG",
+    "name": "Dollar General Corporation",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "DISCOUNT STORES",
+    "marketCap": "24099410000",
+    "price": "102.09"
+  },
+  "DRI": {
+    "symbol": "DRI",
+    "name": "Darden Restaurants Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESTAURANTS",
+    "marketCap": "20938113000",
+    "price": "182.59"
+  },
+  "BCE": {
+    "symbol": "BCE",
+    "name": "BCE Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "21923682000",
+    "price": "23.28"
+  },
+  "PINS": {
+    "symbol": "PINS",
+    "name": "Pinterest Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "17759762000",
+    "price": "30.64"
+  },
+  "BEKE": {
+    "symbol": "BEKE",
+    "name": "Ke Holdings\u00a0Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REAL ESTATE SERVICES",
+    "marketCap": "20243272000",
+    "price": "17.84"
+  },
+  "TOST": {
+    "symbol": "TOST",
+    "name": "Toast Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "20103719000",
+    "price": "36.54"
+  },
+  "CHD": {
+    "symbol": "CHD",
+    "name": "Church & Dwight Company Inc",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "HOUSEHOLD & PERSONAL PRODUCTS",
+    "marketCap": "20745718000",
+    "price": "86.16"
+  },
+  "L": {
+    "symbol": "L",
+    "name": "Loews Corp",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "22375086000",
+    "price": "101.66"
+  },
+  "NMR": {
+    "symbol": "NMR",
+    "name": "Nomura Holdings Inc ADR",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "22240459000",
+    "price": "7.17"
   }
 }
