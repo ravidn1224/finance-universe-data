@@ -64,14 +64,17 @@ def fetch_one(symbol):
     r = requests.get(url)
     data = r.json()
 
-    # Check for API rate limit errors
-    if "Note" in data or "Information" in data:
-        error_msg = data.get("Note", data.get("Information", ""))
-        print(f"{RED}   ⛔ API LIMIT: {error_msg}{RESET}")
+    # Check for API rate limit errors (Alpha Vantage returns these keys)
+    if "Note" in data or "Information" in data or "Error Message" in data:
+        error_msg = data.get("Note", data.get("Information", data.get("Error Message", "")))
+        print(f"{RED}   ⛔ API LIMIT/ERROR: {error_msg}{RESET}")
         return "LIMIT_REACHED"
     
+    # Check if we got valid stock data
     if "Symbol" not in data:
+        # Debug: show what keys we actually got
         print(f"{RED}   ❌ No data found for: {symbol}{RESET}")
+        print(f"{YELLOW}   DEBUG: Response keys: {list(data.keys())}{RESET}")
         return None
 
     print(f"{GREEN}   ✔ Success: {symbol}{RESET}")
