@@ -1614,5 +1614,205 @@
     "industry": "OIL & GAS REFINING & MARKETING",
     "marketCap": "55348859000",
     "price": "134.52"
+  },
+  "DEO": {
+    "symbol": "DEO",
+    "name": "Diageo PLC ADR",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - WINERIES & DISTILLERIES",
+    "marketCap": "50921476000",
+    "price": "94.38"
+  },
+  "PSA": {
+    "symbol": "PSA",
+    "name": "Public Storage",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - INDUSTRIAL",
+    "marketCap": "48171614000",
+    "price": "286.01"
+  },
+  "D": {
+    "symbol": "D",
+    "name": "Dominion Energy Inc",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "53600137000",
+    "price": "60.77"
+  },
+  "LNG": {
+    "symbol": "LNG",
+    "name": "Cheniere Energy Inc",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "45812859000",
+    "price": "220.3"
+  },
+  "VLO": {
+    "symbol": "VLO",
+    "name": "Valero Energy Corporation",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS REFINING & MARKETING",
+    "marketCap": "54910800000",
+    "price": "169.74"
+  },
+  "SLB": {
+    "symbol": "SLB",
+    "name": "Schlumberger NV",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS EQUIPMENT & SERVICES",
+    "marketCap": "54139793000",
+    "price": "35.11"
+  },
+  "CARR": {
+    "symbol": "CARR",
+    "name": "Carrier Global\u00a0Corp",
+    "sector": "INDUSTRIALS",
+    "industry": "BUILDING PRODUCTS & EQUIPMENT",
+    "marketCap": "46704136000",
+    "price": "57.14"
+  },
+  "GRMN": {
+    "symbol": "GRMN",
+    "name": "Garmin Ltd",
+    "sector": "TECHNOLOGY",
+    "industry": "SCIENTIFIC & TECHNICAL INSTRUMENTS",
+    "marketCap": "37597921000",
+    "price": "226.92"
+  },
+  "XYZ": {
+    "symbol": "XYZ",
+    "name": "Block, Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "40720212000",
+    "price": "72.26"
+  },
+  "MPLX": {
+    "symbol": "MPLX",
+    "name": "MPLX LP",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "55365853000",
+    "price": "50.88"
+  },
+  "SU": {
+    "symbol": "SU",
+    "name": "Suncor Energy Inc",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS INTEGRATED",
+    "marketCap": "54511178000",
+    "price": "41.6"
+  },
+  "VEEV": {
+    "symbol": "VEEV",
+    "name": "Veeva Systems Inc Class A",
+    "sector": "HEALTHCARE",
+    "industry": "HEALTH INFORMATION SERVICES",
+    "marketCap": "39499313000",
+    "price": "284.74"
+  },
+  "ARES": {
+    "symbol": "ARES",
+    "name": "Ares Management LP",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "51387920000",
+    "price": "152.74"
+  },
+  "VALE": {
+    "symbol": "VALE",
+    "name": "Vale SA ADR",
+    "sector": "BASIC MATERIALS",
+    "industry": "OTHER INDUSTRIAL METALS & MINING",
+    "marketCap": "53957759000",
+    "price": "11.57"
+  },
+  "WPM": {
+    "symbol": "WPM",
+    "name": "Wheaton Precious Metals Corp",
+    "sector": "BASIC MATERIALS",
+    "industry": "GOLD",
+    "marketCap": "50030854000",
+    "price": "103.8"
+  },
+  "GWW": {
+    "symbol": "GWW",
+    "name": "WW Grainger Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "INDUSTRIAL DISTRIBUTION",
+    "marketCap": "45375103000",
+    "price": "954.12"
+  },
+  "AMP": {
+    "symbol": "AMP",
+    "name": "Ameriprise Financial Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "42963325000",
+    "price": "472.47"
+  },
+  "AIG": {
+    "symbol": "AIG",
+    "name": "American International Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - DIVERSIFIED",
+    "marketCap": "42192933000",
+    "price": "78.42"
+  },
+  "FERG": {
+    "symbol": "FERG",
+    "name": "Ferguson Plc",
+    "sector": "INDUSTRIALS",
+    "industry": "INDUSTRIAL DISTRIBUTION",
+    "marketCap": "50530607000",
+    "price": "239.66"
+  },
+  "F": {
+    "symbol": "F",
+    "name": "Ford Motor Company",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO MANUFACTURERS",
+    "marketCap": "52914143000",
+    "price": "12.53"
+  },
+  "RKT": {
+    "symbol": "RKT",
+    "name": "Rocket Companies\u00a0Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "MORTGAGE FINANCE",
+    "marketCap": "56261480000",
+    "price": "17.61"
+  },
+  "DHI": {
+    "symbol": "DHI",
+    "name": "DR Horton Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESIDENTIAL CONSTRUCTION",
+    "marketCap": "47404618000",
+    "price": "154.64"
+  },
+  "OKE": {
+    "symbol": "OKE",
+    "name": "ONEOK Inc",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "45858828000",
+    "price": "69.97"
+  },
+  "KR": {
+    "symbol": "KR",
+    "name": "Kroger Company",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "GROCERY STORES",
+    "marketCap": "44584989000",
+    "price": "66.38"
+  },
+  "CBRE": {
+    "symbol": "CBRE",
+    "name": "CBRE Group Inc Class A",
+    "sector": "REAL ESTATE",
+    "industry": "REAL ESTATE SERVICES",
+    "marketCap": "48159474000",
+    "price": "156.03"
   }
 }
