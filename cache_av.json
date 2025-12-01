@@ -2414,5 +2414,205 @@
     "industry": "REIT - SPECIALTY",
     "marketCap": "25524152000",
     "price": "99.64"
+  },
+  "VTR": {
+    "symbol": "VTR",
+    "name": "Ventas Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - HEALTHCARE FACILITIES",
+    "marketCap": "37874557000",
+    "price": "72.63"
+  },
+  "STLA": {
+    "symbol": "STLA",
+    "name": "Stellantis NV",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO MANUFACTURERS",
+    "marketCap": "30793798000",
+    "price": "10.25"
+  },
+  "PSTG": {
+    "symbol": "PSTG",
+    "name": "Pure Storage Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "COMPUTER HARDWARE",
+    "marketCap": "29235509000",
+    "price": "89.1"
+  },
+  "FMX": {
+    "symbol": "FMX",
+    "name": "Fomento Economico Mexicano",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - BREWERS",
+    "marketCap": "33150841000",
+    "price": "95.23"
+  },
+  "VG": {
+    "symbol": "VG",
+    "name": "Venture Global, Inc.",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "18262905000",
+    "price": "10.06"
+  },
+  "EME": {
+    "symbol": "EME",
+    "name": "EMCOR Group Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "ENGINEERING & CONSTRUCTION",
+    "marketCap": "27534139000",
+    "price": "658.13"
+  },
+  "LEN-B": {
+    "symbol": "LEN-B",
+    "name": "Lennar Corporation",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESIDENTIAL CONSTRUCTION",
+    "marketCap": "31517989000",
+    "price": "116.62"
+  },
+  "QSR": {
+    "symbol": "QSR",
+    "name": "Restaurant Brands International Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESTAURANTS",
+    "marketCap": "32922624000",
+    "price": "67.51"
+  },
+  "KB": {
+    "symbol": "KB",
+    "name": "KB Financial Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "31190493000",
+    "price": "83.06"
+  },
+  "MT": {
+    "symbol": "MT",
+    "name": "ArcelorMittal SA ADR",
+    "sector": "BASIC MATERIALS",
+    "industry": "STEEL",
+    "marketCap": "32797071000",
+    "price": "38.71"
+  },
+  "LEN": {
+    "symbol": "LEN",
+    "name": "Lennar Corporation",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESIDENTIAL CONSTRUCTION",
+    "marketCap": "32427287000",
+    "price": "123.84"
+  },
+  "NTR": {
+    "symbol": "NTR",
+    "name": "Nutrien Ltd",
+    "sector": "BASIC MATERIALS",
+    "industry": "AGRICULTURAL INPUTS",
+    "marketCap": "28331094000",
+    "price": "57.56"
+  },
+  "KGC": {
+    "symbol": "KGC",
+    "name": "Kinross Gold Corporation",
+    "sector": "BASIC MATERIALS",
+    "industry": "GOLD",
+    "marketCap": "34365141000",
+    "price": "24.75"
+  },
+  "ADM": {
+    "symbol": "ADM",
+    "name": "Archer-Daniels-Midland Company",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "FARM PRODUCTS",
+    "marketCap": "29189806000",
+    "price": "60.37"
+  },
+  "KEYS": {
+    "symbol": "KEYS",
+    "name": "Keysight Technologies Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SCIENTIFIC & TECHNICAL INSTRUMENTS",
+    "marketCap": "34018945000",
+    "price": "174.96"
+  },
+  "WRB": {
+    "symbol": "WRB",
+    "name": "W. R. Berkley Corp",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "29523847000",
+    "price": "75.63"
+  },
+  "MTB": {
+    "symbol": "MTB",
+    "name": "M&T Bank Corporation",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "29725546000",
+    "price": "187.72"
+  },
+  "FIX": {
+    "symbol": "FIX",
+    "name": "Comfort Systems USA Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "ENGINEERING & CONSTRUCTION",
+    "marketCap": "34467860000",
+    "price": "886.56"
+  },
+  "CLS": {
+    "symbol": "CLS",
+    "name": "Celestica Inc.",
+    "sector": "TECHNOLOGY",
+    "industry": "ELECTRONIC COMPONENTS",
+    "marketCap": "39619764000",
+    "price": "289.09"
+  },
+  "DTE": {
+    "symbol": "DTE",
+    "name": "DTE Energy Company",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "28458803000",
+    "price": "138.8"
+  },
+  "WIT": {
+    "symbol": "WIT",
+    "name": "Wipro Limited ADR",
+    "sector": "TECHNOLOGY",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "marketCap": "29463880000",
+    "price": "2.671"
+  },
+  "EFX": {
+    "symbol": "EFX",
+    "name": "Equifax Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "CONSULTING SERVICES",
+    "marketCap": "26163425000",
+    "price": "226.01"
+  },
+  "K": {
+    "symbol": "K",
+    "name": "Kellanova",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "PACKAGED FOODS",
+    "marketCap": "29101087000",
+    "price": "82.37"
+  },
+  "TEF": {
+    "symbol": "TEF",
+    "name": "Telefonica SA ADR",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "24198631000",
+    "price": "4.775"
+  },
+  "AWK": {
+    "symbol": "AWK",
+    "name": "American Water Works",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED WATER",
+    "marketCap": "25379723000",
+    "price": "135.26"
   }
 }
