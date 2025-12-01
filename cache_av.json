@@ -734,5 +734,205 @@
     "industry": "COPPER",
     "marketCap": "110397686000",
     "price": "128.2"
+  },
+  "SO": {
+    "symbol": "SO",
+    "name": "Southern Company",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "100332683000",
+    "price": "93.76"
+  },
+  "DELL": {
+    "symbol": "DELL",
+    "name": "Dell Technologies Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "COMPUTER HARDWARE",
+    "marketCap": "89660957000",
+    "price": "143.7"
+  },
+  "BN": {
+    "symbol": "BN",
+    "name": "Brookfield Corp",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "105620857000",
+    "price": "45.54"
+  },
+  "SMFG": {
+    "symbol": "SMFG",
+    "name": "Sumitomo Mitsui Financial Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "116811817000",
+    "price": "16.49"
+  },
+  "MMC": {
+    "symbol": "MMC",
+    "name": "Marsh & McLennan Companies Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE BROKERS",
+    "marketCap": "90188423000",
+    "price": "189.71"
+  },
+  "NKE": {
+    "symbol": "NKE",
+    "name": "Nike Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "FOOTWEAR & ACCESSORIES",
+    "marketCap": "95536153000",
+    "price": "66.64"
+  },
+  "HCA": {
+    "symbol": "HCA",
+    "name": "HCA Holdings Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL CARE FACILITIES",
+    "marketCap": "118936560000",
+    "price": "449.75"
+  },
+  "CVS": {
+    "symbol": "CVS",
+    "name": "CVS Health Corp",
+    "sector": "HEALTHCARE",
+    "industry": "HEALTHCARE PLANS",
+    "marketCap": "102011593000",
+    "price": "78.52"
+  },
+  "DUK": {
+    "symbol": "DUK",
+    "name": "Duke Energy Corporation",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "96383336000",
+    "price": "124.51"
+  },
+  "BAM": {
+    "symbol": "BAM",
+    "name": "Brookfield Asset Management Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "85143298000",
+    "price": "54.89"
+  },
+  "MCK": {
+    "symbol": "MCK",
+    "name": "McKesson Corporation",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DISTRIBUTION",
+    "marketCap": "109597573000",
+    "price": "803.2"
+  },
+  "PH": {
+    "symbol": "PH",
+    "name": "Parker-Hannifin Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "109043032000",
+    "price": "781.76"
+  },
+  "NEM": {
+    "symbol": "NEM",
+    "name": "Newmont Goldcorp Corp",
+    "sector": "BASIC MATERIALS",
+    "industry": "GOLD",
+    "marketCap": "99662340000",
+    "price": "86.13"
+  },
+  "TT": {
+    "symbol": "TT",
+    "name": "Trane Technologies plc",
+    "sector": "INDUSTRIALS",
+    "industry": "BUILDING PRODUCTS & EQUIPMENT",
+    "marketCap": "93785776000",
+    "price": "420.63"
+  },
+  "GD": {
+    "symbol": "GD",
+    "name": "General Dynamics Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "92281250000",
+    "price": "339.72"
+  },
+  "ICE": {
+    "symbol": "ICE",
+    "name": "Intercontinental Exchange Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "FINANCIAL DATA & STOCK EXCHANGES",
+    "marketCap": "90042155000",
+    "price": "156.8"
+  },
+  "BMY": {
+    "symbol": "BMY",
+    "name": "Bristol-Myers Squibb Company",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "100159054000",
+    "price": "45.5"
+  },
+  "NOC": {
+    "symbol": "NOC",
+    "name": "Northrop Grumman Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "81936458000",
+    "price": "588.38"
+  },
+  "BMO": {
+    "symbol": "BMO",
+    "name": "Bank of Montreal",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "91215364000",
+    "price": "126.04"
+  },
+  "BP": {
+    "symbol": "BP",
+    "name": "BP PLC ADR",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS INTEGRATED",
+    "marketCap": "92176613000",
+    "price": "35.01"
+  },
+  "MCO": {
+    "symbol": "MCO",
+    "name": "Moodys Corporation",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "FINANCIAL DATA & STOCK EXCHANGES",
+    "marketCap": "88025637000",
+    "price": "481.72"
+  },
+  "GSK": {
+    "symbol": "GSK",
+    "name": "GlaxoSmithKline PLC ADR",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "96623919000",
+    "price": "44.82"
+  },
+  "RBLX": {
+    "symbol": "RBLX",
+    "name": "Roblox\u00a0Corp",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ELECTRONIC GAMING & MULTIMEDIA",
+    "marketCap": "66703978000",
+    "price": "118.74"
+  },
+  "WM": {
+    "symbol": "WM",
+    "name": "Waste Management Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "WASTE MANAGEMENT",
+    "marketCap": "87772643000",
+    "price": "212.38"
+  },
+  "AMT": {
+    "symbol": "AMT",
+    "name": "American Tower Corp",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - SPECIALTY",
+    "marketCap": "84860944000",
+    "price": "185.85"
   }
 }
