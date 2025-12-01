@@ -2614,5 +2614,125 @@
     "industry": "UTILITIES - REGULATED WATER",
     "marketCap": "25379723000",
     "price": "135.26"
+  },
+  "WDS": {
+    "symbol": "WDS",
+    "name": "Woodside Energy Group Ltd",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "31101999000",
+    "price": "15.78"
+  },
+  "ATO": {
+    "symbol": "ATO",
+    "name": "Atmos Energy Corporation",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED GAS",
+    "marketCap": "28517855000",
+    "price": "173.76"
+  },
+  "IX": {
+    "symbol": "IX",
+    "name": "Orix Corp Ads",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "FINANCIAL CONGLOMERATES",
+    "marketCap": "30651451000",
+    "price": "25.57"
+  },
+  "NOK": {
+    "symbol": "NOK",
+    "name": "Nokia Corp ADR",
+    "sector": "TECHNOLOGY",
+    "industry": "COMMUNICATION EQUIPMENT",
+    "marketCap": "33716548000",
+    "price": "5.91"
+  },
+  "AEE": {
+    "symbol": "AEE",
+    "name": "Ameren Corp",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "28767134000",
+    "price": "103.68"
+  },
+  "ROL": {
+    "symbol": "ROL",
+    "name": "Rollins Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "PERSONAL SERVICES",
+    "marketCap": "29581136000",
+    "price": "57.77"
+  },
+  "BR": {
+    "symbol": "BR",
+    "name": "Broadridge Financial Solutions Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "marketCap": "26624389000",
+    "price": "229.72"
+  },
+  "PPL": {
+    "symbol": "PPL",
+    "name": "PPL Corporation",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "27296377000",
+    "price": "36.8"
+  },
+  "TDY": {
+    "symbol": "TDY",
+    "name": "Teledyne Technologies Incorporated",
+    "sector": "TECHNOLOGY",
+    "industry": "SCIENTIFIC & TECHNICAL INSTRUMENTS",
+    "marketCap": "23452957000",
+    "price": "540.41"
+  },
+  "FE": {
+    "symbol": "FE",
+    "name": "FirstEnergy Corporation",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "27566201000",
+    "price": "46.18"
+  },
+  "MTD": {
+    "symbol": "MTD",
+    "name": "Mettler-Toledo International Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "30419014000",
+    "price": "1364.02"
+  },
+  "ES": {
+    "symbol": "ES",
+    "name": "Eversource Energy",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "25205207000",
+    "price": "71.38"
+  },
+  "PHG": {
+    "symbol": "PHG",
+    "name": "Koninklijke Philips NV ADR",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DEVICES",
+    "marketCap": "26779568000",
+    "price": "27.9"
+  },
+  "AVB": {
+    "symbol": "AVB",
+    "name": "AvalonBay Communities Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - RESIDENTIAL",
+    "marketCap": "25905168000",
+    "price": "184.02"
+  },
+  "SYF": {
+    "symbol": "SYF",
+    "name": "Synchrony Financial",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CREDIT SERVICES",
+    "marketCap": "28782371000",
+    "price": "73.2"
   }
 }
