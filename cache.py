@@ -15,9 +15,7 @@ RESET  = "\033[0m"
 API_KEY = "VI5JL4DUZA37DRTW"
 
 CACHE_FILE = "cache_av.json"
-CLEAN_TICKERS_FILE = "clean_tickers.txt"
-CHUNK_FILE = os.environ.get("CHUNK_FILE", "clean_tickers.txt")
-
+TICKERS_FILE = "clean_tickers.txt"
 
 ALPHA_URL = "https://www.alphavantage.co/query?function=OVERVIEW&symbol={}&apikey={}"
 
@@ -44,14 +42,14 @@ def save_cache(cache):
 # ----------------------------
 
 def load_clean_tickers():
-    print(BLUE + f"📄 Loading tickers from {CHUNK_FILE}..." + RESET, flush=True)
+    print(BLUE + f"📄 Loading tickers from {TICKERS_FILE}..." + RESET, flush=True)
     
-    if not os.path.exists(CHUNK_FILE):
-        print(RED + f"❌ ERROR: File not found: {CHUNK_FILE}" + RESET)
-        print(RED + "   Did you forget to run split_tickers.py or commit tickers_X.txt ?" + RESET, flush=True)
+    if not os.path.exists(TICKERS_FILE):
+        print(RED + f"❌ ERROR: File not found: {TICKERS_FILE}" + RESET)
+        print(RED + "   Please run update_tickers.py first to generate clean_tickers.txt" + RESET, flush=True)
         return []
 
-    with open(CHUNK_FILE, "r") as f:
+    with open(TICKERS_FILE, "r") as f:
         return [line.strip() for line in f if line.strip()]
 
 
@@ -86,22 +84,28 @@ def fetch_one(symbol):
 # ----------------------------
 
 def main():
+    # Load existing cache
+    cache = load_cache()
+    
+    # Load all tickers
     tickers = load_clean_tickers()
+    print(BLUE + f"🔢 Total tickers: {len(tickers)}" + RESET, flush=True)
+    print(BLUE + f"🔢 Already cached: {len(cache)}" + RESET, flush=True)
 
-    print(BLUE + f"🔢 Total tickers in this chunk: {len(tickers)}" + RESET, flush=True)
-
-    partial_cache = {}  # <-- כל Chunk בונה cache חלקי משלו
+    # Filter out tickers that are already cached
+    tickers_to_fetch = [t for t in tickers if t not in cache]
+    print(BLUE + f"🔢 Need to fetch: {len(tickers_to_fetch)}" + RESET, flush=True)
 
     calls_used = 0
     calls_daily_limit = 25
 
-    for sym in tickers:
+    for sym in tickers_to_fetch:
         print(YELLOW + f"\n=== API CALL #{calls_used+1} — {sym} ===" + RESET, flush=True)
 
         result = fetch_one(sym)
 
         if result:
-            partial_cache[sym] = result
+            cache[sym] = result
             calls_used += 1
 
         if calls_used >= calls_daily_limit:
@@ -109,14 +113,12 @@ def main():
             break
 
         print(BLUE + "⏳ Waiting 12 seconds..." + RESET, flush=True)
-        time.sleep(10)
+        time.sleep(12)
 
-    print(GREEN + f"\n🎉 Done. API calls in this chunk: {calls_used}" + RESET, flush=True)
-
-    partial_file = f"cache_part_{os.environ.get('CHUNK_ID','0')}.json"
-    with open(partial_file, "w", encoding="utf-8") as f:
-        json.dump(partial_cache, f, indent=2)
-        print(f"{GREEN}💾 Saved partial: {partial_file}{RESET}", flush=True)
+    print(GREEN + f"\n🎉 Done. New API calls made: {calls_used}" + RESET, flush=True)
+    
+    # Save the updated cache
+    save_cache(cache)
 
 
 
