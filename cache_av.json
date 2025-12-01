@@ -2734,5 +2734,205 @@
     "industry": "CREDIT SERVICES",
     "marketCap": "28782371000",
     "price": "73.2"
+  },
+  "VIK": {
+    "symbol": "VIK",
+    "name": "Viking Holdings Ltd",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "TRAVEL SERVICES",
+    "marketCap": "29624295000",
+    "price": "60.65"
+  },
+  "GIS": {
+    "symbol": "GIS",
+    "name": "General Mills Inc",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "PACKAGED FOODS",
+    "marketCap": "25317374000",
+    "price": "48.29"
+  },
+  "CNP": {
+    "symbol": "CNP",
+    "name": "CenterPoint Energy Inc",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "26101674000",
+    "price": "39.29"
+  },
+  "VLTO": {
+    "symbol": "VLTO",
+    "name": "Veralto Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "POLLUTION & TREATMENT CONTROLS",
+    "marketCap": "25132657000",
+    "price": "102.04"
+  },
+  "STM": {
+    "symbol": "STM",
+    "name": "STMicroelectronics NV ADR",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "20437025000",
+    "price": "26.04"
+  },
+  "ASX": {
+    "symbol": "ASX",
+    "name": "ASE Industrial Holding Co Ltd ADR",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "32614926000",
+    "price": "13.17"
+  },
+  "HPQ": {
+    "symbol": "HPQ",
+    "name": "HP Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "COMPUTER HARDWARE",
+    "marketCap": "22937045000",
+    "price": "26.36"
+  },
+  "CQP": {
+    "symbol": "CQP",
+    "name": "Cheniere Energy Partners LP",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "26380868000",
+    "price": "52.72"
+  },
+  "OWL": {
+    "symbol": "OWL",
+    "name": "Blue Owl Capital Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "23448199000",
+    "price": "16.0"
+  },
+  "FTS": {
+    "symbol": "FTS",
+    "name": "Fortis Inc",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "26548662000",
+    "price": "50.98"
+  },
+  "STZ": {
+    "symbol": "STZ",
+    "name": "Constellation Brands Inc Class A",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - BREWERS",
+    "marketCap": "23739218000",
+    "price": "134.97"
+  },
+  "LDOS": {
+    "symbol": "LDOS",
+    "name": "Leidos Holdings Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "marketCap": "24517622000",
+    "price": "190.5"
+  },
+  "SHG": {
+    "symbol": "SHG",
+    "name": "Shinhan Financial Group Co Ltd",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "26454829000",
+    "price": "51.86"
+  },
+  "MKL": {
+    "symbol": "MKL",
+    "name": "Markel Corporation",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "26321727000",
+    "price": "1963.75"
+  },
+  "IP": {
+    "symbol": "IP",
+    "name": "International Paper",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "PACKAGING & CONTAINERS",
+    "marketCap": "20846952000",
+    "price": "42.86"
+  },
+  "EQR": {
+    "symbol": "EQR",
+    "name": "Equity Residential",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - RESIDENTIAL",
+    "marketCap": "24302447000",
+    "price": "61.72"
+  },
+  "PHM": {
+    "symbol": "PHM",
+    "name": "PulteGroup Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESIDENTIAL CONSTRUCTION",
+    "marketCap": "25094279000",
+    "price": "123.68"
+  },
+  "HUBS": {
+    "symbol": "HUBS",
+    "name": "HubSpot Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "19355234000",
+    "price": "441.72"
+  },
+  "STE": {
+    "symbol": "STE",
+    "name": "STERIS plc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DEVICES",
+    "marketCap": "26226080000",
+    "price": "248.26"
+  },
+  "TPR": {
+    "symbol": "TPR",
+    "name": "Tapestry Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "LUXURY GOODS",
+    "marketCap": "22621561000",
+    "price": "110.45"
+  },
+  "TU": {
+    "symbol": "TU",
+    "name": "Telus Corp",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "20356198000",
+    "price": "14.84"
+  },
+  "LH": {
+    "symbol": "LH",
+    "name": "Laboratory Corporation of America Holdings",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "22335617000",
+    "price": "271.13"
+  },
+  "CIEN": {
+    "symbol": "CIEN",
+    "name": "Ciena Corp",
+    "sector": "TECHNOLOGY",
+    "industry": "COMMUNICATION EQUIPMENT",
+    "marketCap": "28868600000",
+    "price": "173.9"
+  },
+  "IONQ": {
+    "symbol": "IONQ",
+    "name": "IONQ Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "COMPUTER HARDWARE",
+    "marketCap": "16084294000",
+    "price": "62.25"
+  },
+  "WSM": {
+    "symbol": "WSM",
+    "name": "Williams-Sonoma Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "SPECIALTY RETAIL",
+    "marketCap": "21489721000",
+    "price": "190.34"
   }
 }
