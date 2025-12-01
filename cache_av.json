@@ -2214,5 +2214,205 @@
     "industry": "CAPITAL MARKETS",
     "marketCap": "23293999000",
     "price": "83.23"
+  },
+  "PUK": {
+    "symbol": "PUK",
+    "name": "Prudential PLC ADR",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - LIFE",
+    "marketCap": "37034848000",
+    "price": "27.85"
+  },
+  "TRGP": {
+    "symbol": "TRGP",
+    "name": "Targa Resources Inc",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "37725282000",
+    "price": "162.95"
+  },
+  "ABEV": {
+    "symbol": "ABEV",
+    "name": "Ambev SA ADR",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - BREWERS",
+    "marketCap": "40466485000",
+    "price": "2.32"
+  },
+  "HPE": {
+    "symbol": "HPE",
+    "name": "Hewlett Packard Enterprise Co",
+    "sector": "TECHNOLOGY",
+    "industry": "COMMUNICATION EQUIPMENT",
+    "marketCap": "28856375000",
+    "price": "23.56"
+  },
+  "IQV": {
+    "symbol": "IQV",
+    "name": "IQVIA Holdings Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "39170703000",
+    "price": "209.14"
+  },
+  "EQT": {
+    "symbol": "EQT",
+    "name": "EQT Corporation",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "37980717000",
+    "price": "55.6"
+  },
+  "SLF": {
+    "symbol": "SLF",
+    "name": "Sun Life Financial Inc.",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - DIVERSIFIED",
+    "marketCap": "33218531000",
+    "price": "60.26"
+  },
+  "EL": {
+    "symbol": "EL",
+    "name": "Estee Lauder Companies Inc",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "HOUSEHOLD & PERSONAL PRODUCTS",
+    "marketCap": "33899090000",
+    "price": "92.07"
+  },
+  "CHT": {
+    "symbol": "CHT",
+    "name": "Chunghwa Telecom Co Ltd",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "32558381000",
+    "price": "42.91"
+  },
+  "WAB": {
+    "symbol": "WAB",
+    "name": "Westinghouse Air Brake Technologies Corp",
+    "sector": "INDUSTRIALS",
+    "industry": "RAILROADS",
+    "marketCap": "35653120000",
+    "price": "199.67"
+  },
+  "FIG": {
+    "symbol": "FIG",
+    "name": "Figma, Inc.",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "25977629000",
+    "price": "67.55"
+  },
+  "STT": {
+    "symbol": "STT",
+    "name": "State Street Corp",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "33765417000",
+    "price": "115.67"
+  },
+  "VICI": {
+    "symbol": "VICI",
+    "name": "VICI Properties Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - DIVERSIFIED",
+    "marketCap": "30803145000",
+    "price": "30.78"
+  },
+  "RJF": {
+    "symbol": "RJF",
+    "name": "Raymond James Financial Inc.",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "31211565000",
+    "price": "162.98"
+  },
+  "DD": {
+    "symbol": "DD",
+    "name": "Dupont De Nemours Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "SPECIALTY CHEMICALS",
+    "marketCap": "16662649000",
+    "price": "35.27"
+  },
+  "CVE": {
+    "symbol": "CVE",
+    "name": "Cenovus Energy Inc",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS INTEGRATED",
+    "marketCap": "33691152000",
+    "price": "17.37"
+  },
+  "NRG": {
+    "symbol": "NRG",
+    "name": "NRG Energy Inc.",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - INDEPENDENT POWER PRODUCERS",
+    "marketCap": "32784587000",
+    "price": "167.17"
+  },
+  "KVUE": {
+    "symbol": "KVUE",
+    "name": "Kenvue Inc.",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "HOUSEHOLD & PERSONAL PRODUCTS",
+    "marketCap": "33295864000",
+    "price": "16.08"
+  },
+  "NUE": {
+    "symbol": "NUE",
+    "name": "Nucor Corp",
+    "sector": "BASIC MATERIALS",
+    "industry": "STEEL",
+    "marketCap": "36500668000",
+    "price": "142.49"
+  },
+  "EXR": {
+    "symbol": "EXR",
+    "name": "Extra Space Storage Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - INDUSTRIAL",
+    "marketCap": "29510666000",
+    "price": "139.2"
+  },
+  "BRO": {
+    "symbol": "BRO",
+    "name": "Brown & Brown Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE BROKERS",
+    "marketCap": "27460475000",
+    "price": "86.43"
+  },
+  "BBD": {
+    "symbol": "BBD",
+    "name": "Banco Bradesco SA ADR",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "39134945000",
+    "price": "3.393"
+  },
+  "BBDO": {
+    "symbol": "BBDO",
+    "name": "Banco Bradesco S/A ADR",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "36427936000",
+    "price": "2.97"
+  },
+  "IR": {
+    "symbol": "IR",
+    "name": "Ingersoll Rand Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "31931333000",
+    "price": "78.82"
+  },
+  "IRM": {
+    "symbol": "IRM",
+    "name": "Iron Mountain Incorporated",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - SPECIALTY",
+    "marketCap": "25524152000",
+    "price": "99.64"
   }
 }
