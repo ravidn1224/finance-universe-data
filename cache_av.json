@@ -3934,5 +3934,205 @@
     "industry": "STEEL",
     "marketCap": "14690429000",
     "price": "277.22"
+  },
+  "WPC": {
+    "symbol": "WPC",
+    "name": "W P Carey Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - DIVERSIFIED",
+    "marketCap": "14763801000",
+    "price": "67.31"
+  },
+  "CLX": {
+    "symbol": "CLX",
+    "name": "The Clorox Company",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "HOUSEHOLD & PERSONAL PRODUCTS",
+    "marketCap": "13166562000",
+    "price": "113.87"
+  },
+  "ULS": {
+    "symbol": "ULS",
+    "name": "UL Solutions Inc.",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY BUSINESS SERVICES",
+    "marketCap": "18322618000",
+    "price": "78.92"
+  },
+  "PKX": {
+    "symbol": "PKX",
+    "name": "POSCO Holdings Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "STEEL",
+    "marketCap": "16065251000",
+    "price": "51.93"
+  },
+  "JOBY": {
+    "symbol": "JOBY",
+    "name": "Joby Aviation",
+    "sector": "INDUSTRIALS",
+    "industry": "AIRPORTS & AIR SERVICES",
+    "marketCap": "13157031000",
+    "price": "15.91"
+  },
+  "RYAN": {
+    "symbol": "RYAN",
+    "name": "Ryan Specialty Group Holdings Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - SPECIALTY",
+    "marketCap": "15355951000",
+    "price": "55.38"
+  },
+  "DECK": {
+    "symbol": "DECK",
+    "name": "Deckers Outdoor Corporation",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "FOOTWEAR & ACCESSORIES",
+    "marketCap": "13058665000",
+    "price": "93.11"
+  },
+  "WES": {
+    "symbol": "WES",
+    "name": "Western Midstream Partners LP",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "16046472000",
+    "price": "38.54"
+  },
+  "APG": {
+    "symbol": "APG",
+    "name": "Api Group\u00a0Corp",
+    "sector": "INDUSTRIALS",
+    "industry": "ENGINEERING & CONSTRUCTION",
+    "marketCap": "16453239000",
+    "price": "35.65"
+  },
+  "WSO-B": {
+    "symbol": "WSO-B",
+    "name": "Watsco Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "INDUSTRIAL DISTRIBUTION",
+    "marketCap": "14256285000",
+    "price": "379.45"
+  },
+  "WSO": {
+    "symbol": "WSO",
+    "name": "Watsco Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "INDUSTRIAL DISTRIBUTION",
+    "marketCap": "14087982000",
+    "price": "367.72"
+  },
+  "KIM": {
+    "symbol": "KIM",
+    "name": "Kimco Realty Corporation",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - RETAIL",
+    "marketCap": "13990852000",
+    "price": "21.16"
+  },
+  "EMA": {
+    "symbol": "EMA",
+    "name": "Emera Incorporated",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "14695209000",
+    "price": "48.11"
+  },
+  "CF": {
+    "symbol": "CF",
+    "name": "CF Industries Holdings Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "AGRICULTURAL INPUTS",
+    "marketCap": "12747271000",
+    "price": "85.05"
+  },
+  "CIB": {
+    "symbol": "CIB",
+    "name": "Grupo Cibest S.A.",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "16439143000",
+    "price": "57.03"
+  },
+  "RPM": {
+    "symbol": "RPM",
+    "name": "RPM International Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "SPECIALTY CHEMICALS",
+    "marketCap": "13759357000",
+    "price": "111.08"
+  },
+  "SNAP": {
+    "symbol": "SNAP",
+    "name": "Snap Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "13204674000",
+    "price": "8.04"
+  },
+  "ONON": {
+    "symbol": "ONON",
+    "name": "On Holding Ltd",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "FOOTWEAR & ACCESSORIES",
+    "marketCap": "14524048000",
+    "price": "41.36"
+  },
+  "BLDR": {
+    "symbol": "BLDR",
+    "name": "Builders FirstSource Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "BUILDING PRODUCTS & EQUIPMENT",
+    "marketCap": "12410459000",
+    "price": "116.17"
+  },
+  "MAS": {
+    "symbol": "MAS",
+    "name": "Masco Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "BUILDING PRODUCTS & EQUIPMENT",
+    "marketCap": "13581420000",
+    "price": "66.2"
+  },
+  "H": {
+    "symbol": "H",
+    "name": "Hyatt Hotels Corporation",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "LODGING",
+    "marketCap": "15696778000",
+    "price": "147.67"
+  },
+  "AGI": {
+    "symbol": "AGI",
+    "name": "Alamos Gold Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "GOLD",
+    "marketCap": "15775603000",
+    "price": "33.29"
+  },
+  "CSL": {
+    "symbol": "CSL",
+    "name": "Carlisle Companies Incorporated",
+    "sector": "INDUSTRIALS",
+    "industry": "BUILDING PRODUCTS & EQUIPMENT",
+    "marketCap": "13597727000",
+    "price": "324.23"
+  },
+  "AMH": {
+    "symbol": "AMH",
+    "name": "American Homes 4 Rent",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - RESIDENTIAL",
+    "marketCap": "13570149000",
+    "price": "32.48"
+  },
+  "FN": {
+    "symbol": "FN",
+    "name": "Fabrinet",
+    "sector": "TECHNOLOGY",
+    "industry": "ELECTRONIC COMPONENTS",
+    "marketCap": "16459378000",
+    "price": "408.38"
   }
 }
