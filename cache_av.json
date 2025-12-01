@@ -2014,5 +2014,205 @@
     "industry": "AEROSPACE & DEFENSE",
     "marketCap": "38075367000",
     "price": "247.2"
+  },
+  "DAL": {
+    "symbol": "DAL",
+    "name": "Delta Air Lines Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "AIRLINES",
+    "marketCap": "41854910000",
+    "price": "58.8"
+  },
+  "ROK": {
+    "symbol": "ROK",
+    "name": "Rockwell Automation Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "44508279000",
+    "price": "360.75"
+  },
+  "MLM": {
+    "symbol": "MLM",
+    "name": "Martin Marietta Materials Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "BUILDING MATERIALS",
+    "marketCap": "37585826000",
+    "price": "618.82"
+  },
+  "CCJ": {
+    "symbol": "CCJ",
+    "name": "Cameco Corp",
+    "sector": "ENERGY",
+    "industry": "URANIUM",
+    "marketCap": "38648070000",
+    "price": "88.86"
+  },
+  "CCL": {
+    "symbol": "CCL",
+    "name": "Carnival Corporation",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "TRAVEL SERVICES",
+    "marketCap": "34954641000",
+    "price": "28.03"
+  },
+  "CAH": {
+    "symbol": "CAH",
+    "name": "Cardinal Health Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DISTRIBUTION",
+    "marketCap": "50431922000",
+    "price": "176.31"
+  },
+  "SYY": {
+    "symbol": "SYY",
+    "name": "Sysco Corporation",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "FOOD DISTRIBUTION",
+    "marketCap": "36489212000",
+    "price": "77.82"
+  },
+  "ALC": {
+    "symbol": "ALC",
+    "name": "Alcon AG",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL INSTRUMENTS & SUPPLIES",
+    "marketCap": "39106597000",
+    "price": "75.59"
+  },
+  "TME": {
+    "symbol": "TME",
+    "name": "Tencent Music Entertainment Group",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "31073516000",
+    "price": "21.85"
+  },
+  "GFI": {
+    "symbol": "GFI",
+    "name": "Gold Fields Ltd ADR",
+    "sector": "BASIC MATERIALS",
+    "industry": "GOLD",
+    "marketCap": "37404684000",
+    "price": "40.14"
+  },
+  "CUK": {
+    "symbol": "CUK",
+    "name": "Carnival Plc ADS",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "TRAVEL SERVICES",
+    "marketCap": "31352361000",
+    "price": "25.51"
+  },
+  "TKO": {
+    "symbol": "TKO",
+    "name": "TKO Group Holdings, Inc.",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ENTERTAINMENT",
+    "marketCap": "15925521000",
+    "price": "189.62"
+  },
+  "WEC": {
+    "symbol": "WEC",
+    "name": "WEC Energy Group Inc",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "36455727000",
+    "price": "113.28"
+  },
+  "HIG": {
+    "symbol": "HIG",
+    "name": "Hartford Financial Services Group",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "38528950000",
+    "price": "130.19"
+  },
+  "AU": {
+    "symbol": "AU",
+    "name": "AngloGold Ashanti plc",
+    "sector": "BASIC MATERIALS",
+    "industry": "GOLD",
+    "marketCap": "43258827000",
+    "price": "73.35"
+  },
+  "ED": {
+    "symbol": "ED",
+    "name": "Consolidated Edison Inc",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "36223500000",
+    "price": "99.69"
+  },
+  "PRU": {
+    "symbol": "PRU",
+    "name": "Prudential Financial Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - LIFE",
+    "marketCap": "38097822000",
+    "price": "103.85"
+  },
+  "FIS": {
+    "symbol": "FIS",
+    "name": "Fidelity National Information Services Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "marketCap": "34356838000",
+    "price": "65.47"
+  },
+  "XYL": {
+    "symbol": "XYL",
+    "name": "Xylem Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "34248792000",
+    "price": "146.13"
+  },
+  "PCG": {
+    "symbol": "PCG",
+    "name": "PG&E Corp",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "35430318000",
+    "price": "15.99"
+  },
+  "LVS": {
+    "symbol": "LVS",
+    "name": "Las Vegas Sands Corp",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESORTS & CASINOS",
+    "marketCap": "46788682000",
+    "price": "57.71"
+  },
+  "LYV": {
+    "symbol": "LYV",
+    "name": "Live Nation Entertainment Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ENTERTAINMENT",
+    "marketCap": "30523904000",
+    "price": "148.49"
+  },
+  "OTIS": {
+    "symbol": "OTIS",
+    "name": "Otis Worldwide Corp",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "34871423000",
+    "price": "90.36"
+  },
+  "HUM": {
+    "symbol": "HUM",
+    "name": "Humana Inc",
+    "sector": "HEALTHCARE",
+    "industry": "HEALTHCARE PLANS",
+    "marketCap": "29559513000",
+    "price": "263.28"
+  },
+  "CRCL": {
+    "symbol": "CRCL",
+    "name": "Circle Internet Group, Inc.",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "23293999000",
+    "price": "83.23"
   }
 }
