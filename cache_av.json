@@ -1014,5 +1014,205 @@
     "industry": "BANKS - DIVERSIFIED",
     "marketCap": "86529024000",
     "price": "65.49"
+  },
+  "CRH": {
+    "symbol": "CRH",
+    "name": "CRH PLC ADR",
+    "sector": "BASIC MATERIALS",
+    "industry": "BUILDING MATERIALS",
+    "marketCap": "80301998000",
+    "price": "115.87"
+  },
+  "CVNA": {
+    "symbol": "CVNA",
+    "name": "Carvana Co",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO & TRUCK DEALERSHIPS",
+    "marketCap": "81192886000",
+    "price": "345.68"
+  },
+  "AON": {
+    "symbol": "AON",
+    "name": "Aon PLC",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE BROKERS",
+    "marketCap": "76314567000",
+    "price": "349.2"
+  },
+  "AJG": {
+    "symbol": "AJG",
+    "name": "Arthur J Gallagher & Co",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE BROKERS",
+    "marketCap": "63590052000",
+    "price": "276.89"
+  },
+  "ECL": {
+    "symbol": "ECL",
+    "name": "Ecolab Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "SPECIALTY CHEMICALS",
+    "marketCap": "78042227000",
+    "price": "268.11"
+  },
+  "WMB": {
+    "symbol": "WMB",
+    "name": "Williams Companies Inc",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "74408862000",
+    "price": "60.86"
+  },
+  "NET": {
+    "symbol": "NET",
+    "name": "Cloudflare Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "70129795000",
+    "price": "217.44"
+  },
+  "PBR-A": {
+    "symbol": "PBR-A",
+    "name": "Petr\u00f3leo Brasileiro S.A. - Petrobras",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS INTEGRATED",
+    "marketCap": "80199320000",
+    "price": "11.63"
+  },
+  "MSI": {
+    "symbol": "MSI",
+    "name": "Motorola Solutions Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "COMMUNICATION EQUIPMENT",
+    "marketCap": "61590122000",
+    "price": "424.06"
+  },
+  "HWM": {
+    "symbol": "HWM",
+    "name": "Howmet Aerospace\u00a0Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "82347475000",
+    "price": "197.6"
+  },
+  "BK": {
+    "symbol": "BK",
+    "name": "The Bank of New York Mellon Corporation",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "79057494000",
+    "price": "108.17"
+  },
+  "PBR": {
+    "symbol": "PBR",
+    "name": "Petroleo Brasileiro Petrobras SA ADR",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS INTEGRATED",
+    "marketCap": "84279280000",
+    "price": "12.33"
+  },
+  "PNC": {
+    "symbol": "PNC",
+    "name": "PNC Financial Services Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "74940940000",
+    "price": "188.74"
+  },
+  "GLW": {
+    "symbol": "GLW",
+    "name": "Corning Incorporated",
+    "sector": "TECHNOLOGY",
+    "industry": "ELECTRONIC COMPONENTS",
+    "marketCap": "72189739000",
+    "price": "84.32"
+  },
+  "CM": {
+    "symbol": "CM",
+    "name": "Canadian Imperial Bank Of Commerce",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "80063660000",
+    "price": "82.63"
+  },
+  "NU": {
+    "symbol": "NU",
+    "name": "Nu Holdings Ltd",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "84264559000",
+    "price": "15.75"
+  },
+  "EMR": {
+    "symbol": "EMR",
+    "name": "Emerson Electric Company",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "75066270000",
+    "price": "131.35"
+  },
+  "USB": {
+    "symbol": "USB",
+    "name": "U.S. Bancorp",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "76331090000",
+    "price": "47.51"
+  },
+  "RACE": {
+    "symbol": "RACE",
+    "name": "Ferrari NV",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO MANUFACTURERS",
+    "marketCap": "69491737000",
+    "price": "423.19"
+  },
+  "NGG": {
+    "symbol": "NGG",
+    "name": "National Grid PLC ADR",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "75524538000",
+    "price": "74.94"
+  },
+  "ITW": {
+    "symbol": "ITW",
+    "name": "Illinois Tool Works Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "72665121000",
+    "price": "250.01"
+  },
+  "UPS": {
+    "symbol": "UPS",
+    "name": "United Parcel Service Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "INTEGRATED FREIGHT & LOGISTICS",
+    "marketCap": "81266860000",
+    "price": "89.59"
+  },
+  "TDG": {
+    "symbol": "TDG",
+    "name": "Transdigm Group Incorporated",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "76645966000",
+    "price": "1307.4"
+  },
+  "CP": {
+    "symbol": "CP",
+    "name": "Canadian Pacific Railway Ltd",
+    "sector": "INDUSTRIALS",
+    "industry": "RAILROADS",
+    "marketCap": "66389213000",
+    "price": "73.51"
+  },
+  "VST": {
+    "symbol": "VST",
+    "name": "Vistra Energy Corp",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - INDEPENDENT POWER PRODUCERS",
+    "marketCap": "60602331000",
+    "price": "192.61"
   }
 }
