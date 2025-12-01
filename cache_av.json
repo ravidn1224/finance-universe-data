@@ -1414,5 +1414,205 @@
     "industry": "LODGING",
     "marketCap": "67037278000",
     "price": "265.78"
+  },
+  "KMI": {
+    "symbol": "KMI",
+    "name": "Kinder Morgan Inc",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "60780450000",
+    "price": "27.13"
+  },
+  "EOG": {
+    "symbol": "EOG",
+    "name": "EOG Resources Inc",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "58885386000",
+    "price": "108.96"
+  },
+  "COR": {
+    "symbol": "COR",
+    "name": "Cencora Inc.",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DISTRIBUTION",
+    "marketCap": "71569998000",
+    "price": "334.14"
+  },
+  "DLR": {
+    "symbol": "DLR",
+    "name": "Digital Realty Trust Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - SPECIALTY",
+    "marketCap": "55291785000",
+    "price": "171.49"
+  },
+  "SRE": {
+    "symbol": "SRE",
+    "name": "Sempra Energy",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - DIVERSIFIED",
+    "marketCap": "61821997000",
+    "price": "91.33"
+  },
+  "CNI": {
+    "symbol": "CNI",
+    "name": "Canadian National Railway Company",
+    "sector": "INDUSTRIALS",
+    "industry": "RAILROADS",
+    "marketCap": "60070035000",
+    "price": "94.74"
+  },
+  "AFL": {
+    "symbol": "AFL",
+    "name": "Aflac Incorporated",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - LIFE",
+    "marketCap": "58997260000",
+    "price": "110.28"
+  },
+  "CPNG": {
+    "symbol": "CPNG",
+    "name": "Coupang LLC",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "INTERNET RETAIL",
+    "marketCap": "51438395000",
+    "price": "30.67"
+  },
+  "CMI": {
+    "symbol": "CMI",
+    "name": "Cummins Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "68739293000",
+    "price": "440.76"
+  },
+  "APD": {
+    "symbol": "APD",
+    "name": "Air Products and Chemicals Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "SPECIALTY CHEMICALS",
+    "marketCap": "58107179000",
+    "price": "259.82"
+  },
+  "NWG": {
+    "symbol": "NWG",
+    "name": "Natwest Group PLC",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "66953286000",
+    "price": "15.02"
+  },
+  "TFC": {
+    "symbol": "TFC",
+    "name": "Truist Financial Corp",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "59958735000",
+    "price": "44.66"
+  },
+  "ET": {
+    "symbol": "ET",
+    "name": "Energy Transfer LP",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "57371890000",
+    "price": "16.81"
+  },
+  "MPC": {
+    "symbol": "MPC",
+    "name": "Marathon Petroleum Corp",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS REFINING & MARKETING",
+    "marketCap": "58897854000",
+    "price": "191.54"
+  },
+  "FDX": {
+    "symbol": "FDX",
+    "name": "FedEx Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "INTEGRATED FREIGHT & LOGISTICS",
+    "marketCap": "65048199000",
+    "price": "248.82"
+  },
+  "LHX": {
+    "symbol": "LHX",
+    "name": "L3Harris Technologies Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "52141449000",
+    "price": "290.51"
+  },
+  "ALL": {
+    "symbol": "ALL",
+    "name": "The Allstate Corporation",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "56121364000",
+    "price": "204.51"
+  },
+  "CMG": {
+    "symbol": "CMG",
+    "name": "Chipotle Mexican Grill Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESTAURANTS",
+    "marketCap": "46287352000",
+    "price": "36.86"
+  },
+  "TRP": {
+    "symbol": "TRP",
+    "name": "TC Energy Corp",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "57036509000",
+    "price": "52.78"
+  },
+  "MET": {
+    "symbol": "MET",
+    "name": "MetLife Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - LIFE",
+    "marketCap": "50914394000",
+    "price": "79.06"
+  },
+  "MFC": {
+    "symbol": "MFC",
+    "name": "Manulife Financial Corp",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - LIFE",
+    "marketCap": "59328381000",
+    "price": "32.66"
+  },
+  "E": {
+    "symbol": "E",
+    "name": "Eni SpA ADR",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS INTEGRATED",
+    "marketCap": "55662731000",
+    "price": "36.15"
+  },
+  "O": {
+    "symbol": "O",
+    "name": "Realty Income Corporation",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - RETAIL",
+    "marketCap": "52995772000",
+    "price": "58.53"
+  },
+  "GM": {
+    "symbol": "GM",
+    "name": "General Motors Company",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO MANUFACTURERS",
+    "marketCap": "69996757000",
+    "price": "64.76"
+  },
+  "PSX": {
+    "symbol": "PSX",
+    "name": "Phillips 66",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS REFINING & MARKETING",
+    "marketCap": "55348859000",
+    "price": "134.52"
   }
 }
