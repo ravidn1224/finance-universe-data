@@ -4534,5 +4534,205 @@
     "industry": "INSURANCE - DIVERSIFIED",
     "marketCap": "12690153000",
     "price": "7.68"
+  },
+  "RBC": {
+    "symbol": "RBC",
+    "name": "RBC Bearings Incorporated",
+    "sector": "INDUSTRIALS",
+    "industry": "TOOLS & ACCESSORIES",
+    "marketCap": "14066143000",
+    "price": "405.32"
+  },
+  "ALLY": {
+    "symbol": "ALLY",
+    "name": "Ally Financial Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CREDIT SERVICES",
+    "marketCap": "12722596000",
+    "price": "39.85"
+  },
+  "QBTS": {
+    "symbol": "QBTS",
+    "name": "D-Wave Quantum Inc.",
+    "sector": "TECHNOLOGY",
+    "industry": "COMPUTER HARDWARE",
+    "marketCap": "8093684000",
+    "price": "29.9"
+  },
+  "AFG": {
+    "symbol": "AFG",
+    "name": "American Financial Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "11486339000",
+    "price": "138.83"
+  },
+  "BLD": {
+    "symbol": "BLD",
+    "name": "Topbuild Corp",
+    "sector": "INDUSTRIALS",
+    "industry": "ENGINEERING & CONSTRUCTION",
+    "marketCap": "12732822000",
+    "price": "421.94"
+  },
+  "FHN": {
+    "symbol": "FHN",
+    "name": "First Horizon National Corporation",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "11343081000",
+    "price": "21.77"
+  },
+  "BJ": {
+    "symbol": "BJ",
+    "name": "BJs Wholesale Club Holdings Inc",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "DISCOUNT STORES",
+    "marketCap": "11756355000",
+    "price": "92.04"
+  },
+  "RDY": {
+    "symbol": "RDY",
+    "name": "Dr. Reddy\u2019s Laboratories Ltd ADR",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC",
+    "marketCap": "11751639000",
+    "price": "14.07"
+  },
+  "HMY": {
+    "symbol": "HMY",
+    "name": "Harmony Gold Mining Company Limited",
+    "sector": "BASIC MATERIALS",
+    "industry": "GOLD",
+    "marketCap": "12399747000",
+    "price": "17.83"
+  },
+  "PAC": {
+    "symbol": "PAC",
+    "name": "Grupo Aeroportuario del Pacifico SAB De CV ADR",
+    "sector": "INDUSTRIALS",
+    "industry": "AIRPORTS & AIR SERVICES",
+    "marketCap": "12020605000",
+    "price": "225.56"
+  },
+  "SMR": {
+    "symbol": "SMR",
+    "name": "Nuscale Power Corp",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "5656870000",
+    "price": "35.22"
+  },
+  "BAX": {
+    "symbol": "BAX",
+    "name": "Baxter International Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL INSTRUMENTS & SUPPLIES",
+    "marketCap": "9633406000",
+    "price": "20.88"
+  },
+  "PAYC": {
+    "symbol": "PAYC",
+    "name": "Paycom Soft",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "9066875000",
+    "price": "189.65"
+  },
+  "SF": {
+    "symbol": "SF",
+    "name": "Stifel Financial Corporation",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "12465156000",
+    "price": "115.93"
+  },
+  "ALB": {
+    "symbol": "ALB",
+    "name": "Albemarle Corp",
+    "sector": "BASIC MATERIALS",
+    "industry": "SPECIALTY CHEMICALS",
+    "marketCap": "15299503000",
+    "price": "98.84"
+  },
+  "WTRG": {
+    "symbol": "WTRG",
+    "name": "Essential Utilities Inc",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED WATER",
+    "marketCap": "11203001000",
+    "price": "39.61"
+  },
+  "ATI": {
+    "symbol": "ATI",
+    "name": "Allegheny Technologies Incorporated",
+    "sector": "INDUSTRIALS",
+    "industry": "METAL FABRICATION",
+    "marketCap": "13893479000",
+    "price": "89.84"
+  },
+  "SCI": {
+    "symbol": "SCI",
+    "name": "Service Corporation International",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "PERSONAL SERVICES",
+    "marketCap": "11134605000",
+    "price": "81.19"
+  },
+  "DTM": {
+    "symbol": "DTM",
+    "name": "DT Midstream Inc",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "12349315000",
+    "price": "112.07"
+  },
+  "CACI": {
+    "symbol": "CACI",
+    "name": "CACI International Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "marketCap": "13625388000",
+    "price": "551.36"
+  },
+  "HII": {
+    "symbol": "HII",
+    "name": "Huntington Ingalls Industries Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "12306898000",
+    "price": "297.09"
+  },
+  "PCOR": {
+    "symbol": "PCOR",
+    "name": "Procore Technologies Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "11514098000",
+    "price": "73.31"
+  },
+  "SJM": {
+    "symbol": "SJM",
+    "name": "The J. M. Smucker Company",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "PACKAGED FOODS",
+    "marketCap": "11115416000",
+    "price": "105.71"
+  },
+  "KNSL": {
+    "symbol": "KNSL",
+    "name": "Kinsale Capital Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "8968169000",
+    "price": "420.73"
+  },
+  "PAG": {
+    "symbol": "PAG",
+    "name": "Penske Automotive Group Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO & TRUCK DEALERSHIPS",
+    "marketCap": "10680696000",
+    "price": "165.49"
   }
 }
