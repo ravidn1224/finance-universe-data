@@ -1214,5 +1214,205 @@
     "industry": "UTILITIES - INDEPENDENT POWER PRODUCERS",
     "marketCap": "60602331000",
     "price": "192.61"
+  },
+  "APO": {
+    "symbol": "APO",
+    "name": "Apollo Global Management LLC Class A",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "76528722000",
+    "price": "128.99"
+  },
+  "ITUB": {
+    "symbol": "ITUB",
+    "name": "Itau Unibanco Banco Holding SA",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "83504447000",
+    "price": "7.28"
+  },
+  "JCI": {
+    "symbol": "JCI",
+    "name": "Johnson Controls International PLC",
+    "sector": "INDUSTRIALS",
+    "industry": "BUILDING PRODUCTS & EQUIPMENT",
+    "marketCap": "76111569000",
+    "price": "112.46"
+  },
+  "INFY": {
+    "symbol": "INFY",
+    "name": "Infosys Ltd ADR",
+    "sector": "TECHNOLOGY",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "marketCap": "73449816000",
+    "price": "16.81"
+  },
+  "BCS": {
+    "symbol": "BCS",
+    "name": "Barclays PLC ADR",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "79131771000",
+    "price": "20.95"
+  },
+  "RSG": {
+    "symbol": "RSG",
+    "name": "Republic Services Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "WASTE MANAGEMENT",
+    "marketCap": "67769561000",
+    "price": "218.11"
+  },
+  "CNQ": {
+    "symbol": "CNQ",
+    "name": "Canadian Natural Resources Ltd",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "70395281000",
+    "price": "32.08"
+  },
+  "ING": {
+    "symbol": "ING",
+    "name": "ING Group NV ADR",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - DIVERSIFIED",
+    "marketCap": "75392328000",
+    "price": "25.09"
+  },
+  "EPD": {
+    "symbol": "EPD",
+    "name": "Enterprise Products Partners LP",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "70890209000",
+    "price": "31.36"
+  },
+  "SPG": {
+    "symbol": "SPG",
+    "name": "Simon Property Group Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - RETAIL",
+    "marketCap": "70281216000",
+    "price": "180.9"
+  },
+  "DB": {
+    "symbol": "DB",
+    "name": "Deutsche Bank AG",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "74427867000",
+    "price": "35.63"
+  },
+  "NSC": {
+    "symbol": "NSC",
+    "name": "Norfolk Southern Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "RAILROADS",
+    "marketCap": "65541087000",
+    "price": "288.38"
+  },
+  "AZO": {
+    "symbol": "AZO",
+    "name": "AutoZone Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO PARTS",
+    "marketCap": "65898910000",
+    "price": "3945.46"
+  },
+  "TEL": {
+    "symbol": "TEL",
+    "name": "TE Connectivity Ltd",
+    "sector": "TECHNOLOGY",
+    "industry": "ELECTRONIC COMPONENTS",
+    "marketCap": "66614321000",
+    "price": "228.82"
+  },
+  "LYG": {
+    "symbol": "LYG",
+    "name": "Lloyds Banking Group PLC ADR",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "74998522000",
+    "price": "4.633"
+  },
+  "VRT": {
+    "symbol": "VRT",
+    "name": "Vertiv Holdings Co",
+    "sector": "INDUSTRIALS",
+    "industry": "ELECTRICAL EQUIPMENT & PARTS",
+    "marketCap": "68717662000",
+    "price": "170.45"
+  },
+  "PWR": {
+    "symbol": "PWR",
+    "name": "Quanta Services Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "ENGINEERING & CONSTRUCTION",
+    "marketCap": "69320991000",
+    "price": "431.95"
+  },
+  "AMX": {
+    "symbol": "AMX",
+    "name": "America Movil SAB de CV ADR",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "69591392000",
+    "price": "22.16"
+  },
+  "ZTS": {
+    "symbol": "ZTS",
+    "name": "Zoetis Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC",
+    "marketCap": "56807256000",
+    "price": "136.13"
+  },
+  "URI": {
+    "symbol": "URI",
+    "name": "United Rentals Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "RENTAL & LEASING SERVICES",
+    "marketCap": "52449677000",
+    "price": "905.43"
+  },
+  "CL": {
+    "symbol": "CL",
+    "name": "Colgate-Palmolive Company",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "HOUSEHOLD & PERSONAL PRODUCTS",
+    "marketCap": "64972870000",
+    "price": "78.58"
+  },
+  "FCX": {
+    "symbol": "FCX",
+    "name": "Freeport-McMoran Copper & Gold Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "COPPER",
+    "marketCap": "61716296000",
+    "price": "40.82"
+  },
+  "TRV": {
+    "symbol": "TRV",
+    "name": "The Travelers Companies Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "65932694000",
+    "price": "277.83"
+  },
+  "EQNR": {
+    "symbol": "EQNR",
+    "name": "Equinor ASA ADR",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS INTEGRATED",
+    "marketCap": "57544077000",
+    "price": "24.05"
+  },
+  "HLT": {
+    "symbol": "HLT",
+    "name": "Hilton Worldwide Holdings Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "LODGING",
+    "marketCap": "67037278000",
+    "price": "265.78"
   }
 }
