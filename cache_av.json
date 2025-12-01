@@ -4134,5 +4134,205 @@
     "industry": "ELECTRONIC COMPONENTS",
     "marketCap": "16459378000",
     "price": "408.38"
+  },
+  "JLL": {
+    "symbol": "JLL",
+    "name": "Jones Lang LaSalle Incorporated",
+    "sector": "REAL ESTATE",
+    "industry": "REAL ESTATE SERVICES",
+    "marketCap": "15431594000",
+    "price": "303.36"
+  },
+  "RTO": {
+    "symbol": "RTO",
+    "name": "Rentokil Initial PLC",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY BUSINESS SERVICES",
+    "marketCap": "13993937000",
+    "price": "26.7"
+  },
+  "DOCS": {
+    "symbol": "DOCS",
+    "name": "Doximity Inc",
+    "sector": "HEALTHCARE",
+    "industry": "HEALTH INFORMATION SERVICES",
+    "marketCap": "9684674000",
+    "price": "63.61"
+  },
+  "WF": {
+    "symbol": "WF",
+    "name": "Woori Financial Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "13444844000",
+    "price": "55.01"
+  },
+  "GGG": {
+    "symbol": "GGG",
+    "name": "Graco Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "13668067000",
+    "price": "82.32"
+  },
+  "ITT": {
+    "symbol": "ITT",
+    "name": "ITT Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "14364481000",
+    "price": "180.27"
+  },
+  "NLY": {
+    "symbol": "NLY",
+    "name": "Annaly Capital Management, Inc.",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - MORTGAGE",
+    "marketCap": "15573112000",
+    "price": "21.23"
+  },
+  "YMM": {
+    "symbol": "YMM",
+    "name": "Full Truck Alliance Co Ltd ADR",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "11870899000",
+    "price": "12.49"
+  },
+  "HLI": {
+    "symbol": "HLI",
+    "name": "Houlihan Lokey Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "12332645000",
+    "price": "190.01"
+  },
+  "QXO": {
+    "symbol": "QXO",
+    "name": "QXO, Inc.",
+    "sector": "INDUSTRIALS",
+    "industry": "INDUSTRIAL DISTRIBUTION",
+    "marketCap": "12631363000",
+    "price": "18.4"
+  },
+  "CX": {
+    "symbol": "CX",
+    "name": "Cemex SAB de CV ADR",
+    "sector": "BASIC MATERIALS",
+    "industry": "BUILDING MATERIALS",
+    "marketCap": "15654486000",
+    "price": "9.7"
+  },
+  "HIMS": {
+    "symbol": "HIMS",
+    "name": "Hims Hers Health Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC",
+    "marketCap": "9051305000",
+    "price": "47.93"
+  },
+  "CNH": {
+    "symbol": "CNH",
+    "name": "CNH Industrial N.V.",
+    "sector": "INDUSTRIALS",
+    "industry": "FARM & HEAVY CONSTRUCTION MACHINERY",
+    "marketCap": "11795234000",
+    "price": "10.35"
+  },
+  "DOC": {
+    "symbol": "DOC",
+    "name": "Healthpeak Properties Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - HEALTHCARE FACILITIES",
+    "marketCap": "12689784000",
+    "price": "18.27"
+  },
+  "UNM": {
+    "symbol": "UNM",
+    "name": "Unum Group",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - LIFE",
+    "marketCap": "12938698000",
+    "price": "76.48"
+  },
+  "HRL": {
+    "symbol": "HRL",
+    "name": "Hormel Foods Corporation",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "PACKAGED FOODS",
+    "marketCap": "12765464000",
+    "price": "23.31"
+  },
+  "MGA": {
+    "symbol": "MGA",
+    "name": "Magna International Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO PARTS",
+    "marketCap": "13815844000",
+    "price": "47.13"
+  },
+  "UDR": {
+    "symbol": "UDR",
+    "name": "UDR Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - RESIDENTIAL",
+    "marketCap": "13711731000",
+    "price": "35.68"
+  },
+  "BALL": {
+    "symbol": "BALL",
+    "name": "Ball Corporation",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "PACKAGING & CONTAINERS",
+    "marketCap": "13479535000",
+    "price": "48.54"
+  },
+  "BF-B": {
+    "symbol": "BF-B",
+    "name": "Brown-Forman Corporation",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - WINERIES & DISTILLERIES",
+    "marketCap": "13714485000",
+    "price": "27.66"
+  },
+  "BF-A": {
+    "symbol": "BF-A",
+    "name": "Brown-Forman Corporation",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - WINERIES & DISTILLERIES",
+    "marketCap": "13478179000",
+    "price": "27.42"
+  },
+  "BEPC": {
+    "symbol": "BEPC",
+    "name": "Brookfield Renewable Corp",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - RENEWABLE",
+    "marketCap": "7452751000",
+    "price": "39.82"
+  },
+  "CDE": {
+    "symbol": "CDE",
+    "name": "Coeur Mining Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "GOLD",
+    "marketCap": "11091103000",
+    "price": "17.55"
+  },
+  "ARE": {
+    "symbol": "ARE",
+    "name": "Alexandria Real Estate Equities Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - OFFICE",
+    "marketCap": "9275520000",
+    "price": "67.82"
+  },
+  "RGA": {
+    "symbol": "RGA",
+    "name": "Reinsurance Group of America",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - REINSURANCE",
+    "marketCap": "12477085000",
+    "price": "189.75"
   }
 }
