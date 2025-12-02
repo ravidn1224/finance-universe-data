@@ -6118,5 +6118,197 @@
     "industry": "SOFTWARE - INFRASTRUCTURE",
     "marketCap": "27159386000",
     "price": "333.34"
+  },
+  "EXPE": {
+    "symbol": "EXPE",
+    "name": "Expedia Group Inc.",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "TRAVEL SERVICES",
+    "marketCap": "31632839000",
+    "price": "229.52"
+  },
+  "DXCM": {
+    "symbol": "DXCM",
+    "name": "DexCom Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DEVICES",
+    "marketCap": "24890096000",
+    "price": "64.41"
+  },
+  "TTD": {
+    "symbol": "TTD",
+    "name": "Trade Desk Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ADVERTISING AGENCIES",
+    "marketCap": "19342582000",
+    "price": "47.49"
+  },
+  "FOXA": {
+    "symbol": "FOXA",
+    "name": "Fox Corp Class A",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ENTERTAINMENT",
+    "marketCap": "29078247000",
+    "price": "62.25"
+  },
+  "FWONK": {
+    "symbol": "FWONK",
+    "name": "Liberty Media Corporation Series C Liberty Formula One Common Stock",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ENTERTAINMENT",
+    "marketCap": "24000207000",
+    "price": "100.43"
+  },
+  "LPLA": {
+    "symbol": "LPLA",
+    "name": "LPL Financial Holdings Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "28496597000",
+    "price": "344.66"
+  },
+  "CRDO": {
+    "symbol": "CRDO",
+    "name": "Credo Technology Group Holding Ltd",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "30724020000",
+    "price": "152.48"
+  },
+  "FWONA": {
+    "symbol": "FWONA",
+    "name": "Liberty Media Corporation Series A Liberty Formula One Common Stock",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ENTERTAINMENT",
+    "marketCap": "23887778000",
+    "price": "91.67"
+  },
+  "TW": {
+    "symbol": "TW",
+    "name": "Tradeweb Markets Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "23784133000",
+    "price": "108.34"
+  },
+  "CYBR": {
+    "symbol": "CYBR",
+    "name": "CyberArk Software Ltd",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "23148225000",
+    "price": "492.01"
+  },
+  "FOX": {
+    "symbol": "FOX",
+    "name": "Fox Corp Class B",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ENTERTAINMENT",
+    "marketCap": "27435370000",
+    "price": "55.95"
+  },
+  "CINF": {
+    "symbol": "CINF",
+    "name": "Cincinnati Financial Corporation",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "26207123000",
+    "price": "159.71"
+  },
+  "AFRM": {
+    "symbol": "AFRM",
+    "name": "Affirm Holdings Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "23418722000",
+    "price": "73.49"
+  },
+  "EXE": {
+    "symbol": "EXE",
+    "name": "Expand Energy Corporation",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "29040032000",
+    "price": "108.37"
+  },
+  "ULTA": {
+    "symbol": "ULTA",
+    "name": "Ulta Beauty Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "SPECIALTY RETAIL",
+    "marketCap": "24218042000",
+    "price": "530.02"
+  },
+  "GRAB": {
+    "symbol": "GRAB",
+    "name": "Grab Holdings Ltd",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "22274150000",
+    "price": "5.82"
+  },
+  "FSLR": {
+    "symbol": "FSLR",
+    "name": "First Solar Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOLAR",
+    "marketCap": "29286539000",
+    "price": "242.23"
+  },
+  "BNTX": {
+    "symbol": "BNTX",
+    "name": "BioNTech SE",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "24802980000",
+    "price": "102.97"
+  },
+  "NTRS": {
+    "symbol": "NTRS",
+    "name": "Northern Trust Corporation",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "25041361000",
+    "price": "128.95"
+  },
+  "ZM": {
+    "symbol": "ZM",
+    "name": "Zoom Video Communications Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "25156737000",
+    "price": "82.53"
+  },
+  "VRSN": {
+    "symbol": "VRSN",
+    "name": "VeriSign Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "23538031000",
+    "price": "258.78"
+  },
+  "FUTU": {
+    "symbol": "FUTU",
+    "name": "Futu Holdings Ltd",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "23621339000",
+    "price": "173.81"
+  },
+  "PTC": {
+    "symbol": "PTC",
+    "name": "PTC Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "21015233000",
+    "price": "193.1"
+  },
+  "ESLT": {
+    "symbol": "ESLT",
+    "name": "Elbit Systems Ltd",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "22566111000",
+    "price": "489.27"
   }
 }
