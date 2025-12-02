@@ -6310,5 +6310,197 @@
     "industry": "AEROSPACE & DEFENSE",
     "marketCap": "22566111000",
     "price": "489.27"
+  },
+  "NTAP": {
+    "symbol": "NTAP",
+    "name": "NetApp Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "22269426000",
+    "price": "115.82"
+  },
+  "HBAN": {
+    "symbol": "HBAN",
+    "name": "Huntington Bancshares Incorporated",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "25548468000",
+    "price": "16.12"
+  },
+  "LI": {
+    "symbol": "LI",
+    "name": "Li Auto\u00a0Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO MANUFACTURERS",
+    "marketCap": "18634297000",
+    "price": "21.87"
+  },
+  "NTRA": {
+    "symbol": "NTRA",
+    "name": "Natera Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "32959234000",
+    "price": "191.25"
+  },
+  "TROW": {
+    "symbol": "TROW",
+    "name": "T. Rowe Price Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "22494446000",
+    "price": "102.91"
+  },
+  "TER": {
+    "symbol": "TER",
+    "name": "Teradyne Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS",
+    "marketCap": "28933886000",
+    "price": "154.74"
+  },
+  "FCNCA": {
+    "symbol": "FCNCA",
+    "name": "First Citizens BancShares Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "24044300000",
+    "price": "1796.62"
+  },
+  "FCNCO": {
+    "symbol": "FCNCO",
+    "name": "CIT Group Inc Preferred Series C",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "None",
+    "price": "22.48"
+  },
+  "PODD": {
+    "symbol": "PODD",
+    "name": "Insulet Corporation",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DEVICES",
+    "marketCap": "23031734000",
+    "price": "322.06"
+  },
+  "FLEX": {
+    "symbol": "FLEX",
+    "name": "Flex Ltd",
+    "sector": "TECHNOLOGY",
+    "industry": "ELECTRONIC COMPONENTS",
+    "marketCap": "22104570000",
+    "price": "60.21"
+  },
+  "SATS": {
+    "symbol": "SATS",
+    "name": "EchoStar Corporation",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "21098455000",
+    "price": "73.12"
+  },
+  "TPG": {
+    "symbol": "TPG",
+    "name": "TPG Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "21878929000",
+    "price": "57.99"
+  },
+  "BIIB": {
+    "symbol": "BIIB",
+    "name": "Biogen Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "26713016000",
+    "price": "153.78"
+  },
+  "STLD": {
+    "symbol": "STLD",
+    "name": "Steel Dynamics Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "STEEL",
+    "marketCap": "24705348000",
+    "price": "150.1"
+  },
+  "CG": {
+    "symbol": "CG",
+    "name": "Carlyle Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "19723768000",
+    "price": "57.46"
+  },
+  "CHKP": {
+    "symbol": "CHKP",
+    "name": "Check Point Software Technologies Ltd",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "20239989000",
+    "price": "196.22"
+  },
+  "RPRX": {
+    "symbol": "RPRX",
+    "name": "Royalty Pharma\u00a0Plc",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "23338635000",
+    "price": "37.39"
+  },
+  "SSNC": {
+    "symbol": "SSNC",
+    "name": "SS&C Technologies Holdings Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "20988322000",
+    "price": "84.79"
+  },
+  "LULU": {
+    "symbol": "LULU",
+    "name": "Lululemon Athletica Inc.",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "APPAREL RETAIL",
+    "marketCap": "22074065000",
+    "price": "172.16"
+  },
+  "CASY": {
+    "symbol": "CASY",
+    "name": "Caseys General Stores Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "SPECIALTY RETAIL",
+    "marketCap": "21210425000",
+    "price": "546.91"
+  },
+  "ON": {
+    "symbol": "ON",
+    "name": "ON Semiconductor Corporation",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "20546853000",
+    "price": "49.65"
+  },
+  "TLN": {
+    "symbol": "TLN",
+    "name": "Talen Energy Corporation",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - INDEPENDENT POWER PRODUCERS",
+    "marketCap": "18013340000",
+    "price": "402.47"
+  },
+  "UTHR": {
+    "symbol": "UTHR",
+    "name": "United Therapeutics Corporation",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC",
+    "marketCap": "21979963000",
+    "price": "446.24"
+  },
+  "SBAC": {
+    "symbol": "SBAC",
+    "name": "SBA Communications Corp",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - SPECIALTY",
+    "marketCap": "20701995000",
+    "price": "194.68"
   }
 }
