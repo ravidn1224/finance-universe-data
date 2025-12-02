@@ -7246,5 +7246,69 @@
     "industry": "ASSET MANAGEMENT",
     "marketCap": "9996323000",
     "price": "82.54"
+  },
+  "EXEL": {
+    "symbol": "EXEL",
+    "name": "Exelixis Inc",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "11890675000",
+    "price": "40.16"
+  },
+  "BMRN": {
+    "symbol": "BMRN",
+    "name": "Biomarin Pharmaceutical Inc",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "10744955000",
+    "price": "53.78"
+  },
+  "CART": {
+    "symbol": "CART",
+    "name": "Maplebear Inc.",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "INTERNET RETAIL",
+    "marketCap": "11067042000",
+    "price": "39.3"
+  },
+  "LSCC": {
+    "symbol": "LSCC",
+    "name": "Lattice Semiconductor Corporation",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "9611438000",
+    "price": "69.62"
+  },
+  "LINE": {
+    "symbol": "LINE",
+    "name": "Lineage, Inc. Common Stock",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - INDUSTRIAL",
+    "marketCap": "8947737000",
+    "price": "37.97"
+  },
+  "SFM": {
+    "symbol": "SFM",
+    "name": "Sprouts Farmers Market LLC",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "GROCERY STORES",
+    "marketCap": "8190430000",
+    "price": "97.26"
+  },
+  "ENSG": {
+    "symbol": "ENSG",
+    "name": "The Ensign Group Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL CARE FACILITIES",
+    "marketCap": "10747364000",
+    "price": "179.1"
+  },
+  "AUR": {
+    "symbol": "AUR",
+    "name": "Aurora Innovation Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "marketCap": "8109204000",
+    "price": "4.922"
   }
 }
