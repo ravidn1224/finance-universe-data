@@ -6862,5 +6862,197 @@
     "industry": "SOFTWARE - INFRASTRUCTURE",
     "marketCap": "14475011000",
     "price": "79.2"
+  },
+  "DOCU": {
+    "symbol": "DOCU",
+    "name": "DocuSign Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "14013053000",
+    "price": "71.24"
+  },
+  "ROKU": {
+    "symbol": "ROKU",
+    "name": "Roku Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ENTERTAINMENT",
+    "marketCap": "14300894000",
+    "price": "99.23"
+  },
+  "ENTG": {
+    "symbol": "ENTG",
+    "name": "Entegris Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS",
+    "marketCap": "11694424000",
+    "price": "87.88"
+  },
+  "COO": {
+    "symbol": "COO",
+    "name": "The Cooper Companies, Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL INSTRUMENTS & SUPPLIES",
+    "marketCap": "15548010000",
+    "price": "71.11"
+  },
+  "JBHT": {
+    "symbol": "JBHT",
+    "name": "JB Hunt Transport Services Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "INTEGRATED FREIGHT & LOGISTICS",
+    "marketCap": "16839204000",
+    "price": "155.64"
+  },
+  "DPZ": {
+    "symbol": "DPZ",
+    "name": "Domino's Pizza Inc Common Stock",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESTAURANTS",
+    "marketCap": "14245985000",
+    "price": "414.44"
+  },
+  "NBIX": {
+    "symbol": "NBIX",
+    "name": "Neurocrine Biosciences Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC",
+    "marketCap": "15171219000",
+    "price": "142.75"
+  },
+  "VNOM": {
+    "symbol": "VNOM",
+    "name": "Viper Energy Ut",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "11916291000",
+    "price": "37.42"
+  },
+  "ARCC": {
+    "symbol": "ARCC",
+    "name": "Ares Capital Corporation",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "14758283000",
+    "price": "20.13"
+  },
+  "NDSN": {
+    "symbol": "NDSN",
+    "name": "Nordson Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "13429917000",
+    "price": "231.71"
+  },
+  "ASND": {
+    "symbol": "ASND",
+    "name": "Ascendis Pharma AS",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "12972972000",
+    "price": "204.13"
+  },
+  "GLPI": {
+    "symbol": "GLPI",
+    "name": "Gaming & Leisure Properties",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - SPECIALTY",
+    "marketCap": "12319353000",
+    "price": "44.92"
+  },
+  "REG": {
+    "symbol": "REG",
+    "name": "Regency Centers Corporation",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - RETAIL",
+    "marketCap": "13093273000",
+    "price": "70.93"
+  },
+  "LECO": {
+    "symbol": "LECO",
+    "name": "Lincoln Electric Holdings Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "TOOLS & ACCESSORIES",
+    "marketCap": "13213244000",
+    "price": "233.91"
+  },
+  "SAIL": {
+    "symbol": "SAIL",
+    "name": "SailPoint, Inc. Common Stock",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "11493562000",
+    "price": "20.29"
+  },
+  "WYNN": {
+    "symbol": "WYNN",
+    "name": "Wynn Resorts Limited",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESORTS & CASINOS",
+    "marketCap": "13379699000",
+    "price": "123.46"
+  },
+  "RGLD": {
+    "symbol": "RGLD",
+    "name": "Royal Gold Inc",
+    "sector": "BASIC MATERIALS",
+    "industry": "GOLD",
+    "marketCap": "17203702000",
+    "price": "189.65"
+  },
+  "NXT": {
+    "symbol": "NXT",
+    "name": "Nextracker Inc. Class A Common Stock",
+    "sector": "TECHNOLOGY",
+    "industry": "SOLAR",
+    "marketCap": "13906233000",
+    "price": "88.61"
+  },
+  "MBLY": {
+    "symbol": "MBLY",
+    "name": "Mobileye Global Inc. Class A Common Stock",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO PARTS",
+    "marketCap": "9618808000",
+    "price": "13.46"
+  },
+  "MANH": {
+    "symbol": "MANH",
+    "name": "Manhattan Associates Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "10669683000",
+    "price": "190.59"
+  },
+  "BILI": {
+    "symbol": "BILI",
+    "name": "Bilibili Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "11007839000",
+    "price": "27.71"
+  },
+  "LAMR": {
+    "symbol": "LAMR",
+    "name": "Lamar Advertising Company",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - SPECIALTY",
+    "marketCap": "13408934000",
+    "price": "123.05"
+  },
+  "DRS": {
+    "symbol": "DRS",
+    "name": "Leonardo DRS, Inc. Common Stock",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "9093444000",
+    "price": "39.22"
+  },
+  "VTRS": {
+    "symbol": "VTRS",
+    "name": "Viatris Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC",
+    "marketCap": "12341254000",
+    "price": "10.25"
   }
 }
