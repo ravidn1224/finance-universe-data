@@ -5734,5 +5734,197 @@
     "industry": "ELECTRONIC GAMING & MULTIMEDIA",
     "marketCap": "50528940000",
     "price": "197.72"
+  },
+  "ARGX": {
+    "symbol": "ARGX",
+    "name": "argenx NV ADR",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "56794690000",
+    "price": "828.57"
+  },
+  "ROST": {
+    "symbol": "ROST",
+    "name": "Ross Stores Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "APPAREL RETAIL",
+    "marketCap": "57682158000",
+    "price": "158.0"
+  },
+  "JD": {
+    "symbol": "JD",
+    "name": "JD.com Inc Adr",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "INTERNET RETAIL",
+    "marketCap": "44011364000",
+    "price": "32.67"
+  },
+  "XEL": {
+    "symbol": "XEL",
+    "name": "Xcel Energy Inc",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "48571331000",
+    "price": "80.1"
+  },
+  "TTWO": {
+    "symbol": "TTWO",
+    "name": "Take-Two Interactive Software Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ELECTRONIC GAMING & MULTIMEDIA",
+    "marketCap": "45468529000",
+    "price": "250.24"
+  },
+  "BKR": {
+    "symbol": "BKR",
+    "name": "Baker Hughes Co",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS EQUIPMENT & SERVICES",
+    "marketCap": "49536049000",
+    "price": "47.93"
+  },
+  "STX": {
+    "symbol": "STX",
+    "name": "Seagate Technology PLC",
+    "sector": "TECHNOLOGY",
+    "industry": "COMPUTER HARDWARE",
+    "marketCap": "60283019000",
+    "price": "243.99"
+  },
+  "EXC": {
+    "symbol": "EXC",
+    "name": "Exelon Corporation",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "47590601000",
+    "price": "46.16"
+  },
+  "MPWR": {
+    "symbol": "MPWR",
+    "name": "Monolithic Power Systems Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "44465840000",
+    "price": "960.02"
+  },
+  "TCOM": {
+    "symbol": "TCOM",
+    "name": "Trip.com Group Ltd ADR",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "TRAVEL SERVICES",
+    "marketCap": "45699953000",
+    "price": "72.33"
+  },
+  "BIDU": {
+    "symbol": "BIDU",
+    "name": "Baidu Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "40748507000",
+    "price": "125.71"
+  },
+  "PAYX": {
+    "symbol": "PAYX",
+    "name": "Paychex Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "40196579000",
+    "price": "120.42"
+  },
+  "WBD": {
+    "symbol": "WBD",
+    "name": "Warner Bros Discovery Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ENTERTAINMENT",
+    "marketCap": "59471389000",
+    "price": "20.78"
+  },
+  "CPRT": {
+    "symbol": "CPRT",
+    "name": "Copart Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY BUSINESS SERVICES",
+    "marketCap": "37733327000",
+    "price": "43.14"
+  },
+  "FANG": {
+    "symbol": "FANG",
+    "name": "Diamondback Energy Inc",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "44172685000",
+    "price": "144.34"
+  },
+  "EBAY": {
+    "symbol": "EBAY",
+    "name": "eBay Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "INTERNET RETAIL",
+    "marketCap": "37835031000",
+    "price": "88.51"
+  },
+  "WDC": {
+    "symbol": "WDC",
+    "name": "Western Digital Corporation",
+    "sector": "TECHNOLOGY",
+    "industry": "COMPUTER HARDWARE",
+    "marketCap": "55988793000",
+    "price": "135.74"
+  },
+  "CHTR": {
+    "symbol": "CHTR",
+    "name": "Charter Communications Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "27334588000",
+    "price": "240.27"
+  },
+  "CCEP": {
+    "symbol": "CCEP",
+    "name": "Coca-Cola European Partners PLC",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - NON-ALCOHOLIC",
+    "marketCap": "41219432000",
+    "price": "89.8"
+  },
+  "KMB": {
+    "symbol": "KMB",
+    "name": "Kimberly-Clark Corporation",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "HOUSEHOLD & PERSONAL PRODUCTS",
+    "marketCap": "36212392000",
+    "price": "114.55"
+  },
+  "SYM": {
+    "symbol": "SYM",
+    "name": "Symbotic Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "49658216000",
+    "price": "65.99"
+  },
+  "TEAM": {
+    "symbol": "TEAM",
+    "name": "Atlassian Corp Plc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "39358353000",
+    "price": "156.64"
+  },
+  "ALAB": {
+    "symbol": "ALAB",
+    "name": "Astera Labs, Inc. Common Stock",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "26614145000",
+    "price": "177.77"
+  },
+  "ONC": {
+    "symbol": "ONC",
+    "name": "BeiGene, Ltd.",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "37691199000",
+    "price": "332.59"
   }
 }
