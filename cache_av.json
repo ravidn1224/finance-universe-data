@@ -5534,5 +5534,205 @@
     "industry": "CONFECTIONERS",
     "marketCap": "74492436000",
     "price": "59.78"
+  },
+  "MRVL": {
+    "symbol": "MRVL",
+    "name": "Marvell Technology Group Ltd",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "77080682000",
+    "price": "85.8"
+  },
+  "CTAS": {
+    "symbol": "CTAS",
+    "name": "Cintas Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY BUSINESS SERVICES",
+    "marketCap": "74956857000",
+    "price": "190.91"
+  },
+  "CRWV": {
+    "symbol": "CRWV",
+    "name": "CoreWeave, Inc. Class A Common Stock",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "60139672000",
+    "price": "129.09"
+  },
+  "ABNB": {
+    "symbol": "ABNB",
+    "name": "Airbnb\u00a0Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "TRAVEL SERVICES",
+    "marketCap": "71625449000",
+    "price": "122.04"
+  },
+  "PYPL": {
+    "symbol": "PYPL",
+    "name": "PayPal Holdings Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CREDIT SERVICES",
+    "marketCap": "59892675000",
+    "price": "67.25"
+  },
+  "MAR": {
+    "symbol": "MAR",
+    "name": "Marriott International Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "LODGING",
+    "marketCap": "82737635000",
+    "price": "273.93"
+  },
+  "TRI": {
+    "symbol": "TRI",
+    "name": "Thomson Reuters Corporation Common Shares",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY BUSINESS SERVICES",
+    "marketCap": "61218509000",
+    "price": "149.74"
+  },
+  "MNST": {
+    "symbol": "MNST",
+    "name": "Monster Beverage Corp",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - NON-ALCOHOLIC",
+    "marketCap": "73266815000",
+    "price": "68.99"
+  },
+  "CSX": {
+    "symbol": "CSX",
+    "name": "CSX Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "RAILROADS",
+    "marketCap": "65920836000",
+    "price": "35.23"
+  },
+  "FTNT": {
+    "symbol": "FTNT",
+    "name": "Fortinet Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "62167163000",
+    "price": "83.61"
+  },
+  "ADSK": {
+    "symbol": "ADSK",
+    "name": "Autodesk Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "64611418000",
+    "price": "306.63"
+  },
+  "WDAY": {
+    "symbol": "WDAY",
+    "name": "Workday Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "57570537000",
+    "price": "233.6"
+  },
+  "AEP": {
+    "symbol": "AEP",
+    "name": "American Electric Power Co Inc",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "66249822000",
+    "price": "117.57"
+  },
+  "ALNY": {
+    "symbol": "ALNY",
+    "name": "Alnylam Pharmaceuticals Inc",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "59613721000",
+    "price": "456.0"
+  },
+  "REGN": {
+    "symbol": "REGN",
+    "name": "Regeneron Pharmaceuticals Inc",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "82690343000",
+    "price": "630.92"
+  },
+  "AXON": {
+    "symbol": "AXON",
+    "name": "Axon Enterprise Inc.",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "42622697000",
+    "price": "663.27"
+  },
+  "DDOG": {
+    "symbol": "DDOG",
+    "name": "Datadog Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "56110825000",
+    "price": "160.63"
+  },
+  "NXPI": {
+    "symbol": "NXPI",
+    "name": "NXP Semiconductors NV",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "49147220000",
+    "price": "211.86"
+  },
+  "ROP": {
+    "symbol": "ROP",
+    "name": "Roper Technologies, Inc.",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "48029975000",
+    "price": "476.59"
+  },
+  "FAST": {
+    "symbol": "FAST",
+    "name": "Fastenal Company",
+    "sector": "INDUSTRIALS",
+    "industry": "INDUSTRIAL DISTRIBUTION",
+    "marketCap": "46380646000",
+    "price": "43.35"
+  },
+  "NDAQ": {
+    "symbol": "NDAQ",
+    "name": "Nasdaq Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "FINANCIAL DATA & STOCK EXCHANGES",
+    "marketCap": "52169466000",
+    "price": "87.96"
+  },
+  "IDXX": {
+    "symbol": "IDXX",
+    "name": "IDEXX Laboratories Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "60233937000",
+    "price": "664.95"
+  },
+  "PCAR": {
+    "symbol": "PCAR",
+    "name": "PACCAR Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "FARM & HEAVY CONSTRUCTION MACHINERY",
+    "marketCap": "55367041000",
+    "price": "98.22"
+  },
+  "ZS": {
+    "symbol": "ZS",
+    "name": "Zscaler Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "40107008000",
+    "price": "304.48"
+  },
+  "EA": {
+    "symbol": "EA",
+    "name": "Electronic Arts Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ELECTRONIC GAMING & MULTIMEDIA",
+    "marketCap": "50528940000",
+    "price": "197.72"
   }
 }
