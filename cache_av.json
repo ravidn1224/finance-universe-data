@@ -6694,5 +6694,173 @@
     "industry": "BEVERAGES - NON-ALCOHOLIC",
     "marketCap": "10553730000",
     "price": "53.88"
+  },
+  "INCY": {
+    "symbol": "INCY",
+    "name": "Incyte Corporation",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "20507869000",
+    "price": "93.73"
+  },
+  "ZG": {
+    "symbol": "ZG",
+    "name": "Zillow Group Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "18152589000",
+    "price": "71.57"
+  },
+  "OKTA": {
+    "symbol": "OKTA",
+    "name": "Okta Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "14161046000",
+    "price": "87.76"
+  },
+  "GLXY": {
+    "symbol": "GLXY",
+    "name": "Galaxy Digital Holdings Ltd",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "10739197000",
+    "price": "33.85"
+  },
+  "BSY": {
+    "symbol": "BSY",
+    "name": "Bentley Systems\u00a0Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "12740354000",
+    "price": "48.88"
+  },
+  "RIVN": {
+    "symbol": "RIVN",
+    "name": "Rivian Automotive Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO MANUFACTURERS",
+    "marketCap": "20668895000",
+    "price": "14.41"
+  },
+  "FRMI": {
+    "symbol": "FRMI",
+    "name": "Fermi Inc. Common Stock",
+    "sector": "NONE",
+    "industry": "NONE",
+    "marketCap": "15127094000",
+    "price": "26.71"
+  },
+  "NWS": {
+    "symbol": "NWS",
+    "name": "News Corp B",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ENTERTAINMENT",
+    "marketCap": "16430740000",
+    "price": "30.59"
+  },
+  "DUOL": {
+    "symbol": "DUOL",
+    "name": "Duolingo Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "8848379000",
+    "price": "268.68"
+  },
+  "RGTI": {
+    "symbol": "RGTI",
+    "name": "Rigetti Computing Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "COMPUTER HARDWARE",
+    "marketCap": "8438767000",
+    "price": "35.6"
+  },
+  "HOLX": {
+    "symbol": "HOLX",
+    "name": "Hologic Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL INSTRUMENTS & SUPPLIES",
+    "marketCap": "16711206000",
+    "price": "71.31"
+  },
+  "LOGI": {
+    "symbol": "LOGI",
+    "name": "Logitech International SA",
+    "sector": "TECHNOLOGY",
+    "industry": "COMPUTER HARDWARE",
+    "marketCap": "16555265000",
+    "price": "112.68"
+  },
+  "CHRW": {
+    "symbol": "CHRW",
+    "name": "CH Robinson Worldwide Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "INTEGRATED FREIGHT & LOGISTICS",
+    "marketCap": "18768452000",
+    "price": "139.84"
+  },
+  "ZBRA": {
+    "symbol": "ZBRA",
+    "name": "Zebra Technologies Corporation",
+    "sector": "TECHNOLOGY",
+    "industry": "COMMUNICATION EQUIPMENT",
+    "marketCap": "12804376000",
+    "price": "278.48"
+  },
+  "WWD": {
+    "symbol": "WWD",
+    "name": "Woodward Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "17991666000",
+    "price": "258.83"
+  },
+  "NWSA": {
+    "symbol": "NWSA",
+    "name": "News Corp A",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ENTERTAINMENT",
+    "marketCap": "15027854000",
+    "price": "27.02"
+  },
+  "ILMN": {
+    "symbol": "ILMN",
+    "name": "Illumina Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "20203864000",
+    "price": "107.43"
+  },
+  "ICLR": {
+    "symbol": "ICLR",
+    "name": "ICON PLC",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "14387844000",
+    "price": "174.43"
+  },
+  "MEDP": {
+    "symbol": "MEDP",
+    "name": "Medpace Holdings Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "16688547000",
+    "price": "558.3"
+  },
+  "EWBC": {
+    "symbol": "EWBC",
+    "name": "East West Bancorp Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "14705581000",
+    "price": "103.35"
+  },
+  "KSPI": {
+    "symbol": "KSPI",
+    "name": "Joint Stock Company Kaspi.kz",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "14475011000",
+    "price": "79.2"
   }
 }
