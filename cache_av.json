@@ -5142,5 +5142,197 @@
     "industry": "ENTERTAINMENT",
     "marketCap": "455851246000",
     "price": "114.81"
+  },
+  "PLTR": {
+    "symbol": "PLTR",
+    "name": "Palantir Technologies Inc.",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "401489822000",
+    "price": "179.81"
+  },
+  "COST": {
+    "symbol": "COST",
+    "name": "Costco Wholesale Corp",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "DISCOUNT STORES",
+    "marketCap": "405156233000",
+    "price": "923.44"
+  },
+  "ASML": {
+    "symbol": "ASML",
+    "name": "ASML Holding NV ADR",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS",
+    "marketCap": "411436548000",
+    "price": "1011.12"
+  },
+  "AMD": {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "354147893000",
+    "price": "218.8"
+  },
+  "CSCO": {
+    "symbol": "CSCO",
+    "name": "Cisco Systems Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "COMMUNICATION EQUIPMENT",
+    "marketCap": "303997223000",
+    "price": "71.54"
+  },
+  "AZN": {
+    "symbol": "AZN",
+    "name": "AstraZeneca PLC ADR",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "287482184000",
+    "price": "84.21"
+  },
+  "TMUS": {
+    "symbol": "TMUS",
+    "name": "T-Mobile US Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "235223826000",
+    "price": "220.91"
+  },
+  "MU": {
+    "symbol": "MU",
+    "name": "Micron Technology Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "266122707000",
+    "price": "206.76"
+  },
+  "LIN": {
+    "symbol": "LIN",
+    "name": "Linde plc Ordinary Shares",
+    "sector": "BASIC MATERIALS",
+    "industry": "SPECIALTY CHEMICALS",
+    "marketCap": "192402964000",
+    "price": "442.47"
+  },
+  "SHOP": {
+    "symbol": "SHOP",
+    "name": "Shopify Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "206524367000",
+    "price": "157.36"
+  },
+  "APP": {
+    "symbol": "APP",
+    "name": "Applovin Corp",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ADVERTISING AGENCIES",
+    "marketCap": "202774053000",
+    "price": "608.76"
+  },
+  "PEP": {
+    "symbol": "PEP",
+    "name": "PepsiCo Inc",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - NON-ALCOHOLIC",
+    "marketCap": "203636556000",
+    "price": "145.88"
+  },
+  "PDD": {
+    "symbol": "PDD",
+    "name": "PDD Holdings Inc.",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "INTERNET RETAIL",
+    "marketCap": "164792566000",
+    "price": "129.82"
+  },
+  "ARM": {
+    "symbol": "ARM",
+    "name": "Arm Holdings plc American Depositary Shares",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "143828959000",
+    "price": "153.83"
+  },
+  "INTC": {
+    "symbol": "INTC",
+    "name": "Intel Corporation",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "193471201000",
+    "price": "36.5"
+  },
+  "INTU": {
+    "symbol": "INTU",
+    "name": "Intuit Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "176527884000",
+    "price": "664.78"
+  },
+  "QCOM": {
+    "symbol": "QCOM",
+    "name": "Qualcomm Incorporated",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "181369111000",
+    "price": "169.4"
+  },
+  "LRCX": {
+    "symbol": "LRCX",
+    "name": "Lam Research Corp",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS",
+    "marketCap": "196721050000",
+    "price": "146.68"
+  },
+  "AMAT": {
+    "symbol": "AMAT",
+    "name": "Applied Materials Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS",
+    "marketCap": "200953053000",
+    "price": "223.67"
+  },
+  "BKNG": {
+    "symbol": "BKNG",
+    "name": "Booking Holdings Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "TRAVEL SERVICES",
+    "marketCap": "159284543000",
+    "price": "5134.38"
+  },
+  "TXN": {
+    "symbol": "TXN",
+    "name": "Texas Instruments Incorporated",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "152980505000",
+    "price": "170.21"
+  },
+  "ISRG": {
+    "symbol": "ISRG",
+    "name": "Intuitive Surgical Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL INSTRUMENTS & SUPPLIES",
+    "marketCap": "205579108000",
+    "price": "503.23"
+  },
+  "AMGN": {
+    "symbol": "AMGN",
+    "name": "Amgen Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "186023510000",
+    "price": "306.34"
+  },
+  "PANW": {
+    "symbol": "PANW",
+    "name": "Palo Alto Networks Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "130045641000",
+    "price": "207.46"
   }
 }
