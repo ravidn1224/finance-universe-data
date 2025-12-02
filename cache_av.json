@@ -4758,5 +4758,197 @@
     "industry": "INSURANCE - PROPERTY & CASUALTY",
     "marketCap": "11512774000",
     "price": "217.92"
+  },
+  "SUZ": {
+    "symbol": "SUZ",
+    "name": "Suzano Papel e Celulose SA ADR",
+    "sector": "BASIC MATERIALS",
+    "industry": "PAPER & PAPER PRODUCTS",
+    "marketCap": "11121312000",
+    "price": "9.08"
+  },
+  "AYI": {
+    "symbol": "AYI",
+    "name": "Acuity Brands Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "ELECTRICAL EQUIPMENT & PARTS",
+    "marketCap": "11228880000",
+    "price": "355.55"
+  },
+  "PNW": {
+    "symbol": "PNW",
+    "name": "Pinnacle West Capital Corp",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "10875069000",
+    "price": "89.82"
+  },
+  "JEF": {
+    "symbol": "JEF",
+    "name": "Jefferies Financial Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "11873494000",
+    "price": "57.24"
+  },
+  "UHAL": {
+    "symbol": "UHAL",
+    "name": "U-Haul Holding Company",
+    "sector": "INDUSTRIALS",
+    "industry": "RENTAL & LEASING SERVICES",
+    "marketCap": "10002336000",
+    "price": "54.24"
+  },
+  "MOH": {
+    "symbol": "MOH",
+    "name": "Molina Healthcare Inc",
+    "sector": "HEALTHCARE",
+    "industry": "HEALTHCARE PLANS",
+    "marketCap": "8035692000",
+    "price": "169.64"
+  },
+  "OC": {
+    "symbol": "OC",
+    "name": "Owens Corning Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "BUILDING PRODUCTS & EQUIPMENT",
+    "marketCap": "9469985000",
+    "price": "123.02"
+  },
+  "MLI": {
+    "symbol": "MLI",
+    "name": "Mueller Industries Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "METAL FABRICATION",
+    "marketCap": "12197068000",
+    "price": "103.53"
+  },
+  "DAY": {
+    "symbol": "DAY",
+    "name": "Dayforce Inc.",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "11058416000",
+    "price": "68.69"
+  },
+  "WCC": {
+    "symbol": "WCC",
+    "name": "WESCO International Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "INDUSTRIAL DISTRIBUTION",
+    "marketCap": "13012897000",
+    "price": "233.12"
+  },
+  "SWK": {
+    "symbol": "SWK",
+    "name": "Stanley Black & Decker Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "TOOLS & ACCESSORIES",
+    "marketCap": "11077372000",
+    "price": "69.68"
+  },
+  "GME": {
+    "symbol": "GME",
+    "name": "GameStop Corp.",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "SPECIALTY RETAIL",
+    "marketCap": "10091384000",
+    "price": "23.25"
+  },
+  "WMS": {
+    "symbol": "WMS",
+    "name": "Advanced Drainage Systems Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "BUILDING PRODUCTS & EQUIPMENT",
+    "marketCap": "11849753000",
+    "price": "142.26"
+  },
+  "FDS": {
+    "symbol": "FDS",
+    "name": "FactSet Research Systems Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "FINANCIAL DATA & STOCK EXCHANGES",
+    "marketCap": "10375425000",
+    "price": "278.88"
+  },
+  "IVZ": {
+    "symbol": "IVZ",
+    "name": "Invesco Plc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "10903815000",
+    "price": "23.33"
+  },
+  "RVTY": {
+    "symbol": "RVTY",
+    "name": "Revvity Inc.",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "12119138000",
+    "price": "92.87"
+  },
+  "MOS": {
+    "symbol": "MOS",
+    "name": "The Mosaic Company",
+    "sector": "BASIC MATERIALS",
+    "industry": "AGRICULTURAL INPUTS",
+    "marketCap": "7773319000",
+    "price": "29.34"
+  },
+  "NCLH": {
+    "symbol": "NCLH",
+    "name": "Norwegian Cruise Line Holdings Ltd",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "TRAVEL SERVICES",
+    "marketCap": "8404053000",
+    "price": "21.8"
+  },
+  "PR": {
+    "symbol": "PR",
+    "name": "Permian Resources Corporation",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "12209587000",
+    "price": "13.02"
+  },
+  "CCK": {
+    "symbol": "CCK",
+    "name": "Crown Holdings Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "PACKAGING & CONTAINERS",
+    "marketCap": "11268649000",
+    "price": "95.94"
+  },
+  "ORI": {
+    "symbol": "ORI",
+    "name": "Old Republic International Corp",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "11454455000",
+    "price": "42.31"
+  },
+  "ARMK": {
+    "symbol": "ARMK",
+    "name": "Aramark Holdings",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY BUSINESS SERVICES",
+    "marketCap": "9773260000",
+    "price": "38.36"
+  },
+  "AR": {
+    "symbol": "AR",
+    "name": "Antero Resources Corp",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "11254357000",
+    "price": "33.21"
+  },
+  "YPF": {
+    "symbol": "YPF",
+    "name": "YPF Sociedad Anonima",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS INTEGRATED",
+    "marketCap": "15655150000",
+    "price": "30.88"
   }
 }
