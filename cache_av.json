@@ -6502,5 +6502,197 @@
     "industry": "REIT - SPECIALTY",
     "marketCap": "20701995000",
     "price": "194.68"
+  },
+  "CDW": {
+    "symbol": "CDW",
+    "name": "CDW Corp",
+    "sector": "TECHNOLOGY",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "marketCap": "18901580000",
+    "price": "151.67"
+  },
+  "AVAV": {
+    "symbol": "AVAV",
+    "name": "AeroVironment Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "13954061000",
+    "price": "338.3"
+  },
+  "PSKY": {
+    "symbol": "PSKY",
+    "name": "Paramount Skydance Corporation Class B Common Stock",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ENTERTAINMENT",
+    "marketCap": "8552548000",
+    "price": "12.59"
+  },
+  "GMAB": {
+    "symbol": "GMAB",
+    "name": "Genmab AS",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "20061075000",
+    "price": "30.49"
+  },
+  "FFIV": {
+    "symbol": "FFIV",
+    "name": "F5 Networks Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "13892712000",
+    "price": "284.12"
+  },
+  "GFS": {
+    "symbol": "GFS",
+    "name": "Globalfoundries Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "19915633000",
+    "price": "34.59"
+  },
+  "SNDK": {
+    "symbol": "SNDK",
+    "name": "Sandisk Corp",
+    "sector": "TECHNOLOGY",
+    "industry": "COMPUTER HARDWARE",
+    "marketCap": "5991254000",
+    "price": "47.22"
+  },
+  "TRMB": {
+    "symbol": "TRMB",
+    "name": "Trimble Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SCIENTIFIC & TECHNICAL INSTRUMENTS",
+    "marketCap": "19375442000",
+    "price": "79.39"
+  },
+  "NTNX": {
+    "symbol": "NTNX",
+    "name": "Nutanix Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "12943551000",
+    "price": "68.61"
+  },
+  "PFG": {
+    "symbol": "PFG",
+    "name": "Principal Financial Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "18895219000",
+    "price": "82.25"
+  },
+  "DLTR": {
+    "symbol": "DLTR",
+    "name": "Dollar Tree Inc",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "DISCOUNT STORES",
+    "marketCap": "23125584000",
+    "price": "98.34"
+  },
+  "EVRG": {
+    "symbol": "EVRG",
+    "name": "Evergy, Inc.",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "17876128000",
+    "price": "76.6"
+  },
+  "DKNG": {
+    "symbol": "DKNG",
+    "name": "DraftKings Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "GAMBLING",
+    "marketCap": "16506137000",
+    "price": "33.63"
+  },
+  "FTAI": {
+    "symbol": "FTAI",
+    "name": "Fortress Transp & Infra Inv",
+    "sector": "INDUSTRIALS",
+    "industry": "RENTAL & LEASING SERVICES",
+    "marketCap": "17769734000",
+    "price": "168.75"
+  },
+  "IREN": {
+    "symbol": "IREN",
+    "name": "IREN Ltd",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "13552486000",
+    "price": "54.85"
+  },
+  "LNT": {
+    "symbol": "LNT",
+    "name": "Alliant Energy Corp",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "17857520000",
+    "price": "67.45"
+  },
+  "TEM": {
+    "symbol": "TEM",
+    "name": "Tempus AI, Inc. Class A Common Stock",
+    "sector": "HEALTHCARE",
+    "industry": "HEALTH INFORMATION SERVICES",
+    "marketCap": "13864313000",
+    "price": "82.88"
+  },
+  "Z": {
+    "symbol": "Z",
+    "name": "Zillow Group Inc Class C",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "18003724000",
+    "price": "74.07"
+  },
+  "SMMT": {
+    "symbol": "SMMT",
+    "name": "Summit Therapeutics PLC",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "13318077000",
+    "price": "19.47"
+  },
+  "ERIE": {
+    "symbol": "ERIE",
+    "name": "Erie Indemnity Company",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE BROKERS",
+    "marketCap": "15451133000",
+    "price": "306.35"
+  },
+  "WMG": {
+    "symbol": "WMG",
+    "name": "Warner Music Group",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ENTERTAINMENT",
+    "marketCap": "14720577000",
+    "price": "31.78"
+  },
+  "GEN": {
+    "symbol": "GEN",
+    "name": "Gen Digital Inc.",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "16262804000",
+    "price": "27.02"
+  },
+  "KTOS": {
+    "symbol": "KTOS",
+    "name": "Kratos Defense & Security Solutions",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "12848777000",
+    "price": "84.89"
+  },
+  "CELH": {
+    "symbol": "CELH",
+    "name": "Celsius Holdings Inc",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - NON-ALCOHOLIC",
+    "marketCap": "10553730000",
+    "price": "53.88"
   }
 }
