@@ -5926,5 +5926,197 @@
     "industry": "BIOTECHNOLOGY",
     "marketCap": "37691199000",
     "price": "332.59"
+  },
+  "MCHP": {
+    "symbol": "MCHP",
+    "name": "Microchip Technology Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "28957143000",
+    "price": "60.85"
+  },
+  "KDP": {
+    "symbol": "KDP",
+    "name": "Keurig Dr Pepper Inc",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - NON-ALCOHOLIC",
+    "marketCap": "37904470000",
+    "price": "26.78"
+  },
+  "INSM": {
+    "symbol": "INSM",
+    "name": "Insmed Inc",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "44311831000",
+    "price": "172.74"
+  },
+  "SMCI": {
+    "symbol": "SMCI",
+    "name": "Super Micro Computer Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "COMPUTER HARDWARE",
+    "marketCap": "20207473000",
+    "price": "46.03"
+  },
+  "ACGL": {
+    "symbol": "ACGL",
+    "name": "Arch Capital Group Ltd",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - DIVERSIFIED",
+    "marketCap": "35052847000",
+    "price": "89.85"
+  },
+  "SOFI": {
+    "symbol": "SOFI",
+    "name": "SoFi Technologies Inc.",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CREDIT SERVICES",
+    "marketCap": "35839439000",
+    "price": "28.19"
+  },
+  "GEHC": {
+    "symbol": "GEHC",
+    "name": "GE HealthCare Technologies Inc.",
+    "sector": "HEALTHCARE",
+    "industry": "HEALTH INFORMATION SERVICES",
+    "marketCap": "36520399000",
+    "price": "74.96"
+  },
+  "VRSK": {
+    "symbol": "VRSK",
+    "name": "Verisk Analytics Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "CONSULTING SERVICES",
+    "marketCap": "31445651000",
+    "price": "231.3"
+  },
+  "CTSH": {
+    "symbol": "CTSH",
+    "name": "Cognizant Technology Solutions Corp Class A",
+    "sector": "TECHNOLOGY",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "marketCap": "37953249000",
+    "price": "70.1"
+  },
+  "NBIS": {
+    "symbol": "NBIS",
+    "name": "Nebius Group N.V.",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "23888951000",
+    "price": "110.14"
+  },
+  "WTW": {
+    "symbol": "WTW",
+    "name": "Willis Towers Watson PLC",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE BROKERS",
+    "marketCap": "31312906000",
+    "price": "329.85"
+  },
+  "CSGP": {
+    "symbol": "CSGP",
+    "name": "CoStar Group Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REAL ESTATE SERVICES",
+    "marketCap": "29159008000",
+    "price": "74.81"
+  },
+  "UAL": {
+    "symbol": "UAL",
+    "name": "United Airlines Holdings Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "AIRLINES",
+    "marketCap": "33008325000",
+    "price": "97.37"
+  },
+  "IBKR": {
+    "symbol": "IBKR",
+    "name": "Interactive Brokers Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "110529929000",
+    "price": "67.75"
+  },
+  "RKLB": {
+    "symbol": "RKLB",
+    "name": "Rocket Lab USA Inc.",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "22509347000",
+    "price": "54.69"
+  },
+  "ASTS": {
+    "symbol": "ASTS",
+    "name": "Ast Spacemobile Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "COMMUNICATION EQUIPMENT",
+    "marketCap": "15624216000",
+    "price": "67.63"
+  },
+  "RYAAY": {
+    "symbol": "RYAAY",
+    "name": "Ryanair Holdings PLC ADR",
+    "sector": "INDUSTRIALS",
+    "industry": "AIRLINES",
+    "marketCap": "35833991000",
+    "price": "61.58"
+  },
+  "ODFL": {
+    "symbol": "ODFL",
+    "name": "Old Dominion Freight Line Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "TRUCKING",
+    "marketCap": "28433648000",
+    "price": "137.62"
+  },
+  "KHC": {
+    "symbol": "KHC",
+    "name": "Kraft Heinz Co",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "PACKAGED FOODS",
+    "marketCap": "30195053000",
+    "price": "25.27"
+  },
+  "FITB": {
+    "symbol": "FITB",
+    "name": "Fifth Third Bancorp",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "28729006000",
+    "price": "42.95"
+  },
+  "TSCO": {
+    "symbol": "TSCO",
+    "name": "Tractor Supply Company",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "SPECIALTY RETAIL",
+    "marketCap": "28945949000",
+    "price": "55.11"
+  },
+  "ERIC": {
+    "symbol": "ERIC",
+    "name": "Telefonaktiebolaget LM Ericsson B ADR",
+    "sector": "TECHNOLOGY",
+    "industry": "COMMUNICATION EQUIPMENT",
+    "marketCap": "31999554000",
+    "price": "9.19"
+  },
+  "VOD": {
+    "symbol": "VOD",
+    "name": "Vodafone Group PLC ADR",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "29642310000",
+    "price": "11.7"
+  },
+  "MDB": {
+    "symbol": "MDB",
+    "name": "MongoDB",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "27159386000",
+    "price": "333.34"
   }
 }
