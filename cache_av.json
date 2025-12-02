@@ -5334,5 +5334,205 @@
     "industry": "SOFTWARE - INFRASTRUCTURE",
     "marketCap": "130045641000",
     "price": "207.46"
+  },
+  "EMBJ": {
+    "symbol": "EMBJ",
+    "name": "Embraer S.A.",
+    "sector": "INDUSTRIALS",
+    "industry": "AEROSPACE & DEFENSE",
+    "marketCap": "None",
+    "price": "0"
+  },
+  "ADBE": {
+    "symbol": "ADBE",
+    "name": "Adobe Systems Incorporated",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "135799144000",
+    "price": "340.37"
+  },
+  "GILD": {
+    "symbol": "GILD",
+    "name": "Gilead Sciences Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "156143141000",
+    "price": "119.61"
+  },
+  "KLAC": {
+    "symbol": "KLAC",
+    "name": "KLA-Tencor Corporation",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS",
+    "marketCap": "154791215000",
+    "price": "1131.57"
+  },
+  "HOOD": {
+    "symbol": "HOOD",
+    "name": "Robinhood Markets Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "115536781000",
+    "price": "132.63"
+  },
+  "HON": {
+    "symbol": "HON",
+    "name": "Honeywell International Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "CONGLOMERATES",
+    "marketCap": "129511023000",
+    "price": "196.12"
+  },
+  "CRWD": {
+    "symbol": "CRWD",
+    "name": "Crowdstrike Holdings Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "127776317000",
+    "price": "511.79"
+  },
+  "CEG": {
+    "symbol": "CEG",
+    "name": "Constellation Energy Corp",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - INDEPENDENT POWER PRODUCERS",
+    "marketCap": "113828086000",
+    "price": "360.39"
+  },
+  "SNY": {
+    "symbol": "SNY",
+    "name": "Sanofi ADR",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "121753248000",
+    "price": "49.51"
+  },
+  "DASH": {
+    "symbol": "DASH",
+    "name": "DoorDash, Inc. Class A Common Stock",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "INTERNET RETAIL",
+    "marketCap": "85497176000",
+    "price": "243.12"
+  },
+  "ADI": {
+    "symbol": "ADI",
+    "name": "Analog Devices Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "129924817000",
+    "price": "239.39"
+  },
+  "ADP": {
+    "symbol": "ADP",
+    "name": "Automatic Data Processing Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "103419355000",
+    "price": "272.94"
+  },
+  "MELI": {
+    "symbol": "MELI",
+    "name": "MercadoLibre Inc.",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "INTERNET RETAIL",
+    "marketCap": "105033810000",
+    "price": "2193.0"
+  },
+  "CMCSA": {
+    "symbol": "CMCSA",
+    "name": "Comcast Corp",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "98544992000",
+    "price": "29.03"
+  },
+  "VRTX": {
+    "symbol": "VRTX",
+    "name": "Vertex Pharmaceuticals Inc",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "111173550000",
+    "price": "414.61"
+  },
+  "COIN": {
+    "symbol": "COIN",
+    "name": "Coinbase Global Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "FINANCIAL DATA & STOCK EXCHANGES",
+    "marketCap": "73564226000",
+    "price": "321.62"
+  },
+  "NTES": {
+    "symbol": "NTES",
+    "name": "NetEase Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ELECTRONIC GAMING & MULTIMEDIA",
+    "marketCap": "88795415000",
+    "price": "145.06"
+  },
+  "CME": {
+    "symbol": "CME",
+    "name": "CME Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "FINANCIAL DATA & STOCK EXCHANGES",
+    "marketCap": "101494407000",
+    "price": "270.21"
+  },
+  "CDNS": {
+    "symbol": "CDNS",
+    "name": "Cadence Design Systems Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "84973273000",
+    "price": "332.98"
+  },
+  "MSTR": {
+    "symbol": "MSTR",
+    "name": "MicroStrategy Incorporated",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "50913333000",
+    "price": "271.71"
+  },
+  "SBUX": {
+    "symbol": "SBUX",
+    "name": "Starbucks Corporation",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESTAURANTS",
+    "marketCap": "99052782000",
+    "price": "84.02"
+  },
+  "SNPS": {
+    "symbol": "SNPS",
+    "name": "Synopsys Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "77644808000",
+    "price": "442.02"
+  },
+  "ORLY": {
+    "symbol": "ORLY",
+    "name": "O\u2019Reilly Automotive Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO PARTS",
+    "marketCap": "86041485000",
+    "price": "100.29"
+  },
+  "EQIX": {
+    "symbol": "EQIX",
+    "name": "Equinix Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - SPECIALTY",
+    "marketCap": "73964552000",
+    "price": "799.92"
+  },
+  "MDLZ": {
+    "symbol": "MDLZ",
+    "name": "Mondelez International Inc",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "CONFECTIONERS",
+    "marketCap": "74492436000",
+    "price": "59.78"
   }
 }
