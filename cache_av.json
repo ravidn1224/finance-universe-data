@@ -4950,5 +4950,197 @@
     "industry": "OIL & GAS INTEGRATED",
     "marketCap": "15655150000",
     "price": "30.88"
+  },
+  "AES": {
+    "symbol": "AES",
+    "name": "The AES Corporation",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - DIVERSIFIED",
+    "marketCap": "10012421000",
+    "price": "14.03"
+  },
+  "WLK": {
+    "symbol": "WLK",
+    "name": "Westlake Chemical Corporation",
+    "sector": "BASIC MATERIALS",
+    "industry": "SPECIALTY CHEMICALS",
+    "marketCap": "8569929000",
+    "price": "72.04"
+  },
+  "CMA": {
+    "symbol": "CMA",
+    "name": "Comerica Incorporated",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "10272092000",
+    "price": "75.95"
+  },
+  "CR": {
+    "symbol": "CR",
+    "name": "Crane Company",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "10554630000",
+    "price": "184.08"
+  },
+  "TIMB": {
+    "symbol": "TIMB",
+    "name": "TIM Participacoes SA",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "11308264000",
+    "price": "22.35"
+  },
+  "W": {
+    "symbol": "W",
+    "name": "Wayfair Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "INTERNET RETAIL",
+    "marketCap": "14441460000",
+    "price": "93.16"
+  },
+  "PEN": {
+    "symbol": "PEN",
+    "name": "Penumbra Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DEVICES",
+    "marketCap": "11481176000",
+    "price": "259.29"
+  },
+  "QGEN": {
+    "symbol": "QGEN",
+    "name": "Qiagen NV",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "10354158000",
+    "price": "46.23"
+  },
+  "GNRC": {
+    "symbol": "GNRC",
+    "name": "Generac Holdings Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "8898265000",
+    "price": "167.56"
+  },
+  "REXR": {
+    "symbol": "REXR",
+    "name": "Rexford Industrial Realty Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - INDUSTRIAL",
+    "marketCap": "10187282000",
+    "price": "41.64"
+  },
+  "CNM": {
+    "symbol": "CNM",
+    "name": "Core & Main Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "INDUSTRIAL DISTRIBUTION",
+    "marketCap": "9579125000",
+    "price": "50.66"
+  },
+  "OVV": {
+    "symbol": "OVV",
+    "name": "Ovintiv Inc",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "10528249000",
+    "price": "38.82"
+  },
+  "SSB": {
+    "symbol": "SSB",
+    "name": "SouthState Corporation",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "9059217000",
+    "price": "92.99"
+  },
+  "BDX": {
+    "symbol": "BDX",
+    "name": "Becton Dickinson and Company",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL INSTRUMENTS & SUPPLIES",
+    "marketCap": "55611462000",
+    "price": "187.37"
+  },
+  "NVDA": {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "4316597584000",
+    "price": "186.83"
+  },
+  "MSFT": {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "3657192178000",
+    "price": "510.59"
+  },
+  "AAPL": {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "CONSUMER ELECTRONICS",
+    "marketCap": "4138242671000",
+    "price": "262.64"
+  },
+  "GOOG": {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc Class C",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "3864435360000",
+    "price": "268.53"
+  },
+  "GOOGL": {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc Class A",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "3878058983000",
+    "price": "267.94"
+  },
+  "AMZN": {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "INTERNET RETAIL",
+    "marketCap": "2493172154000",
+    "price": "227.57"
+  },
+  "META": {
+    "symbol": "META",
+    "name": "Meta Platforms Inc.",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "1633175863000",
+    "price": "686.29"
+  },
+  "AVGO": {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "1902924136000",
+    "price": "351.11"
+  },
+  "TSLA": {
+    "symbol": "TSLA",
+    "name": "Tesla Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO MANUFACTURERS",
+    "marketCap": "1430667657000",
+    "price": "433.95"
+  },
+  "NFLX": {
+    "symbol": "NFLX",
+    "name": "Netflix Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ENTERTAINMENT",
+    "marketCap": "455851246000",
+    "price": "114.81"
   }
 }
