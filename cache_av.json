@@ -7054,5 +7054,197 @@
     "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC",
     "marketCap": "12341254000",
     "price": "10.25"
+  },
+  "HTHT": {
+    "symbol": "HTHT",
+    "name": "Huazhu Group Ltd",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "LODGING",
+    "marketCap": "14183500000",
+    "price": "40.46"
+  },
+  "PAA": {
+    "symbol": "PAA",
+    "name": "Plains All American Pipeline LP",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS MIDSTREAM",
+    "marketCap": "12282716000",
+    "price": "16.75"
+  },
+  "FIGR": {
+    "symbol": "FIGR",
+    "name": "Figure Technology Solutions, Inc. Class A Common Stock",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "8046157000",
+    "price": "40.4"
+  },
+  "LITE": {
+    "symbol": "LITE",
+    "name": "Lumentum Holdings Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "COMMUNICATION EQUIPMENT",
+    "marketCap": "23057938000",
+    "price": "200.55"
+  },
+  "HST": {
+    "symbol": "HST",
+    "name": "Host Hotels & Resorts Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - HOTEL & MOTEL",
+    "marketCap": "12280643000",
+    "price": "16.92"
+  },
+  "EXAS": {
+    "symbol": "EXAS",
+    "name": "EXACT Sciences Corporation",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "19221381000",
+    "price": "66.7"
+  },
+  "IONS": {
+    "symbol": "IONS",
+    "name": "Ionis Pharmaceuticals Inc",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "13400143000",
+    "price": "71.28"
+  },
+  "TXRH": {
+    "symbol": "TXRH",
+    "name": "Texas Roadhouse Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "RESTAURANTS",
+    "marketCap": "11645470000",
+    "price": "168.22"
+  },
+  "POOL": {
+    "symbol": "POOL",
+    "name": "Pool Corporation",
+    "sector": "INDUSTRIALS",
+    "industry": "INDUSTRIAL DISTRIBUTION",
+    "marketCap": "9090666000",
+    "price": "278.63"
+  },
+  "ROIV": {
+    "symbol": "ROIV",
+    "name": "Roivant Sciences Ltd",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "14473179000",
+    "price": "18.15"
+  },
+  "SWKS": {
+    "symbol": "SWKS",
+    "name": "Skyworks Solutions Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "9805431000",
+    "price": "72.98"
+  },
+  "JKHY": {
+    "symbol": "JKHY",
+    "name": "Jack Henry & Associates Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "marketCap": "12678624000",
+    "price": "156.64"
+  },
+  "AKAM": {
+    "symbol": "AKAM",
+    "name": "Akamai Technologies Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "12878815000",
+    "price": "79.03"
+  },
+  "BZ": {
+    "symbol": "BZ",
+    "name": "Kanzhun Ltd ADR",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "10251506000",
+    "price": "22.19"
+  },
+  "STRL": {
+    "symbol": "STRL",
+    "name": "Sterling Construction Company Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "ENGINEERING & CONSTRUCTION",
+    "marketCap": "10576987000",
+    "price": "357.47"
+  },
+  "MRNA": {
+    "symbol": "MRNA",
+    "name": "Moderna Inc",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "10151259000",
+    "price": "25.89"
+  },
+  "COKE": {
+    "symbol": "COKE",
+    "name": "Coca-Cola Consolidated Inc.",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - NON-ALCOHOLIC",
+    "marketCap": "13797521000",
+    "price": "126.28"
+  },
+  "RMBS": {
+    "symbol": "RMBS",
+    "name": "Rambus Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "10288124000",
+    "price": "99.81"
+  },
+  "BBIO": {
+    "symbol": "BBIO",
+    "name": "BridgeBio Pharma Inc",
+    "sector": "HEALTHCARE",
+    "industry": "BIOTECHNOLOGY",
+    "marketCap": "13876962000",
+    "price": "59.37"
+  },
+  "HAS": {
+    "symbol": "HAS",
+    "name": "Hasbro Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "LEISURE",
+    "marketCap": "11591838000",
+    "price": "76.4"
+  },
+  "FRHC": {
+    "symbol": "FRHC",
+    "name": "Freedom Holding Corp",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "FINANCIAL CONGLOMERATES",
+    "marketCap": "8066995000",
+    "price": "154.73"
+  },
+  "AGNC": {
+    "symbol": "AGNC",
+    "name": "AGNC Investment Corp",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - MORTGAGE",
+    "marketCap": "11252875000",
+    "price": "10.08"
+  },
+  "AGNCM": {
+    "symbol": "AGNCM",
+    "name": "AGNC Investment Corp",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - MORTGAGE",
+    "marketCap": "8688298000",
+    "price": "24.71"
+  },
+  "SEIC": {
+    "symbol": "SEIC",
+    "name": "SEI Investments Company",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "9996323000",
+    "price": "82.54"
   }
 }
