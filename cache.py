@@ -12,7 +12,7 @@ RED    = "\033[91m"
 BLUE   = "\033[94m"
 RESET  = "\033[0m"
 
-API_KEY = "PAPTKF8BP75X2BJX"
+API_KEY = "YZDZ1DUWI264O553"
 
 CACHE_FILE = "cache_av.json"
 TICKERS_FILE = "clean_tickers.txt"
