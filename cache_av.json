@@ -4734,5 +4734,605 @@
     "industry": "AUTO & TRUCK DEALERSHIPS",
     "marketCap": "10680696000",
     "price": "165.49"
+  },
+  "CPT": {
+    "symbol": "CPT",
+    "name": "Camden Property Trust",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - RESIDENTIAL",
+    "marketCap": "11362719000",
+    "price": "103.48"
+  },
+  "GL": {
+    "symbol": "GL",
+    "name": "Globe Life Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - LIFE",
+    "marketCap": "10913606000",
+    "price": "135.92"
+  },
+  "AIZ": {
+    "symbol": "AIZ",
+    "name": "Assurant Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "11512774000",
+    "price": "217.92"
+  },
+  "SUZ": {
+    "symbol": "SUZ",
+    "name": "Suzano Papel e Celulose SA ADR",
+    "sector": "BASIC MATERIALS",
+    "industry": "PAPER & PAPER PRODUCTS",
+    "marketCap": "11121312000",
+    "price": "9.08"
+  },
+  "AYI": {
+    "symbol": "AYI",
+    "name": "Acuity Brands Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "ELECTRICAL EQUIPMENT & PARTS",
+    "marketCap": "11228880000",
+    "price": "355.55"
+  },
+  "PNW": {
+    "symbol": "PNW",
+    "name": "Pinnacle West Capital Corp",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "marketCap": "10875069000",
+    "price": "89.82"
+  },
+  "JEF": {
+    "symbol": "JEF",
+    "name": "Jefferies Financial Group Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "CAPITAL MARKETS",
+    "marketCap": "11873494000",
+    "price": "57.24"
+  },
+  "UHAL": {
+    "symbol": "UHAL",
+    "name": "U-Haul Holding Company",
+    "sector": "INDUSTRIALS",
+    "industry": "RENTAL & LEASING SERVICES",
+    "marketCap": "10002336000",
+    "price": "54.24"
+  },
+  "MOH": {
+    "symbol": "MOH",
+    "name": "Molina Healthcare Inc",
+    "sector": "HEALTHCARE",
+    "industry": "HEALTHCARE PLANS",
+    "marketCap": "8035692000",
+    "price": "169.64"
+  },
+  "OC": {
+    "symbol": "OC",
+    "name": "Owens Corning Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "BUILDING PRODUCTS & EQUIPMENT",
+    "marketCap": "9469985000",
+    "price": "123.02"
+  },
+  "MLI": {
+    "symbol": "MLI",
+    "name": "Mueller Industries Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "METAL FABRICATION",
+    "marketCap": "12197068000",
+    "price": "103.53"
+  },
+  "DAY": {
+    "symbol": "DAY",
+    "name": "Dayforce Inc.",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "11058416000",
+    "price": "68.69"
+  },
+  "WCC": {
+    "symbol": "WCC",
+    "name": "WESCO International Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "INDUSTRIAL DISTRIBUTION",
+    "marketCap": "13012897000",
+    "price": "233.12"
+  },
+  "SWK": {
+    "symbol": "SWK",
+    "name": "Stanley Black & Decker Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "TOOLS & ACCESSORIES",
+    "marketCap": "11077372000",
+    "price": "69.68"
+  },
+  "GME": {
+    "symbol": "GME",
+    "name": "GameStop Corp.",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "SPECIALTY RETAIL",
+    "marketCap": "10091384000",
+    "price": "23.25"
+  },
+  "WMS": {
+    "symbol": "WMS",
+    "name": "Advanced Drainage Systems Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "BUILDING PRODUCTS & EQUIPMENT",
+    "marketCap": "11849753000",
+    "price": "142.26"
+  },
+  "FDS": {
+    "symbol": "FDS",
+    "name": "FactSet Research Systems Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "FINANCIAL DATA & STOCK EXCHANGES",
+    "marketCap": "10375425000",
+    "price": "278.88"
+  },
+  "IVZ": {
+    "symbol": "IVZ",
+    "name": "Invesco Plc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "ASSET MANAGEMENT",
+    "marketCap": "10903815000",
+    "price": "23.33"
+  },
+  "RVTY": {
+    "symbol": "RVTY",
+    "name": "Revvity Inc.",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "12119138000",
+    "price": "92.87"
+  },
+  "MOS": {
+    "symbol": "MOS",
+    "name": "The Mosaic Company",
+    "sector": "BASIC MATERIALS",
+    "industry": "AGRICULTURAL INPUTS",
+    "marketCap": "7773319000",
+    "price": "29.34"
+  },
+  "NCLH": {
+    "symbol": "NCLH",
+    "name": "Norwegian Cruise Line Holdings Ltd",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "TRAVEL SERVICES",
+    "marketCap": "8404053000",
+    "price": "21.8"
+  },
+  "PR": {
+    "symbol": "PR",
+    "name": "Permian Resources Corporation",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "12209587000",
+    "price": "13.02"
+  },
+  "CCK": {
+    "symbol": "CCK",
+    "name": "Crown Holdings Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "PACKAGING & CONTAINERS",
+    "marketCap": "11268649000",
+    "price": "95.94"
+  },
+  "ORI": {
+    "symbol": "ORI",
+    "name": "Old Republic International Corp",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "11454455000",
+    "price": "42.31"
+  },
+  "ARMK": {
+    "symbol": "ARMK",
+    "name": "Aramark Holdings",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY BUSINESS SERVICES",
+    "marketCap": "9773260000",
+    "price": "38.36"
+  },
+  "AR": {
+    "symbol": "AR",
+    "name": "Antero Resources Corp",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "11254357000",
+    "price": "33.21"
+  },
+  "YPF": {
+    "symbol": "YPF",
+    "name": "YPF Sociedad Anonima",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS INTEGRATED",
+    "marketCap": "15655150000",
+    "price": "30.88"
+  },
+  "AES": {
+    "symbol": "AES",
+    "name": "The AES Corporation",
+    "sector": "UTILITIES",
+    "industry": "UTILITIES - DIVERSIFIED",
+    "marketCap": "10012421000",
+    "price": "14.03"
+  },
+  "WLK": {
+    "symbol": "WLK",
+    "name": "Westlake Chemical Corporation",
+    "sector": "BASIC MATERIALS",
+    "industry": "SPECIALTY CHEMICALS",
+    "marketCap": "8569929000",
+    "price": "72.04"
+  },
+  "CMA": {
+    "symbol": "CMA",
+    "name": "Comerica Incorporated",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "10272092000",
+    "price": "75.95"
+  },
+  "CR": {
+    "symbol": "CR",
+    "name": "Crane Company",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "10554630000",
+    "price": "184.08"
+  },
+  "TIMB": {
+    "symbol": "TIMB",
+    "name": "TIM Participacoes SA",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "11308264000",
+    "price": "22.35"
+  },
+  "W": {
+    "symbol": "W",
+    "name": "Wayfair Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "INTERNET RETAIL",
+    "marketCap": "14441460000",
+    "price": "93.16"
+  },
+  "PEN": {
+    "symbol": "PEN",
+    "name": "Penumbra Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL DEVICES",
+    "marketCap": "11481176000",
+    "price": "259.29"
+  },
+  "QGEN": {
+    "symbol": "QGEN",
+    "name": "Qiagen NV",
+    "sector": "HEALTHCARE",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "marketCap": "10354158000",
+    "price": "46.23"
+  },
+  "GNRC": {
+    "symbol": "GNRC",
+    "name": "Generac Holdings Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "8898265000",
+    "price": "167.56"
+  },
+  "REXR": {
+    "symbol": "REXR",
+    "name": "Rexford Industrial Realty Inc",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - INDUSTRIAL",
+    "marketCap": "10187282000",
+    "price": "41.64"
+  },
+  "CNM": {
+    "symbol": "CNM",
+    "name": "Core & Main Inc",
+    "sector": "INDUSTRIALS",
+    "industry": "INDUSTRIAL DISTRIBUTION",
+    "marketCap": "9579125000",
+    "price": "50.66"
+  },
+  "OVV": {
+    "symbol": "OVV",
+    "name": "Ovintiv Inc",
+    "sector": "ENERGY",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "10528249000",
+    "price": "38.82"
+  },
+  "SSB": {
+    "symbol": "SSB",
+    "name": "SouthState Corporation",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "BANKS - REGIONAL",
+    "marketCap": "9059217000",
+    "price": "92.99"
+  },
+  "BDX": {
+    "symbol": "BDX",
+    "name": "Becton Dickinson and Company",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL INSTRUMENTS & SUPPLIES",
+    "marketCap": "55611462000",
+    "price": "187.37"
+  },
+  "NVDA": {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "4316597584000",
+    "price": "186.83"
+  },
+  "MSFT": {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "3657192178000",
+    "price": "510.59"
+  },
+  "AAPL": {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "CONSUMER ELECTRONICS",
+    "marketCap": "4138242671000",
+    "price": "262.64"
+  },
+  "GOOG": {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc Class C",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "3864435360000",
+    "price": "268.53"
+  },
+  "GOOGL": {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc Class A",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "3878058983000",
+    "price": "267.94"
+  },
+  "AMZN": {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "INTERNET RETAIL",
+    "marketCap": "2493172154000",
+    "price": "227.57"
+  },
+  "META": {
+    "symbol": "META",
+    "name": "Meta Platforms Inc.",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "INTERNET CONTENT & INFORMATION",
+    "marketCap": "1633175863000",
+    "price": "686.29"
+  },
+  "AVGO": {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "1902924136000",
+    "price": "351.11"
+  },
+  "TSLA": {
+    "symbol": "TSLA",
+    "name": "Tesla Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "AUTO MANUFACTURERS",
+    "marketCap": "1430667657000",
+    "price": "433.95"
+  },
+  "NFLX": {
+    "symbol": "NFLX",
+    "name": "Netflix Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ENTERTAINMENT",
+    "marketCap": "455851246000",
+    "price": "114.81"
+  },
+  "PLTR": {
+    "symbol": "PLTR",
+    "name": "Palantir Technologies Inc.",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "401489822000",
+    "price": "179.81"
+  },
+  "COST": {
+    "symbol": "COST",
+    "name": "Costco Wholesale Corp",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "DISCOUNT STORES",
+    "marketCap": "405156233000",
+    "price": "923.44"
+  },
+  "ASML": {
+    "symbol": "ASML",
+    "name": "ASML Holding NV ADR",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS",
+    "marketCap": "411436548000",
+    "price": "1011.12"
+  },
+  "AMD": {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "354147893000",
+    "price": "218.8"
+  },
+  "CSCO": {
+    "symbol": "CSCO",
+    "name": "Cisco Systems Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "COMMUNICATION EQUIPMENT",
+    "marketCap": "303997223000",
+    "price": "71.54"
+  },
+  "AZN": {
+    "symbol": "AZN",
+    "name": "AstraZeneca PLC ADR",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "287482184000",
+    "price": "84.21"
+  },
+  "TMUS": {
+    "symbol": "TMUS",
+    "name": "T-Mobile US Inc",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "TELECOM SERVICES",
+    "marketCap": "235223826000",
+    "price": "220.91"
+  },
+  "MU": {
+    "symbol": "MU",
+    "name": "Micron Technology Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "266122707000",
+    "price": "206.76"
+  },
+  "LIN": {
+    "symbol": "LIN",
+    "name": "Linde plc Ordinary Shares",
+    "sector": "BASIC MATERIALS",
+    "industry": "SPECIALTY CHEMICALS",
+    "marketCap": "192402964000",
+    "price": "442.47"
+  },
+  "SHOP": {
+    "symbol": "SHOP",
+    "name": "Shopify Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "206524367000",
+    "price": "157.36"
+  },
+  "APP": {
+    "symbol": "APP",
+    "name": "Applovin Corp",
+    "sector": "COMMUNICATION SERVICES",
+    "industry": "ADVERTISING AGENCIES",
+    "marketCap": "202774053000",
+    "price": "608.76"
+  },
+  "PEP": {
+    "symbol": "PEP",
+    "name": "PepsiCo Inc",
+    "sector": "CONSUMER DEFENSIVE",
+    "industry": "BEVERAGES - NON-ALCOHOLIC",
+    "marketCap": "203636556000",
+    "price": "145.88"
+  },
+  "PDD": {
+    "symbol": "PDD",
+    "name": "PDD Holdings Inc.",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "INTERNET RETAIL",
+    "marketCap": "164792566000",
+    "price": "129.82"
+  },
+  "ARM": {
+    "symbol": "ARM",
+    "name": "Arm Holdings plc American Depositary Shares",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "143828959000",
+    "price": "153.83"
+  },
+  "INTC": {
+    "symbol": "INTC",
+    "name": "Intel Corporation",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "193471201000",
+    "price": "36.5"
+  },
+  "INTU": {
+    "symbol": "INTU",
+    "name": "Intuit Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - APPLICATION",
+    "marketCap": "176527884000",
+    "price": "664.78"
+  },
+  "QCOM": {
+    "symbol": "QCOM",
+    "name": "Qualcomm Incorporated",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "181369111000",
+    "price": "169.4"
+  },
+  "LRCX": {
+    "symbol": "LRCX",
+    "name": "Lam Research Corp",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS",
+    "marketCap": "196721050000",
+    "price": "146.68"
+  },
+  "AMAT": {
+    "symbol": "AMAT",
+    "name": "Applied Materials Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS",
+    "marketCap": "200953053000",
+    "price": "223.67"
+  },
+  "BKNG": {
+    "symbol": "BKNG",
+    "name": "Booking Holdings Inc",
+    "sector": "CONSUMER CYCLICAL",
+    "industry": "TRAVEL SERVICES",
+    "marketCap": "159284543000",
+    "price": "5134.38"
+  },
+  "TXN": {
+    "symbol": "TXN",
+    "name": "Texas Instruments Incorporated",
+    "sector": "TECHNOLOGY",
+    "industry": "SEMICONDUCTORS",
+    "marketCap": "152980505000",
+    "price": "170.21"
+  },
+  "ISRG": {
+    "symbol": "ISRG",
+    "name": "Intuitive Surgical Inc",
+    "sector": "HEALTHCARE",
+    "industry": "MEDICAL INSTRUMENTS & SUPPLIES",
+    "marketCap": "205579108000",
+    "price": "503.23"
+  },
+  "AMGN": {
+    "symbol": "AMGN",
+    "name": "Amgen Inc",
+    "sector": "HEALTHCARE",
+    "industry": "DRUG MANUFACTURERS - GENERAL",
+    "marketCap": "186023510000",
+    "price": "306.34"
+  },
+  "PANW": {
+    "symbol": "PANW",
+    "name": "Palo Alto Networks Inc",
+    "sector": "TECHNOLOGY",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "marketCap": "130045641000",
+    "price": "207.46"
   }
 }
