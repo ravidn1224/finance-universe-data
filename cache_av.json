@@ -4734,5 +4734,29 @@
     "industry": "AUTO & TRUCK DEALERSHIPS",
     "marketCap": "10680696000",
     "price": "165.49"
+  },
+  "CPT": {
+    "symbol": "CPT",
+    "name": "Camden Property Trust",
+    "sector": "REAL ESTATE",
+    "industry": "REIT - RESIDENTIAL",
+    "marketCap": "11362719000",
+    "price": "103.48"
+  },
+  "GL": {
+    "symbol": "GL",
+    "name": "Globe Life Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - LIFE",
+    "marketCap": "10913606000",
+    "price": "135.92"
+  },
+  "AIZ": {
+    "symbol": "AIZ",
+    "name": "Assurant Inc",
+    "sector": "FINANCIAL SERVICES",
+    "industry": "INSURANCE - PROPERTY & CASUALTY",
+    "marketCap": "11512774000",
+    "price": "217.92"
   }
 }

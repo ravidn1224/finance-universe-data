@@ -1,916 +1,916 @@
 symbol,name,sector,industry,marketCap,price,last_updated
-MA,Mastercard Inc,Financial Services,Credit Services,497685660000,559.88,2025-12-01T23:58:19.632655
-ANET,Arista Networks,Technology,Computer Hardware,164563370000,142.47,2025-12-01T23:58:19.632655
-TSM,Taiwan Semiconductor Manufacturing,Technology,Semiconductors,1511918010000,289.71,2025-12-01T23:58:19.632655
-BRK-B,Berkshire Hathaway Inc,Financial Services,Insurance - Diversified,1108460175000,496.0,2025-12-01T23:58:19.632655
-ORCL,Oracle Corporation,Technology,Software - Infrastructure,575717573000,264.8,2025-12-01T23:58:19.632655
-JPM,JPMorgan Chase & Co,Financial Services,Banks - Diversified,860892889000,307.01,2025-12-01T23:58:19.632655
-WMT,Walmart Inc,Consumer Defensive,Discount Stores,881915986000,103.85,2025-12-01T23:58:19.632655
-LLY,Eli Lilly and Company,Healthcare,Drug Manufacturers - General,964112351000,882.49,2025-12-01T23:58:19.632655
-V,Visa Inc. Class A,Financial Services,Credit Services,649128641000,339.9,2025-12-01T23:58:19.632655
-XOM,Exxon Mobil Corp,Energy,Oil & Gas Integrated,494195606000,114.79,2025-12-01T23:58:19.632655
-JNJ,Johnson & Johnson,Healthcare,Drug Manufacturers - General,498531336000,190.71,2025-12-01T23:58:19.632655
-ABBV,AbbVie Inc,Healthcare,Drug Manufacturers - General,402433475000,227.54,2025-12-01T23:58:19.632655
-BABA,Alibaba Group Holding Ltd,Consumer Cyclical,Internet Retail,375317234000,168.4,2025-12-01T23:58:19.632655
-HD,The Home Depot Inc,Consumer Cyclical,Home Improvement Retail,355317973000,379.76,2025-12-01T23:58:19.632655
-BAC,Bank of America Corp,Financial Services,Banks - Diversified,397382746000,51.89,2025-12-01T23:58:19.632655
-PG,Procter & Gamble Company,Consumer Defensive,Household & Personal Products,346766311000,149.94,2025-12-01T23:58:19.632655
-UNH,UnitedHealth Group Incorporated,Healthcare,Healthcare Plans,298718396000,343.54,2025-12-01T23:58:19.632655
-SAP,SAP SE ADR,Technology,Software - Application,282072547000,261.03,2025-12-01T23:58:19.632655
-GE,GE Aerospace,Industrials,Aerospace & Defense,316488155000,301.72,2025-12-01T23:58:19.632655
-CVX,Chevron Corp,Energy,Oil & Gas Integrated,304500113000,154.09,2025-12-01T23:58:19.632655
-KO,The Coca-Cola Company,Consumer Defensive,Beverages - Non-Alcoholic,314684146000,68.89,2025-12-01T23:58:19.632655
-IBM,International Business Machines,Technology,Information Technology Services,288440582000,293.15,2025-12-01T23:58:19.632655
-NVO,Novo Nordisk A/S,Healthcare,Drug Manufacturers - General,219285717000,53.06,2025-12-01T23:58:19.632655
-NVS,Novartis AG ADR,Healthcare,Drug Manufacturers - General,250210468000,128.16,2025-12-01T23:58:19.632655
-WFC,Wells Fargo & Company,Financial Services,Banks - Diversified,275015434000,84.25,2025-12-01T23:58:19.632655
-TM,Toyota Motor Corporation ADR,Consumer Cyclical,Auto Manufacturers,263105020000,199.53,2025-12-01T23:58:19.632655
-MS,Morgan Stanley,Financial Services,Capital Markets,270834336000,161.17,2025-12-01T23:58:19.632655
-GS,Goldman Sachs Group Inc,Financial Services,Capital Markets,250059719000,787.13,2025-12-01T23:58:19.632655
-PM,Philip Morris International Inc,Consumer Defensive,Tobacco,245139456000,155.81,2025-12-01T23:58:19.632655
-CAT,Caterpillar Inc,Industrials,Farm & Heavy Construction Machinery,269731430000,528.23,2025-12-01T23:58:19.632655
-CRM,Salesforce.com Inc,Technology,Software - Application,220396241000,243.85,2025-12-01T23:58:19.632655
-ABT,Abbott Laboratories,Healthcare,Medical Devices,224345162000,129.55,2025-12-01T23:58:19.632655
-HSBC,HSBC Holdings PLC ADR,Financial Services,Banks - Diversified,244305592000,69.55,2025-12-01T23:58:19.632655
-AXP,American Express Company,Financial Services,Credit Services,254184899000,347.72,2025-12-01T23:58:19.632655
-MRK,Merck & Company Inc,Healthcare,Drug Manufacturers - General,261842633000,88.18,2025-12-01T23:58:19.632655
-RTX,Raytheon Technologies Corp,Industrials,Aerospace & Defense,234514432000,169.92,2025-12-01T23:58:19.632655
-SHEL,Shell PLC ADR,Energy,Oil & Gas Integrated,210964382000,73.79,2025-12-01T23:58:19.632655
-MCD,McDonald’s Corporation,Consumer Cyclical,Restaurants,222516134000,303.59,2025-12-01T23:58:19.632655
-RY,Royal Bank of Canada,Financial Services,Banks - Diversified,217314132000,147.26,2025-12-01T23:58:19.632655
-TMO,Thermo Fisher Scientific Inc,Healthcare,Diagnostics & Research,221979607000,546.05,2025-12-01T23:58:19.632655
-UBER,Uber Technologies Inc,Technology,Software - Application,182557540000,93.91,2025-12-01T23:58:19.632655
-DIS,Walt Disney Company,Communication Services,Entertainment,187830141000,110.58,2025-12-01T23:58:19.632655
-BX,Blackstone Group Inc,Financial Services,Asset Management,179665945000,155.91,2025-12-01T23:58:19.632655
-NOW,ServiceNow Inc,Technology,Software - Application,169103950000,892.84,2025-12-01T23:58:19.632655
-T,AT&T Inc,Communication Services,Telecom Services,184467472000,26.09,2025-12-01T23:58:19.632655
-SONY,Sony Group Corp,Technology,Consumer Electronics,175097709000,28.89,2025-12-01T23:58:19.632655
-BLK,BlackRock Inc,Financial Services,Asset Management,162489565000,1110.06,2025-12-01T23:58:19.632655
-C,Citigroup Inc,Financial Services,Banks - Diversified,190717018000,99.8,2025-12-01T23:58:19.632655
-MUFG,Mitsubishi UFJ Financial Group Inc ADR,Financial Services,Banks - Diversified,181488517000,15.35,2025-12-01T23:58:19.632655
-GEV,GE Vernova LLC,Industrials,Specialty Industrial Machinery,163271754000,592.91,2025-12-01T23:58:19.632655
-NEE,Nextera Energy Inc,Utilities,Utilities - Regulated Electric,179708396000,82.04,2025-12-01T23:58:19.632655
-VZ,Verizon Communications Inc,Communication Services,Telecom Services,173337248000,41.01,2025-12-01T23:58:19.632655
-SCHW,Charles Schwab Corp,Financial Services,Capital Markets,168325300000,93.83,2025-12-01T23:58:19.632655
-HDB,HDFC Bank Limited ADR,Financial Services,Banks - Regional,188794208000,35.81,2025-12-01T23:58:19.632655
-BA,The Boeing Company,Industrials,Aerospace & Defense,143658041000,206.37,2025-12-01T23:58:19.632655
-ACN,Accenture plc,Technology,Information Technology Services,155713176000,244.94,2025-12-01T23:58:19.632655
-TJX,The TJX Companies Inc,Consumer Cyclical,Apparel Retail,169484321000,143.97,2025-12-01T23:58:19.632655
-APH,Amphenol Corporation,Technology,Electronic Components,172469420000,131.12,2025-12-01T23:58:19.632655
-SPGI,S&P Global Inc,Financial Services,Financial Data & Stock Exchanges,152292803000,489.0,2025-12-01T23:58:19.632655
-SAN,Banco Santander SA ADR,Financial Services,Banks - Diversified,157992813000,10.2,2025-12-01T23:58:19.632655
-ETN,Eaton Corporation PLC,Industrials,Specialty Industrial Machinery,134654984000,367.55,2025-12-01T23:58:19.632655
-DHR,Danaher Corporation,Healthcare,Diagnostics & Research,162386182000,211.47,2025-12-01T23:58:19.632655
-UL,Unilever PLC ADR,Consumer Defensive,Household & Personal Products,149036499000,60.46,2025-12-01T23:58:19.632655
-BSX,Boston Scientific Corp,Healthcare,Medical Devices,150586458000,99.12,2025-12-01T23:58:19.632655
-PFE,Pfizer Inc,Healthcare,Drug Manufacturers - General,146350113000,24.97,2025-12-01T23:58:19.632655
-BHP,BHP Group Limited,Basic Materials,Other Industrial Metals & Mining,140593840000,55.27,2025-12-01T23:58:19.632655
-PGR,Progressive Corp,Financial Services,Insurance - Property & Casualty,134162448000,227.6,2025-12-01T23:58:19.632655
-SYK,Stryker Corporation,Healthcare,Medical Devices,141948010000,369.04,2025-12-01T23:58:19.632655
-SPOT,Spotify Technology SA,Communication Services,Internet Content & Information,123303748000,660.44,2025-12-01T23:58:19.632655
-UNP,Union Pacific Corporation,Industrials,Railroads,137512485000,225.7,2025-12-01T23:58:19.632655
-TD,Toronto Dominion Bank,Financial Services,Banks - Diversified,144782131000,80.76,2025-12-01T23:58:19.632655
-COF,Capital One Financial Corporation,Financial Services,Credit Services,140099060000,215.83,2025-12-01T23:58:19.632655
-LOW,Lowe's Companies Inc,Consumer Cyclical,Home Improvement Retail,136019517000,240.71,2025-12-01T23:58:19.632655
-TTE,TotalEnergies SE ADR,Energy,Oil & Gas Integrated,141623427000,61.91,2025-12-01T23:58:19.632655
-UBS,UBS Group AG,Financial Services,Banks - Diversified,121636332000,39.21,2025-12-01T23:58:19.632655
-MDT,Medtronic PLC,Healthcare,Medical Devices,135097950000,95.87,2025-12-01T23:58:19.632655
-DE,Deere & Company,Industrials,Farm & Heavy Construction Machinery,125565305000,467.08,2025-12-01T23:58:19.632655
-LMT,Lockheed Martin Corporation,Industrials,Aerospace & Defense,106894303000,483.15,2025-12-01T23:58:19.632655
-BUD,Anheuser Busch Inbev NV ADR,Consumer Defensive,Beverages - Brewers,120532468000,61.14,2025-12-01T23:58:19.632655
-RIO,Rio Tinto ADR,Basic Materials,Other Industrial Metals & Mining,117630616000,68.62,2025-12-01T23:58:19.632655
-COP,ConocoPhillips,Energy,Oil & Gas E&P,110768701000,89.99,2025-12-01T23:58:19.632655
-CB,Chubb Ltd,Financial Services,Insurance - Property & Casualty,118084092000,284.06,2025-12-01T23:58:19.632655
-WELL,Welltower Inc,Real Estate,Reit - Healthcare Facilities,142907228000,181.97,2025-12-01T23:58:19.632655
-SE,Sea Ltd,Consumer Cyclical,Internet Retail,82296685000,163.15,2025-12-01T23:58:19.632655
-BTI,British American Tobacco p.l.c.,Consumer Defensive,Tobacco,127563276000,53.11,2025-12-01T23:58:19.632655
-IBN,ICICI Bank Limited,Financial Services,Banks - Regional,111625380000,30.96,2025-12-01T23:58:19.632655
-KKR,KKR & Co LP,Financial Services,Asset Management,113249518000,123.75,2025-12-01T23:58:19.632655
-MO,Altria Group,Consumer Defensive,Tobacco,99130360000,61.99,2025-12-01T23:58:19.632655
-PLD,Prologis Inc,Real Estate,Reit - Industrial,119387275000,121.22,2025-12-01T23:58:19.632655
-ENB,Enbridge Inc,Energy,Oil & Gas Midstream,106715554000,48.13,2025-12-01T23:58:19.632655
-BBVA,Banco Bilbao Viscaya Argentaria SA ADR,Financial Services,Banks - Diversified,123706491000,19.85,2025-12-01T23:58:19.632655
-SCCO,Southern Copper Corporation,Basic Materials,Copper,110397686000,128.2,2025-12-01T23:58:19.632655
-SO,Southern Company,Utilities,Utilities - Regulated Electric,100332683000,93.76,2025-12-01T23:58:19.632655
-DELL,Dell Technologies Inc,Technology,Computer Hardware,89660957000,143.7,2025-12-01T23:58:19.632655
-BN,Brookfield Corp,Financial Services,Asset Management,105620857000,45.54,2025-12-01T23:58:19.632655
-SMFG,Sumitomo Mitsui Financial Group Inc,Financial Services,Banks - Diversified,116811817000,16.49,2025-12-01T23:58:19.632655
-MMC,Marsh & McLennan Companies Inc,Financial Services,Insurance Brokers,90188423000,189.71,2025-12-01T23:58:19.632655
-NKE,Nike Inc,Consumer Cyclical,Footwear & Accessories,95536153000,66.64,2025-12-01T23:58:19.632655
-HCA,HCA Holdings Inc,Healthcare,Medical Care Facilities,118936560000,449.75,2025-12-01T23:58:19.632655
-CVS,CVS Health Corp,Healthcare,Healthcare Plans,102011593000,78.52,2025-12-01T23:58:19.632655
-DUK,Duke Energy Corporation,Utilities,Utilities - Regulated Electric,96383336000,124.51,2025-12-01T23:58:19.632655
-BAM,Brookfield Asset Management Inc,Financial Services,Asset Management,85143298000,54.89,2025-12-01T23:58:19.632655
-MCK,McKesson Corporation,Healthcare,Medical Distribution,109597573000,803.2,2025-12-01T23:58:19.632655
-PH,Parker-Hannifin Corporation,Industrials,Specialty Industrial Machinery,109043032000,781.76,2025-12-01T23:58:19.632655
-NEM,Newmont Goldcorp Corp,Basic Materials,Gold,99662340000,86.13,2025-12-01T23:58:19.632655
-TT,Trane Technologies plc,Industrials,Building Products & Equipment,93785776000,420.63,2025-12-01T23:58:19.632655
-GD,General Dynamics Corporation,Industrials,Aerospace & Defense,92281250000,339.72,2025-12-01T23:58:19.632655
-ICE,Intercontinental Exchange Inc,Financial Services,Financial Data & Stock Exchanges,90042155000,156.8,2025-12-01T23:58:19.632655
-BMY,Bristol-Myers Squibb Company,Healthcare,Drug Manufacturers - General,100159054000,45.5,2025-12-01T23:58:19.632655
-NOC,Northrop Grumman Corporation,Industrials,Aerospace & Defense,81936458000,588.38,2025-12-01T23:58:19.632655
-BMO,Bank of Montreal,Financial Services,Banks - Diversified,91215364000,126.04,2025-12-01T23:58:19.632655
-BP,BP PLC ADR,Energy,Oil & Gas Integrated,92176613000,35.01,2025-12-01T23:58:19.632655
-MCO,Moodys Corporation,Financial Services,Financial Data & Stock Exchanges,88025637000,481.72,2025-12-01T23:58:19.632655
-GSK,GlaxoSmithKline PLC ADR,Healthcare,Drug Manufacturers - General,96623919000,44.82,2025-12-01T23:58:19.632655
-RBLX,Roblox Corp,Communication Services,Electronic Gaming & Multimedia,66703978000,118.74,2025-12-01T23:58:19.632655
-WM,Waste Management Inc,Industrials,Waste Management,87772643000,212.38,2025-12-01T23:58:19.632655
-AMT,American Tower Corp,Real Estate,Reit - Specialty,84860944000,185.85,2025-12-01T23:58:19.632655
-SNOW,Snowflake Inc.,Technology,Software - Application,85120115000,248.47,2025-12-01T23:58:19.632655
-RCL,Royal Caribbean Cruises Ltd,Consumer Cyclical,Travel Services,72609825000,292.24,2025-12-01T23:58:19.632655
-SHW,Sherwin-Williams Co,Basic Materials,Specialty Chemicals,85693366000,338.73,2025-12-01T23:58:19.632655
-RELX,Relx PLC ADR,Industrials,Specialty Business Services,73126740000,44.31,2025-12-01T23:58:19.632655
-CI,Cigna Corp,Healthcare,Healthcare Plans,74068648000,285.18,2025-12-01T23:58:19.632655
-MMM,3M Company,Industrials,Conglomerates,91638940000,161.55,2025-12-01T23:58:19.632655
-AEM,Agnico Eagle Mines Limited,Basic Materials,Gold,87571980000,165.82,2025-12-01T23:58:19.632655
-ELV,Elevance Health Inc,Healthcare,Healthcare Plans,76168815000,332.78,2025-12-01T23:58:19.632655
-MFG,Mizuho Financial Group Inc.,Financial Services,Banks - Regional,88418370000,6.61,2025-12-01T23:58:19.632655
-BNS,Bank of Nova Scotia,Financial Services,Banks - Diversified,86529024000,65.49,2025-12-01T23:58:19.632655
-CRH,CRH PLC ADR,Basic Materials,Building Materials,80301998000,115.87,2025-12-01T23:58:19.632655
-CVNA,Carvana Co,Consumer Cyclical,Auto & Truck Dealerships,81192886000,345.68,2025-12-01T23:58:19.632655
-AON,Aon PLC,Financial Services,Insurance Brokers,76314567000,349.2,2025-12-01T23:58:19.632655
-AJG,Arthur J Gallagher & Co,Financial Services,Insurance Brokers,63590052000,276.89,2025-12-01T23:58:19.632655
-ECL,Ecolab Inc,Basic Materials,Specialty Chemicals,78042227000,268.11,2025-12-01T23:58:19.632655
-WMB,Williams Companies Inc,Energy,Oil & Gas Midstream,74408862000,60.86,2025-12-01T23:58:19.632655
-NET,Cloudflare Inc,Technology,Software - Infrastructure,70129795000,217.44,2025-12-01T23:58:19.632655
-PBR-A,Petróleo Brasileiro S.A. - Petrobras,Energy,Oil & Gas Integrated,80199320000,11.63,2025-12-01T23:58:19.632655
-MSI,Motorola Solutions Inc,Technology,Communication Equipment,61590122000,424.06,2025-12-01T23:58:19.632655
-HWM,Howmet Aerospace Inc,Industrials,Aerospace & Defense,82347475000,197.6,2025-12-01T23:58:19.632655
-BK,The Bank of New York Mellon Corporation,Financial Services,Banks - Diversified,79057494000,108.17,2025-12-01T23:58:19.632655
-PBR,Petroleo Brasileiro Petrobras SA ADR,Energy,Oil & Gas Integrated,84279280000,12.33,2025-12-01T23:58:19.632655
-PNC,PNC Financial Services Group Inc,Financial Services,Banks - Regional,74940940000,188.74,2025-12-01T23:58:19.632655
-GLW,Corning Incorporated,Technology,Electronic Components,72189739000,84.32,2025-12-01T23:58:19.632655
-CM,Canadian Imperial Bank Of Commerce,Financial Services,Banks - Diversified,80063660000,82.63,2025-12-01T23:58:19.632655
-NU,Nu Holdings Ltd,Financial Services,Banks - Regional,84264559000,15.75,2025-12-01T23:58:19.632655
-EMR,Emerson Electric Company,Industrials,Specialty Industrial Machinery,75066270000,131.35,2025-12-01T23:58:19.632655
-USB,U.S. Bancorp,Financial Services,Banks - Regional,76331090000,47.51,2025-12-01T23:58:19.632655
-RACE,Ferrari NV,Consumer Cyclical,Auto Manufacturers,69491737000,423.19,2025-12-01T23:58:19.632655
-NGG,National Grid PLC ADR,Utilities,Utilities - Regulated Electric,75524538000,74.94,2025-12-01T23:58:19.632655
-ITW,Illinois Tool Works Inc,Industrials,Specialty Industrial Machinery,72665121000,250.01,2025-12-01T23:58:19.632655
-UPS,United Parcel Service Inc,Industrials,Integrated Freight & Logistics,81266860000,89.59,2025-12-01T23:58:19.632655
-TDG,Transdigm Group Incorporated,Industrials,Aerospace & Defense,76645966000,1307.4,2025-12-01T23:58:19.632655
-CP,Canadian Pacific Railway Ltd,Industrials,Railroads,66389213000,73.51,2025-12-01T23:58:19.632655
-VST,Vistra Energy Corp,Utilities,Utilities - Independent Power Producers,60602331000,192.61,2025-12-01T23:58:19.632655
-APO,Apollo Global Management LLC Class A,Financial Services,Asset Management,76528722000,128.99,2025-12-01T23:58:19.632655
-ITUB,Itau Unibanco Banco Holding SA,Financial Services,Banks - Regional,83504447000,7.28,2025-12-01T23:58:19.632655
-JCI,Johnson Controls International PLC,Industrials,Building Products & Equipment,76111569000,112.46,2025-12-01T23:58:19.632655
-INFY,Infosys Ltd ADR,Technology,Information Technology Services,73449816000,16.81,2025-12-01T23:58:19.632655
-BCS,Barclays PLC ADR,Financial Services,Banks - Diversified,79131771000,20.95,2025-12-01T23:58:19.632655
-RSG,Republic Services Inc,Industrials,Waste Management,67769561000,218.11,2025-12-01T23:58:19.632655
-CNQ,Canadian Natural Resources Ltd,Energy,Oil & Gas E&P,70395281000,32.08,2025-12-01T23:58:19.632655
-ING,ING Group NV ADR,Financial Services,Banks - Diversified,75392328000,25.09,2025-12-01T23:58:19.632655
-EPD,Enterprise Products Partners LP,Energy,Oil & Gas Midstream,70890209000,31.36,2025-12-01T23:58:19.632655
-SPG,Simon Property Group Inc,Real Estate,Reit - Retail,70281216000,180.9,2025-12-01T23:58:19.632655
-DB,Deutsche Bank AG,Financial Services,Banks - Regional,74427867000,35.63,2025-12-01T23:58:19.632655
-NSC,Norfolk Southern Corporation,Industrials,Railroads,65541087000,288.38,2025-12-01T23:58:19.632655
-AZO,AutoZone Inc,Consumer Cyclical,Auto Parts,65898910000,3945.46,2025-12-01T23:58:19.632655
-TEL,TE Connectivity Ltd,Technology,Electronic Components,66614321000,228.82,2025-12-01T23:58:19.632655
-LYG,Lloyds Banking Group PLC ADR,Financial Services,Banks - Regional,74998522000,4.633,2025-12-01T23:58:19.632655
-VRT,Vertiv Holdings Co,Industrials,Electrical Equipment & Parts,68717662000,170.45,2025-12-01T23:58:19.632655
-PWR,Quanta Services Inc,Industrials,Engineering & Construction,69320991000,431.95,2025-12-01T23:58:19.632655
-AMX,America Movil SAB de CV ADR,Communication Services,Telecom Services,69591392000,22.16,2025-12-01T23:58:19.632655
-ZTS,Zoetis Inc,Healthcare,Drug Manufacturers - Specialty & Generic,56807256000,136.13,2025-12-01T23:58:19.632655
-URI,United Rentals Inc,Industrials,Rental & Leasing Services,52449677000,905.43,2025-12-01T23:58:19.632655
-CL,Colgate-Palmolive Company,Consumer Defensive,Household & Personal Products,64972870000,78.58,2025-12-01T23:58:19.632655
-FCX,Freeport-McMoran Copper & Gold Inc,Basic Materials,Copper,61716296000,40.82,2025-12-01T23:58:19.632655
-TRV,The Travelers Companies Inc,Financial Services,Insurance - Property & Casualty,65932694000,277.83,2025-12-01T23:58:19.632655
-EQNR,Equinor ASA ADR,Energy,Oil & Gas Integrated,57544077000,24.05,2025-12-01T23:58:19.632655
-HLT,Hilton Worldwide Holdings Inc,Consumer Cyclical,Lodging,67037278000,265.78,2025-12-01T23:58:19.632655
-KMI,Kinder Morgan Inc,Energy,Oil & Gas Midstream,60780450000,27.13,2025-12-01T23:58:19.632655
-EOG,EOG Resources Inc,Energy,Oil & Gas E&P,58885386000,108.96,2025-12-01T23:58:19.632655
-COR,Cencora Inc.,Healthcare,Medical Distribution,71569998000,334.14,2025-12-01T23:58:19.632655
-DLR,Digital Realty Trust Inc,Real Estate,Reit - Specialty,55291785000,171.49,2025-12-01T23:58:19.632655
-SRE,Sempra Energy,Utilities,Utilities - Diversified,61821997000,91.33,2025-12-01T23:58:19.632655
-CNI,Canadian National Railway Company,Industrials,Railroads,60070035000,94.74,2025-12-01T23:58:19.632655
-AFL,Aflac Incorporated,Financial Services,Insurance - Life,58997260000,110.28,2025-12-01T23:58:19.632655
-CPNG,Coupang LLC,Consumer Cyclical,Internet Retail,51438395000,30.67,2025-12-01T23:58:19.632655
-CMI,Cummins Inc,Industrials,Specialty Industrial Machinery,68739293000,440.76,2025-12-01T23:58:19.632655
-APD,Air Products and Chemicals Inc,Basic Materials,Specialty Chemicals,58107179000,259.82,2025-12-01T23:58:19.632655
-NWG,Natwest Group PLC,Financial Services,Banks - Regional,66953286000,15.02,2025-12-01T23:58:19.632655
-TFC,Truist Financial Corp,Financial Services,Banks - Regional,59958735000,44.66,2025-12-01T23:58:19.632655
-ET,Energy Transfer LP,Energy,Oil & Gas Midstream,57371890000,16.81,2025-12-01T23:58:19.632655
-MPC,Marathon Petroleum Corp,Energy,Oil & Gas Refining & Marketing,58897854000,191.54,2025-12-01T23:58:19.632655
-FDX,FedEx Corporation,Industrials,Integrated Freight & Logistics,65048199000,248.82,2025-12-01T23:58:19.632655
-LHX,L3Harris Technologies Inc,Industrials,Aerospace & Defense,52141449000,290.51,2025-12-01T23:58:19.632655
-ALL,The Allstate Corporation,Financial Services,Insurance - Property & Casualty,56121364000,204.51,2025-12-01T23:58:19.632655
-CMG,Chipotle Mexican Grill Inc,Consumer Cyclical,Restaurants,46287352000,36.86,2025-12-01T23:58:19.632655
-TRP,TC Energy Corp,Energy,Oil & Gas Midstream,57036509000,52.78,2025-12-01T23:58:19.632655
-MET,MetLife Inc,Financial Services,Insurance - Life,50914394000,79.06,2025-12-01T23:58:19.632655
-MFC,Manulife Financial Corp,Financial Services,Insurance - Life,59328381000,32.66,2025-12-01T23:58:19.632655
-E,Eni SpA ADR,Energy,Oil & Gas Integrated,55662731000,36.15,2025-12-01T23:58:19.632655
-O,Realty Income Corporation,Real Estate,Reit - Retail,52995772000,58.53,2025-12-01T23:58:19.632655
-GM,General Motors Company,Consumer Cyclical,Auto Manufacturers,69996757000,64.76,2025-12-01T23:58:19.632655
-PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,55348859000,134.52,2025-12-01T23:58:19.632655
-DEO,Diageo PLC ADR,Consumer Defensive,Beverages - Wineries & Distilleries,50921476000,94.38,2025-12-01T23:58:19.632655
-PSA,Public Storage,Real Estate,Reit - Industrial,48171614000,286.01,2025-12-01T23:58:19.632655
-D,Dominion Energy Inc,Utilities,Utilities - Regulated Electric,53600137000,60.77,2025-12-01T23:58:19.632655
-LNG,Cheniere Energy Inc,Energy,Oil & Gas Midstream,45812859000,220.3,2025-12-01T23:58:19.632655
-VLO,Valero Energy Corporation,Energy,Oil & Gas Refining & Marketing,54910800000,169.74,2025-12-01T23:58:19.632655
-SLB,Schlumberger NV,Energy,Oil & Gas Equipment & Services,54139793000,35.11,2025-12-01T23:58:19.632655
-CARR,Carrier Global Corp,Industrials,Building Products & Equipment,46704136000,57.14,2025-12-01T23:58:19.632655
-GRMN,Garmin Ltd,Technology,Scientific & Technical Instruments,37597921000,226.92,2025-12-01T23:58:19.632655
-XYZ,"Block, Inc",Technology,Software - Infrastructure,40720212000,72.26,2025-12-01T23:58:19.632655
-MPLX,MPLX LP,Energy,Oil & Gas Midstream,55365853000,50.88,2025-12-01T23:58:19.632655
-SU,Suncor Energy Inc,Energy,Oil & Gas Integrated,54511178000,41.6,2025-12-01T23:58:19.632655
-VEEV,Veeva Systems Inc Class A,Healthcare,Health Information Services,39499313000,284.74,2025-12-01T23:58:19.632655
-ARES,Ares Management LP,Financial Services,Asset Management,51387920000,152.74,2025-12-01T23:58:19.632655
-VALE,Vale SA ADR,Basic Materials,Other Industrial Metals & Mining,53957759000,11.57,2025-12-01T23:58:19.632655
-WPM,Wheaton Precious Metals Corp,Basic Materials,Gold,50030854000,103.8,2025-12-01T23:58:19.632655
-GWW,WW Grainger Inc,Industrials,Industrial Distribution,45375103000,954.12,2025-12-01T23:58:19.632655
-AMP,Ameriprise Financial Inc,Financial Services,Asset Management,42963325000,472.47,2025-12-01T23:58:19.632655
-AIG,American International Group Inc,Financial Services,Insurance - Diversified,42192933000,78.42,2025-12-01T23:58:19.632655
-FERG,Ferguson Plc,Industrials,Industrial Distribution,50530607000,239.66,2025-12-01T23:58:19.632655
-F,Ford Motor Company,Consumer Cyclical,Auto Manufacturers,52914143000,12.53,2025-12-01T23:58:19.632655
-RKT,Rocket Companies Inc,Financial Services,Mortgage Finance,56261480000,17.61,2025-12-01T23:58:19.632655
-DHI,DR Horton Inc,Consumer Cyclical,Residential Construction,47404618000,154.64,2025-12-01T23:58:19.632655
-OKE,ONEOK Inc,Energy,Oil & Gas Midstream,45858828000,69.97,2025-12-01T23:58:19.632655
-KR,Kroger Company,Consumer Defensive,Grocery Stores,44584989000,66.38,2025-12-01T23:58:19.632655
-CBRE,CBRE Group Inc Class A,Real Estate,Real Estate Services,48159474000,156.03,2025-12-01T23:58:19.632655
-TAK,Takeda Pharmaceutical Co Ltd ADR,Healthcare,Drug Manufacturers - Specialty & Generic,47986168000,14.17,2025-12-01T23:58:19.632655
-EW,Edwards Lifesciences Corp,Healthcare,Medical Devices,50883957000,79.66,2025-12-01T23:58:19.632655
-HEI,Heico Corporation,Industrials,Aerospace & Defense,44115927000,315.54,2025-12-01T23:58:19.632655
-OXY,Occidental Petroleum Corporation,Energy,Oil & Gas E&P,41378836000,42.9,2025-12-01T23:58:19.632655
-WCN,Waste Connections Inc,Industrials,Waste Management,45393445000,172.09,2025-12-01T23:58:19.632655
-FLUT,Flutter Entertainment plc,Consumer Cyclical,Gambling,36533957000,237.12,2025-12-01T23:58:19.632655
-MSCI,MSCI Inc,Financial Services,Financial Data & Stock Exchanges,42357658000,562.36,2025-12-01T23:58:19.632655
-ETR,Entergy Corporation,Utilities,Utilities - Regulated Electric,43552129000,95.07,2025-12-01T23:58:19.632655
-CTVA,Corteva Inc,Basic Materials,Agricultural Inputs,45818880000,64.56,2025-12-01T23:58:19.632655
-AME,Ametek Inc,Industrials,Specialty Industrial Machinery,45703479000,189.84,2025-12-01T23:58:19.632655
-UI,Ubiquiti Networks Inc,Technology,Communication Equipment,35276747000,663.92,2025-12-01T23:58:19.632655
-CCI,Crown Castle,Real Estate,Reit - Specialty,39750525000,93.83,2025-12-01T23:58:19.632655
-FICO,Fair Isaac Corporation,Technology,Software - Application,43346522000,1670.22,2025-12-01T23:58:19.632655
-PEG,Public Service Enterprise Group Inc,Utilities,Utilities - Regulated Electric,41689338000,82.31,2025-12-01T23:58:19.632655
-RMD,ResMed Inc,Healthcare,Medical Instruments & Supplies,37342556000,261.89,2025-12-01T23:58:19.632655
-TGT,Target Corporation,Consumer Defensive,Discount Stores,41177649000,90.0,2025-12-01T23:58:19.632655
-HLN,Haleon plc,Healthcare,Drug Manufacturers - Specialty & Generic,43778195000,9.29,2025-12-01T23:58:19.632655
-VMC,Vulcan Materials Company,Basic Materials,Building Materials,39274590000,294.67,2025-12-01T23:58:19.632655
-HMC,Honda Motor Co Ltd ADR,Consumer Cyclical,Auto Manufacturers,39249883000,30.92,2025-12-01T23:58:19.632655
-A,Agilent Technologies Inc,Healthcare,Diagnostics & Research,43517313000,141.84,2025-12-01T23:58:19.632655
-RDDT,"Reddit, Inc.",Communication Services,Internet Content & Information,41020146000,207.26,2025-12-01T23:58:19.632655
-YUM,Yum! Brands Inc,Consumer Cyclical,Restaurants,42539192000,147.55,2025-12-01T23:58:19.632655
-FNV,Franco-Nevada Corporation,Basic Materials,Gold,40610951000,202.14,2025-12-01T23:58:19.632655
-HSY,Hershey Co,Consumer Defensive,Confectioners,38139826000,183.34,2025-12-01T23:58:19.632655
-HEI-A,HEICO Corporation,Industrials,Aerospace & Defense,38075367000,247.2,2025-12-01T23:58:19.632655
-DAL,Delta Air Lines Inc,Industrials,Airlines,41854910000,58.8,2025-12-01T23:58:19.632655
-ROK,Rockwell Automation Inc,Industrials,Specialty Industrial Machinery,44508279000,360.75,2025-12-01T23:58:19.632655
-MLM,Martin Marietta Materials Inc,Basic Materials,Building Materials,37585826000,618.82,2025-12-01T23:58:19.632655
-CCJ,Cameco Corp,Energy,Uranium,38648070000,88.86,2025-12-01T23:58:19.632655
-CCL,Carnival Corporation,Consumer Cyclical,Travel Services,34954641000,28.03,2025-12-01T23:58:19.632655
-CAH,Cardinal Health Inc,Healthcare,Medical Distribution,50431922000,176.31,2025-12-01T23:58:19.632655
-SYY,Sysco Corporation,Consumer Defensive,Food Distribution,36489212000,77.82,2025-12-01T23:58:19.632655
-ALC,Alcon AG,Healthcare,Medical Instruments & Supplies,39106597000,75.59,2025-12-01T23:58:19.632655
-TME,Tencent Music Entertainment Group,Communication Services,Internet Content & Information,31073516000,21.85,2025-12-01T23:58:19.632655
-GFI,Gold Fields Ltd ADR,Basic Materials,Gold,37404684000,40.14,2025-12-01T23:58:19.632655
-CUK,Carnival Plc ADS,Consumer Cyclical,Travel Services,31352361000,25.51,2025-12-01T23:58:19.632655
-TKO,"TKO Group Holdings, Inc.",Communication Services,Entertainment,15925521000,189.62,2025-12-01T23:58:19.632655
-WEC,WEC Energy Group Inc,Utilities,Utilities - Regulated Electric,36455727000,113.28,2025-12-01T23:58:19.632655
-HIG,Hartford Financial Services Group,Financial Services,Insurance - Property & Casualty,38528950000,130.19,2025-12-01T23:58:19.632655
-AU,AngloGold Ashanti plc,Basic Materials,Gold,43258827000,73.35,2025-12-01T23:58:19.632655
-ED,Consolidated Edison Inc,Utilities,Utilities - Regulated Electric,36223500000,99.69,2025-12-01T23:58:19.632655
-PRU,Prudential Financial Inc,Financial Services,Insurance - Life,38097822000,103.85,2025-12-01T23:58:19.632655
-FIS,Fidelity National Information Services Inc,Technology,Information Technology Services,34356838000,65.47,2025-12-01T23:58:19.632655
-XYL,Xylem Inc,Industrials,Specialty Industrial Machinery,34248792000,146.13,2025-12-01T23:58:19.632655
-PCG,PG&E Corp,Utilities,Utilities - Regulated Electric,35430318000,15.99,2025-12-01T23:58:19.632655
-LVS,Las Vegas Sands Corp,Consumer Cyclical,Resorts & Casinos,46788682000,57.71,2025-12-01T23:58:19.632655
-LYV,Live Nation Entertainment Inc,Communication Services,Entertainment,30523904000,148.49,2025-12-01T23:58:19.632655
-OTIS,Otis Worldwide Corp,Industrials,Specialty Industrial Machinery,34871423000,90.36,2025-12-01T23:58:19.632655
-HUM,Humana Inc,Healthcare,Healthcare Plans,29559513000,263.28,2025-12-01T23:58:19.632655
-CRCL,"Circle Internet Group, Inc.",Financial Services,Capital Markets,23293999000,83.23,2025-12-01T23:58:19.632655
-PUK,Prudential PLC ADR,Financial Services,Insurance - Life,37034848000,27.85,2025-12-01T23:58:19.632655
-TRGP,Targa Resources Inc,Energy,Oil & Gas Midstream,37725282000,162.95,2025-12-01T23:58:19.632655
-ABEV,Ambev SA ADR,Consumer Defensive,Beverages - Brewers,40466485000,2.32,2025-12-01T23:58:19.632655
-HPE,Hewlett Packard Enterprise Co,Technology,Communication Equipment,28856375000,23.56,2025-12-01T23:58:19.632655
-IQV,IQVIA Holdings Inc,Healthcare,Diagnostics & Research,39170703000,209.14,2025-12-01T23:58:19.632655
-EQT,EQT Corporation,Energy,Oil & Gas E&P,37980717000,55.6,2025-12-01T23:58:19.632655
-SLF,Sun Life Financial Inc.,Financial Services,Insurance - Diversified,33218531000,60.26,2025-12-01T23:58:19.632655
-EL,Estee Lauder Companies Inc,Consumer Defensive,Household & Personal Products,33899090000,92.07,2025-12-01T23:58:19.632655
-CHT,Chunghwa Telecom Co Ltd,Communication Services,Telecom Services,32558381000,42.91,2025-12-01T23:58:19.632655
-WAB,Westinghouse Air Brake Technologies Corp,Industrials,Railroads,35653120000,199.67,2025-12-01T23:58:19.632655
-FIG,"Figma, Inc.",Technology,Software - Application,25977629000,67.55,2025-12-01T23:58:19.632655
-STT,State Street Corp,Financial Services,Asset Management,33765417000,115.67,2025-12-01T23:58:19.632655
-VICI,VICI Properties Inc,Real Estate,Reit - Diversified,30803145000,30.78,2025-12-01T23:58:19.632655
-RJF,Raymond James Financial Inc.,Financial Services,Asset Management,31211565000,162.98,2025-12-01T23:58:19.632655
-DD,Dupont De Nemours Inc,Basic Materials,Specialty Chemicals,16662649000,35.27,2025-12-01T23:58:19.632655
-CVE,Cenovus Energy Inc,Energy,Oil & Gas Integrated,33691152000,17.37,2025-12-01T23:58:19.632655
-NRG,NRG Energy Inc.,Utilities,Utilities - Independent Power Producers,32784587000,167.17,2025-12-01T23:58:19.632655
-KVUE,Kenvue Inc.,Consumer Defensive,Household & Personal Products,33295864000,16.08,2025-12-01T23:58:19.632655
-NUE,Nucor Corp,Basic Materials,Steel,36500668000,142.49,2025-12-01T23:58:19.632655
-EXR,Extra Space Storage Inc,Real Estate,Reit - Industrial,29510666000,139.2,2025-12-01T23:58:19.632655
-BRO,Brown & Brown Inc,Financial Services,Insurance Brokers,27460475000,86.43,2025-12-01T23:58:19.632655
-BBD,Banco Bradesco SA ADR,Financial Services,Banks - Regional,39134945000,3.393,2025-12-01T23:58:19.632655
-BBDO,Banco Bradesco S/A ADR,Financial Services,Banks - Regional,36427936000,2.97,2025-12-01T23:58:19.632655
-IR,Ingersoll Rand Inc,Industrials,Specialty Industrial Machinery,31931333000,78.82,2025-12-01T23:58:19.632655
-IRM,Iron Mountain Incorporated,Real Estate,Reit - Specialty,25524152000,99.64,2025-12-01T23:58:19.632655
-VTR,Ventas Inc,Real Estate,Reit - Healthcare Facilities,37874557000,72.63,2025-12-01T23:58:19.632655
-STLA,Stellantis NV,Consumer Cyclical,Auto Manufacturers,30793798000,10.25,2025-12-01T23:58:19.632655
-PSTG,Pure Storage Inc,Technology,Computer Hardware,29235509000,89.1,2025-12-01T23:58:19.632655
-FMX,Fomento Economico Mexicano,Consumer Defensive,Beverages - Brewers,33150841000,95.23,2025-12-01T23:58:19.632655
-VG,"Venture Global, Inc.",Energy,Oil & Gas Midstream,18262905000,10.06,2025-12-01T23:58:19.632655
-EME,EMCOR Group Inc,Industrials,Engineering & Construction,27534139000,658.13,2025-12-01T23:58:19.632655
-LEN-B,Lennar Corporation,Consumer Cyclical,Residential Construction,31517989000,116.62,2025-12-01T23:58:19.632655
-QSR,Restaurant Brands International Inc,Consumer Cyclical,Restaurants,32922624000,67.51,2025-12-01T23:58:19.632655
-KB,KB Financial Group Inc,Financial Services,Banks - Regional,31190493000,83.06,2025-12-01T23:58:19.632655
-MT,ArcelorMittal SA ADR,Basic Materials,Steel,32797071000,38.71,2025-12-01T23:58:19.632655
-LEN,Lennar Corporation,Consumer Cyclical,Residential Construction,32427287000,123.84,2025-12-01T23:58:19.632655
-NTR,Nutrien Ltd,Basic Materials,Agricultural Inputs,28331094000,57.56,2025-12-01T23:58:19.632655
-KGC,Kinross Gold Corporation,Basic Materials,Gold,34365141000,24.75,2025-12-01T23:58:19.632655
-ADM,Archer-Daniels-Midland Company,Consumer Defensive,Farm Products,29189806000,60.37,2025-12-01T23:58:19.632655
-KEYS,Keysight Technologies Inc,Technology,Scientific & Technical Instruments,34018945000,174.96,2025-12-01T23:58:19.632655
-WRB,W. R. Berkley Corp,Financial Services,Insurance - Property & Casualty,29523847000,75.63,2025-12-01T23:58:19.632655
-MTB,M&T Bank Corporation,Financial Services,Banks - Regional,29725546000,187.72,2025-12-01T23:58:19.632655
-FIX,Comfort Systems USA Inc,Industrials,Engineering & Construction,34467860000,886.56,2025-12-01T23:58:19.632655
-CLS,Celestica Inc.,Technology,Electronic Components,39619764000,289.09,2025-12-01T23:58:19.632655
-DTE,DTE Energy Company,Utilities,Utilities - Regulated Electric,28458803000,138.8,2025-12-01T23:58:19.632655
-WIT,Wipro Limited ADR,Technology,Information Technology Services,29463880000,2.671,2025-12-01T23:58:19.632655
-EFX,Equifax Inc,Industrials,Consulting Services,26163425000,226.01,2025-12-01T23:58:19.632655
-K,Kellanova,Consumer Defensive,Packaged Foods,29101087000,82.37,2025-12-01T23:58:19.632655
-TEF,Telefonica SA ADR,Communication Services,Telecom Services,24198631000,4.775,2025-12-01T23:58:19.632655
-AWK,American Water Works,Utilities,Utilities - Regulated Water,25379723000,135.26,2025-12-01T23:58:19.632655
-WDS,Woodside Energy Group Ltd,Energy,Oil & Gas E&P,31101999000,15.78,2025-12-01T23:58:19.632655
-ATO,Atmos Energy Corporation,Utilities,Utilities - Regulated Gas,28517855000,173.76,2025-12-01T23:58:19.632655
-IX,Orix Corp Ads,Financial Services,Financial Conglomerates,30651451000,25.57,2025-12-01T23:58:19.632655
-NOK,Nokia Corp ADR,Technology,Communication Equipment,33716548000,5.91,2025-12-01T23:58:19.632655
-AEE,Ameren Corp,Utilities,Utilities - Regulated Electric,28767134000,103.68,2025-12-01T23:58:19.632655
-ROL,Rollins Inc,Consumer Cyclical,Personal Services,29581136000,57.77,2025-12-01T23:58:19.632655
-BR,Broadridge Financial Solutions Inc,Technology,Information Technology Services,26624389000,229.72,2025-12-01T23:58:19.632655
-PPL,PPL Corporation,Utilities,Utilities - Regulated Electric,27296377000,36.8,2025-12-01T23:58:19.632655
-TDY,Teledyne Technologies Incorporated,Technology,Scientific & Technical Instruments,23452957000,540.41,2025-12-01T23:58:19.632655
-FE,FirstEnergy Corporation,Utilities,Utilities - Regulated Electric,27566201000,46.18,2025-12-01T23:58:19.632655
-MTD,Mettler-Toledo International Inc,Healthcare,Diagnostics & Research,30419014000,1364.02,2025-12-01T23:58:19.632655
-ES,Eversource Energy,Utilities,Utilities - Regulated Electric,25205207000,71.38,2025-12-01T23:58:19.632655
-PHG,Koninklijke Philips NV ADR,Healthcare,Medical Devices,26779568000,27.9,2025-12-01T23:58:19.632655
-AVB,AvalonBay Communities Inc,Real Estate,Reit - Residential,25905168000,184.02,2025-12-01T23:58:19.632655
-SYF,Synchrony Financial,Financial Services,Credit Services,28782371000,73.2,2025-12-01T23:58:19.632655
-VIK,Viking Holdings Ltd,Consumer Cyclical,Travel Services,29624295000,60.65,2025-12-01T23:58:19.632655
-GIS,General Mills Inc,Consumer Defensive,Packaged Foods,25317374000,48.29,2025-12-01T23:58:19.632655
-CNP,CenterPoint Energy Inc,Utilities,Utilities - Regulated Electric,26101674000,39.29,2025-12-01T23:58:19.632655
-VLTO,Veralto Corporation,Industrials,Pollution & Treatment Controls,25132657000,102.04,2025-12-01T23:58:19.632655
-STM,STMicroelectronics NV ADR,Technology,Semiconductors,20437025000,26.04,2025-12-01T23:58:19.632655
-ASX,ASE Industrial Holding Co Ltd ADR,Technology,Semiconductors,32614926000,13.17,2025-12-01T23:58:19.632655
-HPQ,HP Inc,Technology,Computer Hardware,22937045000,26.36,2025-12-01T23:58:19.632655
-CQP,Cheniere Energy Partners LP,Energy,Oil & Gas Midstream,26380868000,52.72,2025-12-01T23:58:19.632655
-OWL,Blue Owl Capital Inc,Financial Services,Asset Management,23448199000,16.0,2025-12-01T23:58:19.632655
-FTS,Fortis Inc,Utilities,Utilities - Regulated Electric,26548662000,50.98,2025-12-01T23:58:19.632655
-STZ,Constellation Brands Inc Class A,Consumer Defensive,Beverages - Brewers,23739218000,134.97,2025-12-01T23:58:19.632655
-LDOS,Leidos Holdings Inc,Technology,Information Technology Services,24517622000,190.5,2025-12-01T23:58:19.632655
-SHG,Shinhan Financial Group Co Ltd,Financial Services,Banks - Regional,26454829000,51.86,2025-12-01T23:58:19.632655
-MKL,Markel Corporation,Financial Services,Insurance - Property & Casualty,26321727000,1963.75,2025-12-01T23:58:19.632655
-IP,International Paper,Consumer Cyclical,Packaging & Containers,20846952000,42.86,2025-12-01T23:58:19.632655
-EQR,Equity Residential,Real Estate,Reit - Residential,24302447000,61.72,2025-12-01T23:58:19.632655
-PHM,PulteGroup Inc,Consumer Cyclical,Residential Construction,25094279000,123.68,2025-12-01T23:58:19.632655
-HUBS,HubSpot Inc,Technology,Software - Application,19355234000,441.72,2025-12-01T23:58:19.632655
-STE,STERIS plc,Healthcare,Medical Devices,26226080000,248.26,2025-12-01T23:58:19.632655
-TPR,Tapestry Inc,Consumer Cyclical,Luxury Goods,22621561000,110.45,2025-12-01T23:58:19.632655
-TU,Telus Corp,Communication Services,Telecom Services,20356198000,14.84,2025-12-01T23:58:19.632655
-LH,Laboratory Corporation of America Holdings,Healthcare,Diagnostics & Research,22335617000,271.13,2025-12-01T23:58:19.632655
-CIEN,Ciena Corp,Technology,Communication Equipment,28868600000,173.9,2025-12-01T23:58:19.632655
-IONQ,IONQ Inc,Technology,Computer Hardware,16084294000,62.25,2025-12-01T23:58:19.632655
-WSM,Williams-Sonoma Inc,Consumer Cyclical,Specialty Retail,21489721000,190.34,2025-12-01T23:58:19.632655
-PBA,Pembina Pipeline Corp,Energy,Oil & Gas Midstream,22650538000,38.8,2025-12-01T23:58:19.632655
-TEVA,Teva Pharma Industries Ltd ADR,Healthcare,Drug Manufacturers - Specialty & Generic,30850427000,21.45,2025-12-01T23:58:19.632655
-IOT,Samsara Inc,Technology,Software - Infrastructure,21815325000,38.31,2025-12-01T23:58:19.632655
-RF,Regions Financial Corporation,Financial Services,Banks - Regional,22709248000,25.04,2025-12-01T23:58:19.632655
-PPG,PPG Industries Inc,Basic Materials,Specialty Chemicals,22579028000,100.49,2025-12-01T23:58:19.632655
-CFG,"Citizens Financial Group, Inc.",Financial Services,Banks - Regional,23335979000,51.85,2025-12-01T23:58:19.632655
-SW,Smurfit WestRock plc,Consumer Cyclical,Packaging & Containers,18636829000,39.24,2025-12-01T23:58:19.632655
-HUBB,Hubbell Inc,Industrials,Electrical Equipment & Parts,22928241000,434.49,2025-12-01T23:58:19.632655
-DOV,Dover Corporation,Industrials,Specialty Industrial Machinery,25411748000,174.06,2025-12-01T23:58:19.632655
-AXIA,Centrais Elétricas Brasileiras S.A. - Eletrobrás,Utilities,Utilities - Renewable,None,0,2025-12-01T23:58:19.632655
-JBL,Jabil Circuit Inc,Technology,Electronic Components,22613154000,209.79,2025-12-01T23:58:19.632655
-CMS,CMS Energy Corporation,Utilities,Utilities - Regulated Electric,22957885000,73.5,2025-12-01T23:58:19.632655
-TYL,Tyler Technologies Inc,Technology,Software - Application,20316613000,492.56,2025-12-01T23:58:19.632655
-NVR,NVR Inc,Consumer Cyclical,Residential Construction,20743424000,7567.52,2025-12-01T23:58:19.632655
-XPEV,Xpeng Inc,Consumer Cyclical,Auto Manufacturers,21346470000,22.66,2025-12-01T23:58:19.632655
-DVN,Devon Energy Corporation,Energy,Oil & Gas E&P,23525689000,34.09,2025-12-01T23:58:19.632655
-DG,Dollar General Corporation,Consumer Defensive,Discount Stores,24099410000,102.09,2025-12-01T23:58:19.632655
-DRI,Darden Restaurants Inc,Consumer Cyclical,Restaurants,20938113000,182.59,2025-12-01T23:58:19.632655
-BCE,BCE Inc,Communication Services,Telecom Services,21923682000,23.28,2025-12-01T23:58:19.632655
-PINS,Pinterest Inc,Communication Services,Internet Content & Information,17759762000,30.64,2025-12-01T23:58:19.632655
-BEKE,Ke Holdings Inc,Real Estate,Real Estate Services,20243272000,17.84,2025-12-01T23:58:19.632655
-TOST,Toast Inc,Technology,Software - Infrastructure,20103719000,36.54,2025-12-01T23:58:19.632655
-CHD,Church & Dwight Company Inc,Consumer Defensive,Household & Personal Products,20745718000,86.16,2025-12-01T23:58:19.632655
-L,Loews Corp,Financial Services,Insurance - Property & Casualty,22375086000,101.66,2025-12-01T23:58:19.632655
-NMR,Nomura Holdings Inc ADR,Financial Services,Capital Markets,22240459000,7.17,2025-12-01T23:58:19.632655
-AER,AerCap Holdings NV,Industrials,Rental & Leasing Services,23893508000,126.81,2025-12-01T23:58:19.632655
-GPN,Global Payments Inc,Industrials,Specialty Business Services,18379915000,81.51,2025-12-01T23:58:19.632655
-TECK,Teck Resources Ltd Class B,Basic Materials,Other Industrial Metals & Mining,20994972000,42.12,2025-12-01T23:58:19.632655
-TPL,Texas Pacific Land Trust,Energy,Oil & Gas E&P,22725947000,933.62,2025-12-01T23:58:19.632655
-CW,Curtiss-Wright Corporation,Industrials,Aerospace & Defense,21261382000,554.63,2025-12-01T23:58:19.632655
-BAP,Credicorp Ltd,Financial Services,Banks - Regional,20413811000,258.38,2025-12-01T23:58:19.632655
-CPAY,Corpay Inc,Technology,Software - Infrastructure,20887734000,283.85,2025-12-01T23:58:19.632655
-EIX,Edison International,Utilities,Utilities - Regulated Electric,22660110000,56.39,2025-12-01T23:58:19.632655
-OKLO,Oklo Inc.,Utilities,Utilities - Independent Power Producers,14277857000,124.18,2025-12-01T23:58:19.632655
-DGX,Quest Diagnostics Incorporated,Healthcare,Diagnostics & Research,21154757000,184.15,2025-12-01T23:58:19.632655
-BE,Bloom Energy Corp,Industrials,Electrical Equipment & Parts,25836433000,104.36,2025-12-01T23:58:19.632655
-NI,NiSource Inc,Utilities,Utilities - Regulated Gas,20883753000,43.06,2025-12-01T23:58:19.632655
-GIB,CGI Inc,Technology,Information Technology Services,19802104000,88.3,2025-12-01T23:58:19.632655
-GWRE,Guidewire Software Inc,Technology,Software - Application,18362380000,231.35,2025-12-01T23:58:19.632655
-HAL,Halliburton Company,Energy,Oil & Gas Equipment & Services,22355227000,25.33,2025-12-01T23:58:19.632655
-KEY,KeyCorp,Financial Services,Banks - Regional,20153960000,17.92,2025-12-01T23:58:19.632655
-WAT,Waters Corporation,Healthcare,Diagnostics & Research,24017506000,347.86,2025-12-01T23:58:19.632655
-RCI,Rogers Communications Inc,Communication Services,Telecom Services,21258764000,37.25,2025-12-01T23:58:19.632655
-BSBR,Banco Santander Brasil SA ADR,Financial Services,Banks - Regional,47142380000,5.53,2025-12-01T23:58:19.632655
-RL,Ralph Lauren Corp Class A,Consumer Cyclical,Apparel Manufacturing,22275131000,326.42,2025-12-01T23:58:19.632655
-VIV,Telefonica Brasil SA ADR,Communication Services,Telecom Services,21184817000,12.52,2025-12-01T23:58:19.632655
-ZBH,Zimmer Biomet Holdings Inc,Healthcare,Medical Devices,19326665000,96.88,2025-12-01T23:58:19.632655
-RBA,RB Global Inc.,Industrials,Specialty Business Services,18282037000,102.68,2025-12-01T23:58:19.632655
-COHR,Coherent Inc,Technology,Scientific & Technical Instruments,25814053000,128.37,2025-12-01T23:58:19.632655
-BNT,Brookfield Wealth Solutions Ltd.,Financial Services,Insurance - Diversified,12884604000,45.51,2025-12-01T23:58:19.632655
-WST,West Pharmaceutical Services Inc,Healthcare,Medical Instruments & Supplies,19946310000,270.95,2025-12-01T23:58:19.632655
-PKG,Packaging Corp of America,Consumer Cyclical,Packaging & Containers,18361971000,205.38,2025-12-01T23:58:19.632655
-LII,Lennox International Inc,Industrials,Building Products & Equipment,17522448000,506.42,2025-12-01T23:58:19.632655
-UMC,United Microelectronics,Technology,Semiconductors,18732474000,7.4,2025-12-01T23:58:19.632655
-TS,Tenaris SA ADR,Energy,Oil & Gas Equipment & Services,20806513000,37.53,2025-12-01T23:58:19.632655
-EC,Ecopetrol SA ADR,Energy,Oil & Gas Integrated,21067147000,9.42,2025-12-01T23:58:19.632655
-J,Jacobs Solutions Inc.,Industrials,Engineering & Construction,16198255000,151.76,2025-12-01T23:58:19.632655
-CNC,Centene Corp,Healthcare,Healthcare Plans,19336319000,35.99,2025-12-01T23:58:19.632655
-GDDY,Godaddy Inc,Technology,Software - Infrastructure,17702093000,132.65,2025-12-01T23:58:19.632655
-IT,Gartner Inc,Technology,Information Technology Services,17626749000,243.48,2025-12-01T23:58:19.632655
-IHG,InterContinental Hotels Group PLC ADR,Consumer Cyclical,Lodging,20161901000,124.63,2025-12-01T23:58:19.632655
-NIO,Nio Inc Class A ADR,Consumer Cyclical,Auto Manufacturers,13907626000,6.83,2025-12-01T23:58:19.632655
-TSN,Tyson Foods Inc,Consumer Defensive,Farm Products,20494789000,53.39,2025-12-01T23:58:19.632655
-GPC,Genuine Parts Co,Consumer Cyclical,Auto Parts,18140008000,131.49,2025-12-01T23:58:19.632655
-BEP,Brookfield Renewable Partners LP,Utilities,Utilities - Renewable,18884512000,28.33,2025-12-01T23:58:19.632655
-AMCR,Amcor PLC,Consumer Cyclical,Packaging & Containers,19667229000,8.2,2025-12-01T23:58:19.632655
-CTRA,Coterra Energy Inc,Energy,Oil & Gas E&P,20482677000,24.45,2025-12-01T23:58:19.632655
-APTV,Aptiv PLC,Consumer Cyclical,Auto Parts,16887273000,82.44,2025-12-01T23:58:19.632655
-PNR,Pentair PLC,Industrials,Specialty Industrial Machinery,17252127000,108.11,2025-12-01T23:58:19.632655
-AS,"Amer Sports, Inc.",Consumer Cyclical,Leisure,20591239000,32.84,2025-12-01T23:58:19.632655
-TLK,Telkom Indonesia (Persero) Tbk PT ADR Rep 100 B,Communication Services,Telecom Services,21347906000,19.79,2025-12-01T23:58:19.632655
-DKS,Dick’s Sporting Goods Inc,Consumer Cyclical,Specialty Retail,18524439000,221.46,2025-12-01T23:58:19.632655
-BWXT,BWX Technologies Inc,Industrials,Aerospace & Defense,16354417000,191.26,2025-12-01T23:58:19.632655
-MKC,McCormick & Company Incorporated,Consumer Defensive,Packaged Foods,18109991000,66.08,2025-12-01T23:58:19.632655
-MKC-V,McCormick & Company Incorporated,Consumer Defensive,Packaged Foods,18063024000,65.93,2025-12-01T23:58:19.632655
-WY,Weyerhaeuser Company,Real Estate,Reit - Specialty,16024758000,23.39,2025-12-01T23:58:19.632655
-SGI,Somnigroup International Inc.,Consumer Cyclical,"Furnishings, Fixtures & Appliances",11660662000,61.19,2025-12-01T23:58:19.632655
-TWLO,Twilio Inc,Technology,Software - Infrastructure,19898804000,115.43,2025-12-01T23:58:19.632655
-KOF,Coca-Cola Femsa SAB de CV ADR,Consumer Defensive,Beverages - Non-Alcoholic,18426401000,85.58,2025-12-01T23:58:19.632655
-ACM,Aecom Technology Corporation,Industrials,Engineering & Construction,13595971000,127.76,2025-12-01T23:58:19.632655
-CRBG,Corebridge Financial Inc.,Financial Services,Asset Management,15141499000,31.15,2025-12-01T23:58:19.632655
-SNA,Snap-On Inc,Industrials,Tools & Accessories,17738154000,339.12,2025-12-01T23:58:19.632655
-ESS,Essex Property Trust Inc,Real Estate,Reit - Residential,18207830000,259.97,2025-12-01T23:58:19.632655
-INVH,Invitation Homes Inc,Real Estate,Reit - Residential,17287182000,28.47,2025-12-01T23:58:19.632655
-THC,Tenet Healthcare Corporation,Healthcare,Medical Care Facilities,19158030000,201.32,2025-12-01T23:58:19.632655
-RBRK,"Rubrik, Inc.",Technology,Software - Infrastructure,13687837000,76.44,2025-12-01T23:58:19.632655
-USFD,US Foods Holding Corp,Consumer Defensive,Food Distribution,17714250000,74.86,2025-12-01T23:58:19.632655
-PAAS,Pan American Silver Corp.,Basic Materials,Gold,19274885000,37.82,2025-12-01T23:58:19.632655
-GFL,Gfl Environmental Holdings Inc,Industrials,Waste Management,16358359000,45.28,2025-12-01T23:58:19.632655
-FTV,Fortive Corp,Technology,Scientific & Technical Instruments,18094227000,50.1,2025-12-01T23:58:19.632655
-LUV,Southwest Airlines Company,Industrials,Airlines,18281785000,32.43,2025-12-01T23:58:19.632655
-U,Unity Software Inc,Technology,Software - Application,18194854000,39.02,2025-12-01T23:58:19.632655
-MTZ,MasTec Inc,Industrials,Engineering & Construction,16876833000,204.85,2025-12-01T23:58:19.632655
-BG,Bunge Limited,Consumer Defensive,Farm Products,19219958000,90.35,2025-12-01T23:58:19.632655
-CHWY,Chewy Inc,Consumer Cyclical,Internet Retail,14423291000,35.98,2025-12-01T23:58:19.632655
-BURL,Burlington Stores Inc,Consumer Cyclical,Apparel Retail,15872079000,269.86,2025-12-01T23:58:19.632655
-XPO,XPO Logistics Inc,Industrials,Trucking,16729281000,132.5,2025-12-01T23:58:19.632655
-KEP,Korea Electric Power Corp ADR,Utilities,Utilities - Regulated Electric,23380330000,14.91,2025-12-01T23:58:19.632655
-MAA,Mid-America Apartment Communities Inc,Real Estate,Reit - Residential,16311067000,133.6,2025-12-01T23:58:19.632655
-BIP,Brookfield Infrastructure Partners LP,Utilities,Utilities - Diversified,16732802000,34.28,2025-12-01T23:58:19.632655
-SBS,Companhia de Saneamento Basico do Estado de Sao Paulo SABESP ADR,Utilities,Utilities - Regulated Water,18010747000,24.71,2025-12-01T23:58:19.632655
-FMS,Fresenius Medical Care Corporation,Healthcare,Medical Care Facilities,13866373000,25.56,2025-12-01T23:58:19.632655
-BBY,Best Buy Co. Inc,Consumer Cyclical,Specialty Retail,16755566000,77.8,2025-12-01T23:58:19.632655
-EXPD,"Expeditors International of Washington, Inc.",Industrials,Integrated Freight & Logistics,19937051000,127.41,2025-12-01T23:58:19.632655
-BCH,Banco De Chile,Financial Services,Banks - Regional,19082125000,33.55,2025-12-01T23:58:19.632655
-NVT,nVent Electric PLC,Industrials,Electrical Equipment & Parts,17309039000,102.8,2025-12-01T23:58:19.632655
-PFGC,Performance Food Group Co,Consumer Defensive,Food Distribution,15221755000,99.49,2025-12-01T23:58:19.632655
-SUI,Sun Communities Inc,Real Estate,Reit - Residential,16575589000,125.96,2025-12-01T23:58:19.632655
-DOW,Dow Inc,Basic Materials,Chemicals,16951802000,22.8,2025-12-01T23:58:19.632655
-KLAR,Klarna Group plc,Technology,Software - Infrastructure,13865023000,39.65,2025-12-01T23:58:19.632655
-IFF,International Flavors & Fragrances Inc,Basic Materials,Specialty Chemicals,17806828000,63.63,2025-12-01T23:58:19.632655
-TRU,TransUnion,Financial Services,Financial Data & Stock Exchanges,16567740000,81.6,2025-12-01T23:58:19.632655
-YUMC,Yum China Holdings Inc,Consumer Cyclical,Restaurants,17239011000,44.52,2025-12-01T23:58:19.632655
-SNN,Smith & Nephew SNATS Inc,Healthcare,Medical Devices,14164636000,35.12,2025-12-01T23:58:19.632655
-LYB,LyondellBasell Industries NV,Basic Materials,Specialty Chemicals,15768557000,46.66,2025-12-01T23:58:19.632655
-ZTO,ZTO Express (Cayman) Inc,Industrials,Integrated Freight & Logistics,16441120000,19.1,2025-12-01T23:58:19.632655
-FTI,TechnipFMC PLC,Energy,Oil & Gas Equipment & Services,18308579000,40.46,2025-12-01T23:58:19.632655
-TXT,Textron Inc,Industrials,Aerospace & Defense,14819553000,82.29,2025-12-01T23:58:19.632655
-ALLE,Allegion PLC,Industrials,Security & Protection Services,14283885000,170.69,2025-12-01T23:58:19.632655
-FNF,Fidelity National Financial Inc,Financial Services,Insurance - Specialty,16148472000,57.45,2025-12-01T23:58:19.632655
-OMC,Omnicom Group Inc,Communication Services,Advertising Agencies,22727834000,75.95,2025-12-01T23:58:19.632655
-EQH,Axa Equitable Holdings Inc,Financial Services,Asset Management,13985358000,48.25,2025-12-01T23:58:19.632655
-EG,Everest Group Ltd,Financial Services,Insurance - Reinsurance,13193284000,334.31,2025-12-01T23:58:19.632655
-DT,Dynatrace Holdings LLC,Technology,Software - Application,13435119000,47.87,2025-12-01T23:58:19.632655
-RS,Reliance Steel & Aluminum Co,Basic Materials,Steel,14690429000,277.22,2025-12-01T23:58:19.632655
-WPC,W P Carey Inc,Real Estate,Reit - Diversified,14763801000,67.31,2025-12-01T23:58:19.632655
-CLX,The Clorox Company,Consumer Defensive,Household & Personal Products,13166562000,113.87,2025-12-01T23:58:19.632655
-ULS,UL Solutions Inc.,Industrials,Specialty Business Services,18322618000,78.92,2025-12-01T23:58:19.632655
-PKX,POSCO Holdings Inc,Basic Materials,Steel,16065251000,51.93,2025-12-01T23:58:19.632655
-JOBY,Joby Aviation,Industrials,Airports & Air Services,13157031000,15.91,2025-12-01T23:58:19.632655
-RYAN,Ryan Specialty Group Holdings Inc,Financial Services,Insurance - Specialty,15355951000,55.38,2025-12-01T23:58:19.632655
-DECK,Deckers Outdoor Corporation,Consumer Cyclical,Footwear & Accessories,13058665000,93.11,2025-12-01T23:58:19.632655
-WES,Western Midstream Partners LP,Energy,Oil & Gas Midstream,16046472000,38.54,2025-12-01T23:58:19.632655
-APG,Api Group Corp,Industrials,Engineering & Construction,16453239000,35.65,2025-12-01T23:58:19.632655
-WSO-B,Watsco Inc,Industrials,Industrial Distribution,14256285000,379.45,2025-12-01T23:58:19.632655
-WSO,Watsco Inc,Industrials,Industrial Distribution,14087982000,367.72,2025-12-01T23:58:19.632655
-KIM,Kimco Realty Corporation,Real Estate,Reit - Retail,13990852000,21.16,2025-12-01T23:58:19.632655
-EMA,Emera Incorporated,Utilities,Utilities - Regulated Electric,14695209000,48.11,2025-12-01T23:58:19.632655
-CF,CF Industries Holdings Inc,Basic Materials,Agricultural Inputs,12747271000,85.05,2025-12-01T23:58:19.632655
-CIB,Grupo Cibest S.A.,Financial Services,Banks - Regional,16439143000,57.03,2025-12-01T23:58:19.632655
-RPM,RPM International Inc,Basic Materials,Specialty Chemicals,13759357000,111.08,2025-12-01T23:58:19.632655
-SNAP,Snap Inc,Communication Services,Internet Content & Information,13204674000,8.04,2025-12-01T23:58:19.632655
-ONON,On Holding Ltd,Consumer Cyclical,Footwear & Accessories,14524048000,41.36,2025-12-01T23:58:19.632655
-BLDR,Builders FirstSource Inc,Industrials,Building Products & Equipment,12410459000,116.17,2025-12-01T23:58:19.632655
-MAS,Masco Corporation,Industrials,Building Products & Equipment,13581420000,66.2,2025-12-01T23:58:19.632655
-H,Hyatt Hotels Corporation,Consumer Cyclical,Lodging,15696778000,147.67,2025-12-01T23:58:19.632655
-AGI,Alamos Gold Inc,Basic Materials,Gold,15775603000,33.29,2025-12-01T23:58:19.632655
-CSL,Carlisle Companies Incorporated,Industrials,Building Products & Equipment,13597727000,324.23,2025-12-01T23:58:19.632655
-AMH,American Homes 4 Rent,Real Estate,Reit - Residential,13570149000,32.48,2025-12-01T23:58:19.632655
-FN,Fabrinet,Technology,Electronic Components,16459378000,408.38,2025-12-01T23:58:19.632655
-JLL,Jones Lang LaSalle Incorporated,Real Estate,Real Estate Services,15431594000,303.36,2025-12-01T23:58:19.632655
-RTO,Rentokil Initial PLC,Industrials,Specialty Business Services,13993937000,26.7,2025-12-01T23:58:19.632655
-DOCS,Doximity Inc,Healthcare,Health Information Services,9684674000,63.61,2025-12-01T23:58:19.632655
-WF,Woori Financial Group Inc,Financial Services,Banks - Regional,13444844000,55.01,2025-12-01T23:58:19.632655
-GGG,Graco Inc,Industrials,Specialty Industrial Machinery,13668067000,82.32,2025-12-01T23:58:19.632655
-ITT,ITT Inc,Industrials,Specialty Industrial Machinery,14364481000,180.27,2025-12-01T23:58:19.632655
-NLY,"Annaly Capital Management, Inc.",Real Estate,Reit - Mortgage,15573112000,21.23,2025-12-01T23:58:19.632655
-YMM,Full Truck Alliance Co Ltd ADR,Technology,Software - Application,11870899000,12.49,2025-12-01T23:58:19.632655
-HLI,Houlihan Lokey Inc,Financial Services,Capital Markets,12332645000,190.01,2025-12-01T23:58:19.632655
-QXO,"QXO, Inc.",Industrials,Industrial Distribution,12631363000,18.4,2025-12-01T23:58:19.632655
-CX,Cemex SAB de CV ADR,Basic Materials,Building Materials,15654486000,9.7,2025-12-01T23:58:19.632655
-HIMS,Hims Hers Health Inc,Healthcare,Drug Manufacturers - Specialty & Generic,9051305000,47.93,2025-12-01T23:58:19.632655
-CNH,CNH Industrial N.V.,Industrials,Farm & Heavy Construction Machinery,11795234000,10.35,2025-12-01T23:58:19.632655
-DOC,Healthpeak Properties Inc,Real Estate,Reit - Healthcare Facilities,12689784000,18.27,2025-12-01T23:58:19.632655
-UNM,Unum Group,Financial Services,Insurance - Life,12938698000,76.48,2025-12-01T23:58:19.632655
-HRL,Hormel Foods Corporation,Consumer Defensive,Packaged Foods,12765464000,23.31,2025-12-01T23:58:19.632655
-MGA,Magna International Inc,Consumer Cyclical,Auto Parts,13815844000,47.13,2025-12-01T23:58:19.632655
-UDR,UDR Inc,Real Estate,Reit - Residential,13711731000,35.68,2025-12-01T23:58:19.632655
-BALL,Ball Corporation,Consumer Cyclical,Packaging & Containers,13479535000,48.54,2025-12-01T23:58:19.632655
-BF-B,Brown-Forman Corporation,Consumer Defensive,Beverages - Wineries & Distilleries,13714485000,27.66,2025-12-01T23:58:19.632655
-BF-A,Brown-Forman Corporation,Consumer Defensive,Beverages - Wineries & Distilleries,13478179000,27.42,2025-12-01T23:58:19.632655
-BEPC,Brookfield Renewable Corp,Utilities,Utilities - Renewable,7452751000,39.82,2025-12-01T23:58:19.632655
-CDE,Coeur Mining Inc,Basic Materials,Gold,11091103000,17.55,2025-12-01T23:58:19.632655
-ARE,Alexandria Real Estate Equities Inc,Real Estate,Reit - Office,9275520000,67.82,2025-12-01T23:58:19.632655
-RGA,Reinsurance Group of America,Financial Services,Insurance - Reinsurance,12477085000,189.75,2025-12-01T23:58:19.632655
-LTM,LATAM Airlines Group S.A.,Industrials,Airlines,13847219000,44.8,2025-12-01T23:58:19.632655
-UHS,Universal Health Services Inc,Healthcare,Medical Care Facilities,15504295000,214.72,2025-12-01T23:58:19.632655
-MP,MP Materials Corp,Basic Materials,Other Industrial Metals & Mining,10979428000,68.01,2025-12-01T23:58:19.632655
-SNX,Synnex Corporation,Technology,Electronics & Computer Distribution,12574580000,154.07,2025-12-01T23:58:19.632655
-ELS,Equity Lifestyle Properties Inc,Real Estate,Reit - Residential,12755635000,61.64,2025-12-01T23:58:19.632655
-STN,Stantec Inc,Industrials,Engineering & Construction,11029320000,107.35,2025-12-01T23:58:19.632655
-BSAC,Banco Santander Chile,Financial Services,Banks - Regional,14100482000,28.02,2025-12-01T23:58:19.632655
-BXP,Boston Properties Inc,Real Estate,Reit - Office,12800234000,72.31,2025-12-01T23:58:19.632655
-SN,"SharkNinja, Inc.",Consumer Cyclical,"Furnishings, Fixtures & Appliances",13771675000,94.41,2025-12-01T23:58:19.632655
-AVY,Avery Dennison Corp,Consumer Cyclical,Packaging & Containers,13323406000,168.2,2025-12-01T23:58:19.632655
-CRS,Carpenter Technology Corporation,Industrials,Metal Fabrication,15879250000,283.08,2025-12-01T23:58:19.632655
-IEX,IDEX Corporation,Industrials,Specialty Industrial Machinery,13094717000,166.13,2025-12-01T23:58:19.632655
-CNA,CNA Financial Corporation,Financial Services,Insurance - Property & Casualty,12653663000,45.81,2025-12-01T23:58:19.632655
-CLH,Clean Harbors Inc,Industrials,Waste Management,12204636000,224.94,2025-12-01T23:58:19.632655
-SOLV,Solventum Corp.,Healthcare,Medical Instruments & Supplies,14788139000,73.56,2025-12-01T23:58:19.632655
-TOL,Toll Brothers Inc,Consumer Cyclical,Residential Construction,13728649000,134.68,2025-12-01T23:58:19.632655
-EHC,Encompass Health Corp,Healthcare,Medical Care Facilities,11693588000,120.59,2025-12-01T23:58:19.632655
-EVR,Evercore Partners Inc,Financial Services,Capital Markets,12379705000,317.86,2025-12-01T23:58:19.632655
-JHX,James Hardie Industries PLC ADR,Basic Materials,Building Materials,11457716000,19.79,2025-12-01T23:58:19.632655
-SQM,Sociedad Quimica y Minera de Chile SA ADR B,Basic Materials,Specialty Chemicals,18372225000,48.41,2025-12-01T23:58:19.632655
-OHI,Omega Healthcare Investors Inc,Real Estate,Reit - Healthcare Facilities,13947695000,42.12,2025-12-01T23:58:19.632655
-BAH,Booz Allen Hamilton Holding,Industrials,Consulting Services,10286335000,92.13,2025-12-01T23:58:19.632655
-BEN,Franklin Resources Inc,Financial Services,Asset Management,11768726000,22.79,2025-12-01T23:58:19.632655
-RNR,Renaissancere Holdings Ltd,Financial Services,Insurance - Reinsurance,12292284000,256.27,2025-12-01T23:58:19.632655
-AEG,Aegon NV ADR,Financial Services,Insurance - Diversified,12690153000,7.68,2025-12-01T23:58:19.632655
-RBC,RBC Bearings Incorporated,Industrials,Tools & Accessories,14066143000,405.32,2025-12-01T23:58:19.632655
-ALLY,Ally Financial Inc,Financial Services,Credit Services,12722596000,39.85,2025-12-01T23:58:19.632655
-QBTS,D-Wave Quantum Inc.,Technology,Computer Hardware,8093684000,29.9,2025-12-01T23:58:19.632655
-AFG,American Financial Group Inc,Financial Services,Insurance - Property & Casualty,11486339000,138.83,2025-12-01T23:58:19.632655
-BLD,Topbuild Corp,Industrials,Engineering & Construction,12732822000,421.94,2025-12-01T23:58:19.632655
-FHN,First Horizon National Corporation,Financial Services,Banks - Regional,11343081000,21.77,2025-12-01T23:58:19.632655
-BJ,BJs Wholesale Club Holdings Inc,Consumer Defensive,Discount Stores,11756355000,92.04,2025-12-01T23:58:19.632655
-RDY,Dr. Reddy’s Laboratories Ltd ADR,Healthcare,Drug Manufacturers - Specialty & Generic,11751639000,14.07,2025-12-01T23:58:19.632655
-HMY,Harmony Gold Mining Company Limited,Basic Materials,Gold,12399747000,17.83,2025-12-01T23:58:19.632655
-PAC,Grupo Aeroportuario del Pacifico SAB De CV ADR,Industrials,Airports & Air Services,12020605000,225.56,2025-12-01T23:58:19.632655
-SMR,Nuscale Power Corp,Industrials,Specialty Industrial Machinery,5656870000,35.22,2025-12-01T23:58:19.632655
-BAX,Baxter International Inc,Healthcare,Medical Instruments & Supplies,9633406000,20.88,2025-12-01T23:58:19.632655
-PAYC,Paycom Soft,Technology,Software - Application,9066875000,189.65,2025-12-01T23:58:19.632655
-SF,Stifel Financial Corporation,Financial Services,Capital Markets,12465156000,115.93,2025-12-01T23:58:19.632655
-ALB,Albemarle Corp,Basic Materials,Specialty Chemicals,15299503000,98.84,2025-12-01T23:58:19.632655
-WTRG,Essential Utilities Inc,Utilities,Utilities - Regulated Water,11203001000,39.61,2025-12-01T23:58:19.632655
-ATI,Allegheny Technologies Incorporated,Industrials,Metal Fabrication,13893479000,89.84,2025-12-01T23:58:19.632655
-SCI,Service Corporation International,Consumer Cyclical,Personal Services,11134605000,81.19,2025-12-01T23:58:19.632655
-DTM,DT Midstream Inc,Energy,Oil & Gas Midstream,12349315000,112.07,2025-12-01T23:58:19.632655
-CACI,CACI International Inc,Technology,Information Technology Services,13625388000,551.36,2025-12-01T23:58:19.632655
-HII,Huntington Ingalls Industries Inc,Industrials,Aerospace & Defense,12306898000,297.09,2025-12-01T23:58:19.632655
-PCOR,Procore Technologies Inc,Technology,Software - Application,11514098000,73.31,2025-12-01T23:58:19.632655
-SJM,The J. M. Smucker Company,Consumer Defensive,Packaged Foods,11115416000,105.71,2025-12-01T23:58:19.632655
-KNSL,Kinsale Capital Group Inc,Financial Services,Insurance - Property & Casualty,8968169000,420.73,2025-12-01T23:58:19.632655
-PAG,Penske Automotive Group Inc,Consumer Cyclical,Auto & Truck Dealerships,10680696000,165.49,2025-12-01T23:58:19.632655
-CPT,,,,,,2025-12-01T23:58:19.632655
-GL,,,,,,2025-12-01T23:58:19.632655
-AIZ,,,,,,2025-12-01T23:58:19.632655
-SUZ,,,,,,2025-12-01T23:58:19.632655
-AYI,,,,,,2025-12-01T23:58:19.632655
-PNW,,,,,,2025-12-01T23:58:19.632655
-JEF,,,,,,2025-12-01T23:58:19.632655
-UHAL,,,,,,2025-12-01T23:58:19.632655
-MOH,,,,,,2025-12-01T23:58:19.632655
-OC,,,,,,2025-12-01T23:58:19.632655
-MLI,,,,,,2025-12-01T23:58:19.632655
-DAY,,,,,,2025-12-01T23:58:19.632655
-WCC,,,,,,2025-12-01T23:58:19.632655
-SWK,,,,,,2025-12-01T23:58:19.632655
-GME,,,,,,2025-12-01T23:58:19.632655
-WMS,,,,,,2025-12-01T23:58:19.632655
-FDS,,,,,,2025-12-01T23:58:19.632655
-IVZ,,,,,,2025-12-01T23:58:19.632655
-RVTY,,,,,,2025-12-01T23:58:19.632655
-MOS,,,,,,2025-12-01T23:58:19.632655
-NCLH,,,,,,2025-12-01T23:58:19.632655
-ERJ,,,,,,2025-12-01T23:58:19.632655
-PR,,,,,,2025-12-01T23:58:19.632655
-CCK,,,,,,2025-12-01T23:58:19.632655
-ORI,,,,,,2025-12-01T23:58:19.632655
-ARMK,,,,,,2025-12-01T23:58:19.632655
-AR,,,,,,2025-12-01T23:58:19.632655
-YPF,,,,,,2025-12-01T23:58:19.632655
-AES,,,,,,2025-12-01T23:58:19.632655
-WLK,,,,,,2025-12-01T23:58:19.632655
-CMA,,,,,,2025-12-01T23:58:19.632655
-CR,,,,,,2025-12-01T23:58:19.632655
-TIMB,,,,,,2025-12-01T23:58:19.632655
-W,,,,,,2025-12-01T23:58:19.632655
-PEN,,,,,,2025-12-01T23:58:19.632655
-QGEN,,,,,,2025-12-01T23:58:19.632655
-GNRC,,,,,,2025-12-01T23:58:19.632655
-REXR,,,,,,2025-12-01T23:58:19.632655
-CNM,,,,,,2025-12-01T23:58:19.632655
-OVV,,,,,,2025-12-01T23:58:19.632655
-SSB,,,,,,2025-12-01T23:58:19.632655
-BDX,,,,,,2025-12-01T23:58:19.632655
-NVDA,,,,,,2025-12-01T23:58:19.632655
-MSFT,,,,,,2025-12-01T23:58:19.632655
-AAPL,,,,,,2025-12-01T23:58:19.632655
-GOOG,,,,,,2025-12-01T23:58:19.632655
-GOOGL,,,,,,2025-12-01T23:58:19.632655
-AMZN,,,,,,2025-12-01T23:58:19.632655
-META,,,,,,2025-12-01T23:58:19.632655
-AVGO,,,,,,2025-12-01T23:58:19.632655
-TSLA,,,,,,2025-12-01T23:58:19.632655
-NFLX,,,,,,2025-12-01T23:58:19.632655
-PLTR,,,,,,2025-12-01T23:58:19.632655
-COST,,,,,,2025-12-01T23:58:19.632655
-ASML,,,,,,2025-12-01T23:58:19.632655
-AMD,,,,,,2025-12-01T23:58:19.632655
-CSCO,,,,,,2025-12-01T23:58:19.632655
-AZN,,,,,,2025-12-01T23:58:19.632655
-TMUS,,,,,,2025-12-01T23:58:19.632655
-MU,,,,,,2025-12-01T23:58:19.632655
-LIN,,,,,,2025-12-01T23:58:19.632655
-SHOP,,,,,,2025-12-01T23:58:19.632655
-APP,,,,,,2025-12-01T23:58:19.632655
-PEP,,,,,,2025-12-01T23:58:19.632655
-PDD,,,,,,2025-12-01T23:58:19.632655
-ARM,,,,,,2025-12-01T23:58:19.632655
-INTC,,,,,,2025-12-01T23:58:19.632655
-INTU,,,,,,2025-12-01T23:58:19.632655
-QCOM,,,,,,2025-12-01T23:58:19.632655
-LRCX,,,,,,2025-12-01T23:58:19.632655
-AMAT,,,,,,2025-12-01T23:58:19.632655
-BKNG,,,,,,2025-12-01T23:58:19.632655
-TXN,,,,,,2025-12-01T23:58:19.632655
-ISRG,,,,,,2025-12-01T23:58:19.632655
-AMGN,,,,,,2025-12-01T23:58:19.632655
-PANW,,,,,,2025-12-01T23:58:19.632655
-ADBE,,,,,,2025-12-01T23:58:19.632655
-GILD,,,,,,2025-12-01T23:58:19.632655
-KLAC,,,,,,2025-12-01T23:58:19.632655
-HOOD,,,,,,2025-12-01T23:58:19.632655
-HON,,,,,,2025-12-01T23:58:19.632655
-CRWD,,,,,,2025-12-01T23:58:19.632655
-CEG,,,,,,2025-12-01T23:58:19.632655
-SNY,,,,,,2025-12-01T23:58:19.632655
-DASH,,,,,,2025-12-01T23:58:19.632655
-ADI,,,,,,2025-12-01T23:58:19.632655
-ADP,,,,,,2025-12-01T23:58:19.632655
-MELI,,,,,,2025-12-01T23:58:19.632655
-CMCSA,,,,,,2025-12-01T23:58:19.632655
-VRTX,,,,,,2025-12-01T23:58:19.632655
-COIN,,,,,,2025-12-01T23:58:19.632655
-NTES,,,,,,2025-12-01T23:58:19.632655
-CME,,,,,,2025-12-01T23:58:19.632655
-CDNS,,,,,,2025-12-01T23:58:19.632655
-MSTR,,,,,,2025-12-01T23:58:19.632655
-SBUX,,,,,,2025-12-01T23:58:19.632655
-SNPS,,,,,,2025-12-01T23:58:19.632655
-ORLY,,,,,,2025-12-01T23:58:19.632655
-EQIX,,,,,,2025-12-01T23:58:19.632655
-MDLZ,,,,,,2025-12-01T23:58:19.632655
-MRVL,,,,,,2025-12-01T23:58:19.632655
-CTAS,,,,,,2025-12-01T23:58:19.632655
-CRWV,,,,,,2025-12-01T23:58:19.632655
-ABNB,,,,,,2025-12-01T23:58:19.632655
-PYPL,,,,,,2025-12-01T23:58:19.632655
-MAR,,,,,,2025-12-01T23:58:19.632655
-TRI,,,,,,2025-12-01T23:58:19.632655
-MNST,,,,,,2025-12-01T23:58:19.632655
-CSX,,,,,,2025-12-01T23:58:19.632655
-FTNT,,,,,,2025-12-01T23:58:19.632655
-ADSK,,,,,,2025-12-01T23:58:19.632655
-WDAY,,,,,,2025-12-01T23:58:19.632655
-AEP,,,,,,2025-12-01T23:58:19.632655
-ALNY,,,,,,2025-12-01T23:58:19.632655
-REGN,,,,,,2025-12-01T23:58:19.632655
-AXON,,,,,,2025-12-01T23:58:19.632655
-DDOG,,,,,,2025-12-01T23:58:19.632655
-NXPI,,,,,,2025-12-01T23:58:19.632655
-ROP,,,,,,2025-12-01T23:58:19.632655
-FAST,,,,,,2025-12-01T23:58:19.632655
-NDAQ,,,,,,2025-12-01T23:58:19.632655
-IDXX,,,,,,2025-12-01T23:58:19.632655
-PCAR,,,,,,2025-12-01T23:58:19.632655
-ZS,,,,,,2025-12-01T23:58:19.632655
-EA,,,,,,2025-12-01T23:58:19.632655
-ARGX,,,,,,2025-12-01T23:58:19.632655
-ROST,,,,,,2025-12-01T23:58:19.632655
-JD,,,,,,2025-12-01T23:58:19.632655
-XEL,,,,,,2025-12-01T23:58:19.632655
-TTWO,,,,,,2025-12-01T23:58:19.632655
-BKR,,,,,,2025-12-01T23:58:19.632655
-STX,,,,,,2025-12-01T23:58:19.632655
-EXC,,,,,,2025-12-01T23:58:19.632655
-MPWR,,,,,,2025-12-01T23:58:19.632655
-TCOM,,,,,,2025-12-01T23:58:19.632655
-BIDU,,,,,,2025-12-01T23:58:19.632655
-PAYX,,,,,,2025-12-01T23:58:19.632655
-WBD,,,,,,2025-12-01T23:58:19.632655
-FER,,,,,,2025-12-01T23:58:19.632655
-CPRT,,,,,,2025-12-01T23:58:19.632655
-FANG,,,,,,2025-12-01T23:58:19.632655
-EBAY,,,,,,2025-12-01T23:58:19.632655
-WDC,,,,,,2025-12-01T23:58:19.632655
-CHTR,,,,,,2025-12-01T23:58:19.632655
-CCEP,,,,,,2025-12-01T23:58:19.632655
-KMB,,,,,,2025-12-01T23:58:19.632655
-SYM,,,,,,2025-12-01T23:58:19.632655
-TEAM,,,,,,2025-12-01T23:58:19.632655
-ALAB,,,,,,2025-12-01T23:58:19.632655
-ONC,,,,,,2025-12-01T23:58:19.632655
-MCHP,,,,,,2025-12-01T23:58:19.632655
-KDP,,,,,,2025-12-01T23:58:19.632655
-INSM,,,,,,2025-12-01T23:58:19.632655
-SMCI,,,,,,2025-12-01T23:58:19.632655
-ACGL,,,,,,2025-12-01T23:58:19.632655
-SOFI,,,,,,2025-12-01T23:58:19.632655
-GEHC,,,,,,2025-12-01T23:58:19.632655
-VRSK,,,,,,2025-12-01T23:58:19.632655
-CTSH,,,,,,2025-12-01T23:58:19.632655
-NBIS,,,,,,2025-12-01T23:58:19.632655
-WTW,,,,,,2025-12-01T23:58:19.632655
-CSGP,,,,,,2025-12-01T23:58:19.632655
-UAL,,,,,,2025-12-01T23:58:19.632655
-IBKR,,,,,,2025-12-01T23:58:19.632655
-RKLB,,,,,,2025-12-01T23:58:19.632655
-ASTS,,,,,,2025-12-01T23:58:19.632655
-RYAAY,,,,,,2025-12-01T23:58:19.632655
-ODFL,,,,,,2025-12-01T23:58:19.632655
-KHC,,,,,,2025-12-01T23:58:19.632655
-FITB,,,,,,2025-12-01T23:58:19.632655
-TSCO,,,,,,2025-12-01T23:58:19.632655
-ERIC,,,,,,2025-12-01T23:58:19.632655
-VOD,,,,,,2025-12-01T23:58:19.632655
-MDB,,,,,,2025-12-01T23:58:19.632655
-EXPE,,,,,,2025-12-01T23:58:19.632655
-DXCM,,,,,,2025-12-01T23:58:19.632655
-TTD,,,,,,2025-12-01T23:58:19.632655
-FOXA,,,,,,2025-12-01T23:58:19.632655
-FWONK,,,,,,2025-12-01T23:58:19.632655
-LPLA,,,,,,2025-12-01T23:58:19.632655
-CRDO,,,,,,2025-12-01T23:58:19.632655
-FWONA,,,,,,2025-12-01T23:58:19.632655
-TW,,,,,,2025-12-01T23:58:19.632655
-CYBR,,,,,,2025-12-01T23:58:19.632655
-FOX,,,,,,2025-12-01T23:58:19.632655
-CINF,,,,,,2025-12-01T23:58:19.632655
-AFRM,,,,,,2025-12-01T23:58:19.632655
-EXE,,,,,,2025-12-01T23:58:19.632655
-ULTA,,,,,,2025-12-01T23:58:19.632655
-GRAB,,,,,,2025-12-01T23:58:19.632655
-FSLR,,,,,,2025-12-01T23:58:19.632655
-BNTX,,,,,,2025-12-01T23:58:19.632655
-NTRS,,,,,,2025-12-01T23:58:19.632655
-ZM,,,,,,2025-12-01T23:58:19.632655
-VRSN,,,,,,2025-12-01T23:58:19.632655
-FUTU,,,,,,2025-12-01T23:58:19.632655
-PTC,,,,,,2025-12-01T23:58:19.632655
-ESLT,,,,,,2025-12-01T23:58:19.632655
-NTAP,,,,,,2025-12-01T23:58:19.632655
-HBAN,,,,,,2025-12-01T23:58:19.632655
-LI,,,,,,2025-12-01T23:58:19.632655
-NTRA,,,,,,2025-12-01T23:58:19.632655
-TROW,,,,,,2025-12-01T23:58:19.632655
-TER,,,,,,2025-12-01T23:58:19.632655
-FCNCA,,,,,,2025-12-01T23:58:19.632655
-FCNCO,,,,,,2025-12-01T23:58:19.632655
-PODD,,,,,,2025-12-01T23:58:19.632655
-FLEX,,,,,,2025-12-01T23:58:19.632655
-SATS,,,,,,2025-12-01T23:58:19.632655
-TPG,,,,,,2025-12-01T23:58:19.632655
-BIIB,,,,,,2025-12-01T23:58:19.632655
-STLD,,,,,,2025-12-01T23:58:19.632655
-CG,,,,,,2025-12-01T23:58:19.632655
-CHKP,,,,,,2025-12-01T23:58:19.632655
-RPRX,,,,,,2025-12-01T23:58:19.632655
-SSNC,,,,,,2025-12-01T23:58:19.632655
-LULU,,,,,,2025-12-01T23:58:19.632655
-CASY,,,,,,2025-12-01T23:58:19.632655
-ON,,,,,,2025-12-01T23:58:19.632655
-TLN,,,,,,2025-12-01T23:58:19.632655
-UTHR,,,,,,2025-12-01T23:58:19.632655
-SBAC,,,,,,2025-12-01T23:58:19.632655
-CDW,,,,,,2025-12-01T23:58:19.632655
-AVAV,,,,,,2025-12-01T23:58:19.632655
-PSKY,,,,,,2025-12-01T23:58:19.632655
-GMAB,,,,,,2025-12-01T23:58:19.632655
-FFIV,,,,,,2025-12-01T23:58:19.632655
-GFS,,,,,,2025-12-01T23:58:19.632655
-SNDK,,,,,,2025-12-01T23:58:19.632655
-TRMB,,,,,,2025-12-01T23:58:19.632655
-NTNX,,,,,,2025-12-01T23:58:19.632655
-PFG,,,,,,2025-12-01T23:58:19.632655
-DLTR,,,,,,2025-12-01T23:58:19.632655
-EVRG,,,,,,2025-12-01T23:58:19.632655
-DKNG,,,,,,2025-12-01T23:58:19.632655
-FTAI,,,,,,2025-12-01T23:58:19.632655
-IREN,,,,,,2025-12-01T23:58:19.632655
-LNT,,,,,,2025-12-01T23:58:19.632655
-TEM,,,,,,2025-12-01T23:58:19.632655
-Z,,,,,,2025-12-01T23:58:19.632655
-SMMT,,,,,,2025-12-01T23:58:19.632655
-ERIE,,,,,,2025-12-01T23:58:19.632655
-WMG,,,,,,2025-12-01T23:58:19.632655
-GEN,,,,,,2025-12-01T23:58:19.632655
-KTOS,,,,,,2025-12-01T23:58:19.632655
-CELH,,,,,,2025-12-01T23:58:19.632655
-INCY,,,,,,2025-12-01T23:58:19.632655
-ZG,,,,,,2025-12-01T23:58:19.632655
-OKTA,,,,,,2025-12-01T23:58:19.632655
-GLXY,,,,,,2025-12-01T23:58:19.632655
-BSY,,,,,,2025-12-01T23:58:19.632655
-RIVN,,,,,,2025-12-01T23:58:19.632655
-FRMI,,,,,,2025-12-01T23:58:19.632655
-NWS,,,,,,2025-12-01T23:58:19.632655
-DUOL,,,,,,2025-12-01T23:58:19.632655
-RGTI,,,,,,2025-12-01T23:58:19.632655
-HOLX,,,,,,2025-12-01T23:58:19.632655
-LOGI,,,,,,2025-12-01T23:58:19.632655
-CHRW,,,,,,2025-12-01T23:58:19.632655
-ZBRA,,,,,,2025-12-01T23:58:19.632655
-WWD,,,,,,2025-12-01T23:58:19.632655
-NWSA,,,,,,2025-12-01T23:58:19.632655
-ILMN,,,,,,2025-12-01T23:58:19.632655
-ICLR,,,,,,2025-12-01T23:58:19.632655
-MEDP,,,,,,2025-12-01T23:58:19.632655
-EWBC,,,,,,2025-12-01T23:58:19.632655
-KSPI,,,,,,2025-12-01T23:58:19.632655
-DOCU,,,,,,2025-12-01T23:58:19.632655
-ROKU,,,,,,2025-12-01T23:58:19.632655
-ENTG,,,,,,2025-12-01T23:58:19.632655
-COO,,,,,,2025-12-01T23:58:19.632655
-JBHT,,,,,,2025-12-01T23:58:19.632655
-DPZ,,,,,,2025-12-01T23:58:19.632655
-NBIX,,,,,,2025-12-01T23:58:19.632655
-VNOM,,,,,,2025-12-01T23:58:19.632655
-ARCC,,,,,,2025-12-01T23:58:19.632655
-NDSN,,,,,,2025-12-01T23:58:19.632655
-ASND,,,,,,2025-12-01T23:58:19.632655
-GLPI,,,,,,2025-12-01T23:58:19.632655
-REG,,,,,,2025-12-01T23:58:19.632655
-LECO,,,,,,2025-12-01T23:58:19.632655
-SAIL,,,,,,2025-12-01T23:58:19.632655
-WYNN,,,,,,2025-12-01T23:58:19.632655
-RGLD,,,,,,2025-12-01T23:58:19.632655
-NXT,,,,,,2025-12-01T23:58:19.632655
-MBLY,,,,,,2025-12-01T23:58:19.632655
-MANH,,,,,,2025-12-01T23:58:19.632655
-BILI,,,,,,2025-12-01T23:58:19.632655
-LAMR,,,,,,2025-12-01T23:58:19.632655
-DRS,,,,,,2025-12-01T23:58:19.632655
-VTRS,,,,,,2025-12-01T23:58:19.632655
-HTHT,,,,,,2025-12-01T23:58:19.632655
-PAA,,,,,,2025-12-01T23:58:19.632655
-FIGR,,,,,,2025-12-01T23:58:19.632655
-LITE,,,,,,2025-12-01T23:58:19.632655
-HST,,,,,,2025-12-01T23:58:19.632655
-EXAS,,,,,,2025-12-01T23:58:19.632655
-IONS,,,,,,2025-12-01T23:58:19.632655
-TXRH,,,,,,2025-12-01T23:58:19.632655
-POOL,,,,,,2025-12-01T23:58:19.632655
-ROIV,,,,,,2025-12-01T23:58:19.632655
-SWKS,,,,,,2025-12-01T23:58:19.632655
-JKHY,,,,,,2025-12-01T23:58:19.632655
-AKAM,,,,,,2025-12-01T23:58:19.632655
-BZ,,,,,,2025-12-01T23:58:19.632655
-STRL,,,,,,2025-12-01T23:58:19.632655
-MRNA,,,,,,2025-12-01T23:58:19.632655
-COKE,,,,,,2025-12-01T23:58:19.632655
-RMBS,,,,,,2025-12-01T23:58:19.632655
-BBIO,,,,,,2025-12-01T23:58:19.632655
-HAS,,,,,,2025-12-01T23:58:19.632655
-FRHC,,,,,,2025-12-01T23:58:19.632655
-AGNC,,,,,,2025-12-01T23:58:19.632655
-AGNCM,,,,,,2025-12-01T23:58:19.632655
-SEIC,,,,,,2025-12-01T23:58:19.632655
-EXEL,,,,,,2025-12-01T23:58:19.632655
-BMRN,,,,,,2025-12-01T23:58:19.632655
-CART,,,,,,2025-12-01T23:58:19.632655
-LSCC,,,,,,2025-12-01T23:58:19.632655
-LINE,,,,,,2025-12-01T23:58:19.632655
-SFM,,,,,,2025-12-01T23:58:19.632655
-ENSG,,,,,,2025-12-01T23:58:19.632655
-AUR,,,,,,2025-12-01T23:58:19.632655
+MA,Mastercard Inc,Financial Services,Credit Services,497685660000,559.88,2025-12-02T00:02:28.193175
+ANET,Arista Networks,Technology,Computer Hardware,164563370000,142.47,2025-12-02T00:02:28.193175
+TSM,Taiwan Semiconductor Manufacturing,Technology,Semiconductors,1511918010000,289.71,2025-12-02T00:02:28.193175
+BRK-B,Berkshire Hathaway Inc,Financial Services,Insurance - Diversified,1108460175000,496.0,2025-12-02T00:02:28.193175
+ORCL,Oracle Corporation,Technology,Software - Infrastructure,575717573000,264.8,2025-12-02T00:02:28.193175
+JPM,JPMorgan Chase & Co,Financial Services,Banks - Diversified,860892889000,307.01,2025-12-02T00:02:28.193175
+WMT,Walmart Inc,Consumer Defensive,Discount Stores,881915986000,103.85,2025-12-02T00:02:28.193175
+LLY,Eli Lilly and Company,Healthcare,Drug Manufacturers - General,964112351000,882.49,2025-12-02T00:02:28.193175
+V,Visa Inc. Class A,Financial Services,Credit Services,649128641000,339.9,2025-12-02T00:02:28.193175
+XOM,Exxon Mobil Corp,Energy,Oil & Gas Integrated,494195606000,114.79,2025-12-02T00:02:28.193175
+JNJ,Johnson & Johnson,Healthcare,Drug Manufacturers - General,498531336000,190.71,2025-12-02T00:02:28.193175
+ABBV,AbbVie Inc,Healthcare,Drug Manufacturers - General,402433475000,227.54,2025-12-02T00:02:28.193175
+BABA,Alibaba Group Holding Ltd,Consumer Cyclical,Internet Retail,375317234000,168.4,2025-12-02T00:02:28.193175
+HD,The Home Depot Inc,Consumer Cyclical,Home Improvement Retail,355317973000,379.76,2025-12-02T00:02:28.193175
+BAC,Bank of America Corp,Financial Services,Banks - Diversified,397382746000,51.89,2025-12-02T00:02:28.193175
+PG,Procter & Gamble Company,Consumer Defensive,Household & Personal Products,346766311000,149.94,2025-12-02T00:02:28.193175
+UNH,UnitedHealth Group Incorporated,Healthcare,Healthcare Plans,298718396000,343.54,2025-12-02T00:02:28.193175
+SAP,SAP SE ADR,Technology,Software - Application,282072547000,261.03,2025-12-02T00:02:28.193175
+GE,GE Aerospace,Industrials,Aerospace & Defense,316488155000,301.72,2025-12-02T00:02:28.193175
+CVX,Chevron Corp,Energy,Oil & Gas Integrated,304500113000,154.09,2025-12-02T00:02:28.193175
+KO,The Coca-Cola Company,Consumer Defensive,Beverages - Non-Alcoholic,314684146000,68.89,2025-12-02T00:02:28.193175
+IBM,International Business Machines,Technology,Information Technology Services,288440582000,293.15,2025-12-02T00:02:28.193175
+NVO,Novo Nordisk A/S,Healthcare,Drug Manufacturers - General,219285717000,53.06,2025-12-02T00:02:28.193175
+NVS,Novartis AG ADR,Healthcare,Drug Manufacturers - General,250210468000,128.16,2025-12-02T00:02:28.193175
+WFC,Wells Fargo & Company,Financial Services,Banks - Diversified,275015434000,84.25,2025-12-02T00:02:28.193175
+TM,Toyota Motor Corporation ADR,Consumer Cyclical,Auto Manufacturers,263105020000,199.53,2025-12-02T00:02:28.193175
+MS,Morgan Stanley,Financial Services,Capital Markets,270834336000,161.17,2025-12-02T00:02:28.193175
+GS,Goldman Sachs Group Inc,Financial Services,Capital Markets,250059719000,787.13,2025-12-02T00:02:28.193175
+PM,Philip Morris International Inc,Consumer Defensive,Tobacco,245139456000,155.81,2025-12-02T00:02:28.193175
+CAT,Caterpillar Inc,Industrials,Farm & Heavy Construction Machinery,269731430000,528.23,2025-12-02T00:02:28.193175
+CRM,Salesforce.com Inc,Technology,Software - Application,220396241000,243.85,2025-12-02T00:02:28.193175
+ABT,Abbott Laboratories,Healthcare,Medical Devices,224345162000,129.55,2025-12-02T00:02:28.193175
+HSBC,HSBC Holdings PLC ADR,Financial Services,Banks - Diversified,244305592000,69.55,2025-12-02T00:02:28.193175
+AXP,American Express Company,Financial Services,Credit Services,254184899000,347.72,2025-12-02T00:02:28.193175
+MRK,Merck & Company Inc,Healthcare,Drug Manufacturers - General,261842633000,88.18,2025-12-02T00:02:28.193175
+RTX,Raytheon Technologies Corp,Industrials,Aerospace & Defense,234514432000,169.92,2025-12-02T00:02:28.193175
+SHEL,Shell PLC ADR,Energy,Oil & Gas Integrated,210964382000,73.79,2025-12-02T00:02:28.193175
+MCD,McDonald’s Corporation,Consumer Cyclical,Restaurants,222516134000,303.59,2025-12-02T00:02:28.193175
+RY,Royal Bank of Canada,Financial Services,Banks - Diversified,217314132000,147.26,2025-12-02T00:02:28.193175
+TMO,Thermo Fisher Scientific Inc,Healthcare,Diagnostics & Research,221979607000,546.05,2025-12-02T00:02:28.193175
+UBER,Uber Technologies Inc,Technology,Software - Application,182557540000,93.91,2025-12-02T00:02:28.193175
+DIS,Walt Disney Company,Communication Services,Entertainment,187830141000,110.58,2025-12-02T00:02:28.193175
+BX,Blackstone Group Inc,Financial Services,Asset Management,179665945000,155.91,2025-12-02T00:02:28.193175
+NOW,ServiceNow Inc,Technology,Software - Application,169103950000,892.84,2025-12-02T00:02:28.193175
+T,AT&T Inc,Communication Services,Telecom Services,184467472000,26.09,2025-12-02T00:02:28.193175
+SONY,Sony Group Corp,Technology,Consumer Electronics,175097709000,28.89,2025-12-02T00:02:28.193175
+BLK,BlackRock Inc,Financial Services,Asset Management,162489565000,1110.06,2025-12-02T00:02:28.193175
+C,Citigroup Inc,Financial Services,Banks - Diversified,190717018000,99.8,2025-12-02T00:02:28.193175
+MUFG,Mitsubishi UFJ Financial Group Inc ADR,Financial Services,Banks - Diversified,181488517000,15.35,2025-12-02T00:02:28.193175
+GEV,GE Vernova LLC,Industrials,Specialty Industrial Machinery,163271754000,592.91,2025-12-02T00:02:28.193175
+NEE,Nextera Energy Inc,Utilities,Utilities - Regulated Electric,179708396000,82.04,2025-12-02T00:02:28.193175
+VZ,Verizon Communications Inc,Communication Services,Telecom Services,173337248000,41.01,2025-12-02T00:02:28.193175
+SCHW,Charles Schwab Corp,Financial Services,Capital Markets,168325300000,93.83,2025-12-02T00:02:28.193175
+HDB,HDFC Bank Limited ADR,Financial Services,Banks - Regional,188794208000,35.81,2025-12-02T00:02:28.193175
+BA,The Boeing Company,Industrials,Aerospace & Defense,143658041000,206.37,2025-12-02T00:02:28.193175
+ACN,Accenture plc,Technology,Information Technology Services,155713176000,244.94,2025-12-02T00:02:28.193175
+TJX,The TJX Companies Inc,Consumer Cyclical,Apparel Retail,169484321000,143.97,2025-12-02T00:02:28.193175
+APH,Amphenol Corporation,Technology,Electronic Components,172469420000,131.12,2025-12-02T00:02:28.193175
+SPGI,S&P Global Inc,Financial Services,Financial Data & Stock Exchanges,152292803000,489.0,2025-12-02T00:02:28.193175
+SAN,Banco Santander SA ADR,Financial Services,Banks - Diversified,157992813000,10.2,2025-12-02T00:02:28.193175
+ETN,Eaton Corporation PLC,Industrials,Specialty Industrial Machinery,134654984000,367.55,2025-12-02T00:02:28.193175
+DHR,Danaher Corporation,Healthcare,Diagnostics & Research,162386182000,211.47,2025-12-02T00:02:28.193175
+UL,Unilever PLC ADR,Consumer Defensive,Household & Personal Products,149036499000,60.46,2025-12-02T00:02:28.193175
+BSX,Boston Scientific Corp,Healthcare,Medical Devices,150586458000,99.12,2025-12-02T00:02:28.193175
+PFE,Pfizer Inc,Healthcare,Drug Manufacturers - General,146350113000,24.97,2025-12-02T00:02:28.193175
+BHP,BHP Group Limited,Basic Materials,Other Industrial Metals & Mining,140593840000,55.27,2025-12-02T00:02:28.193175
+PGR,Progressive Corp,Financial Services,Insurance - Property & Casualty,134162448000,227.6,2025-12-02T00:02:28.193175
+SYK,Stryker Corporation,Healthcare,Medical Devices,141948010000,369.04,2025-12-02T00:02:28.193175
+SPOT,Spotify Technology SA,Communication Services,Internet Content & Information,123303748000,660.44,2025-12-02T00:02:28.193175
+UNP,Union Pacific Corporation,Industrials,Railroads,137512485000,225.7,2025-12-02T00:02:28.193175
+TD,Toronto Dominion Bank,Financial Services,Banks - Diversified,144782131000,80.76,2025-12-02T00:02:28.193175
+COF,Capital One Financial Corporation,Financial Services,Credit Services,140099060000,215.83,2025-12-02T00:02:28.193175
+LOW,Lowe's Companies Inc,Consumer Cyclical,Home Improvement Retail,136019517000,240.71,2025-12-02T00:02:28.193175
+TTE,TotalEnergies SE ADR,Energy,Oil & Gas Integrated,141623427000,61.91,2025-12-02T00:02:28.193175
+UBS,UBS Group AG,Financial Services,Banks - Diversified,121636332000,39.21,2025-12-02T00:02:28.193175
+MDT,Medtronic PLC,Healthcare,Medical Devices,135097950000,95.87,2025-12-02T00:02:28.193175
+DE,Deere & Company,Industrials,Farm & Heavy Construction Machinery,125565305000,467.08,2025-12-02T00:02:28.193175
+LMT,Lockheed Martin Corporation,Industrials,Aerospace & Defense,106894303000,483.15,2025-12-02T00:02:28.193175
+BUD,Anheuser Busch Inbev NV ADR,Consumer Defensive,Beverages - Brewers,120532468000,61.14,2025-12-02T00:02:28.193175
+RIO,Rio Tinto ADR,Basic Materials,Other Industrial Metals & Mining,117630616000,68.62,2025-12-02T00:02:28.193175
+COP,ConocoPhillips,Energy,Oil & Gas E&P,110768701000,89.99,2025-12-02T00:02:28.193175
+CB,Chubb Ltd,Financial Services,Insurance - Property & Casualty,118084092000,284.06,2025-12-02T00:02:28.193175
+WELL,Welltower Inc,Real Estate,Reit - Healthcare Facilities,142907228000,181.97,2025-12-02T00:02:28.193175
+SE,Sea Ltd,Consumer Cyclical,Internet Retail,82296685000,163.15,2025-12-02T00:02:28.193175
+BTI,British American Tobacco p.l.c.,Consumer Defensive,Tobacco,127563276000,53.11,2025-12-02T00:02:28.193175
+IBN,ICICI Bank Limited,Financial Services,Banks - Regional,111625380000,30.96,2025-12-02T00:02:28.193175
+KKR,KKR & Co LP,Financial Services,Asset Management,113249518000,123.75,2025-12-02T00:02:28.193175
+MO,Altria Group,Consumer Defensive,Tobacco,99130360000,61.99,2025-12-02T00:02:28.193175
+PLD,Prologis Inc,Real Estate,Reit - Industrial,119387275000,121.22,2025-12-02T00:02:28.193175
+ENB,Enbridge Inc,Energy,Oil & Gas Midstream,106715554000,48.13,2025-12-02T00:02:28.193175
+BBVA,Banco Bilbao Viscaya Argentaria SA ADR,Financial Services,Banks - Diversified,123706491000,19.85,2025-12-02T00:02:28.193175
+SCCO,Southern Copper Corporation,Basic Materials,Copper,110397686000,128.2,2025-12-02T00:02:28.193175
+SO,Southern Company,Utilities,Utilities - Regulated Electric,100332683000,93.76,2025-12-02T00:02:28.193175
+DELL,Dell Technologies Inc,Technology,Computer Hardware,89660957000,143.7,2025-12-02T00:02:28.193175
+BN,Brookfield Corp,Financial Services,Asset Management,105620857000,45.54,2025-12-02T00:02:28.193175
+SMFG,Sumitomo Mitsui Financial Group Inc,Financial Services,Banks - Diversified,116811817000,16.49,2025-12-02T00:02:28.193175
+MMC,Marsh & McLennan Companies Inc,Financial Services,Insurance Brokers,90188423000,189.71,2025-12-02T00:02:28.193175
+NKE,Nike Inc,Consumer Cyclical,Footwear & Accessories,95536153000,66.64,2025-12-02T00:02:28.193175
+HCA,HCA Holdings Inc,Healthcare,Medical Care Facilities,118936560000,449.75,2025-12-02T00:02:28.193175
+CVS,CVS Health Corp,Healthcare,Healthcare Plans,102011593000,78.52,2025-12-02T00:02:28.193175
+DUK,Duke Energy Corporation,Utilities,Utilities - Regulated Electric,96383336000,124.51,2025-12-02T00:02:28.193175
+BAM,Brookfield Asset Management Inc,Financial Services,Asset Management,85143298000,54.89,2025-12-02T00:02:28.193175
+MCK,McKesson Corporation,Healthcare,Medical Distribution,109597573000,803.2,2025-12-02T00:02:28.193175
+PH,Parker-Hannifin Corporation,Industrials,Specialty Industrial Machinery,109043032000,781.76,2025-12-02T00:02:28.193175
+NEM,Newmont Goldcorp Corp,Basic Materials,Gold,99662340000,86.13,2025-12-02T00:02:28.193175
+TT,Trane Technologies plc,Industrials,Building Products & Equipment,93785776000,420.63,2025-12-02T00:02:28.193175
+GD,General Dynamics Corporation,Industrials,Aerospace & Defense,92281250000,339.72,2025-12-02T00:02:28.193175
+ICE,Intercontinental Exchange Inc,Financial Services,Financial Data & Stock Exchanges,90042155000,156.8,2025-12-02T00:02:28.193175
+BMY,Bristol-Myers Squibb Company,Healthcare,Drug Manufacturers - General,100159054000,45.5,2025-12-02T00:02:28.193175
+NOC,Northrop Grumman Corporation,Industrials,Aerospace & Defense,81936458000,588.38,2025-12-02T00:02:28.193175
+BMO,Bank of Montreal,Financial Services,Banks - Diversified,91215364000,126.04,2025-12-02T00:02:28.193175
+BP,BP PLC ADR,Energy,Oil & Gas Integrated,92176613000,35.01,2025-12-02T00:02:28.193175
+MCO,Moodys Corporation,Financial Services,Financial Data & Stock Exchanges,88025637000,481.72,2025-12-02T00:02:28.193175
+GSK,GlaxoSmithKline PLC ADR,Healthcare,Drug Manufacturers - General,96623919000,44.82,2025-12-02T00:02:28.193175
+RBLX,Roblox Corp,Communication Services,Electronic Gaming & Multimedia,66703978000,118.74,2025-12-02T00:02:28.193175
+WM,Waste Management Inc,Industrials,Waste Management,87772643000,212.38,2025-12-02T00:02:28.193175
+AMT,American Tower Corp,Real Estate,Reit - Specialty,84860944000,185.85,2025-12-02T00:02:28.193175
+SNOW,Snowflake Inc.,Technology,Software - Application,85120115000,248.47,2025-12-02T00:02:28.193175
+RCL,Royal Caribbean Cruises Ltd,Consumer Cyclical,Travel Services,72609825000,292.24,2025-12-02T00:02:28.193175
+SHW,Sherwin-Williams Co,Basic Materials,Specialty Chemicals,85693366000,338.73,2025-12-02T00:02:28.193175
+RELX,Relx PLC ADR,Industrials,Specialty Business Services,73126740000,44.31,2025-12-02T00:02:28.193175
+CI,Cigna Corp,Healthcare,Healthcare Plans,74068648000,285.18,2025-12-02T00:02:28.193175
+MMM,3M Company,Industrials,Conglomerates,91638940000,161.55,2025-12-02T00:02:28.193175
+AEM,Agnico Eagle Mines Limited,Basic Materials,Gold,87571980000,165.82,2025-12-02T00:02:28.193175
+ELV,Elevance Health Inc,Healthcare,Healthcare Plans,76168815000,332.78,2025-12-02T00:02:28.193175
+MFG,Mizuho Financial Group Inc.,Financial Services,Banks - Regional,88418370000,6.61,2025-12-02T00:02:28.193175
+BNS,Bank of Nova Scotia,Financial Services,Banks - Diversified,86529024000,65.49,2025-12-02T00:02:28.193175
+CRH,CRH PLC ADR,Basic Materials,Building Materials,80301998000,115.87,2025-12-02T00:02:28.193175
+CVNA,Carvana Co,Consumer Cyclical,Auto & Truck Dealerships,81192886000,345.68,2025-12-02T00:02:28.193175
+AON,Aon PLC,Financial Services,Insurance Brokers,76314567000,349.2,2025-12-02T00:02:28.193175
+AJG,Arthur J Gallagher & Co,Financial Services,Insurance Brokers,63590052000,276.89,2025-12-02T00:02:28.193175
+ECL,Ecolab Inc,Basic Materials,Specialty Chemicals,78042227000,268.11,2025-12-02T00:02:28.193175
+WMB,Williams Companies Inc,Energy,Oil & Gas Midstream,74408862000,60.86,2025-12-02T00:02:28.193175
+NET,Cloudflare Inc,Technology,Software - Infrastructure,70129795000,217.44,2025-12-02T00:02:28.193175
+PBR-A,Petróleo Brasileiro S.A. - Petrobras,Energy,Oil & Gas Integrated,80199320000,11.63,2025-12-02T00:02:28.193175
+MSI,Motorola Solutions Inc,Technology,Communication Equipment,61590122000,424.06,2025-12-02T00:02:28.193175
+HWM,Howmet Aerospace Inc,Industrials,Aerospace & Defense,82347475000,197.6,2025-12-02T00:02:28.193175
+BK,The Bank of New York Mellon Corporation,Financial Services,Banks - Diversified,79057494000,108.17,2025-12-02T00:02:28.193175
+PBR,Petroleo Brasileiro Petrobras SA ADR,Energy,Oil & Gas Integrated,84279280000,12.33,2025-12-02T00:02:28.193175
+PNC,PNC Financial Services Group Inc,Financial Services,Banks - Regional,74940940000,188.74,2025-12-02T00:02:28.193175
+GLW,Corning Incorporated,Technology,Electronic Components,72189739000,84.32,2025-12-02T00:02:28.193175
+CM,Canadian Imperial Bank Of Commerce,Financial Services,Banks - Diversified,80063660000,82.63,2025-12-02T00:02:28.193175
+NU,Nu Holdings Ltd,Financial Services,Banks - Regional,84264559000,15.75,2025-12-02T00:02:28.193175
+EMR,Emerson Electric Company,Industrials,Specialty Industrial Machinery,75066270000,131.35,2025-12-02T00:02:28.193175
+USB,U.S. Bancorp,Financial Services,Banks - Regional,76331090000,47.51,2025-12-02T00:02:28.193175
+RACE,Ferrari NV,Consumer Cyclical,Auto Manufacturers,69491737000,423.19,2025-12-02T00:02:28.193175
+NGG,National Grid PLC ADR,Utilities,Utilities - Regulated Electric,75524538000,74.94,2025-12-02T00:02:28.193175
+ITW,Illinois Tool Works Inc,Industrials,Specialty Industrial Machinery,72665121000,250.01,2025-12-02T00:02:28.193175
+UPS,United Parcel Service Inc,Industrials,Integrated Freight & Logistics,81266860000,89.59,2025-12-02T00:02:28.193175
+TDG,Transdigm Group Incorporated,Industrials,Aerospace & Defense,76645966000,1307.4,2025-12-02T00:02:28.193175
+CP,Canadian Pacific Railway Ltd,Industrials,Railroads,66389213000,73.51,2025-12-02T00:02:28.193175
+VST,Vistra Energy Corp,Utilities,Utilities - Independent Power Producers,60602331000,192.61,2025-12-02T00:02:28.193175
+APO,Apollo Global Management LLC Class A,Financial Services,Asset Management,76528722000,128.99,2025-12-02T00:02:28.193175
+ITUB,Itau Unibanco Banco Holding SA,Financial Services,Banks - Regional,83504447000,7.28,2025-12-02T00:02:28.193175
+JCI,Johnson Controls International PLC,Industrials,Building Products & Equipment,76111569000,112.46,2025-12-02T00:02:28.193175
+INFY,Infosys Ltd ADR,Technology,Information Technology Services,73449816000,16.81,2025-12-02T00:02:28.193175
+BCS,Barclays PLC ADR,Financial Services,Banks - Diversified,79131771000,20.95,2025-12-02T00:02:28.193175
+RSG,Republic Services Inc,Industrials,Waste Management,67769561000,218.11,2025-12-02T00:02:28.193175
+CNQ,Canadian Natural Resources Ltd,Energy,Oil & Gas E&P,70395281000,32.08,2025-12-02T00:02:28.193175
+ING,ING Group NV ADR,Financial Services,Banks - Diversified,75392328000,25.09,2025-12-02T00:02:28.193175
+EPD,Enterprise Products Partners LP,Energy,Oil & Gas Midstream,70890209000,31.36,2025-12-02T00:02:28.193175
+SPG,Simon Property Group Inc,Real Estate,Reit - Retail,70281216000,180.9,2025-12-02T00:02:28.193175
+DB,Deutsche Bank AG,Financial Services,Banks - Regional,74427867000,35.63,2025-12-02T00:02:28.193175
+NSC,Norfolk Southern Corporation,Industrials,Railroads,65541087000,288.38,2025-12-02T00:02:28.193175
+AZO,AutoZone Inc,Consumer Cyclical,Auto Parts,65898910000,3945.46,2025-12-02T00:02:28.193175
+TEL,TE Connectivity Ltd,Technology,Electronic Components,66614321000,228.82,2025-12-02T00:02:28.193175
+LYG,Lloyds Banking Group PLC ADR,Financial Services,Banks - Regional,74998522000,4.633,2025-12-02T00:02:28.193175
+VRT,Vertiv Holdings Co,Industrials,Electrical Equipment & Parts,68717662000,170.45,2025-12-02T00:02:28.193175
+PWR,Quanta Services Inc,Industrials,Engineering & Construction,69320991000,431.95,2025-12-02T00:02:28.193175
+AMX,America Movil SAB de CV ADR,Communication Services,Telecom Services,69591392000,22.16,2025-12-02T00:02:28.193175
+ZTS,Zoetis Inc,Healthcare,Drug Manufacturers - Specialty & Generic,56807256000,136.13,2025-12-02T00:02:28.193175
+URI,United Rentals Inc,Industrials,Rental & Leasing Services,52449677000,905.43,2025-12-02T00:02:28.193175
+CL,Colgate-Palmolive Company,Consumer Defensive,Household & Personal Products,64972870000,78.58,2025-12-02T00:02:28.193175
+FCX,Freeport-McMoran Copper & Gold Inc,Basic Materials,Copper,61716296000,40.82,2025-12-02T00:02:28.193175
+TRV,The Travelers Companies Inc,Financial Services,Insurance - Property & Casualty,65932694000,277.83,2025-12-02T00:02:28.193175
+EQNR,Equinor ASA ADR,Energy,Oil & Gas Integrated,57544077000,24.05,2025-12-02T00:02:28.193175
+HLT,Hilton Worldwide Holdings Inc,Consumer Cyclical,Lodging,67037278000,265.78,2025-12-02T00:02:28.193175
+KMI,Kinder Morgan Inc,Energy,Oil & Gas Midstream,60780450000,27.13,2025-12-02T00:02:28.193175
+EOG,EOG Resources Inc,Energy,Oil & Gas E&P,58885386000,108.96,2025-12-02T00:02:28.193175
+COR,Cencora Inc.,Healthcare,Medical Distribution,71569998000,334.14,2025-12-02T00:02:28.193175
+DLR,Digital Realty Trust Inc,Real Estate,Reit - Specialty,55291785000,171.49,2025-12-02T00:02:28.193175
+SRE,Sempra Energy,Utilities,Utilities - Diversified,61821997000,91.33,2025-12-02T00:02:28.193175
+CNI,Canadian National Railway Company,Industrials,Railroads,60070035000,94.74,2025-12-02T00:02:28.193175
+AFL,Aflac Incorporated,Financial Services,Insurance - Life,58997260000,110.28,2025-12-02T00:02:28.193175
+CPNG,Coupang LLC,Consumer Cyclical,Internet Retail,51438395000,30.67,2025-12-02T00:02:28.193175
+CMI,Cummins Inc,Industrials,Specialty Industrial Machinery,68739293000,440.76,2025-12-02T00:02:28.193175
+APD,Air Products and Chemicals Inc,Basic Materials,Specialty Chemicals,58107179000,259.82,2025-12-02T00:02:28.193175
+NWG,Natwest Group PLC,Financial Services,Banks - Regional,66953286000,15.02,2025-12-02T00:02:28.193175
+TFC,Truist Financial Corp,Financial Services,Banks - Regional,59958735000,44.66,2025-12-02T00:02:28.193175
+ET,Energy Transfer LP,Energy,Oil & Gas Midstream,57371890000,16.81,2025-12-02T00:02:28.193175
+MPC,Marathon Petroleum Corp,Energy,Oil & Gas Refining & Marketing,58897854000,191.54,2025-12-02T00:02:28.193175
+FDX,FedEx Corporation,Industrials,Integrated Freight & Logistics,65048199000,248.82,2025-12-02T00:02:28.193175
+LHX,L3Harris Technologies Inc,Industrials,Aerospace & Defense,52141449000,290.51,2025-12-02T00:02:28.193175
+ALL,The Allstate Corporation,Financial Services,Insurance - Property & Casualty,56121364000,204.51,2025-12-02T00:02:28.193175
+CMG,Chipotle Mexican Grill Inc,Consumer Cyclical,Restaurants,46287352000,36.86,2025-12-02T00:02:28.193175
+TRP,TC Energy Corp,Energy,Oil & Gas Midstream,57036509000,52.78,2025-12-02T00:02:28.193175
+MET,MetLife Inc,Financial Services,Insurance - Life,50914394000,79.06,2025-12-02T00:02:28.193175
+MFC,Manulife Financial Corp,Financial Services,Insurance - Life,59328381000,32.66,2025-12-02T00:02:28.193175
+E,Eni SpA ADR,Energy,Oil & Gas Integrated,55662731000,36.15,2025-12-02T00:02:28.193175
+O,Realty Income Corporation,Real Estate,Reit - Retail,52995772000,58.53,2025-12-02T00:02:28.193175
+GM,General Motors Company,Consumer Cyclical,Auto Manufacturers,69996757000,64.76,2025-12-02T00:02:28.193175
+PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,55348859000,134.52,2025-12-02T00:02:28.193175
+DEO,Diageo PLC ADR,Consumer Defensive,Beverages - Wineries & Distilleries,50921476000,94.38,2025-12-02T00:02:28.193175
+PSA,Public Storage,Real Estate,Reit - Industrial,48171614000,286.01,2025-12-02T00:02:28.193175
+D,Dominion Energy Inc,Utilities,Utilities - Regulated Electric,53600137000,60.77,2025-12-02T00:02:28.193175
+LNG,Cheniere Energy Inc,Energy,Oil & Gas Midstream,45812859000,220.3,2025-12-02T00:02:28.193175
+VLO,Valero Energy Corporation,Energy,Oil & Gas Refining & Marketing,54910800000,169.74,2025-12-02T00:02:28.193175
+SLB,Schlumberger NV,Energy,Oil & Gas Equipment & Services,54139793000,35.11,2025-12-02T00:02:28.193175
+CARR,Carrier Global Corp,Industrials,Building Products & Equipment,46704136000,57.14,2025-12-02T00:02:28.193175
+GRMN,Garmin Ltd,Technology,Scientific & Technical Instruments,37597921000,226.92,2025-12-02T00:02:28.193175
+XYZ,"Block, Inc",Technology,Software - Infrastructure,40720212000,72.26,2025-12-02T00:02:28.193175
+MPLX,MPLX LP,Energy,Oil & Gas Midstream,55365853000,50.88,2025-12-02T00:02:28.193175
+SU,Suncor Energy Inc,Energy,Oil & Gas Integrated,54511178000,41.6,2025-12-02T00:02:28.193175
+VEEV,Veeva Systems Inc Class A,Healthcare,Health Information Services,39499313000,284.74,2025-12-02T00:02:28.193175
+ARES,Ares Management LP,Financial Services,Asset Management,51387920000,152.74,2025-12-02T00:02:28.193175
+VALE,Vale SA ADR,Basic Materials,Other Industrial Metals & Mining,53957759000,11.57,2025-12-02T00:02:28.193175
+WPM,Wheaton Precious Metals Corp,Basic Materials,Gold,50030854000,103.8,2025-12-02T00:02:28.193175
+GWW,WW Grainger Inc,Industrials,Industrial Distribution,45375103000,954.12,2025-12-02T00:02:28.193175
+AMP,Ameriprise Financial Inc,Financial Services,Asset Management,42963325000,472.47,2025-12-02T00:02:28.193175
+AIG,American International Group Inc,Financial Services,Insurance - Diversified,42192933000,78.42,2025-12-02T00:02:28.193175
+FERG,Ferguson Plc,Industrials,Industrial Distribution,50530607000,239.66,2025-12-02T00:02:28.193175
+F,Ford Motor Company,Consumer Cyclical,Auto Manufacturers,52914143000,12.53,2025-12-02T00:02:28.193175
+RKT,Rocket Companies Inc,Financial Services,Mortgage Finance,56261480000,17.61,2025-12-02T00:02:28.193175
+DHI,DR Horton Inc,Consumer Cyclical,Residential Construction,47404618000,154.64,2025-12-02T00:02:28.193175
+OKE,ONEOK Inc,Energy,Oil & Gas Midstream,45858828000,69.97,2025-12-02T00:02:28.193175
+KR,Kroger Company,Consumer Defensive,Grocery Stores,44584989000,66.38,2025-12-02T00:02:28.193175
+CBRE,CBRE Group Inc Class A,Real Estate,Real Estate Services,48159474000,156.03,2025-12-02T00:02:28.193175
+TAK,Takeda Pharmaceutical Co Ltd ADR,Healthcare,Drug Manufacturers - Specialty & Generic,47986168000,14.17,2025-12-02T00:02:28.193175
+EW,Edwards Lifesciences Corp,Healthcare,Medical Devices,50883957000,79.66,2025-12-02T00:02:28.193175
+HEI,Heico Corporation,Industrials,Aerospace & Defense,44115927000,315.54,2025-12-02T00:02:28.193175
+OXY,Occidental Petroleum Corporation,Energy,Oil & Gas E&P,41378836000,42.9,2025-12-02T00:02:28.193175
+WCN,Waste Connections Inc,Industrials,Waste Management,45393445000,172.09,2025-12-02T00:02:28.193175
+FLUT,Flutter Entertainment plc,Consumer Cyclical,Gambling,36533957000,237.12,2025-12-02T00:02:28.193175
+MSCI,MSCI Inc,Financial Services,Financial Data & Stock Exchanges,42357658000,562.36,2025-12-02T00:02:28.193175
+ETR,Entergy Corporation,Utilities,Utilities - Regulated Electric,43552129000,95.07,2025-12-02T00:02:28.193175
+CTVA,Corteva Inc,Basic Materials,Agricultural Inputs,45818880000,64.56,2025-12-02T00:02:28.193175
+AME,Ametek Inc,Industrials,Specialty Industrial Machinery,45703479000,189.84,2025-12-02T00:02:28.193175
+UI,Ubiquiti Networks Inc,Technology,Communication Equipment,35276747000,663.92,2025-12-02T00:02:28.193175
+CCI,Crown Castle,Real Estate,Reit - Specialty,39750525000,93.83,2025-12-02T00:02:28.193175
+FICO,Fair Isaac Corporation,Technology,Software - Application,43346522000,1670.22,2025-12-02T00:02:28.193175
+PEG,Public Service Enterprise Group Inc,Utilities,Utilities - Regulated Electric,41689338000,82.31,2025-12-02T00:02:28.193175
+RMD,ResMed Inc,Healthcare,Medical Instruments & Supplies,37342556000,261.89,2025-12-02T00:02:28.193175
+TGT,Target Corporation,Consumer Defensive,Discount Stores,41177649000,90.0,2025-12-02T00:02:28.193175
+HLN,Haleon plc,Healthcare,Drug Manufacturers - Specialty & Generic,43778195000,9.29,2025-12-02T00:02:28.193175
+VMC,Vulcan Materials Company,Basic Materials,Building Materials,39274590000,294.67,2025-12-02T00:02:28.193175
+HMC,Honda Motor Co Ltd ADR,Consumer Cyclical,Auto Manufacturers,39249883000,30.92,2025-12-02T00:02:28.193175
+A,Agilent Technologies Inc,Healthcare,Diagnostics & Research,43517313000,141.84,2025-12-02T00:02:28.193175
+RDDT,"Reddit, Inc.",Communication Services,Internet Content & Information,41020146000,207.26,2025-12-02T00:02:28.193175
+YUM,Yum! Brands Inc,Consumer Cyclical,Restaurants,42539192000,147.55,2025-12-02T00:02:28.193175
+FNV,Franco-Nevada Corporation,Basic Materials,Gold,40610951000,202.14,2025-12-02T00:02:28.193175
+HSY,Hershey Co,Consumer Defensive,Confectioners,38139826000,183.34,2025-12-02T00:02:28.193175
+HEI-A,HEICO Corporation,Industrials,Aerospace & Defense,38075367000,247.2,2025-12-02T00:02:28.193175
+DAL,Delta Air Lines Inc,Industrials,Airlines,41854910000,58.8,2025-12-02T00:02:28.193175
+ROK,Rockwell Automation Inc,Industrials,Specialty Industrial Machinery,44508279000,360.75,2025-12-02T00:02:28.193175
+MLM,Martin Marietta Materials Inc,Basic Materials,Building Materials,37585826000,618.82,2025-12-02T00:02:28.193175
+CCJ,Cameco Corp,Energy,Uranium,38648070000,88.86,2025-12-02T00:02:28.193175
+CCL,Carnival Corporation,Consumer Cyclical,Travel Services,34954641000,28.03,2025-12-02T00:02:28.193175
+CAH,Cardinal Health Inc,Healthcare,Medical Distribution,50431922000,176.31,2025-12-02T00:02:28.193175
+SYY,Sysco Corporation,Consumer Defensive,Food Distribution,36489212000,77.82,2025-12-02T00:02:28.193175
+ALC,Alcon AG,Healthcare,Medical Instruments & Supplies,39106597000,75.59,2025-12-02T00:02:28.193175
+TME,Tencent Music Entertainment Group,Communication Services,Internet Content & Information,31073516000,21.85,2025-12-02T00:02:28.193175
+GFI,Gold Fields Ltd ADR,Basic Materials,Gold,37404684000,40.14,2025-12-02T00:02:28.193175
+CUK,Carnival Plc ADS,Consumer Cyclical,Travel Services,31352361000,25.51,2025-12-02T00:02:28.193175
+TKO,"TKO Group Holdings, Inc.",Communication Services,Entertainment,15925521000,189.62,2025-12-02T00:02:28.193175
+WEC,WEC Energy Group Inc,Utilities,Utilities - Regulated Electric,36455727000,113.28,2025-12-02T00:02:28.193175
+HIG,Hartford Financial Services Group,Financial Services,Insurance - Property & Casualty,38528950000,130.19,2025-12-02T00:02:28.193175
+AU,AngloGold Ashanti plc,Basic Materials,Gold,43258827000,73.35,2025-12-02T00:02:28.193175
+ED,Consolidated Edison Inc,Utilities,Utilities - Regulated Electric,36223500000,99.69,2025-12-02T00:02:28.193175
+PRU,Prudential Financial Inc,Financial Services,Insurance - Life,38097822000,103.85,2025-12-02T00:02:28.193175
+FIS,Fidelity National Information Services Inc,Technology,Information Technology Services,34356838000,65.47,2025-12-02T00:02:28.193175
+XYL,Xylem Inc,Industrials,Specialty Industrial Machinery,34248792000,146.13,2025-12-02T00:02:28.193175
+PCG,PG&E Corp,Utilities,Utilities - Regulated Electric,35430318000,15.99,2025-12-02T00:02:28.193175
+LVS,Las Vegas Sands Corp,Consumer Cyclical,Resorts & Casinos,46788682000,57.71,2025-12-02T00:02:28.193175
+LYV,Live Nation Entertainment Inc,Communication Services,Entertainment,30523904000,148.49,2025-12-02T00:02:28.193175
+OTIS,Otis Worldwide Corp,Industrials,Specialty Industrial Machinery,34871423000,90.36,2025-12-02T00:02:28.193175
+HUM,Humana Inc,Healthcare,Healthcare Plans,29559513000,263.28,2025-12-02T00:02:28.193175
+CRCL,"Circle Internet Group, Inc.",Financial Services,Capital Markets,23293999000,83.23,2025-12-02T00:02:28.193175
+PUK,Prudential PLC ADR,Financial Services,Insurance - Life,37034848000,27.85,2025-12-02T00:02:28.193175
+TRGP,Targa Resources Inc,Energy,Oil & Gas Midstream,37725282000,162.95,2025-12-02T00:02:28.193175
+ABEV,Ambev SA ADR,Consumer Defensive,Beverages - Brewers,40466485000,2.32,2025-12-02T00:02:28.193175
+HPE,Hewlett Packard Enterprise Co,Technology,Communication Equipment,28856375000,23.56,2025-12-02T00:02:28.193175
+IQV,IQVIA Holdings Inc,Healthcare,Diagnostics & Research,39170703000,209.14,2025-12-02T00:02:28.193175
+EQT,EQT Corporation,Energy,Oil & Gas E&P,37980717000,55.6,2025-12-02T00:02:28.193175
+SLF,Sun Life Financial Inc.,Financial Services,Insurance - Diversified,33218531000,60.26,2025-12-02T00:02:28.193175
+EL,Estee Lauder Companies Inc,Consumer Defensive,Household & Personal Products,33899090000,92.07,2025-12-02T00:02:28.193175
+CHT,Chunghwa Telecom Co Ltd,Communication Services,Telecom Services,32558381000,42.91,2025-12-02T00:02:28.193175
+WAB,Westinghouse Air Brake Technologies Corp,Industrials,Railroads,35653120000,199.67,2025-12-02T00:02:28.193175
+FIG,"Figma, Inc.",Technology,Software - Application,25977629000,67.55,2025-12-02T00:02:28.193175
+STT,State Street Corp,Financial Services,Asset Management,33765417000,115.67,2025-12-02T00:02:28.193175
+VICI,VICI Properties Inc,Real Estate,Reit - Diversified,30803145000,30.78,2025-12-02T00:02:28.193175
+RJF,Raymond James Financial Inc.,Financial Services,Asset Management,31211565000,162.98,2025-12-02T00:02:28.193175
+DD,Dupont De Nemours Inc,Basic Materials,Specialty Chemicals,16662649000,35.27,2025-12-02T00:02:28.193175
+CVE,Cenovus Energy Inc,Energy,Oil & Gas Integrated,33691152000,17.37,2025-12-02T00:02:28.193175
+NRG,NRG Energy Inc.,Utilities,Utilities - Independent Power Producers,32784587000,167.17,2025-12-02T00:02:28.193175
+KVUE,Kenvue Inc.,Consumer Defensive,Household & Personal Products,33295864000,16.08,2025-12-02T00:02:28.193175
+NUE,Nucor Corp,Basic Materials,Steel,36500668000,142.49,2025-12-02T00:02:28.193175
+EXR,Extra Space Storage Inc,Real Estate,Reit - Industrial,29510666000,139.2,2025-12-02T00:02:28.193175
+BRO,Brown & Brown Inc,Financial Services,Insurance Brokers,27460475000,86.43,2025-12-02T00:02:28.193175
+BBD,Banco Bradesco SA ADR,Financial Services,Banks - Regional,39134945000,3.393,2025-12-02T00:02:28.193175
+BBDO,Banco Bradesco S/A ADR,Financial Services,Banks - Regional,36427936000,2.97,2025-12-02T00:02:28.193175
+IR,Ingersoll Rand Inc,Industrials,Specialty Industrial Machinery,31931333000,78.82,2025-12-02T00:02:28.193175
+IRM,Iron Mountain Incorporated,Real Estate,Reit - Specialty,25524152000,99.64,2025-12-02T00:02:28.193175
+VTR,Ventas Inc,Real Estate,Reit - Healthcare Facilities,37874557000,72.63,2025-12-02T00:02:28.193175
+STLA,Stellantis NV,Consumer Cyclical,Auto Manufacturers,30793798000,10.25,2025-12-02T00:02:28.193175
+PSTG,Pure Storage Inc,Technology,Computer Hardware,29235509000,89.1,2025-12-02T00:02:28.193175
+FMX,Fomento Economico Mexicano,Consumer Defensive,Beverages - Brewers,33150841000,95.23,2025-12-02T00:02:28.193175
+VG,"Venture Global, Inc.",Energy,Oil & Gas Midstream,18262905000,10.06,2025-12-02T00:02:28.193175
+EME,EMCOR Group Inc,Industrials,Engineering & Construction,27534139000,658.13,2025-12-02T00:02:28.193175
+LEN-B,Lennar Corporation,Consumer Cyclical,Residential Construction,31517989000,116.62,2025-12-02T00:02:28.193175
+QSR,Restaurant Brands International Inc,Consumer Cyclical,Restaurants,32922624000,67.51,2025-12-02T00:02:28.193175
+KB,KB Financial Group Inc,Financial Services,Banks - Regional,31190493000,83.06,2025-12-02T00:02:28.193175
+MT,ArcelorMittal SA ADR,Basic Materials,Steel,32797071000,38.71,2025-12-02T00:02:28.193175
+LEN,Lennar Corporation,Consumer Cyclical,Residential Construction,32427287000,123.84,2025-12-02T00:02:28.193175
+NTR,Nutrien Ltd,Basic Materials,Agricultural Inputs,28331094000,57.56,2025-12-02T00:02:28.193175
+KGC,Kinross Gold Corporation,Basic Materials,Gold,34365141000,24.75,2025-12-02T00:02:28.193175
+ADM,Archer-Daniels-Midland Company,Consumer Defensive,Farm Products,29189806000,60.37,2025-12-02T00:02:28.193175
+KEYS,Keysight Technologies Inc,Technology,Scientific & Technical Instruments,34018945000,174.96,2025-12-02T00:02:28.193175
+WRB,W. R. Berkley Corp,Financial Services,Insurance - Property & Casualty,29523847000,75.63,2025-12-02T00:02:28.193175
+MTB,M&T Bank Corporation,Financial Services,Banks - Regional,29725546000,187.72,2025-12-02T00:02:28.193175
+FIX,Comfort Systems USA Inc,Industrials,Engineering & Construction,34467860000,886.56,2025-12-02T00:02:28.193175
+CLS,Celestica Inc.,Technology,Electronic Components,39619764000,289.09,2025-12-02T00:02:28.193175
+DTE,DTE Energy Company,Utilities,Utilities - Regulated Electric,28458803000,138.8,2025-12-02T00:02:28.193175
+WIT,Wipro Limited ADR,Technology,Information Technology Services,29463880000,2.671,2025-12-02T00:02:28.193175
+EFX,Equifax Inc,Industrials,Consulting Services,26163425000,226.01,2025-12-02T00:02:28.193175
+K,Kellanova,Consumer Defensive,Packaged Foods,29101087000,82.37,2025-12-02T00:02:28.193175
+TEF,Telefonica SA ADR,Communication Services,Telecom Services,24198631000,4.775,2025-12-02T00:02:28.193175
+AWK,American Water Works,Utilities,Utilities - Regulated Water,25379723000,135.26,2025-12-02T00:02:28.193175
+WDS,Woodside Energy Group Ltd,Energy,Oil & Gas E&P,31101999000,15.78,2025-12-02T00:02:28.193175
+ATO,Atmos Energy Corporation,Utilities,Utilities - Regulated Gas,28517855000,173.76,2025-12-02T00:02:28.193175
+IX,Orix Corp Ads,Financial Services,Financial Conglomerates,30651451000,25.57,2025-12-02T00:02:28.193175
+NOK,Nokia Corp ADR,Technology,Communication Equipment,33716548000,5.91,2025-12-02T00:02:28.193175
+AEE,Ameren Corp,Utilities,Utilities - Regulated Electric,28767134000,103.68,2025-12-02T00:02:28.193175
+ROL,Rollins Inc,Consumer Cyclical,Personal Services,29581136000,57.77,2025-12-02T00:02:28.193175
+BR,Broadridge Financial Solutions Inc,Technology,Information Technology Services,26624389000,229.72,2025-12-02T00:02:28.193175
+PPL,PPL Corporation,Utilities,Utilities - Regulated Electric,27296377000,36.8,2025-12-02T00:02:28.193175
+TDY,Teledyne Technologies Incorporated,Technology,Scientific & Technical Instruments,23452957000,540.41,2025-12-02T00:02:28.193175
+FE,FirstEnergy Corporation,Utilities,Utilities - Regulated Electric,27566201000,46.18,2025-12-02T00:02:28.193175
+MTD,Mettler-Toledo International Inc,Healthcare,Diagnostics & Research,30419014000,1364.02,2025-12-02T00:02:28.193175
+ES,Eversource Energy,Utilities,Utilities - Regulated Electric,25205207000,71.38,2025-12-02T00:02:28.193175
+PHG,Koninklijke Philips NV ADR,Healthcare,Medical Devices,26779568000,27.9,2025-12-02T00:02:28.193175
+AVB,AvalonBay Communities Inc,Real Estate,Reit - Residential,25905168000,184.02,2025-12-02T00:02:28.193175
+SYF,Synchrony Financial,Financial Services,Credit Services,28782371000,73.2,2025-12-02T00:02:28.193175
+VIK,Viking Holdings Ltd,Consumer Cyclical,Travel Services,29624295000,60.65,2025-12-02T00:02:28.193175
+GIS,General Mills Inc,Consumer Defensive,Packaged Foods,25317374000,48.29,2025-12-02T00:02:28.193175
+CNP,CenterPoint Energy Inc,Utilities,Utilities - Regulated Electric,26101674000,39.29,2025-12-02T00:02:28.193175
+VLTO,Veralto Corporation,Industrials,Pollution & Treatment Controls,25132657000,102.04,2025-12-02T00:02:28.193175
+STM,STMicroelectronics NV ADR,Technology,Semiconductors,20437025000,26.04,2025-12-02T00:02:28.193175
+ASX,ASE Industrial Holding Co Ltd ADR,Technology,Semiconductors,32614926000,13.17,2025-12-02T00:02:28.193175
+HPQ,HP Inc,Technology,Computer Hardware,22937045000,26.36,2025-12-02T00:02:28.193175
+CQP,Cheniere Energy Partners LP,Energy,Oil & Gas Midstream,26380868000,52.72,2025-12-02T00:02:28.193175
+OWL,Blue Owl Capital Inc,Financial Services,Asset Management,23448199000,16.0,2025-12-02T00:02:28.193175
+FTS,Fortis Inc,Utilities,Utilities - Regulated Electric,26548662000,50.98,2025-12-02T00:02:28.193175
+STZ,Constellation Brands Inc Class A,Consumer Defensive,Beverages - Brewers,23739218000,134.97,2025-12-02T00:02:28.193175
+LDOS,Leidos Holdings Inc,Technology,Information Technology Services,24517622000,190.5,2025-12-02T00:02:28.193175
+SHG,Shinhan Financial Group Co Ltd,Financial Services,Banks - Regional,26454829000,51.86,2025-12-02T00:02:28.193175
+MKL,Markel Corporation,Financial Services,Insurance - Property & Casualty,26321727000,1963.75,2025-12-02T00:02:28.193175
+IP,International Paper,Consumer Cyclical,Packaging & Containers,20846952000,42.86,2025-12-02T00:02:28.193175
+EQR,Equity Residential,Real Estate,Reit - Residential,24302447000,61.72,2025-12-02T00:02:28.193175
+PHM,PulteGroup Inc,Consumer Cyclical,Residential Construction,25094279000,123.68,2025-12-02T00:02:28.193175
+HUBS,HubSpot Inc,Technology,Software - Application,19355234000,441.72,2025-12-02T00:02:28.193175
+STE,STERIS plc,Healthcare,Medical Devices,26226080000,248.26,2025-12-02T00:02:28.193175
+TPR,Tapestry Inc,Consumer Cyclical,Luxury Goods,22621561000,110.45,2025-12-02T00:02:28.193175
+TU,Telus Corp,Communication Services,Telecom Services,20356198000,14.84,2025-12-02T00:02:28.193175
+LH,Laboratory Corporation of America Holdings,Healthcare,Diagnostics & Research,22335617000,271.13,2025-12-02T00:02:28.193175
+CIEN,Ciena Corp,Technology,Communication Equipment,28868600000,173.9,2025-12-02T00:02:28.193175
+IONQ,IONQ Inc,Technology,Computer Hardware,16084294000,62.25,2025-12-02T00:02:28.193175
+WSM,Williams-Sonoma Inc,Consumer Cyclical,Specialty Retail,21489721000,190.34,2025-12-02T00:02:28.193175
+PBA,Pembina Pipeline Corp,Energy,Oil & Gas Midstream,22650538000,38.8,2025-12-02T00:02:28.193175
+TEVA,Teva Pharma Industries Ltd ADR,Healthcare,Drug Manufacturers - Specialty & Generic,30850427000,21.45,2025-12-02T00:02:28.193175
+IOT,Samsara Inc,Technology,Software - Infrastructure,21815325000,38.31,2025-12-02T00:02:28.193175
+RF,Regions Financial Corporation,Financial Services,Banks - Regional,22709248000,25.04,2025-12-02T00:02:28.193175
+PPG,PPG Industries Inc,Basic Materials,Specialty Chemicals,22579028000,100.49,2025-12-02T00:02:28.193175
+CFG,"Citizens Financial Group, Inc.",Financial Services,Banks - Regional,23335979000,51.85,2025-12-02T00:02:28.193175
+SW,Smurfit WestRock plc,Consumer Cyclical,Packaging & Containers,18636829000,39.24,2025-12-02T00:02:28.193175
+HUBB,Hubbell Inc,Industrials,Electrical Equipment & Parts,22928241000,434.49,2025-12-02T00:02:28.193175
+DOV,Dover Corporation,Industrials,Specialty Industrial Machinery,25411748000,174.06,2025-12-02T00:02:28.193175
+AXIA,Centrais Elétricas Brasileiras S.A. - Eletrobrás,Utilities,Utilities - Renewable,None,0,2025-12-02T00:02:28.193175
+JBL,Jabil Circuit Inc,Technology,Electronic Components,22613154000,209.79,2025-12-02T00:02:28.193175
+CMS,CMS Energy Corporation,Utilities,Utilities - Regulated Electric,22957885000,73.5,2025-12-02T00:02:28.193175
+TYL,Tyler Technologies Inc,Technology,Software - Application,20316613000,492.56,2025-12-02T00:02:28.193175
+NVR,NVR Inc,Consumer Cyclical,Residential Construction,20743424000,7567.52,2025-12-02T00:02:28.193175
+XPEV,Xpeng Inc,Consumer Cyclical,Auto Manufacturers,21346470000,22.66,2025-12-02T00:02:28.193175
+DVN,Devon Energy Corporation,Energy,Oil & Gas E&P,23525689000,34.09,2025-12-02T00:02:28.193175
+DG,Dollar General Corporation,Consumer Defensive,Discount Stores,24099410000,102.09,2025-12-02T00:02:28.193175
+DRI,Darden Restaurants Inc,Consumer Cyclical,Restaurants,20938113000,182.59,2025-12-02T00:02:28.193175
+BCE,BCE Inc,Communication Services,Telecom Services,21923682000,23.28,2025-12-02T00:02:28.193175
+PINS,Pinterest Inc,Communication Services,Internet Content & Information,17759762000,30.64,2025-12-02T00:02:28.193175
+BEKE,Ke Holdings Inc,Real Estate,Real Estate Services,20243272000,17.84,2025-12-02T00:02:28.193175
+TOST,Toast Inc,Technology,Software - Infrastructure,20103719000,36.54,2025-12-02T00:02:28.193175
+CHD,Church & Dwight Company Inc,Consumer Defensive,Household & Personal Products,20745718000,86.16,2025-12-02T00:02:28.193175
+L,Loews Corp,Financial Services,Insurance - Property & Casualty,22375086000,101.66,2025-12-02T00:02:28.193175
+NMR,Nomura Holdings Inc ADR,Financial Services,Capital Markets,22240459000,7.17,2025-12-02T00:02:28.193175
+AER,AerCap Holdings NV,Industrials,Rental & Leasing Services,23893508000,126.81,2025-12-02T00:02:28.193175
+GPN,Global Payments Inc,Industrials,Specialty Business Services,18379915000,81.51,2025-12-02T00:02:28.193175
+TECK,Teck Resources Ltd Class B,Basic Materials,Other Industrial Metals & Mining,20994972000,42.12,2025-12-02T00:02:28.193175
+TPL,Texas Pacific Land Trust,Energy,Oil & Gas E&P,22725947000,933.62,2025-12-02T00:02:28.193175
+CW,Curtiss-Wright Corporation,Industrials,Aerospace & Defense,21261382000,554.63,2025-12-02T00:02:28.193175
+BAP,Credicorp Ltd,Financial Services,Banks - Regional,20413811000,258.38,2025-12-02T00:02:28.193175
+CPAY,Corpay Inc,Technology,Software - Infrastructure,20887734000,283.85,2025-12-02T00:02:28.193175
+EIX,Edison International,Utilities,Utilities - Regulated Electric,22660110000,56.39,2025-12-02T00:02:28.193175
+OKLO,Oklo Inc.,Utilities,Utilities - Independent Power Producers,14277857000,124.18,2025-12-02T00:02:28.193175
+DGX,Quest Diagnostics Incorporated,Healthcare,Diagnostics & Research,21154757000,184.15,2025-12-02T00:02:28.193175
+BE,Bloom Energy Corp,Industrials,Electrical Equipment & Parts,25836433000,104.36,2025-12-02T00:02:28.193175
+NI,NiSource Inc,Utilities,Utilities - Regulated Gas,20883753000,43.06,2025-12-02T00:02:28.193175
+GIB,CGI Inc,Technology,Information Technology Services,19802104000,88.3,2025-12-02T00:02:28.193175
+GWRE,Guidewire Software Inc,Technology,Software - Application,18362380000,231.35,2025-12-02T00:02:28.193175
+HAL,Halliburton Company,Energy,Oil & Gas Equipment & Services,22355227000,25.33,2025-12-02T00:02:28.193175
+KEY,KeyCorp,Financial Services,Banks - Regional,20153960000,17.92,2025-12-02T00:02:28.193175
+WAT,Waters Corporation,Healthcare,Diagnostics & Research,24017506000,347.86,2025-12-02T00:02:28.193175
+RCI,Rogers Communications Inc,Communication Services,Telecom Services,21258764000,37.25,2025-12-02T00:02:28.193175
+BSBR,Banco Santander Brasil SA ADR,Financial Services,Banks - Regional,47142380000,5.53,2025-12-02T00:02:28.193175
+RL,Ralph Lauren Corp Class A,Consumer Cyclical,Apparel Manufacturing,22275131000,326.42,2025-12-02T00:02:28.193175
+VIV,Telefonica Brasil SA ADR,Communication Services,Telecom Services,21184817000,12.52,2025-12-02T00:02:28.193175
+ZBH,Zimmer Biomet Holdings Inc,Healthcare,Medical Devices,19326665000,96.88,2025-12-02T00:02:28.193175
+RBA,RB Global Inc.,Industrials,Specialty Business Services,18282037000,102.68,2025-12-02T00:02:28.193175
+COHR,Coherent Inc,Technology,Scientific & Technical Instruments,25814053000,128.37,2025-12-02T00:02:28.193175
+BNT,Brookfield Wealth Solutions Ltd.,Financial Services,Insurance - Diversified,12884604000,45.51,2025-12-02T00:02:28.193175
+WST,West Pharmaceutical Services Inc,Healthcare,Medical Instruments & Supplies,19946310000,270.95,2025-12-02T00:02:28.193175
+PKG,Packaging Corp of America,Consumer Cyclical,Packaging & Containers,18361971000,205.38,2025-12-02T00:02:28.193175
+LII,Lennox International Inc,Industrials,Building Products & Equipment,17522448000,506.42,2025-12-02T00:02:28.193175
+UMC,United Microelectronics,Technology,Semiconductors,18732474000,7.4,2025-12-02T00:02:28.193175
+TS,Tenaris SA ADR,Energy,Oil & Gas Equipment & Services,20806513000,37.53,2025-12-02T00:02:28.193175
+EC,Ecopetrol SA ADR,Energy,Oil & Gas Integrated,21067147000,9.42,2025-12-02T00:02:28.193175
+J,Jacobs Solutions Inc.,Industrials,Engineering & Construction,16198255000,151.76,2025-12-02T00:02:28.193175
+CNC,Centene Corp,Healthcare,Healthcare Plans,19336319000,35.99,2025-12-02T00:02:28.193175
+GDDY,Godaddy Inc,Technology,Software - Infrastructure,17702093000,132.65,2025-12-02T00:02:28.193175
+IT,Gartner Inc,Technology,Information Technology Services,17626749000,243.48,2025-12-02T00:02:28.193175
+IHG,InterContinental Hotels Group PLC ADR,Consumer Cyclical,Lodging,20161901000,124.63,2025-12-02T00:02:28.193175
+NIO,Nio Inc Class A ADR,Consumer Cyclical,Auto Manufacturers,13907626000,6.83,2025-12-02T00:02:28.193175
+TSN,Tyson Foods Inc,Consumer Defensive,Farm Products,20494789000,53.39,2025-12-02T00:02:28.193175
+GPC,Genuine Parts Co,Consumer Cyclical,Auto Parts,18140008000,131.49,2025-12-02T00:02:28.193175
+BEP,Brookfield Renewable Partners LP,Utilities,Utilities - Renewable,18884512000,28.33,2025-12-02T00:02:28.193175
+AMCR,Amcor PLC,Consumer Cyclical,Packaging & Containers,19667229000,8.2,2025-12-02T00:02:28.193175
+CTRA,Coterra Energy Inc,Energy,Oil & Gas E&P,20482677000,24.45,2025-12-02T00:02:28.193175
+APTV,Aptiv PLC,Consumer Cyclical,Auto Parts,16887273000,82.44,2025-12-02T00:02:28.193175
+PNR,Pentair PLC,Industrials,Specialty Industrial Machinery,17252127000,108.11,2025-12-02T00:02:28.193175
+AS,"Amer Sports, Inc.",Consumer Cyclical,Leisure,20591239000,32.84,2025-12-02T00:02:28.193175
+TLK,Telkom Indonesia (Persero) Tbk PT ADR Rep 100 B,Communication Services,Telecom Services,21347906000,19.79,2025-12-02T00:02:28.193175
+DKS,Dick’s Sporting Goods Inc,Consumer Cyclical,Specialty Retail,18524439000,221.46,2025-12-02T00:02:28.193175
+BWXT,BWX Technologies Inc,Industrials,Aerospace & Defense,16354417000,191.26,2025-12-02T00:02:28.193175
+MKC,McCormick & Company Incorporated,Consumer Defensive,Packaged Foods,18109991000,66.08,2025-12-02T00:02:28.193175
+MKC-V,McCormick & Company Incorporated,Consumer Defensive,Packaged Foods,18063024000,65.93,2025-12-02T00:02:28.193175
+WY,Weyerhaeuser Company,Real Estate,Reit - Specialty,16024758000,23.39,2025-12-02T00:02:28.193175
+SGI,Somnigroup International Inc.,Consumer Cyclical,"Furnishings, Fixtures & Appliances",11660662000,61.19,2025-12-02T00:02:28.193175
+TWLO,Twilio Inc,Technology,Software - Infrastructure,19898804000,115.43,2025-12-02T00:02:28.193175
+KOF,Coca-Cola Femsa SAB de CV ADR,Consumer Defensive,Beverages - Non-Alcoholic,18426401000,85.58,2025-12-02T00:02:28.193175
+ACM,Aecom Technology Corporation,Industrials,Engineering & Construction,13595971000,127.76,2025-12-02T00:02:28.193175
+CRBG,Corebridge Financial Inc.,Financial Services,Asset Management,15141499000,31.15,2025-12-02T00:02:28.193175
+SNA,Snap-On Inc,Industrials,Tools & Accessories,17738154000,339.12,2025-12-02T00:02:28.193175
+ESS,Essex Property Trust Inc,Real Estate,Reit - Residential,18207830000,259.97,2025-12-02T00:02:28.193175
+INVH,Invitation Homes Inc,Real Estate,Reit - Residential,17287182000,28.47,2025-12-02T00:02:28.193175
+THC,Tenet Healthcare Corporation,Healthcare,Medical Care Facilities,19158030000,201.32,2025-12-02T00:02:28.193175
+RBRK,"Rubrik, Inc.",Technology,Software - Infrastructure,13687837000,76.44,2025-12-02T00:02:28.193175
+USFD,US Foods Holding Corp,Consumer Defensive,Food Distribution,17714250000,74.86,2025-12-02T00:02:28.193175
+PAAS,Pan American Silver Corp.,Basic Materials,Gold,19274885000,37.82,2025-12-02T00:02:28.193175
+GFL,Gfl Environmental Holdings Inc,Industrials,Waste Management,16358359000,45.28,2025-12-02T00:02:28.193175
+FTV,Fortive Corp,Technology,Scientific & Technical Instruments,18094227000,50.1,2025-12-02T00:02:28.193175
+LUV,Southwest Airlines Company,Industrials,Airlines,18281785000,32.43,2025-12-02T00:02:28.193175
+U,Unity Software Inc,Technology,Software - Application,18194854000,39.02,2025-12-02T00:02:28.193175
+MTZ,MasTec Inc,Industrials,Engineering & Construction,16876833000,204.85,2025-12-02T00:02:28.193175
+BG,Bunge Limited,Consumer Defensive,Farm Products,19219958000,90.35,2025-12-02T00:02:28.193175
+CHWY,Chewy Inc,Consumer Cyclical,Internet Retail,14423291000,35.98,2025-12-02T00:02:28.193175
+BURL,Burlington Stores Inc,Consumer Cyclical,Apparel Retail,15872079000,269.86,2025-12-02T00:02:28.193175
+XPO,XPO Logistics Inc,Industrials,Trucking,16729281000,132.5,2025-12-02T00:02:28.193175
+KEP,Korea Electric Power Corp ADR,Utilities,Utilities - Regulated Electric,23380330000,14.91,2025-12-02T00:02:28.193175
+MAA,Mid-America Apartment Communities Inc,Real Estate,Reit - Residential,16311067000,133.6,2025-12-02T00:02:28.193175
+BIP,Brookfield Infrastructure Partners LP,Utilities,Utilities - Diversified,16732802000,34.28,2025-12-02T00:02:28.193175
+SBS,Companhia de Saneamento Basico do Estado de Sao Paulo SABESP ADR,Utilities,Utilities - Regulated Water,18010747000,24.71,2025-12-02T00:02:28.193175
+FMS,Fresenius Medical Care Corporation,Healthcare,Medical Care Facilities,13866373000,25.56,2025-12-02T00:02:28.193175
+BBY,Best Buy Co. Inc,Consumer Cyclical,Specialty Retail,16755566000,77.8,2025-12-02T00:02:28.193175
+EXPD,"Expeditors International of Washington, Inc.",Industrials,Integrated Freight & Logistics,19937051000,127.41,2025-12-02T00:02:28.193175
+BCH,Banco De Chile,Financial Services,Banks - Regional,19082125000,33.55,2025-12-02T00:02:28.193175
+NVT,nVent Electric PLC,Industrials,Electrical Equipment & Parts,17309039000,102.8,2025-12-02T00:02:28.193175
+PFGC,Performance Food Group Co,Consumer Defensive,Food Distribution,15221755000,99.49,2025-12-02T00:02:28.193175
+SUI,Sun Communities Inc,Real Estate,Reit - Residential,16575589000,125.96,2025-12-02T00:02:28.193175
+DOW,Dow Inc,Basic Materials,Chemicals,16951802000,22.8,2025-12-02T00:02:28.193175
+KLAR,Klarna Group plc,Technology,Software - Infrastructure,13865023000,39.65,2025-12-02T00:02:28.193175
+IFF,International Flavors & Fragrances Inc,Basic Materials,Specialty Chemicals,17806828000,63.63,2025-12-02T00:02:28.193175
+TRU,TransUnion,Financial Services,Financial Data & Stock Exchanges,16567740000,81.6,2025-12-02T00:02:28.193175
+YUMC,Yum China Holdings Inc,Consumer Cyclical,Restaurants,17239011000,44.52,2025-12-02T00:02:28.193175
+SNN,Smith & Nephew SNATS Inc,Healthcare,Medical Devices,14164636000,35.12,2025-12-02T00:02:28.193175
+LYB,LyondellBasell Industries NV,Basic Materials,Specialty Chemicals,15768557000,46.66,2025-12-02T00:02:28.193175
+ZTO,ZTO Express (Cayman) Inc,Industrials,Integrated Freight & Logistics,16441120000,19.1,2025-12-02T00:02:28.193175
+FTI,TechnipFMC PLC,Energy,Oil & Gas Equipment & Services,18308579000,40.46,2025-12-02T00:02:28.193175
+TXT,Textron Inc,Industrials,Aerospace & Defense,14819553000,82.29,2025-12-02T00:02:28.193175
+ALLE,Allegion PLC,Industrials,Security & Protection Services,14283885000,170.69,2025-12-02T00:02:28.193175
+FNF,Fidelity National Financial Inc,Financial Services,Insurance - Specialty,16148472000,57.45,2025-12-02T00:02:28.193175
+OMC,Omnicom Group Inc,Communication Services,Advertising Agencies,22727834000,75.95,2025-12-02T00:02:28.193175
+EQH,Axa Equitable Holdings Inc,Financial Services,Asset Management,13985358000,48.25,2025-12-02T00:02:28.193175
+EG,Everest Group Ltd,Financial Services,Insurance - Reinsurance,13193284000,334.31,2025-12-02T00:02:28.193175
+DT,Dynatrace Holdings LLC,Technology,Software - Application,13435119000,47.87,2025-12-02T00:02:28.193175
+RS,Reliance Steel & Aluminum Co,Basic Materials,Steel,14690429000,277.22,2025-12-02T00:02:28.193175
+WPC,W P Carey Inc,Real Estate,Reit - Diversified,14763801000,67.31,2025-12-02T00:02:28.193175
+CLX,The Clorox Company,Consumer Defensive,Household & Personal Products,13166562000,113.87,2025-12-02T00:02:28.193175
+ULS,UL Solutions Inc.,Industrials,Specialty Business Services,18322618000,78.92,2025-12-02T00:02:28.193175
+PKX,POSCO Holdings Inc,Basic Materials,Steel,16065251000,51.93,2025-12-02T00:02:28.193175
+JOBY,Joby Aviation,Industrials,Airports & Air Services,13157031000,15.91,2025-12-02T00:02:28.193175
+RYAN,Ryan Specialty Group Holdings Inc,Financial Services,Insurance - Specialty,15355951000,55.38,2025-12-02T00:02:28.193175
+DECK,Deckers Outdoor Corporation,Consumer Cyclical,Footwear & Accessories,13058665000,93.11,2025-12-02T00:02:28.193175
+WES,Western Midstream Partners LP,Energy,Oil & Gas Midstream,16046472000,38.54,2025-12-02T00:02:28.193175
+APG,Api Group Corp,Industrials,Engineering & Construction,16453239000,35.65,2025-12-02T00:02:28.193175
+WSO-B,Watsco Inc,Industrials,Industrial Distribution,14256285000,379.45,2025-12-02T00:02:28.193175
+WSO,Watsco Inc,Industrials,Industrial Distribution,14087982000,367.72,2025-12-02T00:02:28.193175
+KIM,Kimco Realty Corporation,Real Estate,Reit - Retail,13990852000,21.16,2025-12-02T00:02:28.193175
+EMA,Emera Incorporated,Utilities,Utilities - Regulated Electric,14695209000,48.11,2025-12-02T00:02:28.193175
+CF,CF Industries Holdings Inc,Basic Materials,Agricultural Inputs,12747271000,85.05,2025-12-02T00:02:28.193175
+CIB,Grupo Cibest S.A.,Financial Services,Banks - Regional,16439143000,57.03,2025-12-02T00:02:28.193175
+RPM,RPM International Inc,Basic Materials,Specialty Chemicals,13759357000,111.08,2025-12-02T00:02:28.193175
+SNAP,Snap Inc,Communication Services,Internet Content & Information,13204674000,8.04,2025-12-02T00:02:28.193175
+ONON,On Holding Ltd,Consumer Cyclical,Footwear & Accessories,14524048000,41.36,2025-12-02T00:02:28.193175
+BLDR,Builders FirstSource Inc,Industrials,Building Products & Equipment,12410459000,116.17,2025-12-02T00:02:28.193175
+MAS,Masco Corporation,Industrials,Building Products & Equipment,13581420000,66.2,2025-12-02T00:02:28.193175
+H,Hyatt Hotels Corporation,Consumer Cyclical,Lodging,15696778000,147.67,2025-12-02T00:02:28.193175
+AGI,Alamos Gold Inc,Basic Materials,Gold,15775603000,33.29,2025-12-02T00:02:28.193175
+CSL,Carlisle Companies Incorporated,Industrials,Building Products & Equipment,13597727000,324.23,2025-12-02T00:02:28.193175
+AMH,American Homes 4 Rent,Real Estate,Reit - Residential,13570149000,32.48,2025-12-02T00:02:28.193175
+FN,Fabrinet,Technology,Electronic Components,16459378000,408.38,2025-12-02T00:02:28.193175
+JLL,Jones Lang LaSalle Incorporated,Real Estate,Real Estate Services,15431594000,303.36,2025-12-02T00:02:28.193175
+RTO,Rentokil Initial PLC,Industrials,Specialty Business Services,13993937000,26.7,2025-12-02T00:02:28.193175
+DOCS,Doximity Inc,Healthcare,Health Information Services,9684674000,63.61,2025-12-02T00:02:28.193175
+WF,Woori Financial Group Inc,Financial Services,Banks - Regional,13444844000,55.01,2025-12-02T00:02:28.193175
+GGG,Graco Inc,Industrials,Specialty Industrial Machinery,13668067000,82.32,2025-12-02T00:02:28.193175
+ITT,ITT Inc,Industrials,Specialty Industrial Machinery,14364481000,180.27,2025-12-02T00:02:28.193175
+NLY,"Annaly Capital Management, Inc.",Real Estate,Reit - Mortgage,15573112000,21.23,2025-12-02T00:02:28.193175
+YMM,Full Truck Alliance Co Ltd ADR,Technology,Software - Application,11870899000,12.49,2025-12-02T00:02:28.193175
+HLI,Houlihan Lokey Inc,Financial Services,Capital Markets,12332645000,190.01,2025-12-02T00:02:28.193175
+QXO,"QXO, Inc.",Industrials,Industrial Distribution,12631363000,18.4,2025-12-02T00:02:28.193175
+CX,Cemex SAB de CV ADR,Basic Materials,Building Materials,15654486000,9.7,2025-12-02T00:02:28.193175
+HIMS,Hims Hers Health Inc,Healthcare,Drug Manufacturers - Specialty & Generic,9051305000,47.93,2025-12-02T00:02:28.193175
+CNH,CNH Industrial N.V.,Industrials,Farm & Heavy Construction Machinery,11795234000,10.35,2025-12-02T00:02:28.193175
+DOC,Healthpeak Properties Inc,Real Estate,Reit - Healthcare Facilities,12689784000,18.27,2025-12-02T00:02:28.193175
+UNM,Unum Group,Financial Services,Insurance - Life,12938698000,76.48,2025-12-02T00:02:28.193175
+HRL,Hormel Foods Corporation,Consumer Defensive,Packaged Foods,12765464000,23.31,2025-12-02T00:02:28.193175
+MGA,Magna International Inc,Consumer Cyclical,Auto Parts,13815844000,47.13,2025-12-02T00:02:28.193175
+UDR,UDR Inc,Real Estate,Reit - Residential,13711731000,35.68,2025-12-02T00:02:28.193175
+BALL,Ball Corporation,Consumer Cyclical,Packaging & Containers,13479535000,48.54,2025-12-02T00:02:28.193175
+BF-B,Brown-Forman Corporation,Consumer Defensive,Beverages - Wineries & Distilleries,13714485000,27.66,2025-12-02T00:02:28.193175
+BF-A,Brown-Forman Corporation,Consumer Defensive,Beverages - Wineries & Distilleries,13478179000,27.42,2025-12-02T00:02:28.193175
+BEPC,Brookfield Renewable Corp,Utilities,Utilities - Renewable,7452751000,39.82,2025-12-02T00:02:28.193175
+CDE,Coeur Mining Inc,Basic Materials,Gold,11091103000,17.55,2025-12-02T00:02:28.193175
+ARE,Alexandria Real Estate Equities Inc,Real Estate,Reit - Office,9275520000,67.82,2025-12-02T00:02:28.193175
+RGA,Reinsurance Group of America,Financial Services,Insurance - Reinsurance,12477085000,189.75,2025-12-02T00:02:28.193175
+LTM,LATAM Airlines Group S.A.,Industrials,Airlines,13847219000,44.8,2025-12-02T00:02:28.193175
+UHS,Universal Health Services Inc,Healthcare,Medical Care Facilities,15504295000,214.72,2025-12-02T00:02:28.193175
+MP,MP Materials Corp,Basic Materials,Other Industrial Metals & Mining,10979428000,68.01,2025-12-02T00:02:28.193175
+SNX,Synnex Corporation,Technology,Electronics & Computer Distribution,12574580000,154.07,2025-12-02T00:02:28.193175
+ELS,Equity Lifestyle Properties Inc,Real Estate,Reit - Residential,12755635000,61.64,2025-12-02T00:02:28.193175
+STN,Stantec Inc,Industrials,Engineering & Construction,11029320000,107.35,2025-12-02T00:02:28.193175
+BSAC,Banco Santander Chile,Financial Services,Banks - Regional,14100482000,28.02,2025-12-02T00:02:28.193175
+BXP,Boston Properties Inc,Real Estate,Reit - Office,12800234000,72.31,2025-12-02T00:02:28.193175
+SN,"SharkNinja, Inc.",Consumer Cyclical,"Furnishings, Fixtures & Appliances",13771675000,94.41,2025-12-02T00:02:28.193175
+AVY,Avery Dennison Corp,Consumer Cyclical,Packaging & Containers,13323406000,168.2,2025-12-02T00:02:28.193175
+CRS,Carpenter Technology Corporation,Industrials,Metal Fabrication,15879250000,283.08,2025-12-02T00:02:28.193175
+IEX,IDEX Corporation,Industrials,Specialty Industrial Machinery,13094717000,166.13,2025-12-02T00:02:28.193175
+CNA,CNA Financial Corporation,Financial Services,Insurance - Property & Casualty,12653663000,45.81,2025-12-02T00:02:28.193175
+CLH,Clean Harbors Inc,Industrials,Waste Management,12204636000,224.94,2025-12-02T00:02:28.193175
+SOLV,Solventum Corp.,Healthcare,Medical Instruments & Supplies,14788139000,73.56,2025-12-02T00:02:28.193175
+TOL,Toll Brothers Inc,Consumer Cyclical,Residential Construction,13728649000,134.68,2025-12-02T00:02:28.193175
+EHC,Encompass Health Corp,Healthcare,Medical Care Facilities,11693588000,120.59,2025-12-02T00:02:28.193175
+EVR,Evercore Partners Inc,Financial Services,Capital Markets,12379705000,317.86,2025-12-02T00:02:28.193175
+JHX,James Hardie Industries PLC ADR,Basic Materials,Building Materials,11457716000,19.79,2025-12-02T00:02:28.193175
+SQM,Sociedad Quimica y Minera de Chile SA ADR B,Basic Materials,Specialty Chemicals,18372225000,48.41,2025-12-02T00:02:28.193175
+OHI,Omega Healthcare Investors Inc,Real Estate,Reit - Healthcare Facilities,13947695000,42.12,2025-12-02T00:02:28.193175
+BAH,Booz Allen Hamilton Holding,Industrials,Consulting Services,10286335000,92.13,2025-12-02T00:02:28.193175
+BEN,Franklin Resources Inc,Financial Services,Asset Management,11768726000,22.79,2025-12-02T00:02:28.193175
+RNR,Renaissancere Holdings Ltd,Financial Services,Insurance - Reinsurance,12292284000,256.27,2025-12-02T00:02:28.193175
+AEG,Aegon NV ADR,Financial Services,Insurance - Diversified,12690153000,7.68,2025-12-02T00:02:28.193175
+RBC,RBC Bearings Incorporated,Industrials,Tools & Accessories,14066143000,405.32,2025-12-02T00:02:28.193175
+ALLY,Ally Financial Inc,Financial Services,Credit Services,12722596000,39.85,2025-12-02T00:02:28.193175
+QBTS,D-Wave Quantum Inc.,Technology,Computer Hardware,8093684000,29.9,2025-12-02T00:02:28.193175
+AFG,American Financial Group Inc,Financial Services,Insurance - Property & Casualty,11486339000,138.83,2025-12-02T00:02:28.193175
+BLD,Topbuild Corp,Industrials,Engineering & Construction,12732822000,421.94,2025-12-02T00:02:28.193175
+FHN,First Horizon National Corporation,Financial Services,Banks - Regional,11343081000,21.77,2025-12-02T00:02:28.193175
+BJ,BJs Wholesale Club Holdings Inc,Consumer Defensive,Discount Stores,11756355000,92.04,2025-12-02T00:02:28.193175
+RDY,Dr. Reddy’s Laboratories Ltd ADR,Healthcare,Drug Manufacturers - Specialty & Generic,11751639000,14.07,2025-12-02T00:02:28.193175
+HMY,Harmony Gold Mining Company Limited,Basic Materials,Gold,12399747000,17.83,2025-12-02T00:02:28.193175
+PAC,Grupo Aeroportuario del Pacifico SAB De CV ADR,Industrials,Airports & Air Services,12020605000,225.56,2025-12-02T00:02:28.193175
+SMR,Nuscale Power Corp,Industrials,Specialty Industrial Machinery,5656870000,35.22,2025-12-02T00:02:28.193175
+BAX,Baxter International Inc,Healthcare,Medical Instruments & Supplies,9633406000,20.88,2025-12-02T00:02:28.193175
+PAYC,Paycom Soft,Technology,Software - Application,9066875000,189.65,2025-12-02T00:02:28.193175
+SF,Stifel Financial Corporation,Financial Services,Capital Markets,12465156000,115.93,2025-12-02T00:02:28.193175
+ALB,Albemarle Corp,Basic Materials,Specialty Chemicals,15299503000,98.84,2025-12-02T00:02:28.193175
+WTRG,Essential Utilities Inc,Utilities,Utilities - Regulated Water,11203001000,39.61,2025-12-02T00:02:28.193175
+ATI,Allegheny Technologies Incorporated,Industrials,Metal Fabrication,13893479000,89.84,2025-12-02T00:02:28.193175
+SCI,Service Corporation International,Consumer Cyclical,Personal Services,11134605000,81.19,2025-12-02T00:02:28.193175
+DTM,DT Midstream Inc,Energy,Oil & Gas Midstream,12349315000,112.07,2025-12-02T00:02:28.193175
+CACI,CACI International Inc,Technology,Information Technology Services,13625388000,551.36,2025-12-02T00:02:28.193175
+HII,Huntington Ingalls Industries Inc,Industrials,Aerospace & Defense,12306898000,297.09,2025-12-02T00:02:28.193175
+PCOR,Procore Technologies Inc,Technology,Software - Application,11514098000,73.31,2025-12-02T00:02:28.193175
+SJM,The J. M. Smucker Company,Consumer Defensive,Packaged Foods,11115416000,105.71,2025-12-02T00:02:28.193175
+KNSL,Kinsale Capital Group Inc,Financial Services,Insurance - Property & Casualty,8968169000,420.73,2025-12-02T00:02:28.193175
+PAG,Penske Automotive Group Inc,Consumer Cyclical,Auto & Truck Dealerships,10680696000,165.49,2025-12-02T00:02:28.193175
+CPT,Camden Property Trust,Real Estate,Reit - Residential,11362719000,103.48,2025-12-02T00:02:28.193175
+GL,Globe Life Inc,Financial Services,Insurance - Life,10913606000,135.92,2025-12-02T00:02:28.193175
+AIZ,Assurant Inc,Financial Services,Insurance - Property & Casualty,11512774000,217.92,2025-12-02T00:02:28.193175
+SUZ,,,,,,2025-12-02T00:02:28.193175
+AYI,,,,,,2025-12-02T00:02:28.193175
+PNW,,,,,,2025-12-02T00:02:28.193175
+JEF,,,,,,2025-12-02T00:02:28.193175
+UHAL,,,,,,2025-12-02T00:02:28.193175
+MOH,,,,,,2025-12-02T00:02:28.193175
+OC,,,,,,2025-12-02T00:02:28.193175
+MLI,,,,,,2025-12-02T00:02:28.193175
+DAY,,,,,,2025-12-02T00:02:28.193175
+WCC,,,,,,2025-12-02T00:02:28.193175
+SWK,,,,,,2025-12-02T00:02:28.193175
+GME,,,,,,2025-12-02T00:02:28.193175
+WMS,,,,,,2025-12-02T00:02:28.193175
+FDS,,,,,,2025-12-02T00:02:28.193175
+IVZ,,,,,,2025-12-02T00:02:28.193175
+RVTY,,,,,,2025-12-02T00:02:28.193175
+MOS,,,,,,2025-12-02T00:02:28.193175
+NCLH,,,,,,2025-12-02T00:02:28.193175
+ERJ,,,,,,2025-12-02T00:02:28.193175
+PR,,,,,,2025-12-02T00:02:28.193175
+CCK,,,,,,2025-12-02T00:02:28.193175
+ORI,,,,,,2025-12-02T00:02:28.193175
+ARMK,,,,,,2025-12-02T00:02:28.193175
+AR,,,,,,2025-12-02T00:02:28.193175
+YPF,,,,,,2025-12-02T00:02:28.193175
+AES,,,,,,2025-12-02T00:02:28.193175
+WLK,,,,,,2025-12-02T00:02:28.193175
+CMA,,,,,,2025-12-02T00:02:28.193175
+CR,,,,,,2025-12-02T00:02:28.193175
+TIMB,,,,,,2025-12-02T00:02:28.193175
+W,,,,,,2025-12-02T00:02:28.193175
+PEN,,,,,,2025-12-02T00:02:28.193175
+QGEN,,,,,,2025-12-02T00:02:28.193175
+GNRC,,,,,,2025-12-02T00:02:28.193175
+REXR,,,,,,2025-12-02T00:02:28.193175
+CNM,,,,,,2025-12-02T00:02:28.193175
+OVV,,,,,,2025-12-02T00:02:28.193175
+SSB,,,,,,2025-12-02T00:02:28.193175
+BDX,,,,,,2025-12-02T00:02:28.193175
+NVDA,,,,,,2025-12-02T00:02:28.193175
+MSFT,,,,,,2025-12-02T00:02:28.193175
+AAPL,,,,,,2025-12-02T00:02:28.193175
+GOOG,,,,,,2025-12-02T00:02:28.193175
+GOOGL,,,,,,2025-12-02T00:02:28.193175
+AMZN,,,,,,2025-12-02T00:02:28.193175
+META,,,,,,2025-12-02T00:02:28.193175
+AVGO,,,,,,2025-12-02T00:02:28.193175
+TSLA,,,,,,2025-12-02T00:02:28.193175
+NFLX,,,,,,2025-12-02T00:02:28.193175
+PLTR,,,,,,2025-12-02T00:02:28.193175
+COST,,,,,,2025-12-02T00:02:28.193175
+ASML,,,,,,2025-12-02T00:02:28.193175
+AMD,,,,,,2025-12-02T00:02:28.193175
+CSCO,,,,,,2025-12-02T00:02:28.193175
+AZN,,,,,,2025-12-02T00:02:28.193175
+TMUS,,,,,,2025-12-02T00:02:28.193175
+MU,,,,,,2025-12-02T00:02:28.193175
+LIN,,,,,,2025-12-02T00:02:28.193175
+SHOP,,,,,,2025-12-02T00:02:28.193175
+APP,,,,,,2025-12-02T00:02:28.193175
+PEP,,,,,,2025-12-02T00:02:28.193175
+PDD,,,,,,2025-12-02T00:02:28.193175
+ARM,,,,,,2025-12-02T00:02:28.193175
+INTC,,,,,,2025-12-02T00:02:28.193175
+INTU,,,,,,2025-12-02T00:02:28.193175
+QCOM,,,,,,2025-12-02T00:02:28.193175
+LRCX,,,,,,2025-12-02T00:02:28.193175
+AMAT,,,,,,2025-12-02T00:02:28.193175
+BKNG,,,,,,2025-12-02T00:02:28.193175
+TXN,,,,,,2025-12-02T00:02:28.193175
+ISRG,,,,,,2025-12-02T00:02:28.193175
+AMGN,,,,,,2025-12-02T00:02:28.193175
+PANW,,,,,,2025-12-02T00:02:28.193175
+ADBE,,,,,,2025-12-02T00:02:28.193175
+GILD,,,,,,2025-12-02T00:02:28.193175
+KLAC,,,,,,2025-12-02T00:02:28.193175
+HOOD,,,,,,2025-12-02T00:02:28.193175
+HON,,,,,,2025-12-02T00:02:28.193175
+CRWD,,,,,,2025-12-02T00:02:28.193175
+CEG,,,,,,2025-12-02T00:02:28.193175
+SNY,,,,,,2025-12-02T00:02:28.193175
+DASH,,,,,,2025-12-02T00:02:28.193175
+ADI,,,,,,2025-12-02T00:02:28.193175
+ADP,,,,,,2025-12-02T00:02:28.193175
+MELI,,,,,,2025-12-02T00:02:28.193175
+CMCSA,,,,,,2025-12-02T00:02:28.193175
+VRTX,,,,,,2025-12-02T00:02:28.193175
+COIN,,,,,,2025-12-02T00:02:28.193175
+NTES,,,,,,2025-12-02T00:02:28.193175
+CME,,,,,,2025-12-02T00:02:28.193175
+CDNS,,,,,,2025-12-02T00:02:28.193175
+MSTR,,,,,,2025-12-02T00:02:28.193175
+SBUX,,,,,,2025-12-02T00:02:28.193175
+SNPS,,,,,,2025-12-02T00:02:28.193175
+ORLY,,,,,,2025-12-02T00:02:28.193175
+EQIX,,,,,,2025-12-02T00:02:28.193175
+MDLZ,,,,,,2025-12-02T00:02:28.193175
+MRVL,,,,,,2025-12-02T00:02:28.193175
+CTAS,,,,,,2025-12-02T00:02:28.193175
+CRWV,,,,,,2025-12-02T00:02:28.193175
+ABNB,,,,,,2025-12-02T00:02:28.193175
+PYPL,,,,,,2025-12-02T00:02:28.193175
+MAR,,,,,,2025-12-02T00:02:28.193175
+TRI,,,,,,2025-12-02T00:02:28.193175
+MNST,,,,,,2025-12-02T00:02:28.193175
+CSX,,,,,,2025-12-02T00:02:28.193175
+FTNT,,,,,,2025-12-02T00:02:28.193175
+ADSK,,,,,,2025-12-02T00:02:28.193175
+WDAY,,,,,,2025-12-02T00:02:28.193175
+AEP,,,,,,2025-12-02T00:02:28.193175
+ALNY,,,,,,2025-12-02T00:02:28.193175
+REGN,,,,,,2025-12-02T00:02:28.193175
+AXON,,,,,,2025-12-02T00:02:28.193175
+DDOG,,,,,,2025-12-02T00:02:28.193175
+NXPI,,,,,,2025-12-02T00:02:28.193175
+ROP,,,,,,2025-12-02T00:02:28.193175
+FAST,,,,,,2025-12-02T00:02:28.193175
+NDAQ,,,,,,2025-12-02T00:02:28.193175
+IDXX,,,,,,2025-12-02T00:02:28.193175
+PCAR,,,,,,2025-12-02T00:02:28.193175
+ZS,,,,,,2025-12-02T00:02:28.193175
+EA,,,,,,2025-12-02T00:02:28.193175
+ARGX,,,,,,2025-12-02T00:02:28.193175
+ROST,,,,,,2025-12-02T00:02:28.193175
+JD,,,,,,2025-12-02T00:02:28.193175
+XEL,,,,,,2025-12-02T00:02:28.193175
+TTWO,,,,,,2025-12-02T00:02:28.193175
+BKR,,,,,,2025-12-02T00:02:28.193175
+STX,,,,,,2025-12-02T00:02:28.193175
+EXC,,,,,,2025-12-02T00:02:28.193175
+MPWR,,,,,,2025-12-02T00:02:28.193175
+TCOM,,,,,,2025-12-02T00:02:28.193175
+BIDU,,,,,,2025-12-02T00:02:28.193175
+PAYX,,,,,,2025-12-02T00:02:28.193175
+WBD,,,,,,2025-12-02T00:02:28.193175
+FER,,,,,,2025-12-02T00:02:28.193175
+CPRT,,,,,,2025-12-02T00:02:28.193175
+FANG,,,,,,2025-12-02T00:02:28.193175
+EBAY,,,,,,2025-12-02T00:02:28.193175
+WDC,,,,,,2025-12-02T00:02:28.193175
+CHTR,,,,,,2025-12-02T00:02:28.193175
+CCEP,,,,,,2025-12-02T00:02:28.193175
+KMB,,,,,,2025-12-02T00:02:28.193175
+SYM,,,,,,2025-12-02T00:02:28.193175
+TEAM,,,,,,2025-12-02T00:02:28.193175
+ALAB,,,,,,2025-12-02T00:02:28.193175
+ONC,,,,,,2025-12-02T00:02:28.193175
+MCHP,,,,,,2025-12-02T00:02:28.193175
+KDP,,,,,,2025-12-02T00:02:28.193175
+INSM,,,,,,2025-12-02T00:02:28.193175
+SMCI,,,,,,2025-12-02T00:02:28.193175
+ACGL,,,,,,2025-12-02T00:02:28.193175
+SOFI,,,,,,2025-12-02T00:02:28.193175
+GEHC,,,,,,2025-12-02T00:02:28.193175
+VRSK,,,,,,2025-12-02T00:02:28.193175
+CTSH,,,,,,2025-12-02T00:02:28.193175
+NBIS,,,,,,2025-12-02T00:02:28.193175
+WTW,,,,,,2025-12-02T00:02:28.193175
+CSGP,,,,,,2025-12-02T00:02:28.193175
+UAL,,,,,,2025-12-02T00:02:28.193175
+IBKR,,,,,,2025-12-02T00:02:28.193175
+RKLB,,,,,,2025-12-02T00:02:28.193175
+ASTS,,,,,,2025-12-02T00:02:28.193175
+RYAAY,,,,,,2025-12-02T00:02:28.193175
+ODFL,,,,,,2025-12-02T00:02:28.193175
+KHC,,,,,,2025-12-02T00:02:28.193175
+FITB,,,,,,2025-12-02T00:02:28.193175
+TSCO,,,,,,2025-12-02T00:02:28.193175
+ERIC,,,,,,2025-12-02T00:02:28.193175
+VOD,,,,,,2025-12-02T00:02:28.193175
+MDB,,,,,,2025-12-02T00:02:28.193175
+EXPE,,,,,,2025-12-02T00:02:28.193175
+DXCM,,,,,,2025-12-02T00:02:28.193175
+TTD,,,,,,2025-12-02T00:02:28.193175
+FOXA,,,,,,2025-12-02T00:02:28.193175
+FWONK,,,,,,2025-12-02T00:02:28.193175
+LPLA,,,,,,2025-12-02T00:02:28.193175
+CRDO,,,,,,2025-12-02T00:02:28.193175
+FWONA,,,,,,2025-12-02T00:02:28.193175
+TW,,,,,,2025-12-02T00:02:28.193175
+CYBR,,,,,,2025-12-02T00:02:28.193175
+FOX,,,,,,2025-12-02T00:02:28.193175
+CINF,,,,,,2025-12-02T00:02:28.193175
+AFRM,,,,,,2025-12-02T00:02:28.193175
+EXE,,,,,,2025-12-02T00:02:28.193175
+ULTA,,,,,,2025-12-02T00:02:28.193175
+GRAB,,,,,,2025-12-02T00:02:28.193175
+FSLR,,,,,,2025-12-02T00:02:28.193175
+BNTX,,,,,,2025-12-02T00:02:28.193175
+NTRS,,,,,,2025-12-02T00:02:28.193175
+ZM,,,,,,2025-12-02T00:02:28.193175
+VRSN,,,,,,2025-12-02T00:02:28.193175
+FUTU,,,,,,2025-12-02T00:02:28.193175
+PTC,,,,,,2025-12-02T00:02:28.193175
+ESLT,,,,,,2025-12-02T00:02:28.193175
+NTAP,,,,,,2025-12-02T00:02:28.193175
+HBAN,,,,,,2025-12-02T00:02:28.193175
+LI,,,,,,2025-12-02T00:02:28.193175
+NTRA,,,,,,2025-12-02T00:02:28.193175
+TROW,,,,,,2025-12-02T00:02:28.193175
+TER,,,,,,2025-12-02T00:02:28.193175
+FCNCA,,,,,,2025-12-02T00:02:28.193175
+FCNCO,,,,,,2025-12-02T00:02:28.193175
+PODD,,,,,,2025-12-02T00:02:28.193175
+FLEX,,,,,,2025-12-02T00:02:28.193175
+SATS,,,,,,2025-12-02T00:02:28.193175
+TPG,,,,,,2025-12-02T00:02:28.193175
+BIIB,,,,,,2025-12-02T00:02:28.193175
+STLD,,,,,,2025-12-02T00:02:28.193175
+CG,,,,,,2025-12-02T00:02:28.193175
+CHKP,,,,,,2025-12-02T00:02:28.193175
+RPRX,,,,,,2025-12-02T00:02:28.193175
+SSNC,,,,,,2025-12-02T00:02:28.193175
+LULU,,,,,,2025-12-02T00:02:28.193175
+CASY,,,,,,2025-12-02T00:02:28.193175
+ON,,,,,,2025-12-02T00:02:28.193175
+TLN,,,,,,2025-12-02T00:02:28.193175
+UTHR,,,,,,2025-12-02T00:02:28.193175
+SBAC,,,,,,2025-12-02T00:02:28.193175
+CDW,,,,,,2025-12-02T00:02:28.193175
+AVAV,,,,,,2025-12-02T00:02:28.193175
+PSKY,,,,,,2025-12-02T00:02:28.193175
+GMAB,,,,,,2025-12-02T00:02:28.193175
+FFIV,,,,,,2025-12-02T00:02:28.193175
+GFS,,,,,,2025-12-02T00:02:28.193175
+SNDK,,,,,,2025-12-02T00:02:28.193175
+TRMB,,,,,,2025-12-02T00:02:28.193175
+NTNX,,,,,,2025-12-02T00:02:28.193175
+PFG,,,,,,2025-12-02T00:02:28.193175
+DLTR,,,,,,2025-12-02T00:02:28.193175
+EVRG,,,,,,2025-12-02T00:02:28.193175
+DKNG,,,,,,2025-12-02T00:02:28.193175
+FTAI,,,,,,2025-12-02T00:02:28.193175
+IREN,,,,,,2025-12-02T00:02:28.193175
+LNT,,,,,,2025-12-02T00:02:28.193175
+TEM,,,,,,2025-12-02T00:02:28.193175
+Z,,,,,,2025-12-02T00:02:28.193175
+SMMT,,,,,,2025-12-02T00:02:28.193175
+ERIE,,,,,,2025-12-02T00:02:28.193175
+WMG,,,,,,2025-12-02T00:02:28.193175
+GEN,,,,,,2025-12-02T00:02:28.193175
+KTOS,,,,,,2025-12-02T00:02:28.193175
+CELH,,,,,,2025-12-02T00:02:28.193175
+INCY,,,,,,2025-12-02T00:02:28.193175
+ZG,,,,,,2025-12-02T00:02:28.193175
+OKTA,,,,,,2025-12-02T00:02:28.193175
+GLXY,,,,,,2025-12-02T00:02:28.193175
+BSY,,,,,,2025-12-02T00:02:28.193175
+RIVN,,,,,,2025-12-02T00:02:28.193175
+FRMI,,,,,,2025-12-02T00:02:28.193175
+NWS,,,,,,2025-12-02T00:02:28.193175
+DUOL,,,,,,2025-12-02T00:02:28.193175
+RGTI,,,,,,2025-12-02T00:02:28.193175
+HOLX,,,,,,2025-12-02T00:02:28.193175
+LOGI,,,,,,2025-12-02T00:02:28.193175
+CHRW,,,,,,2025-12-02T00:02:28.193175
+ZBRA,,,,,,2025-12-02T00:02:28.193175
+WWD,,,,,,2025-12-02T00:02:28.193175
+NWSA,,,,,,2025-12-02T00:02:28.193175
+ILMN,,,,,,2025-12-02T00:02:28.193175
+ICLR,,,,,,2025-12-02T00:02:28.193175
+MEDP,,,,,,2025-12-02T00:02:28.193175
+EWBC,,,,,,2025-12-02T00:02:28.193175
+KSPI,,,,,,2025-12-02T00:02:28.193175
+DOCU,,,,,,2025-12-02T00:02:28.193175
+ROKU,,,,,,2025-12-02T00:02:28.193175
+ENTG,,,,,,2025-12-02T00:02:28.193175
+COO,,,,,,2025-12-02T00:02:28.193175
+JBHT,,,,,,2025-12-02T00:02:28.193175
+DPZ,,,,,,2025-12-02T00:02:28.193175
+NBIX,,,,,,2025-12-02T00:02:28.193175
+VNOM,,,,,,2025-12-02T00:02:28.193175
+ARCC,,,,,,2025-12-02T00:02:28.193175
+NDSN,,,,,,2025-12-02T00:02:28.193175
+ASND,,,,,,2025-12-02T00:02:28.193175
+GLPI,,,,,,2025-12-02T00:02:28.193175
+REG,,,,,,2025-12-02T00:02:28.193175
+LECO,,,,,,2025-12-02T00:02:28.193175
+SAIL,,,,,,2025-12-02T00:02:28.193175
+WYNN,,,,,,2025-12-02T00:02:28.193175
+RGLD,,,,,,2025-12-02T00:02:28.193175
+NXT,,,,,,2025-12-02T00:02:28.193175
+MBLY,,,,,,2025-12-02T00:02:28.193175
+MANH,,,,,,2025-12-02T00:02:28.193175
+BILI,,,,,,2025-12-02T00:02:28.193175
+LAMR,,,,,,2025-12-02T00:02:28.193175
+DRS,,,,,,2025-12-02T00:02:28.193175
+VTRS,,,,,,2025-12-02T00:02:28.193175
+HTHT,,,,,,2025-12-02T00:02:28.193175
+PAA,,,,,,2025-12-02T00:02:28.193175
+FIGR,,,,,,2025-12-02T00:02:28.193175
+LITE,,,,,,2025-12-02T00:02:28.193175
+HST,,,,,,2025-12-02T00:02:28.193175
+EXAS,,,,,,2025-12-02T00:02:28.193175
+IONS,,,,,,2025-12-02T00:02:28.193175
+TXRH,,,,,,2025-12-02T00:02:28.193175
+POOL,,,,,,2025-12-02T00:02:28.193175
+ROIV,,,,,,2025-12-02T00:02:28.193175
+SWKS,,,,,,2025-12-02T00:02:28.193175
+JKHY,,,,,,2025-12-02T00:02:28.193175
+AKAM,,,,,,2025-12-02T00:02:28.193175
+BZ,,,,,,2025-12-02T00:02:28.193175
+STRL,,,,,,2025-12-02T00:02:28.193175
+MRNA,,,,,,2025-12-02T00:02:28.193175
+COKE,,,,,,2025-12-02T00:02:28.193175
+RMBS,,,,,,2025-12-02T00:02:28.193175
+BBIO,,,,,,2025-12-02T00:02:28.193175
+HAS,,,,,,2025-12-02T00:02:28.193175
+FRHC,,,,,,2025-12-02T00:02:28.193175
+AGNC,,,,,,2025-12-02T00:02:28.193175
+AGNCM,,,,,,2025-12-02T00:02:28.193175
+SEIC,,,,,,2025-12-02T00:02:28.193175
+EXEL,,,,,,2025-12-02T00:02:28.193175
+BMRN,,,,,,2025-12-02T00:02:28.193175
+CART,,,,,,2025-12-02T00:02:28.193175
+LSCC,,,,,,2025-12-02T00:02:28.193175
+LINE,,,,,,2025-12-02T00:02:28.193175
+SFM,,,,,,2025-12-02T00:02:28.193175
+ENSG,,,,,,2025-12-02T00:02:28.193175
+AUR,,,,,,2025-12-02T00:02:28.193175
