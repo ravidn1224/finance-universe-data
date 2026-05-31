@@ -7310,5 +7310,13 @@
     "industry": "INFORMATION TECHNOLOGY SERVICES",
     "marketCap": "8109204000",
     "price": "4.922"
+  },
+  "FER": {
+    "symbol": "FER",
+    "name": "Ferrovial SE",
+    "sector": "INDUSTRIALS",
+    "industry": "ENGINEERING & CONSTRUCTION",
+    "marketCap": "48729776000",
+    "price": "67.95"
   }
 }
