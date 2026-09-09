@@ -1,59 +1,69 @@
 name: Daily Stock Update
 
+# Spends the free-tier budget (25 calls/day) on the universe: missing symbols
+# first, then the stalest cached entries, so the dataset keeps moving instead
+# of freezing once every ticker has been fetched once.
+
 on:
   schedule:
-    - cron: "* * 31 * *"
+    - cron: "0 3 * * *"
   workflow_dispatch:
+    inputs:
+      max_calls:
+        description: "API calls to spend on this run"
+        type: number
+        default: 25
+      refresh_after_days:
+        description: "Refresh cached entries older than this many days"
+        type: number
+        default: 30
+
+concurrency:
+  group: commit-data
+  cancel-in-progress: false
 
 permissions:
-  contents: write  
+  contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
     env:
-      PYTHONUNBUFFERED: 1
-      PYTHONIOENCODING: utf-8
-      TERM: xterm-256color
+      PYTHONUNBUFFERED: "1"
+      ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
+      MAX_CALLS: ${{ inputs.max_calls || 25 }}
+      REFRESH_AFTER_DAYS: ${{ inputs.refresh_after_days || 30 }}
 
     steps:
-    - name: 🟦 Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: 🟩 Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.11"
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
 
-    - name: 📦 Install dependencies
-      run: |
-        echo -e "\033[94m📦 Installing Python dependencies...\033[0m"
-        pip install pandas requests
-        echo -e "\033[92m✔ Dependencies installed\033[0m"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-    - name: 📁 Show repository files
-      run: |
-        echo -e "\033[95m📁 Listing repo content...\033[0m"
-        ls -R .
-    
-    - name: 🔄 Update CACHE (cache.py)
-      run: |
-        echo -e "\033[96m🔄 Running cache.py ...\033[0m"
-        python cache.py
-        echo -e "\033[92m✔ cache.py completed\033[0m"
+      - name: Fetch and refresh overviews
+        run: python -u cache.py
 
-    - name: 🧱 Rebuild MASTER
-      run: |
-        echo -e "\033[96m🧱 Running generate_master.py ...\033[0m"
-        python generate_master.py
-        echo -e "\033[92m✔ MASTER rebuilt\033[0m"
+      - name: Rebuild master CSV
+        run: python generate_master.py
 
-    - name: 💾 Commit & Push updated files
-      run: |
-        echo -e "\033[93m💾 Preparing commit...\033[0m"
-        git config user.email "bot@github.com"
-        git config user.name "Automation Bot"
-        git add master_stocks.csv cache_av.json
-        git commit -m "Daily auto update" || echo -e "\033[93m⚠️ Nothing to commit\033[0m"
-        git push
-        echo -e "\033[92m🚀 Update pushed to GitHub!\033[0m"
+      - name: Commit & push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cache_av.json master_stocks.csv
+          # Rows carry their own fetch time, so an unchanged dataset yields an
+          # unchanged file and no empty commit is created.
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+            exit 0
+          fi
+          git commit -m "chore(data): refresh stock overviews"
+          git pull --rebase --autostash
+          git push

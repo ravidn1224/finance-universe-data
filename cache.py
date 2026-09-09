@@ -1,148 +1,262 @@
-import requests
-import pandas as pd
-import json
-import os
+#!/usr/bin/env python3
+"""Spend the daily Alpha Vantage budget on the ticker universe.
+
+Missing symbols are fetched first. Once the universe is fully cached the
+remaining budget refreshes the stalest entries, so the dataset keeps moving
+instead of freezing at whatever it first held.
+
+    ALPHAVANTAGE_API_KEY=... python cache.py
+    ALPHAVANTAGE_API_KEY=... python cache.py --dry-run
+"""
+
+from __future__ import annotations
+
+import argparse
+import sys
 import time
+from dataclasses import dataclass, field
 from datetime import datetime
+from typing import Callable, Optional, Sequence
 
-# 🎨 צבעים
-GREEN  = "\033[92m"
-YELLOW = "\033[93m"
-RED    = "\033[91m"
-BLUE   = "\033[94m"
-RESET  = "\033[0m"
+from universe import config, log, store, symbols
+from universe.alphavantage import AlphaVantageClient, FetchResult, Outcome, mask_key
 
-API_KEY = "YZDZ1DUWI264O553"
-
-CACHE_FILE = "cache_av.json"
-TICKERS_FILE = "clean_tickers.txt"
-
-ALPHA_URL = "https://www.alphavantage.co/query?function=OVERVIEW&symbol={}&apikey={}"
-
-# ----------------------------
-# Load / Save Cache
-# ----------------------------
-
-def load_cache():
-    if os.path.exists(CACHE_FILE) and os.path.getsize(CACHE_FILE) > 0:
-        print(BLUE + f"📂 Loading existing cache..." + RESET, flush=True)
-        with open(CACHE_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    print(YELLOW + "⚠️ No cache found. Creating new cache..." + RESET, flush=True)
-    return {}
-
-def save_cache(cache):
-    with open(CACHE_FILE, "w", encoding="utf-8") as f:
-        json.dump(cache, f, indent=2)
-    print(GREEN + f"💾 Cache saved ({len(cache)} symbols)" + RESET, flush=True)
+#: Pause applied when the API reports a per-minute frequency violation.
+THROTTLE_BACKOFF_SECONDS = 60.0
 
 
-# ----------------------------
-# Load Tickers
-# ----------------------------
+@dataclass
+class RunSummary:
+    """Outcome tallies for a single run."""
 
-def load_clean_tickers():
-    print(BLUE + f"📄 Loading tickers from {TICKERS_FILE}..." + RESET, flush=True)
-    
-    if not os.path.exists(TICKERS_FILE):
-        print(RED + f"❌ ERROR: File not found: {TICKERS_FILE}" + RESET)
-        print(RED + "   Please run update_tickers.py first to generate clean_tickers.txt" + RESET, flush=True)
-        return []
-
-    with open(TICKERS_FILE, "r") as f:
-        return [line.strip() for line in f if line.strip()]
+    attempted: int = 0
+    fetched: int = 0
+    refreshed: int = 0
+    not_found: int = 0
+    errors: int = 0
+    stopped_early: bool = False
+    stop_reason: str = ""
+    entries: store.Cache = field(default_factory=dict)
 
 
+def plan_work(
+    tickers: Sequence[str],
+    cache: store.Cache,
+    settings: config.FetchSettings,
+    *,
+    now: Optional[datetime] = None,
+) -> tuple[list[str], list[str]]:
+    """Split the universe into symbols to fetch and symbols to refresh.
 
-# ----------------------------
-# Fetch one ticker
-# ----------------------------
+    Returns ``(missing, stale)``. Missing symbols come first when the budget is
+    applied, because coverage matters more than freshness.
+    """
+    now = now or store.utc_now()
+    missing: list[str] = []
+    stale: list[tuple[float, str]] = []
+    seen: set[str] = set()
 
-def fetch_one(symbol):
-    print(f"{BLUE}▶️ Fetching: {symbol}{RESET}", flush=True)
-    url = ALPHA_URL.format(symbol, API_KEY)
-    r = requests.get(url)
-    data = r.json()
+    for raw in tickers:
+        symbol = symbols.normalize_symbol(raw)
+        if not symbol or symbol in seen:
+            continue
+        seen.add(symbol)
 
-    # Check for API rate limit errors (Alpha Vantage returns these keys)
-    if "Note" in data or "Information" in data or "Error Message" in data:
-        error_msg = data.get("Note", data.get("Information", data.get("Error Message", "")))
-        print(f"{RED}   ⛔ API LIMIT/ERROR: {error_msg}{RESET}")
-        return "LIMIT_REACHED"
-    
-    # Check if we got valid stock data
-    if "Symbol" not in data:
-        # Debug: show what keys we actually got
-        print(f"{RED}   ❌ No data found for: {symbol}{RESET}")
-        print(f"{YELLOW}   DEBUG: Response keys: {list(data.keys())}{RESET}")
-        return None
+        entry = cache.get(symbol)
+        if entry is None:
+            missing.append(symbol)
+            continue
+        if not store.is_usable(entry):
+            # A symbol Alpha Vantage does not know is only retried on request.
+            if settings.retry_missing:
+                missing.append(symbol)
+            continue
+        age = store.age_days(entry, now=now)
+        if not settings.fill_only and age >= settings.refresh_after_days:
+            stale.append((age, symbol))
 
-    print(f"{GREEN}   ✔ Success: {symbol}{RESET}")
-    return {
-        "symbol": symbol,
-        "name": data.get("Name", ""),
-        "sector": data.get("Sector", ""),
-        "industry": data.get("Industry", ""),
-        "marketCap": data.get("MarketCapitalization", ""),
-        "price": data.get("50DayMovingAverage", "")
-    }
+    stale.sort(key=lambda item: (-item[0], item[1]))
+    return missing, [symbol for _, symbol in stale]
 
 
-# ----------------------------
-# MAIN
-# ----------------------------
+def fill_cache(
+    tickers: Sequence[str],
+    cache: store.Cache,
+    client: AlphaVantageClient,
+    settings: config.FetchSettings,
+    *,
+    sleep: Callable[[float], None] = time.sleep,
+    now: Optional[datetime] = None,
+) -> RunSummary:
+    """Fetch and refresh overviews within the configured call budget."""
+    summary = RunSummary()
+    missing, stale = plan_work(tickers, cache, settings, now=now)
+    budget = (missing + stale)[: settings.max_calls]
 
-def main():
-    # Load existing cache
-    cache = load_cache()
-    
-    # Load all tickers
-    tickers = load_clean_tickers()
-    print(BLUE + f"🔢 Total tickers: {len(tickers)}" + RESET, flush=True)
-    print(BLUE + f"🔢 Already cached: {len(cache)}" + RESET, flush=True)
+    log.info(
+        f"{len(missing)} missing, {len(stale)} stale "
+        f"(older than {settings.refresh_after_days}d); "
+        f"spending {len(budget)} of {settings.max_calls} call(s)"
+    )
+    if not budget:
+        return summary
 
-    # Filter out tickers that are already cached
-    tickers_to_fetch = [t for t in tickers if t not in cache]
-    print(BLUE + f"🔢 Need to fetch: {len(tickers_to_fetch)}" + RESET, flush=True)
+    known = set(missing)
+    for index, symbol in enumerate(budget):
+        kind = "fetch" if symbol in known else "refresh"
+        log.detail(f"[{index + 1}/{len(budget)}] {kind} {symbol}")
+        result = client.fetch_overview(symbol)
+        summary.attempted += 1
 
-    calls_used = 0
-    calls_daily_limit = 25
+        if result.outcome is Outcome.THROTTLED:
+            log.warn(f"  Rate limited, backing off {THROTTLE_BACKOFF_SECONDS:.0f}s")
+            sleep(THROTTLE_BACKOFF_SECONDS)
+            result = client.fetch_overview(symbol)
+            summary.attempted += 1
 
-    for sym in tickers_to_fetch:
-        print(YELLOW + f"\n=== API CALL #{calls_used+1} — {sym} ===" + RESET, flush=True)
-
-        result = fetch_one(sym)
-
-        # Check if we hit the rate limit
-        if result == "LIMIT_REACHED":
-            print(RED + f"\n⛔ REACHED API LIMIT after {calls_used} successful calls — stopping." + RESET, flush=True)
-            break
-        
-        # Only save and increment if we got valid data
-        if result and isinstance(result, dict):
-            cache[sym] = result
-            calls_used += 1
-            
-            # Save cache after each successful fetch (in case of interruption)
-            if calls_used % 5 == 0:  # Save every 5 calls
-                save_cache(cache)
-                print(BLUE + f"   💾 Progress saved ({calls_used} calls)" + RESET, flush=True)
-
-        if calls_used >= calls_daily_limit:
-            print(RED + "\n⛔ REACHED DAILY API LIMIT — stopping." + RESET, flush=True)
+        if _record(result, summary, is_new=symbol in known):
             break
 
-        # Wait between calls (only if not the last one)
-        if calls_used < calls_daily_limit and calls_used < len(tickers_to_fetch):
-            print(BLUE + "⏳ Waiting 12 seconds..." + RESET, flush=True)
-            time.sleep(0.1)
+        if index < len(budget) - 1:
+            sleep(settings.sleep_seconds)
 
-    print(GREEN + f"\n🎉 Done. New API calls made: {calls_used}" + RESET, flush=True)
-    
-    # Save the updated cache
-    save_cache(cache)
+    return summary
 
+
+def _record(result: FetchResult, summary: RunSummary, *, is_new: bool) -> bool:
+    """Apply a fetch result to the summary. Returns ``True`` to stop the run."""
+    if result.outcome is Outcome.OK and result.entry is not None:
+        summary.entries[result.symbol] = result.entry
+        if is_new:
+            summary.fetched += 1
+        else:
+            summary.refreshed += 1
+        log.success(f"  {result.symbol}: {result.entry.get('name') or 'no name'}")
+        return False
+
+    if result.outcome is Outcome.NOT_FOUND:
+        # Remembered so the symbol stops consuming quota on later runs.
+        summary.entries[result.symbol] = store.make_entry(
+            result.symbol, status=store.STATUS_NOT_FOUND
+        )
+        summary.not_found += 1
+        log.warn(f"  {result.symbol}: no data ({result.message or 'unknown symbol'})")
+        return False
+
+    if result.outcome is Outcome.QUOTA_EXHAUSTED:
+        summary.stopped_early = True
+        summary.stop_reason = result.message or "daily API quota exhausted"
+        log.error(f"  Daily quota exhausted: {summary.stop_reason}")
+        return True
+
+    if result.outcome is Outcome.THROTTLED:
+        summary.stopped_early = True
+        summary.stop_reason = "still rate limited after backoff"
+        log.error(f"  {summary.stop_reason}; stopping")
+        return True
+
+    summary.errors += 1
+    log.error(f"  {result.symbol}: {result.message}")
+    return False
+
+
+def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser.add_argument("--max-calls", type=int, help="Cap on API calls for this run")
+    parser.add_argument("--sleep", type=float, help="Seconds to wait between calls")
+    parser.add_argument(
+        "--refresh-after-days",
+        type=int,
+        help="Refresh cached entries older than this many days",
+    )
+    parser.add_argument(
+        "--fill-only",
+        action="store_true",
+        help="Only fetch missing symbols; never refresh cached ones",
+    )
+    parser.add_argument(
+        "--retry-missing",
+        action="store_true",
+        help="Re-query symbols previously recorded as having no data",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Report what would be fetched without spending any quota",
+    )
+    return parser.parse_args(argv)
+
+
+def main(argv: Sequence[str] | None = None) -> int:
+    args = parse_args(argv)
+
+    try:
+        tickers = symbols.read_symbols(config.TICKERS_FILE)
+    except FileNotFoundError:
+        log.error(f"Ticker file not found: {config.TICKERS_FILE}")
+        log.error("Run `python update_tickers.py` first.")
+        return 1
+
+    cache = store.load_cache(config.CACHE_FILE)
+
+    if args.dry_run:
+        settings = config.FetchSettings(
+            max_calls=args.max_calls or 25,
+            refresh_after_days=args.refresh_after_days or 30,
+            fill_only=args.fill_only,
+            retry_missing=args.retry_missing,
+        )
+        missing, stale = plan_work(tickers, cache, settings)
+        log.info(f"{len(tickers)} tickers, {len(cache)} cached")
+        log.info(f"would fetch {len(missing)} missing, refresh {len(stale)} stale")
+        for symbol in (missing + stale)[: settings.max_calls]:
+            log.detail(f"  {symbol}")
+        return 0
+
+    try:
+        env = config.FetchSettings.from_env()
+    except config.ConfigError as exc:
+        log.error(str(exc))
+        return 2
+
+    settings = config.FetchSettings(
+        max_calls=args.max_calls or env.max_calls,
+        sleep_seconds=env.sleep_seconds if args.sleep is None else args.sleep,
+        timeout_seconds=env.timeout_seconds,
+        max_retries=env.max_retries,
+        refresh_after_days=args.refresh_after_days or env.refresh_after_days,
+        fill_only=args.fill_only or env.fill_only,
+        retry_missing=args.retry_missing or env.retry_missing,
+        api_key=env.api_key,
+    )
+
+    log.info(
+        f"{len(tickers)} tickers, {len(cache)} cached, "
+        f"key {mask_key(settings.api_key)}"
+    )
+
+    with AlphaVantageClient(
+        settings.api_key,
+        timeout=settings.timeout_seconds,
+        max_retries=settings.max_retries,
+    ) as client:
+        summary = fill_cache(tickers, cache, client, settings)
+
+    if summary.entries:
+        merged = store.merge_caches(cache, summary.entries)
+        store.save_cache(config.CACHE_FILE, merged)
+        log.success(
+            f"Fetched {summary.fetched}, refreshed {summary.refreshed}, "
+            f"no-data {summary.not_found}, errors {summary.errors} "
+            f"in {summary.attempted} call(s); cache holds {len(merged)} symbols"
+        )
+    else:
+        log.warn("No records written this run")
+
+    if summary.stopped_early:
+        log.warn(f"Run stopped early: {summary.stop_reason}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

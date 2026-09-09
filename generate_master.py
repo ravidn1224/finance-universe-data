@@ -1,98 +1,73 @@
-import json
+#!/usr/bin/env python3
+"""Build ``master_stocks.csv`` from the cached company overviews.
+
+Every ticker in the universe gets a row; symbols not yet cached are emitted
+with blank fields so the file shape stays stable while the cache fills up.
+"""
+
+from __future__ import annotations
+
+import sys
+from typing import Sequence
+
 import pandas as pd
-from datetime import datetime
-import os
 
-# 🎨 ANSI Colors
-GREEN  = "\033[92m"
-YELLOW = "\033[93m"
-RED    = "\033[91m"
-BLUE   = "\033[94m"
-RESET  = "\033[0m"
-
-CACHE_FILE = "cache_av.json"
-TICKERS_FILE = "clean_tickers.txt"
-OUTPUT_FILE = "master_stocks.csv"
+from universe import config, log, store, symbols
 
 
-# ---------------------------------
-# Utility functions
-# ---------------------------------
-
-def load_cache():
-    if os.path.exists(CACHE_FILE) and os.path.getsize(CACHE_FILE) > 0:
-        print(BLUE + f"📂 Loading cache file: {CACHE_FILE}" + RESET)
-        with open(CACHE_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    print(RED + "⚠️ cache_av.json missing or empty!" + RESET)
-    return {}
+def title_case(value: str) -> str:
+    """Normalise Alpha Vantage's shouty sector/industry labels."""
+    return value.title() if value else ""
 
 
-def load_tickers():
-    print(BLUE + f"📄 Loading tickers from {TICKERS_FILE} ..." + RESET)
-    with open(TICKERS_FILE, "r") as f:
-        tickers = [line.strip() for line in f if line.strip()]
-    print(BLUE + f"🔢 Total tickers loaded: {len(tickers)}" + RESET)
-    return tickers
-
-
-def fix_symbol(sym):
-    # Handle BRK.B → BRK-B, MKC.V → MKC-V
-    if "." in sym:
-        return sym.replace(".", "-").upper()
-    return sym.upper()
-
-
-# ⭐ Text formatting (Title Case)
-def clean_text(text):
-    if not text:
-        return ""
-    return text.title()
-
-
-# ---------------------------------
-# Main Builder
-# ---------------------------------
-
-def main():
-    print(BLUE + "\n=== Building MASTER CSV ===" + RESET)
-
-    cache = load_cache()
-    tickers = load_tickers()
-
+def build_frame(tickers: Sequence[str], cache: store.Cache) -> pd.DataFrame:
     rows = []
-
-    for original in tickers:
-        sym = fix_symbol(original)
-
-        if sym in cache:
-            print(GREEN + f"✔ Using cached: {sym}" + RESET)
-            rows.append(cache[sym])
+    hits = 0
+    for raw in tickers:
+        symbol = symbols.normalize_symbol(raw)
+        entry = cache.get(symbol)
+        if entry is not None and store.is_usable(entry):
+            row = store.to_master_row(entry)
+            # Report when this row's data was fetched rather than when the file
+            # was built, so an unchanged dataset produces an unchanged CSV.
+            row["last_updated"] = str(entry.get("fetched_at") or "")
+            hits += 1
         else:
-            print(YELLOW + f"⚠️ Missing in cache: {sym} (added blank row)" + RESET)
-            rows.append({
-                "symbol": sym,
-                "name": "",
-                "sector": "",
-                "industry": "",
-                "marketCap": "",
-                "price": ""
-            })
+            row = store.to_master_row({"symbol": symbol, "status": store.STATUS_NOT_FOUND})
+            row["last_updated"] = ""
+        row["symbol"] = symbol
+        rows.append(row)
 
-    print(BLUE + "\n🧱 Converting rows to DataFrame..." + RESET)
-    df = pd.DataFrame(rows)
+    frame = pd.DataFrame(rows, columns=list(config.MASTER_COLUMNS))
+    frame["sector"] = frame["sector"].map(title_case)
+    frame["industry"] = frame["industry"].map(title_case)
 
-    # ⭐ Apply Title Case to sector & industry
-    df["sector"] = df["sector"].astype(str).apply(clean_text)
-    df["industry"] = df["industry"].astype(str).apply(clean_text)
+    coverage = (hits / len(rows) * 100) if rows else 0.0
+    log.info(f"Cache coverage: {hits}/{len(rows)} symbols ({coverage:.1f}%)")
+    return frame
 
-    df["last_updated"] = datetime.utcnow().isoformat()
 
-    print(GREEN + f"💾 Saving MASTER file: {OUTPUT_FILE}" + RESET)
-    df.to_csv(OUTPUT_FILE, index=False)
+def main(argv: Sequence[str] | None = None) -> int:
+    log.info("Building master CSV")
 
-    print(GREEN + "\n🎉 MASTER build completed successfully!" + RESET)
+    cache = store.load_cache(config.CACHE_FILE)
+    if not cache:
+        log.warn(f"{config.CACHE_FILE} is missing or empty; rows will be blank")
+
+    try:
+        tickers = symbols.read_symbols(config.TICKERS_FILE)
+    except FileNotFoundError:
+        log.error(f"Ticker file not found: {config.TICKERS_FILE}")
+        log.error("Run `python update_tickers.py` first.")
+        return 1
+
+    frame = build_frame(tickers, cache)
+    config.MASTER_FILE.parent.mkdir(parents=True, exist_ok=True)
+    frame.to_csv(config.MASTER_FILE, index=False, lineterminator="\n")
+
+    log.success(f"Wrote {len(frame)} rows to {config.MASTER_FILE}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

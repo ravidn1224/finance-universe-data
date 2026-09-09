@@ -1,0 +1,7 @@
+# Normalise line endings so data refreshes produce reviewable diffs instead of
+# whole-file rewrites when a checkout picks up CRLF.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.gz binary

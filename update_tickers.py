@@ -1,44 +1,60 @@
+#!/usr/bin/env python3
+"""Refresh ``clean_tickers.txt`` from the official NASDAQ Trader listings.
+
+Combines the NASDAQ and other-listed files, drops test issues, warrants,
+rights, units and preferred shares, and writes the sorted common-stock
+universe.
+"""
+
+from __future__ import annotations
+
+import sys
+from typing import Sequence
+
 import requests
-import pandas as pd
 
-NASDAQ_LIST = "https://www.nasdaqtrader.com/dynamic/symdir/nasdaqlisted.txt"
-NYSE_LIST   = "https://www.nasdaqtrader.com/dynamic/symdir/otherlisted.txt"
+from universe import config, log, symbols
 
-OUTPUT = "clean_tickers.txt"
 
-def download_tickers(url):
-    text = requests.get(url, timeout=10).text
-    rows = [line.split("|") for line in text.split("\n") if line.strip()]
-    df = pd.DataFrame(rows[1:], columns=rows[0])
-    df.columns = [c.strip() for c in df.columns]
+def main(argv: Sequence[str] | None = None) -> int:
+    log.info("Downloading exchange listings")
 
-    # NASDAQ uses "Symbol", NYSE uses "ACT Symbol"
-    for col in ["Symbol", "ACT Symbol"]:
-        if col in df.columns:
-            return df[col].dropna().tolist()
+    try:
+        listings = [
+            symbols.download_listing(symbols.NASDAQ_LISTED_URL),
+            symbols.download_listing(symbols.OTHER_LISTED_URL),
+        ]
+    except requests.RequestException as exc:
+        log.error(f"Failed to download listings: {exc}")
+        return 1
+    except ValueError as exc:
+        log.error(f"Failed to parse listings: {exc}")
+        return 1
 
-    raise ValueError("Symbol column not found")
+    universe = symbols.build_universe(listings)
+    if not universe:
+        log.error("Refusing to write an empty ticker universe")
+        return 1
 
-def clean_symbol(sym):
-    bad = ["$", "/", "^", ".", "-"]
-    if any(b in sym for b in bad):
-        return False
-    if sym.endswith(("U", "W", "R")) and len(sym) > 3:
-        return False
-    return True
+    previous: set[str] = set()
+    if config.TICKERS_FILE.exists():
+        previous = set(symbols.read_symbols(config.TICKERS_FILE))
 
-def main():
-    nasdaq = download_tickers(NASDAQ_LIST)
-    nyse   = download_tickers(NYSE_LIST)
+    symbols.write_symbols(config.TICKERS_FILE, universe)
 
-    all_symbols = sorted(set(nasdaq + nyse))
-    cleaned = [s.strip().upper() for s in all_symbols if clean_symbol(s)]
+    added = sorted(set(universe) - previous)
+    removed = sorted(previous - set(universe))
+    log.success(f"Wrote {len(universe)} symbols to {config.TICKERS_FILE}")
+    if previous:
+        log.info(f"{len(added)} added, {len(removed)} removed")
+        if added:
+            log.detail(f"  added: {', '.join(added[:10])}{' ...' if len(added) > 10 else ''}")
+        if removed:
+            log.detail(
+                f"  removed: {', '.join(removed[:10])}{' ...' if len(removed) > 10 else ''}"
+            )
+    return 0
 
-    with open(OUTPUT, "w") as f:
-        for sym in cleaned:
-            f.write(sym + "\n")
-
-    print(f"Updated clean_tickers.txt with {len(cleaned)} tickers.")
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
