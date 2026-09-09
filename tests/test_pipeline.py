@@ -91,6 +91,22 @@ def test_parse_listing_drops_trailer_row() -> None:
     assert universe == ["AAPL"]  # test issue and trailer both excluded
 
 
+def test_build_universe_excludes_etfs() -> None:
+    # An ETF has an ordinary ticker and a name with no warrant or unit wording,
+    # so only the listing's own flag distinguishes it from common stock. Left
+    # in, SPY and QQQ would outrank nearly every real company on volume.
+    text = (
+        "Symbol|Security Name|Test Issue|ETF\n"
+        "AAPL|Apple Inc. - Common Stock|N|N\n"
+        "QQQ|Invesco QQQ Trust, Series 1|N|Y\n"
+        "SPY|State Street SPDR S&P 500 ETF Trust|N|Y\n"
+    )
+
+    universe = symbols.build_universe([symbols.parse_listing(text)])
+
+    assert universe == ["AAPL"]
+
+
 # --------------------------------------------------------------------------
 # Cache store
 # --------------------------------------------------------------------------

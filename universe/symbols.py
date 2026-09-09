@@ -101,6 +101,13 @@ def extract_symbols(frame: pd.DataFrame) -> list[tuple[str, str]]:
     if "Test Issue" in frame:
         frame = frame[frame["Test Issue"].str.strip().str.upper() != "Y"]
 
+    # Both listing files flag funds explicitly, which is the only reliable way
+    # to spot them: an ETF carries an ordinary ticker and a name with none of
+    # the warrant or unit wording, so SPY and QQQ would otherwise pass as
+    # common stock -- and rank near the top of any liquidity ranking.
+    if "ETF" in frame:
+        frame = frame[frame["ETF"].str.strip().str.upper() != "Y"]
+
     name_col = "Security Name" if "Security Name" in frame else None
     names = frame[name_col] if name_col else [""] * len(frame)
     return [
