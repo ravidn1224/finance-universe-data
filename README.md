@@ -18,6 +18,10 @@ Two sources are used, matched to how fast each field moves:
 That split is the point: prices are genuinely daily, while the 25-call budget
 is spent only on things that actually change slowly.
 
+The corollary matters just as much. Any column the *sheet* shows for all 11,000
+listings has to come from Yahoo, because Alpha Vantage would need over a year
+for a single pass at that size — see `universe.csv` below.
+
 ## Layout
 
 | Path | Purpose |
@@ -30,6 +34,7 @@ is spent only on things that actually change slowly.
 | `build_universe.py` | Rebuild `universe.csv`, the full directory the sheet reads |
 | `clean_tickers.txt` | The ticker universe (curated; see the warning below) |
 | `cache_av.json` | Accumulated overview cache — the expensive asset |
+| `market_data.json` | Last Yahoo pass over the whole universe; the fallback if it fails |
 | `master_stocks.csv` | Published output: the curated universe, one row per ticker |
 | `universe.csv` | Published output: every US listing, for the Google Sheet |
 
@@ -117,21 +122,40 @@ listing (~11,200 rows, ~7,100 excluding ETFs), with columns `symbol,gf_ticker,
 name,exchange,type,sp500,sector,industry,market_cap,price,pe,sma150,
 pct_above_sma`.
 
-It merges four sources, in this order of precedence:
+It merges five sources, in this order of precedence:
 
 - **NASDAQ Trader listing files** decide who exists, what exchange they are on
   and whether they are a fund. Test issues and symbols no quote source can
   address (preferred series such as `ABR$D`) are dropped.
 - **S&P 500 constituents** set the `sp500` flag and win on sector and industry,
   because GICS is the stricter taxonomy.
-- **The NASDAQ screener** fills sector, industry, market cap and last price for
-  the rest of the market — one request covering ~7,000 stocks.
-- **This pipeline's own cache** supplies `pe` and `sma150`, which exist nowhere
-  else, and backfills the other fields where the screener is silent.
+- **Yahoo, queried for every listing** (`universe/market.py`), wins on the
+  numeric columns and is the only source that reaches the whole universe for
+  `pe` and `sma150`.
+- **The NASDAQ screener** fills sector and industry for the rest of the market,
+  and backs up market cap and price — one request covering ~7,000 stocks.
+- **This pipeline's Alpha Vantage cache** is now a fallback everywhere rather
+  than the sole source of `pe` and `sma150`.
+
+That third bullet is a correction, not a refinement. `pe` and `sma150` used to
+come only from the Alpha Vantage cache, which covers ~900 symbols because the
+free tier allows 25 calls a day. Against an 11,000-row universe that published
+`pe` at **0%** and `sma150` at **7%**, and no amount of waiting would have
+fixed it: one pass at 25 calls a day takes over a year. Yahoo answers both in
+bulk — a dozen requests for the quote fields, a few minutes for the averages —
+which moves them to roughly 53% and 78%.
+
+Neither reaches 100%, and should not. A company with no positive earnings has
+no meaningful trailing P/E, and a symbol that listed three months ago has no
+150-day average. Those blanks are the honest answer.
 
 `pct_above_sma` is computed here rather than left to the sheet. As a live
 spreadsheet formula it needed a year of history per row, which at this scale
 never finished loading.
+
+`market_data.json` holds the last Yahoo result. Yahoo is unofficial and
+undocumented, so each run merges onto that file: a failed batch leaves the
+previous number in place instead of blanking a thousand rows.
 
 The reason this file exists at all is that the spreadsheet used to do this
 merge itself. Doing so meant calling `api.nasdaq.com` from Google's servers,

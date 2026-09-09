@@ -19,6 +19,12 @@ MASTER_FILE = Path(os.environ.get("MASTER_FILE") or ROOT / "master_stocks.csv")
 #: The browsable directory the Google Sheet downloads and pastes verbatim.
 UNIVERSE_FILE = Path(os.environ.get("UNIVERSE_FILE") or ROOT / "universe.csv")
 
+#: Yahoo prices, market caps, P/Es and 150-day averages for the whole universe.
+#: Kept between runs purely as a safety net: Yahoo is unofficial, and merging
+#: onto the previous file means an outage shows stale numbers rather than
+#: blanking two columns of the sheet.
+MARKET_FILE = Path(os.environ.get("MARKET_FILE") or ROOT / "market_data.json")
+
 OVERVIEW_URL = "https://www.alphavantage.co/query"
 
 #: GICS sectors for index members, which are stricter than any vendor's.

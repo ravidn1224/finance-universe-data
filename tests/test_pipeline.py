@@ -9,7 +9,7 @@ import pytest
 
 import build_universe
 import cache as cache_cli
-from universe import config, liquidity, quotes, sheet, store, symbols
+from universe import config, liquidity, market, quotes, sheet, store, symbols
 from universe.alphavantage import (
     FetchResult,
     Outcome,
@@ -916,6 +916,41 @@ def test_percent_above_is_blank_without_both_inputs() -> None:
     assert rows[0][COL["pct_above_sma"]] is None
 
 
+def test_market_data_outranks_both_other_sources_on_numbers() -> None:
+    # The whole point of the market pass: it reaches every listing, while the
+    # Alpha Vantage cache reaches a few hundred on a 25-call daily budget.
+    merged = sheet.merge_enrichment(
+        {"AAPL": {"sector": "Technology", "market_cap": 1.0, "price": 1.0}},
+        {"AAPL": {"pe": 99.0, "sma150": 99.0, "market_cap": 2.0}},
+        {"AAPL": {"pe": 31.5, "sma150": 200.0, "market_cap": 3e12, "price": 250.0}},
+    )
+
+    assert merged["AAPL"]["pe"] == 31.5
+    assert merged["AAPL"]["sma150"] == 200.0
+    assert merged["AAPL"]["market_cap"] == 3e12
+    assert merged["AAPL"]["price"] == 250.0
+    # Yahoo does not classify, so sector still comes from the screener.
+    assert merged["AAPL"]["sector"] == "Technology"
+
+
+def test_market_only_symbols_still_reach_the_sheet() -> None:
+    # A symbol the screener and the cache both miss must not be dropped, or
+    # P/E would stay confined to the curated few hundred all over again.
+    merged = sheet.merge_enrichment({}, {}, {"ZZZ": {"pe": 12.0, "sma150": 8.0}})
+
+    assert merged["ZZZ"]["pe"] == 12.0
+    assert merged["ZZZ"]["sma150"] == 8.0
+
+
+def test_cache_still_fills_what_the_market_pass_missed() -> None:
+    merged = sheet.merge_enrichment(
+        {}, {"AAPL": {"pe": 31.5, "sma150": 200.0}}, {"AAPL": {"price": 250.0}}
+    )
+
+    assert merged["AAPL"]["pe"] == 31.5
+    assert merged["AAPL"]["sma150"] == 200.0
+
+
 def test_merge_prefers_the_screener_but_keeps_pipeline_only_fields() -> None:
     screener = {"AAPL": {"sector": "Technology", "market_cap": 3e12, "price": 250.0}}
     pipeline = {
@@ -1000,6 +1035,199 @@ def test_screener_rows_are_indexed_by_display_symbol() -> None:
 
     assert lookup["BRK.B"]["market_cap"] == 1000.0
     assert lookup["BRK.B"]["price"] == 5.0
+
+
+# --------------------------------------------------------------------------
+# Whole-universe market data
+# --------------------------------------------------------------------------
+
+
+@pytest.mark.parametrize(
+    ("display", "expected"), [("BRK.B", "BRK-B"), ("aapl", "AAPL"), (" A ", "A")]
+)
+def test_yahoo_wants_the_dashed_class_form(display: str, expected: str) -> None:
+    assert market.yahoo_symbol(display) == expected
+
+
+def test_quotes_come_back_keyed_on_the_dotted_symbol() -> None:
+    # The sheet publishes BRK.B; only the wire uses BRK-B.
+    def fetcher(batch):
+        assert list(batch) == ["BRK-B"]
+        return [{"symbol": "BRK-B", "regularMarketPrice": 505.83, "trailingPE": 12.7}]
+
+    fields = market.fetch_quote_fields(["BRK.B"], fetcher=fetcher)
+
+    assert fields["BRK.B"]["price"] == 505.83
+    assert fields["BRK.B"]["pe"] == 12.7
+
+
+def test_a_zero_is_read_as_not_reported() -> None:
+    # Yahoo sends 0 for an unknown cap and for a company with no earnings.
+    # Published as a number, both would sort to the top of a numeric filter.
+    def fetcher(batch):
+        return [{"symbol": "ZZZ", "marketCap": 0, "trailingPE": 0, "regularMarketPrice": 3.0}]
+
+    fields = market.fetch_quote_fields(["ZZZ"], fetcher=fetcher)
+
+    assert fields["ZZZ"]["market_cap"] is None
+    assert fields["ZZZ"]["pe"] is None
+    assert fields["ZZZ"]["price"] == 3.0
+
+
+def test_quotes_are_batched_and_paced() -> None:
+    seen, pauses = [], []
+
+    def fetcher(batch):
+        seen.append(list(batch))
+        return [{"symbol": symbol, "trailingPE": 1.0} for symbol in batch]
+
+    fields = market.fetch_quote_fields(
+        [f"S{n}" for n in range(250)],
+        batch_size=100,
+        fetcher=fetcher,
+        pause_seconds=0.5,
+        sleep=pauses.append,
+    )
+
+    assert [len(batch) for batch in seen] == [100, 100, 50]
+    assert len(fields) == 250
+    # Paced between batches, but not after the last one.
+    assert pauses == [0.5, 0.5]
+
+
+def test_one_refused_quote_batch_does_not_lose_the_rest() -> None:
+    def fetcher(batch):
+        if "S0" in batch:
+            raise RuntimeError("429 Too Many Requests")
+        return [{"symbol": symbol, "trailingPE": 1.0} for symbol in batch]
+
+    fields = market.fetch_quote_fields(
+        [f"S{n}" for n in range(4)], batch_size=2, fetcher=fetcher, pause_seconds=0
+    )
+
+    assert set(fields) == {"S2", "S3"}
+
+
+def test_the_average_needs_a_full_window() -> None:
+    closes = {"SHORT": [10.0] * 149, "LONG": [10.0] * 150}
+
+    sma = market.fetch_sma(
+        ["SHORT", "LONG"], downloader=lambda batch: closes, sleep=lambda _: None
+    )
+
+    # A month-old listing gets a blank, not a short-window number that would
+    # mean something different from every other row in the column.
+    assert "SHORT" not in sma
+    assert sma["LONG"] == 10.0
+
+
+def test_a_throttled_symbol_is_retried_on_a_second_pass() -> None:
+    # Yahoo throttles partway through a run this size, and a throttled symbol
+    # looks exactly like one with no history: both come back empty.
+    calls = []
+
+    def downloader(batch):
+        calls.append(list(batch))
+        if len(calls) == 1:
+            return {}
+        return {symbol: [10.0] * 150 for symbol in batch}
+
+    sma = market.fetch_sma(["AAPL"], downloader=downloader, sleep=lambda _: None)
+
+    assert sma["AAPL"] == 10.0
+    assert len(calls) == 2
+
+
+def test_a_symbol_answered_first_time_is_not_asked_again() -> None:
+    calls = []
+
+    def downloader(batch):
+        calls.append(list(batch))
+        return {symbol: [10.0] * 150 for symbol in batch}
+
+    market.fetch_sma(["AAPL", "MSFT"], downloader=downloader, sleep=lambda _: None)
+
+    # One pass only: the retry exists for gaps, not as a second full run.
+    assert calls == [["AAPL", "MSFT"]]
+
+
+def test_the_retry_pass_only_covers_what_is_missing() -> None:
+    calls = []
+
+    def downloader(batch):
+        calls.append(list(batch))
+        return {"AAPL": [10.0] * 150} if len(calls) == 1 else {"MSFT": [20.0] * 150}
+
+    sma = market.fetch_sma(
+        ["AAPL", "MSFT"], downloader=downloader, sleep=lambda _: None
+    )
+
+    assert calls[1] == ["MSFT"]
+    assert sma == {"AAPL": 10.0, "MSFT": 20.0}
+
+
+def test_the_retry_pass_waits_before_trying_again() -> None:
+    pauses = []
+
+    market.fetch_sma(
+        ["AAPL"],
+        downloader=lambda batch: {},
+        retry_pause_seconds=20.0,
+        sleep=pauses.append,
+    )
+
+    # Waited once, before the second pass -- not before the first.
+    assert pauses == [20.0]
+
+
+def test_yesterdays_value_survives_a_symbol_yahoo_skipped() -> None:
+    previous = {"AAPL": market.MarketRow(price=1.0, pe=30.0, sma150=200.0)}
+    fresh = {"AAPL": market.MarketRow(price=250.0)}
+
+    merged = market.merge_over_previous(fresh, previous)
+
+    assert merged["AAPL"].price == 250.0
+    # Not blanked just because today's run had no P/E for it.
+    assert merged["AAPL"].pe == 30.0
+    assert merged["AAPL"].sma150 == 200.0
+
+
+def test_a_symbol_only_in_yesterdays_file_is_kept() -> None:
+    merged = market.merge_over_previous({}, {"AAPL": market.MarketRow(pe=30.0)})
+
+    assert merged["AAPL"].pe == 30.0
+
+
+def test_market_data_round_trips_through_disk(tmp_path) -> None:
+    path = tmp_path / "market_data.json"
+    rows = {
+        "AAPL": market.MarketRow(price=250.0, market_cap=3e12, pe=31.5, sma150=200.0),
+        "ZZZ": market.MarketRow(price=1.5),
+    }
+
+    market.save(path, rows)
+
+    assert market.load(path) == rows
+    # Absent fields stay absent rather than serialising as null.
+    assert "pe" not in json.loads(path.read_text())["ZZZ"]
+
+
+def test_loading_a_missing_market_file_is_not_an_error(tmp_path) -> None:
+    assert market.load(tmp_path / "nope.json") == {}
+
+
+def test_coverage_counts_populated_fields() -> None:
+    rows = {
+        "A": market.MarketRow(price=1.0, pe=2.0),
+        "B": market.MarketRow(price=1.0),
+    }
+
+    assert market.coverage(rows) == {
+        "price": 2,
+        "market_cap": 0,
+        "pe": 1,
+        "sma150": 0,
+    }
 
 
 @pytest.mark.parametrize(

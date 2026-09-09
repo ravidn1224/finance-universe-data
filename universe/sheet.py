@@ -131,8 +131,10 @@ def parse_screener(rows: Iterable[Mapping[str, Any]]) -> dict[str, dict[str, Any
 def enrichment_from_cache(cache: Mapping[str, Mapping[str, Any]]) -> dict[str, dict[str, Any]]:
     """Project the Alpha Vantage/Yahoo cache onto display-symbol keys.
 
-    This is the only source for P/E and the 150-day average; it covers the
-    curated set the pipeline tracks rather than the whole market.
+    A fallback source covering the few hundred symbols the curated pipeline
+    tracks. It used to be the only source of P/E and the 150-day average, which
+    is precisely why those columns were nearly empty across an eleven-thousand
+    row universe; :mod:`universe.market` now supplies them market-wide.
     """
     lookup: dict[str, dict[str, Any]] = {}
     for key, entry in cache.items():
@@ -155,30 +157,47 @@ def enrichment_from_cache(cache: Mapping[str, Mapping[str, Any]]) -> dict[str, d
 def merge_enrichment(
     screener: Mapping[str, Mapping[str, Any]],
     pipeline: Mapping[str, Mapping[str, Any]],
+    market: Optional[Mapping[str, Mapping[str, Any]]] = None,
 ) -> dict[str, dict[str, Any]]:
-    """Combine the two detail sources.
+    """Combine the detail sources, most complete first.
 
-    The screener wins on the fields it carries because it covers the whole
-    market, while the pipeline covers a curated subset. P/E and the 150-day
-    average exist only in the pipeline, so they always come from there.
+    Three sources overlap here and each is authoritative for different columns:
+
+    * ``market`` is Yahoo, queried for every listing, so it wins on the numeric
+      columns. It is the only source that reaches the whole universe for P/E
+      and the 150-day average.
+    * ``screener`` covers the whole market but carries no P/E or average. It is
+      the primary source for sector and industry.
+    * ``pipeline`` is the Alpha Vantage cache, a curated few hundred symbols.
+      It is now a fallback everywhere rather than the sole source of P/E and
+      the 150-day average, which is what held both columns near zero: the free
+      tier's 25 calls a day cannot fill eleven thousand rows.
+
+    Sector and industry deliberately skip ``market``, which does not report
+    them.
     """
+    market = market or {}
     merged: dict[str, dict[str, Any]] = {}
 
-    for symbol in set(screener) | set(pipeline):
+    for symbol in set(screener) | set(pipeline) | set(market):
         from_screener = screener.get(symbol) or {}
         from_pipeline = pipeline.get(symbol) or {}
+        from_market = market.get(symbol) or {}
 
-        def pick(field: str) -> Any:
-            value = from_screener.get(field)
-            return value if value not in (None, "") else from_pipeline.get(field)
+        def pick(field: str, *sources: Mapping[str, Any]) -> Any:
+            for source in sources:
+                value = source.get(field)
+                if value not in (None, ""):
+                    return value
+            return None
 
         merged[symbol] = {
-            "sector": pick("sector") or "",
-            "industry": pick("industry") or "",
-            "market_cap": pick("market_cap"),
-            "price": pick("price"),
-            "pe": from_pipeline.get("pe"),
-            "sma150": from_pipeline.get("sma150"),
+            "sector": pick("sector", from_screener, from_pipeline) or "",
+            "industry": pick("industry", from_screener, from_pipeline) or "",
+            "market_cap": pick("market_cap", from_market, from_screener, from_pipeline),
+            "price": pick("price", from_market, from_screener, from_pipeline),
+            "pe": pick("pe", from_market, from_pipeline),
+            "sma150": pick("sma150", from_market, from_pipeline),
         }
     return merged
 

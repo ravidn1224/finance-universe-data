@@ -21,7 +21,7 @@ from typing import Sequence
 
 import requests
 
-from universe import config, liquidity, log, sheet, store, symbols
+from universe import config, liquidity, log, market, sheet, store, symbols
 
 
 def fetch_text(url: str, *, timeout: float = 30.0) -> str:
@@ -66,7 +66,57 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "--dry-run", action="store_true", help="Report the result without writing"
     )
+    parser.add_argument(
+        "--skip-market",
+        action="store_true",
+        help="Reuse the saved Yahoo data instead of refetching it. The 150-day "
+        "averages need a year of history per symbol, which is the slow part of "
+        "a build.",
+    )
+    parser.add_argument(
+        "--no-sma",
+        action="store_true",
+        help="Fetch prices, caps and P/Es but skip the 150-day averages, "
+        "turning a several-minute build into a few seconds.",
+    )
     return parser.parse_args(argv)
+
+
+def collect_market_data(
+    universe_symbols: Sequence[str], *, with_sma: bool
+) -> dict[str, market.MarketRow]:
+    """Fetch Yahoo data for the universe, merged onto whatever was saved before.
+
+    The two passes have very different costs -- quotes are a dozen requests,
+    the averages are one per symbol -- so they are reported separately and the
+    slow one can be skipped.
+    """
+    previous = market.load(config.MARKET_FILE)
+    if previous:
+        log.info(f"{len(previous)} symbol(s) of saved market data to fall back on")
+
+    log.info(f"Fetching quotes for {len(universe_symbols)} symbol(s)")
+    quote_fields = market.fetch_quote_fields(universe_symbols)
+    log.info(f"  {len(quote_fields)} symbol(s) answered")
+
+    sma: dict[str, float] = {}
+    if with_sma:
+        log.info("Fetching a year of history for the 150-day averages (slow)")
+        sma = market.fetch_sma(
+            universe_symbols,
+            on_attempt=lambda number, pending: log.info(
+                f"  pass {number}: {pending} symbol(s) still to try"
+            ),
+            on_batch=lambda done, size, total: (
+                log.detail(f"  batch {done}: {total} average(s) so far")
+                if done % 10 == 0
+                else None
+            ),
+        )
+        log.info(f"  {len(sma)} symbol(s) have a full 150-day window")
+
+    fresh = market.build_market_data(quote_fields, sma)
+    return market.merge_over_previous(fresh, previous)
 
 
 def main(argv: Sequence[str] | None = None) -> int:
@@ -102,12 +152,33 @@ def main(argv: Sequence[str] | None = None) -> int:
         log.warn("Screener gave nothing usable")
 
     cache = store.load_cache(config.CACHE_FILE)
-    if not cache:
-        log.warn(f"{config.CACHE_FILE} is empty; no P/E or 150-day averages")
+
+    # Which symbols to ask Yahoo about. Built by running the real assembly with
+    # no enrichment rather than by re-deriving the rules here, so the two can
+    # never disagree about test issues, unquotable symbols or minor venues.
+    listed = sheet.build_rows(
+        nasdaq_text, other_text, sp500, {}, stocks_only=args.stocks_only
+    )
+    universe_symbols = [row[0] for row in listed]
+
+    if args.skip_market:
+        market_rows = market.load(config.MARKET_FILE)
+        log.info(f"Reusing saved market data for {len(market_rows)} symbol(s)")
+    else:
+        market_rows = collect_market_data(universe_symbols, with_sma=not args.no_sma)
+        if not args.dry_run:
+            market.save(config.MARKET_FILE, market_rows)
+
+    filled_market = market.coverage(market_rows)
+    log.info(
+        "Market data  |  "
+        + "  ".join(f"{name} {count}" for name, count in filled_market.items())
+    )
 
     enrichment = sheet.merge_enrichment(
         sheet.parse_screener(screener_rows),
         sheet.enrichment_from_cache(cache),
+        market.as_enrichment(market_rows),
     )
 
     rows = sheet.build_rows(
