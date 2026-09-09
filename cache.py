@@ -49,8 +49,10 @@ def plan_work(
 ) -> tuple[list[str], list[str]]:
     """Split the universe into symbols to fetch and symbols to refresh.
 
-    Returns ``(missing, stale)``. Missing symbols come first when the budget is
-    applied, because coverage matters more than freshness.
+    Returns ``(missing, refresh)``. Missing symbols come first when the budget
+    is applied, because coverage matters more than freshness. Within
+    ``refresh``, records that predate a stored field lead, since a blank column
+    is worse than an old value.
     """
     now = now or store.utc_now()
     missing: list[str] = []
@@ -72,8 +74,16 @@ def plan_work(
             if settings.retry_missing:
                 missing.append(symbol)
             continue
+        if settings.fill_only:
+            continue
+        if store.needs_backfill(entry):
+            # Sorted as infinitely old so it leads the queue and ignores the
+            # age threshold entirely: a record missing a field this version
+            # stores would otherwise wait months for its own refresh to fall due.
+            stale.append((float("inf"), symbol))
+            continue
         age = store.age_days(entry, now=now)
-        if not settings.fill_only and age >= settings.refresh_after_days:
+        if age >= settings.refresh_after_days:
             stale.append((age, symbol))
 
     stale.sort(key=lambda item: (-item[0], item[1]))
@@ -95,8 +105,8 @@ def fill_cache(
     budget = (missing + stale)[: settings.max_calls]
 
     log.info(
-        f"{len(missing)} missing, {len(stale)} stale "
-        f"(older than {settings.refresh_after_days}d); "
+        f"{len(missing)} missing, {len(stale)} needing refresh "
+        f"(incomplete, or older than {settings.refresh_after_days}d); "
         f"spending {len(budget)} of {settings.max_calls} call(s)"
     )
     if not budget:

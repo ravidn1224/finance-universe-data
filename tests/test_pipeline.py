@@ -299,6 +299,48 @@ def test_fill_only_suppresses_refreshing() -> None:
     assert missing == ["B"] and stale == []
 
 
+def test_plan_backfills_entries_that_predate_a_field() -> None:
+    # A record cached before peRatio existed would otherwise keep its blank
+    # until it aged past the refresh threshold -- months of an empty column.
+    incomplete = _aged("OLD", 1)
+    del incomplete["peRatio"]
+    cache = {"OLD": incomplete, "FRESH": _aged("FRESH", 1)}
+
+    _, stale = cache_cli.plan_work(["FRESH", "OLD"], cache, _settings())
+
+    assert stale == ["OLD"]
+
+
+def test_backfill_outranks_merely_stale_entries() -> None:
+    incomplete = _aged("NEWISH", 1)
+    del incomplete["peRatio"]
+    cache = {"NEWISH": incomplete, "ANCIENT": _aged("ANCIENT", 900)}
+
+    _, stale = cache_cli.plan_work(["ANCIENT", "NEWISH"], cache, _settings())
+
+    assert stale == ["NEWISH", "ANCIENT"]
+
+
+def test_a_company_with_no_pe_is_not_refetched_forever() -> None:
+    # Alpha Vantage reports "None" for companies without earnings, stored as a
+    # blank. That is an answer, not a gap, so it must not consume quota daily.
+    cache = {"A": _aged("A", 1)}
+    assert cache["A"]["peRatio"] == ""
+
+    _, stale = cache_cli.plan_work(["A"], cache, _settings())
+
+    assert stale == []
+
+
+def test_fill_only_also_suppresses_backfilling() -> None:
+    incomplete = _aged("A", 1)
+    del incomplete["peRatio"]
+
+    _, stale = cache_cli.plan_work(["A"], {"A": incomplete}, _settings(fill_only=True))
+
+    assert stale == []
+
+
 def test_plan_skips_known_missing_symbols_unless_asked() -> None:
     cache = {"X": store.make_entry("X", status=store.STATUS_NOT_FOUND)}
 

@@ -26,6 +26,11 @@ STATUS_NOT_FOUND = "not_found"
 #: quote refresh. Both are blank until their source has run for a symbol.
 DATA_FIELDS = ("symbol", "name", "sector", "industry", "marketCap", "price", "peRatio", "ma150")
 
+#: The subset of :data:`DATA_FIELDS` that Alpha Vantage supplies, so refetching
+#: an overview can actually fill them. ``marketCap``, ``price`` and ``ma150``
+#: are excluded: those come from the Yahoo refresh.
+OVERVIEW_FIELDS = ("name", "sector", "industry", "peRatio")
+
 #: Stand-in fetch time for records written before timestamps were tracked, so
 #: they sort as the stalest and get refreshed first.
 _EPOCH = datetime(1970, 1, 1, tzinfo=timezone.utc)
@@ -75,6 +80,22 @@ def entry_status(entry: Mapping[str, Any]) -> str:
 
 def is_usable(entry: Mapping[str, Any]) -> bool:
     return entry_status(entry) == STATUS_OK
+
+
+def needs_backfill(entry: Mapping[str, Any]) -> bool:
+    """Whether an entry predates a field this version stores.
+
+    Tests for the *key*, not a value. Every entry written by
+    :func:`make_entry` carries all of :data:`OVERVIEW_FIELDS`, so an absent key
+    means the record was cached before the field existed, while a present but
+    empty one means Alpha Vantage was asked and had nothing -- a company with
+    no earnings has no P/E, and re-asking every run would burn the whole daily
+    budget on it forever.
+
+    Without this a newly added column stays blank until each record happens to
+    age past the refresh threshold, which for a 180-day threshold means months.
+    """
+    return is_usable(entry) and any(field not in entry for field in OVERVIEW_FIELDS)
 
 
 def fetched_at(entry: Mapping[str, Any]) -> datetime:

@@ -87,7 +87,11 @@ refresh computes the same statistic so the column keeps its meaning.
 
 `peRatio` is Alpha Vantage's `PERatio`, captured on the same slow fundamentals
 cycle; its `"None"` placeholder for companies without earnings is published as
-blank. `ma150` is the **150-day moving average**, computed by the daily Yahoo
+blank. Records cached before a field was added are queued for refetch ahead of
+merely stale ones, so a new column fills over the following weeks instead of
+waiting out the 180-day refresh threshold. The test for this is key presence,
+not emptiness — a company that genuinely has no P/E stores a blank and must not
+be re-queried every run. `ma150` is the **150-day moving average**, computed by the daily Yahoo
 refresh from a year of history and left blank for symbols with less history
 than the window. New fields are appended before `last_updated` so the column
 order consumers depend on never shifts.
