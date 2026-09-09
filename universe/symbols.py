@@ -32,14 +32,20 @@ _NON_COMMON_NAME_RE = re.compile(
 #: an ADR's terms rather than the issue type, so it is stripped before matching.
 _PARENTHETICAL_RE = re.compile(r"\([^()]*\)")
 
+#: Some listings leave the parenthetical unterminated, as America Movil's does
+#: with "(each representing the right to receive twenty (20) Series B Shares".
+#: Stripping only balanced pairs would leave "right" behind and drop a liquid
+#: ADR as a rights issue, so an unclosed group runs to the end of the name.
+_UNCLOSED_PARENTHETICAL_RE = re.compile(r"\([^()]*$")
+
 
 def normalize_symbol(symbol: str) -> str:
     """Canonical form of a ticker, used as the cache key everywhere.
 
-    Class separators are folded to a dash so ``BRK.B`` and ``BRK-B`` cannot end
-    up as two different cache entries.
+    Class separators are folded to a dash so ``BRK.B``, ``BRK/B`` (the form the
+    NASDAQ screener uses) and ``BRK-B`` cannot end up as separate cache entries.
     """
-    return symbol.strip().upper().replace(".", "-")
+    return symbol.strip().upper().replace(".", "-").replace("/", "-")
 
 
 def is_common_stock(symbol: str, security_name: str = "") -> bool:
@@ -61,6 +67,7 @@ def is_common_stock(symbol: str, security_name: str = "") -> bool:
     # designation decides the issue type, so "Unit Corporation - Common Stock"
     # stays while "Foo Corp - Units" goes.
     name = _PARENTHETICAL_RE.sub(" ", security_name)
+    name = _UNCLOSED_PARENTHETICAL_RE.sub(" ", name)
     designation = name.rsplit(" - ", 1)[-1] if " - " in name else name
     return not _NON_COMMON_NAME_RE.search(designation)
 
