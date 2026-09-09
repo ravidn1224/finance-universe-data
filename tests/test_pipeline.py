@@ -846,6 +846,60 @@ def test_listings_drop_test_issues_and_unquotable_symbols() -> None:
     assert [row[COL["symbol"]] for row in rows] == ["GOOD"]
 
 
+@pytest.mark.parametrize(
+    ("name", "expected"),
+    [
+        ("Armada Acquisition Corp. III - Warrant", "Warrant"),
+        ("Abony Acquisition Corp. I - Units", "Unit"),
+        ("Apogee Acquisition Corp - Rights", "Right"),
+        ("Strategy Inc - 10.00% Series A Perpetual Strife Preferred", "Preferred"),
+        ("AT&T Inc. 5.350% Global Notes due 2066", "Note"),
+        ("Ares Acquisition Corporation III Units, each consisting of one share", "Unit"),
+    ],
+)
+def test_non_common_issues_are_named_not_called_stock(name: str, expected: str) -> None:
+    # 1,202 of these were published as "Stock". They carry ordinary five-letter
+    # tickers, and no vendor reports a sector or P/E for a warrant, so they are
+    # most of what looks like an empty row in the sheet.
+    assert sheet.security_type(name, is_etf=False) == expected
+
+
+@pytest.mark.parametrize(
+    "name",
+    [
+        "Energy Transfer LP Common Units",
+        "MPLX LP Common Units Representing Limited Partner Interests",
+        "Plains All American Pipeline, L.P. - Common Units representing LP interests",
+        # The word "unit" here describes the ADR's terms, not the issue.
+        "Banco Santander Brasil SA American Depositary Shares, each representing one unit",
+        "Unit Corporation - Common Stock",
+        "Berkshire Hathaway Inc. New Common Stock",
+    ],
+)
+def test_real_equities_are_not_mistaken_for_units(name: str) -> None:
+    # Master limited partnerships are ordinary listed equity; Energy Transfer
+    # and MPLX are both well over $50B and must not be filtered out with the
+    # SPAC units they share a word with.
+    assert sheet.security_type(name, is_etf=False) == "Stock"
+
+
+def test_a_fund_is_an_etf_whatever_its_name_says() -> None:
+    assert sheet.security_type("Some Rights Strategy ETF", is_etf=True) == "ETF"
+
+
+def test_stocks_only_now_excludes_warrants_and_units() -> None:
+    listing = (
+        "Symbol|Security Name|Market Category|Test Issue|Financial Status|Round Lot|ETF\n"
+        "AACI|Armada Acquisition Corp. III - Class A Ordinary Shares|Q|N|N|100|N\n"
+        "AACIW|Armada Acquisition Corp. III - Warrant|Q|N|N|100|N\n"
+        "AACIU|Armada Acquisition Corp. III - Units|Q|N|N|100|N\n"
+    )
+
+    kept = sheet.build_rows(listing, "", {}, {}, stocks_only=True)
+
+    assert [row[0] for row in kept] == ["AACI"]
+
+
 def test_etfs_are_flagged_from_the_listing_column() -> None:
     text = _nasdaq_file("QQQ|Invesco QQQ Trust|Q|N|N|100|Y|N")
 

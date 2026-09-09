@@ -17,7 +17,7 @@ from __future__ import annotations
 import re
 from typing import Any, Iterable, Mapping, Optional, Sequence
 
-from . import store
+from . import store, symbols
 
 #: NYSE-family exchange codes in otherlisted.txt, mapped to display names.
 #: These venues are always included.
@@ -212,6 +212,21 @@ def _listing_rows(text: str) -> list[list[str]]:
     return rows
 
 
+def security_type(name: str, is_etf: bool) -> str:
+    """The value published in the sheet's ``type`` column.
+
+    Every listing used to be either ``Stock`` or ``ETF``, which mislabelled
+    1,202 rows: a SPAC's warrants, units and rights carry ordinary five-letter
+    tickers and were indistinguishable from the SPAC itself. They are the bulk
+    of the rows that look empty in the sheet -- no vendor reports a sector or
+    P/E for a warrant -- so naming them lets the type filter put them aside
+    instead of leaving the reader to wonder what is missing.
+    """
+    if is_etf:
+        return "ETF"
+    return symbols.security_designation(name) or "Stock"
+
+
 def _build_row(
     symbol: str,
     name: str,
@@ -244,7 +259,7 @@ def _build_row(
         f"{prefix}:{symbol}" if prefix else symbol,
         name,
         exchange,
-        "ETF" if is_etf else "Stock",
+        security_type(name, is_etf),
         SP500_MARK if member else "",
         sector,
         industry,

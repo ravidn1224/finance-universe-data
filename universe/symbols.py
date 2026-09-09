@@ -5,7 +5,7 @@ from __future__ import annotations
 import io
 import re
 from pathlib import Path
-from typing import Iterable, Sequence
+from typing import Iterable, Optional, Sequence
 
 import pandas as pd
 import requests
@@ -28,6 +28,20 @@ _NON_COMMON_NAME_RE = re.compile(
     re.IGNORECASE,
 )
 
+#: The designation word each match maps to, for callers that want the issue
+#: type rather than a yes/no. Debentures and subordinated issues are debt and
+#: are published under one heading, since the distinction does not change what
+#: anyone screening equities would do with the row.
+_DESIGNATION_TYPES = {
+    "warrant": "Warrant",
+    "right": "Right",
+    "unit": "Unit",
+    "preferred": "Preferred",
+    "note": "Note",
+    "debenture": "Note",
+    "subordinated": "Note",
+}
+
 #: Parenthesised prose ("each representing the right to receive ...") describes
 #: an ADR's terms rather than the issue type, so it is stripped before matching.
 _PARENTHETICAL_RE = re.compile(r"\([^()]*\)")
@@ -38,6 +52,19 @@ _PARENTHETICAL_RE = re.compile(r"\([^()]*\)")
 #: ADR as a rights issue, so an unclosed group runs to the end of the name.
 _UNCLOSED_PARENTHETICAL_RE = re.compile(r"\([^()]*$")
 
+#: The same prose without brackets: "American Depositary Shares, each
+#: representing one unit". What follows describes the terms, not the issue, and
+#: Banco Santander Brasil is an ordinary ADR rather than a SPAC unit. A real
+#: unit names itself before this clause ("Units, each consisting of one share
+#: and one warrant"), so truncating here keeps those.
+_TERMS_CLAUSE_RE = re.compile(r",\s*each\b.*$", re.IGNORECASE | re.DOTALL)
+
+#: Master limited partnerships trade as "Common Units Representing Limited
+#: Partner Interests" -- Energy Transfer and MPLX among them, both well over
+#: $50B. They are ordinary listed equity and belong with the stocks, not with
+#: the SPAC units they share a word with.
+_PARTNERSHIP_RE = re.compile(r"\b(common units?|limited partner)\b", re.IGNORECASE)
+
 
 def normalize_symbol(symbol: str) -> str:
     """Canonical form of a ticker, used as the cache key everywhere.
@@ -46,6 +73,31 @@ def normalize_symbol(symbol: str) -> str:
     NASDAQ screener uses) and ``BRK-B`` cannot end up as separate cache entries.
     """
     return symbol.strip().upper().replace(".", "-").replace("/", "-")
+
+
+def security_designation(security_name: str) -> Optional[str]:
+    """The issue type a listing's name declares, or ``None`` for common stock.
+
+    Returns one of ``Warrant``, ``Right``, ``Unit``, ``Preferred`` or ``Note``.
+    Exchange listings carry these as ordinary five-letter tickers with no other
+    marking, so the security name is the only reliable way to tell a SPAC's
+    warrant from the SPAC itself.
+    """
+    # NASDAQ names read "<company> - <issue type>"; only the trailing
+    # designation decides the issue type, so "Unit Corporation - Common Stock"
+    # stays while "Foo Corp - Units" goes.
+    name = _PARENTHETICAL_RE.sub(" ", security_name)
+    name = _UNCLOSED_PARENTHETICAL_RE.sub(" ", name)
+    name = _TERMS_CLAUSE_RE.sub(" ", name)
+    designation = name.rsplit(" - ", 1)[-1] if " - " in name else name
+
+    if _PARTNERSHIP_RE.search(designation):
+        return None
+
+    match = _NON_COMMON_NAME_RE.search(designation)
+    if not match:
+        return None
+    return _DESIGNATION_TYPES[match.group(1).lower().rstrip("s")]
 
 
 def is_common_stock(symbol: str, security_name: str = "") -> bool:
@@ -63,13 +115,7 @@ def is_common_stock(symbol: str, security_name: str = "") -> bool:
     if "-" not in symbol and len(symbol) == 5 and symbol[-1] in _NON_COMMON_SUFFIXES:
         return False
 
-    # NASDAQ names read "<company> - <issue type>"; only the trailing
-    # designation decides the issue type, so "Unit Corporation - Common Stock"
-    # stays while "Foo Corp - Units" goes.
-    name = _PARENTHETICAL_RE.sub(" ", security_name)
-    name = _UNCLOSED_PARENTHETICAL_RE.sub(" ", name)
-    designation = name.rsplit(" - ", 1)[-1] if " - " in name else name
-    return not _NON_COMMON_NAME_RE.search(designation)
+    return security_designation(security_name) is None
 
 
 def parse_listing(text: str) -> pd.DataFrame:
