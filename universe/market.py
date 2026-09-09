@@ -54,6 +54,13 @@ QUOTE_FIELDS = {
     "pe": "trailingPE",
 }
 
+#: Below this, a trailing P/E is an artefact rather than a cheap stock. A ratio
+#: of 0.004 says the company earns 250 times its share price, which happens
+#: when a reverse split restates the price but not the earnings per share --
+#: several serial reverse-splitters produce one. They also display as "0.00",
+#: which reads like a real zero and sorts to the top of a P/E filter.
+MIN_PLAUSIBLE_PE = 0.1
+
 
 @dataclass(frozen=True)
 class MarketRow:
@@ -108,6 +115,20 @@ def _to_float(value: object) -> Optional[float]:
     return None if number == 0 else number
 
 
+def _plausible_pe(value: object) -> Optional[float]:
+    """A trailing P/E, or ``None`` if it is too small to be a real one.
+
+    Applied on the way in *and* on the way back off disk. Filtering only at
+    fetch time is not enough: a rejected value becomes ``None``, and ``None`` is
+    exactly what :meth:`MarketRow.merged_over` replaces with yesterday's figure,
+    so the artefact would be restored from the saved file every run.
+    """
+    number = _to_float(value)
+    if number is None or number < MIN_PLAUSIBLE_PE:
+        return None
+    return number
+
+
 def yahoo_quote_fetcher(batch: Sequence[str]) -> list[Mapping[str, Any]]:
     """Fetch one batch from the quote endpoint.
 
@@ -152,9 +173,11 @@ def fetch_quote_fields(
             display = by_yahoo.get(yahoo_symbol(record.get("symbol")))
             if not display:
                 continue
-            found[display] = {
+            fields = {
                 name: _to_float(record.get(key)) for name, key in QUOTE_FIELDS.items()
             }
+            fields["pe"] = _plausible_pe(record.get(QUOTE_FIELDS["pe"]))
+            found[display] = fields
 
         if on_batch:
             on_batch(index + 1, len(batch), len(found))
@@ -166,13 +189,22 @@ def fetch_quote_fields(
 
 #: Passes over the symbol list. Yahoo throttles the chart endpoint partway
 #: through a run of this size, and a throttled symbol is indistinguishable from
-#: one with no history -- both come back empty. A second pass over what is
-#: still missing recovers the former; the latter simply fails again cheaply.
-SMA_ATTEMPTS = 2
+#: one with no history -- both come back empty. Each pass retries only what is
+#: still missing, so a throttled symbol gets another chance while one with no
+#: history fails again cheaply.
+#:
+#: Three is a compromise, not a cure. Coverage also compounds across days,
+#: because every run merges onto the saved file rather than replacing it.
+SMA_ATTEMPTS = 3
 
 #: Pause before re-attempting the symbols a pass did not answer, to let
 #: whatever rate limit was hit decay.
-SMA_RETRY_PAUSE_SECONDS = 20.0
+SMA_RETRY_PAUSE_SECONDS = 30.0
+
+#: Pause between batches within a pass. Cheap insurance: the throttle costs a
+#: whole batch of two hundred symbols, so a fraction of a second to avoid
+#: tripping it pays for itself many times over.
+SMA_BATCH_PAUSE_SECONDS = 0.5
 
 
 def fetch_sma(
@@ -184,6 +216,7 @@ def fetch_sma(
     downloader: Optional[quotes.Downloader] = None,
     attempts: int = SMA_ATTEMPTS,
     retry_pause_seconds: float = SMA_RETRY_PAUSE_SECONDS,
+    batch_pause_seconds: float = SMA_BATCH_PAUSE_SECONDS,
     sleep: Callable[[float], None] = time.sleep,
     on_batch: Optional[Callable[[int, int, int], None]] = None,
     on_attempt: Optional[Callable[[int, int], None]] = None,
@@ -225,6 +258,8 @@ def fetch_sma(
             batches_done += 1
             if on_batch:
                 on_batch(batches_done, len(batch), len(found))
+            if batch_pause_seconds and start + batch_size < len(pending):
+                sleep(batch_pause_seconds)
 
     return found
 
@@ -270,7 +305,7 @@ def load(path: Path) -> dict[str, MarketRow]:
         str(symbol): MarketRow(
             price=_to_float(fields.get("price")),
             market_cap=_to_float(fields.get("market_cap")),
-            pe=_to_float(fields.get("pe")),
+            pe=_plausible_pe(fields.get("pe")),
             sma150=_to_float(fields.get("sma150")),
         )
         for symbol, fields in raw.items()

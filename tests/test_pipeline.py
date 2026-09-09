@@ -1172,12 +1172,53 @@ def test_the_retry_pass_waits_before_trying_again() -> None:
     market.fetch_sma(
         ["AAPL"],
         downloader=lambda batch: {},
+        attempts=2,
         retry_pause_seconds=20.0,
+        batch_pause_seconds=0,
         sleep=pauses.append,
     )
 
     # Waited once, before the second pass -- not before the first.
     assert pauses == [20.0]
+
+
+def test_an_implausible_pe_is_dropped_rather_than_published() -> None:
+    # A reverse split that restates the price but not the earnings leaves a
+    # ratio like 0.004, which renders as "0.00" and sorts to the top of a
+    # cheap-stock filter.
+    def fetcher(batch):
+        return [
+            {"symbol": "JZ", "trailingPE": 0.001123, "regularMarketPrice": 0.88},
+            {"symbol": "KALU", "trailingPE": 12.45, "regularMarketPrice": 167.8},
+        ]
+
+    fields = market.fetch_quote_fields(["JZ", "KALU"], fetcher=fetcher)
+
+    assert fields["JZ"]["pe"] is None
+    assert fields["JZ"]["price"] == 0.88
+    assert fields["KALU"]["pe"] == 12.45
+
+
+def test_a_bad_pe_already_on_disk_is_not_restored(tmp_path) -> None:
+    # The fallback replaces a missing value with yesterday's, so filtering only
+    # at fetch time would resurrect the artefact on every single run.
+    path = tmp_path / "market_data.json"
+    path.write_text('{"JZ": {"pe": 0.001123, "price": 0.88}}')
+
+    loaded = market.load(path)
+
+    assert loaded["JZ"].pe is None
+    assert loaded["JZ"].price == 0.88
+    assert market.merge_over_previous({}, loaded)["JZ"].pe is None
+
+
+def test_a_genuinely_enormous_pe_is_kept() -> None:
+    # CrowdStrike really does trade at thousands of times trailing earnings.
+    # Only the implausible low end is filtered.
+    def fetcher(batch):
+        return [{"symbol": "CRWD", "trailingPE": 5250.5}]
+
+    assert market.fetch_quote_fields(["CRWD"], fetcher=fetcher)["CRWD"]["pe"] == 5250.5
 
 
 def test_yesterdays_value_survives_a_symbol_yahoo_skipped() -> None:
