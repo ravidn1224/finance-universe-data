@@ -45,6 +45,17 @@ class FetchResult:
         return self.outcome is Outcome.OK
 
 
+#: Values Alpha Vantage uses for a numeric field it cannot supply.
+_MISSING_NUMBERS = frozenset({"", "none", "-", "n/a"})
+
+
+def clean_number(raw: object) -> str:
+    """Normalise an Alpha Vantage numeric field, mapping its ``"None"`` and
+    similar placeholders to an empty string so consumers never parse them."""
+    text = str(raw or "").strip()
+    return "" if text.lower() in _MISSING_NUMBERS else text
+
+
 def mask_key(key: str) -> str:
     """Redact an API key so it can be safely logged."""
     if len(key) <= 4:
@@ -65,6 +76,7 @@ def classify(payload: Mapping[str, Any], symbol: str) -> FetchResult:
                 industry=str(payload.get("Industry", "") or ""),
                 market_cap=str(payload.get("MarketCapitalization", "") or ""),
                 price=str(payload.get("50DayMovingAverage", "") or ""),
+                pe_ratio=clean_number(payload.get("PERatio")),
                 # Kept out of the CSV, but it lets the daily quote refresh
                 # recompute market cap exactly instead of approximating it.
                 shares_outstanding=str(payload.get("SharesOutstanding", "") or ""),

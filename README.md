@@ -8,12 +8,12 @@ curated US-equity universe, with company name, sector, industry, market cap and
 Two sources are used, matched to how fast each field moves:
 
 - **Alpha Vantage** supplies the descriptive fields (`name`, `sector`,
-  `industry`) plus shares outstanding. Its free tier allows only **25 requests
-  per day**, one per symbol, so the universe cycles through it roughly every 37
-  days — fine for data that rarely changes.
-- **Yahoo Finance** supplies `price` and `marketCap` for the **whole universe
-  every day**, through a bulk endpoint that covers ~915 tickers in about five
-  requests.
+  `industry`), the `peRatio`, plus shares outstanding. Its free tier allows only
+  **25 requests per day**, one per symbol, so the universe cycles through it
+  roughly every 37 days — fine for data that rarely changes.
+- **Yahoo Finance** supplies `price`, `marketCap` and the 150-day average
+  (`ma150`) for the **whole universe every day**, through a bulk endpoint that
+  covers ~915 tickers in about five requests.
 
 That split is the point: prices are genuinely daily, while the 25-call budget
 is spent only on things that actually change slowly.
@@ -78,9 +78,16 @@ and `MASTER_FILE`.
 ## Data notes
 
 `master_stocks.csv` columns are `symbol,name,sector,industry,marketCap,price,
-last_updated`. `price` is the **50-day moving average**, not a live quote —
-that was Alpha Vantage's `50DayMovingAverage`, and the Yahoo refresh computes
-the same statistic so the column keeps its meaning.
+peRatio,ma150,last_updated`. `price` is the **50-day moving average**, not a
+live quote — that was Alpha Vantage's `50DayMovingAverage`, and the Yahoo
+refresh computes the same statistic so the column keeps its meaning.
+
+`peRatio` is Alpha Vantage's `PERatio`, captured on the same slow fundamentals
+cycle; its `"None"` placeholder for companies without earnings is published as
+blank. `ma150` is the **150-day moving average**, computed by the daily Yahoo
+refresh from a year of history and left blank for symbols with less history
+than the window. New fields are appended before `last_updated` so the column
+order consumers depend on never shifts.
 
 `marketCap` is shares outstanding times the latest close. Shares outstanding
 comes from Alpha Vantage and is only refreshed on its slow cycle, which is fine

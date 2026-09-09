@@ -21,8 +21,10 @@ Cache = dict[str, Entry]
 STATUS_OK = "ok"
 STATUS_NOT_FOUND = "not_found"
 
-#: Fields copied from an API record into the cache.
-DATA_FIELDS = ("symbol", "name", "sector", "industry", "marketCap", "price")
+#: Fields copied from an API record into the cache and published to the CSV.
+#: ``peRatio`` comes from Alpha Vantage; ``ma150`` is filled by the daily Yahoo
+#: quote refresh. Both are blank until their source has run for a symbol.
+DATA_FIELDS = ("symbol", "name", "sector", "industry", "marketCap", "price", "peRatio", "ma150")
 
 #: Stand-in fetch time for records written before timestamps were tracked, so
 #: they sort as the stalest and get refreshed first.
@@ -45,6 +47,7 @@ def make_entry(
     industry: str = "",
     market_cap: str = "",
     price: str = "",
+    pe_ratio: str = "",
     status: str = STATUS_OK,
     fetched_at: Optional[str] = None,
     shares_outstanding: str = "",
@@ -56,6 +59,7 @@ def make_entry(
         "industry": industry,
         "marketCap": market_cap,
         "price": price,
+        "peRatio": pe_ratio,
         "status": status,
         "fetched_at": fetched_at or utc_now_iso(),
     }

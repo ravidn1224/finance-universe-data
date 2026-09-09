@@ -18,7 +18,8 @@ MASTER_FILE = Path(os.environ.get("MASTER_FILE") or ROOT / "master_stocks.csv")
 
 OVERVIEW_URL = "https://www.alphavantage.co/query"
 
-#: Columns of ``master_stocks.csv``. Consumers depend on this exact order.
+#: Columns of ``master_stocks.csv``. Consumers depend on this exact order, so
+#: new fields are appended before ``last_updated`` rather than inserted.
 MASTER_COLUMNS = (
     "symbol",
     "name",
@@ -26,6 +27,8 @@ MASTER_COLUMNS = (
     "industry",
     "marketCap",
     "price",
+    "peRatio",
+    "ma150",
     "last_updated",
 )
 

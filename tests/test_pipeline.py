@@ -9,7 +9,13 @@ import pytest
 
 import cache as cache_cli
 from universe import config, liquidity, quotes, store, symbols
-from universe.alphavantage import FetchResult, Outcome, classify, mask_key
+from universe.alphavantage import (
+    FetchResult,
+    Outcome,
+    classify,
+    clean_number,
+    mask_key,
+)
 
 # --------------------------------------------------------------------------
 # Symbols
@@ -183,6 +189,30 @@ def test_classify_success() -> None:
     assert result.outcome is Outcome.OK
     assert result.entry is not None
     assert result.entry["name"] == "Apple Inc"
+
+
+def test_classify_captures_pe_ratio() -> None:
+    result = classify({"Symbol": "AAPL", "Name": "Apple", "PERatio": "31.5"}, "AAPL")
+
+    assert result.entry is not None
+    assert result.entry["peRatio"] == "31.5"
+    assert store.to_master_row(result.entry)["peRatio"] == "31.5"
+
+
+def test_classify_treats_missing_pe_ratio_as_blank() -> None:
+    # Alpha Vantage sends the literal string "None" for a company with no P/E.
+    result = classify({"Symbol": "BRK-A", "Name": "Berkshire", "PERatio": "None"}, "BRK-A")
+
+    assert result.entry is not None
+    assert result.entry["peRatio"] == ""
+
+
+@pytest.mark.parametrize(
+    ("raw", "expected"),
+    [("31.5", "31.5"), ("None", ""), ("-", ""), ("N/A", ""), ("", ""), (None, "")],
+)
+def test_clean_number_drops_placeholders(raw: object, expected: str) -> None:
+    assert clean_number(raw) == expected
 
 
 @pytest.mark.parametrize(
@@ -414,6 +444,30 @@ def test_market_cap_is_left_alone_without_shares_outstanding() -> None:
     assert cache["AAPL"]["marketCap"] == "1000"
 
 
+def test_fetch_quotes_computes_the_150_day_average() -> None:
+    # A full year of history is enough for both the 50- and 150-day windows.
+    series = _closes(100.0, count=quotes.MA_150_WINDOW)
+
+    found, failed = quotes.fetch_quotes(
+        ["AAPL"], {}, downloader=lambda batch: {"AAPL": series}
+    )
+
+    assert failed == []
+    assert found["AAPL"].ma_150 == "100.00"
+
+
+def test_fetch_quotes_leaves_ma150_blank_without_a_full_window() -> None:
+    # Enough history for the 50-day price but not the 150-day long average.
+    series = _closes(100.0, count=quotes.MA_WINDOW)
+
+    found, _ = quotes.fetch_quotes(
+        ["AAPL"], {}, downloader=lambda batch: {"AAPL": series}
+    )
+
+    assert found["AAPL"].price == "100.00"
+    assert found["AAPL"].ma_150 == ""
+
+
 def test_fetch_quotes_batches_the_universe() -> None:
     seen: list[int] = []
 
@@ -622,6 +676,19 @@ def test_apply_quotes_updates_only_volatile_fields() -> None:
     assert cache["AAPL"]["marketCap"] == "4"
     assert cache["AAPL"]["name"] == "Apple"  # fundamentals untouched
     assert cache["AAPL"]["quoted_at"] == "2026-09-09T00:00:00+00:00"
+
+
+def test_apply_quotes_writes_the_150_day_average() -> None:
+    cache = {"AAPL": store.make_entry("AAPL", name="Apple", price="1")}
+
+    changed = quotes.apply_quotes(
+        cache,
+        [quotes.Quote("AAPL", price="3.00", market_cap="4", ma_150="2.50")],
+        stamp="now",
+    )
+
+    assert changed == 1
+    assert cache["AAPL"]["ma150"] == "2.50"
 
 
 def test_apply_quotes_never_blanks_existing_data() -> None:

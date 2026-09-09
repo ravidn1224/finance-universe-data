@@ -25,6 +25,10 @@ from typing import Callable, Iterable, Mapping, Optional, Sequence
 #: ``50DayMovingAverage`` that the ``price`` column has always held.
 MA_WINDOW = 50
 
+#: Trading days for the long-term average published as ``ma150``. A symbol
+#: with less history than this gets a blank rather than a short-window guess.
+MA_150_WINDOW = 150
+
 #: Tickers per batch, keeping memory and any single failure bounded.
 DEFAULT_BATCH_SIZE = 200
 
@@ -33,8 +37,9 @@ DEFAULT_BATCH_SIZE = 200
 #: still saturates throughput.
 DEFAULT_THREADS = 4
 
-#: History fetched per batch, comfortably more than MA_WINDOW trading days.
-HISTORY_PERIOD = "6mo"
+#: History fetched per batch, comfortably more than MA_150_WINDOW trading days
+#: (a calendar year is ~252 trading days) so the long average is well covered.
+HISTORY_PERIOD = "1y"
 
 #: Returns a ``{symbol: [closing prices, oldest first]}`` mapping for a batch.
 Downloader = Callable[[Sequence[str]], dict[str, list[float]]]
@@ -49,6 +54,8 @@ class Quote:
     price: str
     #: Empty unless shares outstanding is known, so a cached value survives.
     market_cap: str = ""
+    #: The 150-day moving average, blank when history is shorter than the window.
+    ma_150: str = ""
 
 
 def _format_price(value: float) -> str:
@@ -154,12 +161,14 @@ def fetch_quotes(
             if average is None:
                 failed.append(symbol)
                 continue
+            long_average = moving_average(series, MA_150_WINDOW)
             quotes[symbol] = Quote(
                 symbol=symbol,
                 price=_format_price(average),
                 # Market cap follows the latest close, not the average, so it
                 # keeps its conventional meaning.
                 market_cap=_market_cap(cache.get(symbol) or {}, series[-1]),
+                ma_150="" if long_average is None else _format_price(long_average),
             )
 
     return quotes, failed
@@ -177,7 +186,11 @@ def apply_quotes(cache: dict, quotes: Iterable[Quote], *, stamp: str) -> int:
         if entry is None:
             continue
         updated = False
-        for field, value in (("price", quote.price), ("marketCap", quote.market_cap)):
+        for field, value in (
+            ("price", quote.price),
+            ("marketCap", quote.market_cap),
+            ("ma150", quote.ma_150),
+        ):
             if value and str(entry.get(field, "")) != value:
                 entry[field] = value
                 updated = True
