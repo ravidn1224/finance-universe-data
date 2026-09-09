@@ -19,14 +19,22 @@ from typing import Any, Iterable, Mapping, Optional, Sequence
 
 from . import store, symbols
 
-#: NYSE-family exchange codes in otherlisted.txt, mapped to display names.
-#: These venues are always included.
-OTHER_EXCHANGE_CODES = {"N": "NYSE", "A": "NYSE American", "P": "NYSE Arca"}
-
-#: The remaining otherlisted.txt venues list almost nothing but funds, so a row
-#: is kept only when it is an S&P 500 member -- without this, index members
-#: such as CBOE would be missing from the universe entirely.
-SP500_ONLY_EXCHANGE_CODES = {"Z": "Cboe", "V": "IEX"}
+#: Exchange codes in otherlisted.txt, mapped to display names. These venues are
+#: always included.
+#:
+#: Cboe and IEX used to be admitted only for S&P 500 members, on the grounds
+#: that they list almost nothing but funds. That is true -- an audit found
+#: 1,613 ETFs, three ETNs and not one operating company -- but it excluded
+#: 1,616 real listings, among them VXX and Goldman's physical gold fund. The
+#: type column now separates funds from company shares, so admitting them costs
+#: nothing and the directory is complete.
+OTHER_EXCHANGE_CODES = {
+    "N": "NYSE",
+    "A": "NYSE American",
+    "P": "NYSE Arca",
+    "Z": "Cboe",
+    "V": "IEX",
+}
 
 #: Prefixes GOOGLEFINANCE expects per exchange. Venues absent here are quoted
 #: by bare symbol, which resolves fine for unambiguous US listings.
@@ -323,9 +331,12 @@ def parse_other_listed(
         code = fields[2].strip()
         exchange = OTHER_EXCHANGE_CODES.get(code)
         if exchange is None:
+            # An unrecognised venue code: keep it only if the index says it
+            # matters, so a new code appearing in the file cannot silently
+            # flood the directory.
             if not member:
                 continue
-            exchange = SP500_ONLY_EXCHANGE_CODES.get(code, "Other")
+            exchange = "Other"
 
         rows.append(
             _build_row(

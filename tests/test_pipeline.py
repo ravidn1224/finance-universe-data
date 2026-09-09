@@ -924,20 +924,38 @@ def test_other_listed_maps_the_nyse_family() -> None:
     assert by_symbol["SPY"][COL["gf_ticker"]] == "NYSEARCA:SPY"
 
 
-def test_minor_venues_are_kept_only_for_index_members() -> None:
-    # Cboe and IEX list almost nothing but funds, yet CBOE itself is in the
-    # index -- dropping the venue outright would lose a real constituent.
+def test_cboe_listings_are_kept_whether_or_not_they_are_index_members() -> None:
+    # Cboe was admitted only for index members, which kept CBOE itself but
+    # excluded 1,616 real listings -- VXX and Goldman's physical gold fund
+    # among them. The type column separates funds now, so all of them stay.
     text = _other_file(
         "CBOE|Cboe Global Markets|Z|CBOE|N|100|N|",
-        "NOISE|Some Fund|Z|NOISE|Y|100|N|",
+        "VXX|iPath Series B S&P 500 VIX Short-Term Futures ETN|Z|VXX|N|100|N|",
+        "AAAU|Goldman Sachs Physical Gold ETF Shares|Z|AAAU|Y|100|N|",
     )
     sp500 = {"CBOE": {"sector": "Financials", "sub_industry": "Financial Exchanges"}}
 
     rows = sheet.parse_other_listed(text, sp500, {})
+    by_symbol = {row[COL["symbol"]]: row for row in rows}
 
-    assert [row[COL["symbol"]] for row in rows] == ["CBOE"]
-    assert rows[0][COL["exchange"]] == "Cboe"
-    assert rows[0][COL["sp500"]] == sheet.SP500_MARK
+    assert set(by_symbol) == {"CBOE", "VXX", "AAAU"}
+    assert by_symbol["CBOE"][COL["exchange"]] == "Cboe"
+    assert by_symbol["CBOE"][COL["sp500"]] == sheet.SP500_MARK
+    assert by_symbol["AAAU"][COL["type"]] == "ETF"
+
+
+def test_an_unknown_venue_code_still_needs_index_membership() -> None:
+    # A code nobody has seen before must not be able to flood the directory.
+    text = _other_file(
+        "REAL|Some Index Member|Q|REAL|N|100|N|",
+        "NOISE|Something Else|Q|NOISE|N|100|N|",
+    )
+    sp500 = {"REAL": {"sector": "Financials", "sub_industry": "Banks"}}
+
+    rows = sheet.parse_other_listed(text, sp500, {})
+
+    assert [row[COL["symbol"]] for row in rows] == ["REAL"]
+    assert rows[0][COL["exchange"]] == "Other"
 
 
 def test_index_gics_beats_the_vendor_classification() -> None:
