@@ -16,7 +16,16 @@ CACHE_FILE = Path(os.environ.get("CACHE_FILE") or ROOT / "cache_av.json")
 TICKERS_FILE = Path(os.environ.get("TICKERS_FILE") or ROOT / "clean_tickers.txt")
 MASTER_FILE = Path(os.environ.get("MASTER_FILE") or ROOT / "master_stocks.csv")
 
+#: The browsable directory the Google Sheet downloads and pastes verbatim.
+UNIVERSE_FILE = Path(os.environ.get("UNIVERSE_FILE") or ROOT / "universe.csv")
+
 OVERVIEW_URL = "https://www.alphavantage.co/query"
+
+#: GICS sectors for index members, which are stricter than any vendor's.
+SP500_CONSTITUENTS_URL = (
+    "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/"
+    "main/data/constituents.csv"
+)
 
 #: Columns of ``master_stocks.csv``. Consumers depend on this exact order, so
 #: new fields are appended before ``last_updated`` rather than inserted.

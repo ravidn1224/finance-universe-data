@@ -27,9 +27,11 @@ is spent only on things that actually change slowly.
 | `update_quotes.py` | Yahoo: refresh prices and market caps for everything |
 | `generate_master.py` | Rebuild `master_stocks.csv` from the cache |
 | `update_tickers.py` | Rebuild `clean_tickers.txt` from the NASDAQ Trader listings |
+| `build_universe.py` | Rebuild `universe.csv`, the full directory the sheet reads |
 | `clean_tickers.txt` | The ticker universe (curated; see the warning below) |
 | `cache_av.json` | Accumulated overview cache — the expensive asset |
-| `master_stocks.csv` | Published output |
+| `master_stocks.csv` | Published output: the curated universe, one row per ticker |
+| `universe.csv` | Published output: every US listing, for the Google Sheet |
 
 ## Setup
 
@@ -50,6 +52,7 @@ python cache.py                    # spend today's 25 Alpha Vantage calls
 python update_quotes.py            # refresh prices for the whole universe
 python generate_master.py          # rebuild the CSV from the cache
 python update_tickers.py --dry-run # preview the rebuilt ticker universe
+python build_universe.py           # rebuild the sheet's full listing directory
 python -m pytest                   # run the test suite
 ```
 
@@ -62,7 +65,7 @@ python -m pytest                   # run the test suite
 
 | Workflow | Trigger | What it does |
 | --- | --- | --- |
-| `update_master.yml` | Daily 03:00 UTC | Refreshes fundamentals and all prices, rebuilds the CSV, commits only if data changed |
+| `update_master.yml` | Daily 03:00 UTC | Refreshes fundamentals and all prices, rebuilds both CSVs, commits only if data changed |
 | `update_tickers.yml` | Weekly, Sunday 06:00 UTC | Re-ranks the universe by liquidity so the list keeps itself current |
 | `ci.yml` | Push / PR | Runs the tests on Python 3.11 and 3.12 |
 
@@ -72,8 +75,8 @@ Add `ALPHAVANTAGE_API_KEY` as a repository secret.
 
 All settings are environment variables: `ALPHAVANTAGE_API_KEY`, `MAX_CALLS`,
 `SLEEP_SECONDS`, `HTTP_TIMEOUT`, `MAX_RETRIES`, `REFRESH_AFTER_DAYS`,
-`FILL_ONLY`, `RETRY_MISSING`, plus path overrides `CACHE_FILE`, `TICKERS_FILE`
-and `MASTER_FILE`.
+`FILL_ONLY`, `RETRY_MISSING`, plus path overrides `CACHE_FILE`, `TICKERS_FILE`,
+`MASTER_FILE` and `UNIVERSE_FILE`.
 
 ## Data notes
 
@@ -102,6 +105,37 @@ identical file and no commit.
 Cache entries also carry `status`, `fetched_at`, `quoted_at` and
 `sharesOutstanding` for bookkeeping; those are deliberately kept out of the
 published CSV so its schema never shifts.
+
+## `universe.csv` — the Google Sheet's directory
+
+A second, much wider output: every NASDAQ, NYSE, NYSE American and NYSE Arca
+listing (~11,200 rows, ~7,100 excluding ETFs), with columns `symbol,gf_ticker,
+name,exchange,type,sp500,sector,industry,market_cap,price,pe,sma150,
+pct_above_sma`.
+
+It merges four sources, in this order of precedence:
+
+- **NASDAQ Trader listing files** decide who exists, what exchange they are on
+  and whether they are a fund. Test issues and symbols no quote source can
+  address (preferred series such as `ABR$D`) are dropped.
+- **S&P 500 constituents** set the `sp500` flag and win on sector and industry,
+  because GICS is the stricter taxonomy.
+- **The NASDAQ screener** fills sector, industry, market cap and last price for
+  the rest of the market — one request covering ~7,000 stocks.
+- **This pipeline's own cache** supplies `pe` and `sma150`, which exist nowhere
+  else, and backfills the other fields where the screener is silent.
+
+`pct_above_sma` is computed here rather than left to the sheet. As a live
+spreadsheet formula it needed a year of history per row, which at this scale
+never finished loading.
+
+The reason this file exists at all is that the spreadsheet used to do this
+merge itself. Doing so meant calling `api.nasdaq.com` from Google's servers,
+which routinely stalls for those clients, and Apps Script cannot set a request
+timeout — so the sheet's build would sit in a single fetch until it hit the
+hard six-minute script limit and was killed, logging nothing. A GitHub runner
+reaches the screener in about two seconds and has no deadline. The sheet now
+downloads this finished file and writes it in one call.
 
 ## How the ticker universe is chosen
 

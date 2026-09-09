@@ -76,6 +76,26 @@ def _parse_number(value: object) -> float:
         return 0.0
 
 
+def fetch_screener_rows(*, timeout: int = 30) -> list[dict]:
+    """Every listed US stock in one request, as the screener returns it.
+
+    Each row carries the latest price and volume plus sector, industry and
+    market cap, so this single response serves both the liquidity ranking and
+    the published universe. Returns an empty list when the response looks
+    truncated, which callers must treat as "the screener is unavailable"
+    rather than "these symbols do not exist".
+    """
+    response = requests.get(
+        SCREENER_URL,
+        params=SCREENER_PARAMS,
+        headers=SCREENER_HEADERS,
+        timeout=timeout,
+    )
+    response.raise_for_status()
+    rows = (response.json().get("data") or {}).get("rows") or []
+    return list(rows) if len(rows) >= MIN_SCREENER_ROWS else []
+
+
 def screener_dollar_volumes(*, timeout: int = 30) -> dict[str, float]:
     """Latest session's dollar volume for every listed US stock, in one request.
 
@@ -85,19 +105,8 @@ def screener_dollar_volumes(*, timeout: int = 30) -> dict[str, float]:
     """
     from . import symbols as symbols_module
 
-    response = requests.get(
-        SCREENER_URL,
-        params=SCREENER_PARAMS,
-        headers=SCREENER_HEADERS,
-        timeout=timeout,
-    )
-    response.raise_for_status()
-    rows = (response.json().get("data") or {}).get("rows") or []
-    if len(rows) < MIN_SCREENER_ROWS:
-        return {}
-
     volumes: dict[str, float] = {}
-    for row in rows:
+    for row in fetch_screener_rows(timeout=timeout):
         traded = _parse_number(row.get("lastsale")) * _parse_number(row.get("volume"))
         if traded > 0:
             volumes[symbols_module.normalize_symbol(str(row.get("symbol", "")))] = traded

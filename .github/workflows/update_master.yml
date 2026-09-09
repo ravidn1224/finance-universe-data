@@ -58,11 +58,18 @@ jobs:
       - name: Rebuild master CSV
         run: python generate_master.py
 
+      # The full listing directory the Google Sheet downloads. Assembled here
+      # rather than in Apps Script because it needs api.nasdaq.com, which
+      # stalls for requests from Google's servers and has no timeout there --
+      # the sheet's own build used to die at the six-minute script limit.
+      - name: Publish the sheet universe
+        run: python -u build_universe.py
+
       - name: Commit & push updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add cache_av.json master_stocks.csv
+          git add cache_av.json master_stocks.csv universe.csv
           # Rows carry their own fetch time, so an unchanged dataset yields an
           # unchanged file and no empty commit is created.
           if git diff --cached --quiet; then

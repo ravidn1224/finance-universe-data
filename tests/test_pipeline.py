@@ -7,8 +7,9 @@ from datetime import timedelta
 
 import pytest
 
+import build_universe
 import cache as cache_cli
-from universe import config, liquidity, quotes, store, symbols
+from universe import config, liquidity, quotes, sheet, store, symbols
 from universe.alphavantage import (
     FetchResult,
     Outcome,
@@ -729,3 +730,259 @@ def test_last_updated_reports_the_most_recent_source() -> None:
 
     entry["quoted_at"] = "2026-09-09T00:00:00+00:00"
     assert store.last_updated(entry) == "2026-09-09T00:00:00+00:00"
+
+
+# --------------------------------------------------------------------------
+# Published universe (the CSV the Google Sheet renders verbatim)
+# --------------------------------------------------------------------------
+
+NASDAQ_HEADER = (
+    "Symbol|Security Name|Market Category|Test Issue|Financial Status|"
+    "Round Lot|ETF|NextShares"
+)
+OTHER_HEADER = (
+    "ACT Symbol|Security Name|Exchange|CQS Symbol|ETF|Round Lot|"
+    "Test Issue|NASDAQ Symbol"
+)
+
+COL = {name: index for index, name in enumerate(sheet.SHEET_COLUMNS)}
+
+
+def _nasdaq_file(*rows: str) -> str:
+    return "\n".join((NASDAQ_HEADER, *rows, "File Creation Time: 09092026"))
+
+
+def _other_file(*rows: str) -> str:
+    return "\n".join((OTHER_HEADER, *rows, "File Creation Time: 09092026"))
+
+
+@pytest.mark.parametrize(
+    ("raw", "expected"),
+    [("brk-b", "BRK.B"), ("BRK/B", "BRK.B"), ("BRK.B", "BRK.B"), (" aapl ", "AAPL")],
+)
+def test_display_symbol_uses_the_dotted_class_form(raw: str, expected: str) -> None:
+    # The sheet and GOOGLEFINANCE both want dots; Yahoo and the screener do not.
+    assert sheet.display_symbol(raw) == expected
+
+
+@pytest.mark.parametrize(
+    ("raw", "expected"),
+    [("$146.85", 146.85), ("1,234", 1234.0), ("12", 12.0), ("", None), ("N/A", None)],
+)
+def test_to_number_reads_display_formatting(raw: str, expected) -> None:
+    assert sheet.to_number(raw) == expected
+
+
+def test_to_number_treats_zero_as_not_reported() -> None:
+    # A zero market cap means "not disclosed", not "worth nothing"; publishing
+    # it would corrupt numeric filters on the sheet.
+    assert sheet.to_number("0") is None
+
+
+def test_nasdaq_listing_becomes_a_sheet_row() -> None:
+    text = _nasdaq_file("AAPL|Apple Inc. - Common Stock|Q|N|N|100|N|N")
+
+    rows = sheet.parse_nasdaq_listed(text, {}, {})
+
+    assert len(rows) == 1
+    assert rows[0][COL["symbol"]] == "AAPL"
+    assert rows[0][COL["gf_ticker"]] == "NASDAQ:AAPL"
+    assert rows[0][COL["exchange"]] == "NASDAQ"
+    assert rows[0][COL["type"]] == "Stock"
+
+
+def test_listings_drop_test_issues_and_unquotable_symbols() -> None:
+    text = _nasdaq_file(
+        "TEST|Test Issue - Common Stock|Q|Y|N|100|N|N",
+        "ABCDEF|Too Long - Common Stock|Q|N|N|100|N|N",
+        "ABR$D|Preferred Series D|Q|N|N|100|N|N",
+        "GOOD|Good Co - Common Stock|Q|N|N|100|N|N",
+    )
+
+    rows = sheet.parse_nasdaq_listed(text, {}, {})
+
+    assert [row[COL["symbol"]] for row in rows] == ["GOOD"]
+
+
+def test_etfs_are_flagged_from_the_listing_column() -> None:
+    text = _nasdaq_file("QQQ|Invesco QQQ Trust|Q|N|N|100|Y|N")
+
+    rows = sheet.parse_nasdaq_listed(text, {}, {})
+
+    assert rows[0][COL["type"]] == "ETF"
+
+
+def test_other_listed_maps_the_nyse_family() -> None:
+    text = _other_file(
+        "GE|GE Aerospace|N|GE|N|100|N|",
+        "IMO|Imperial Oil|A|IMO|N|100|N|",
+        "SPY|SPDR S&P 500 ETF|P|SPY|Y|100|N|",
+    )
+
+    rows = sheet.parse_other_listed(text, {}, {})
+    by_symbol = {row[COL["symbol"]]: row for row in rows}
+
+    assert by_symbol["GE"][COL["exchange"]] == "NYSE"
+    assert by_symbol["IMO"][COL["exchange"]] == "NYSE American"
+    assert by_symbol["SPY"][COL["exchange"]] == "NYSE Arca"
+    assert by_symbol["SPY"][COL["gf_ticker"]] == "NYSEARCA:SPY"
+
+
+def test_minor_venues_are_kept_only_for_index_members() -> None:
+    # Cboe and IEX list almost nothing but funds, yet CBOE itself is in the
+    # index -- dropping the venue outright would lose a real constituent.
+    text = _other_file(
+        "CBOE|Cboe Global Markets|Z|CBOE|N|100|N|",
+        "NOISE|Some Fund|Z|NOISE|Y|100|N|",
+    )
+    sp500 = {"CBOE": {"sector": "Financials", "sub_industry": "Financial Exchanges"}}
+
+    rows = sheet.parse_other_listed(text, sp500, {})
+
+    assert [row[COL["symbol"]] for row in rows] == ["CBOE"]
+    assert rows[0][COL["exchange"]] == "Cboe"
+    assert rows[0][COL["sp500"]] == sheet.SP500_MARK
+
+
+def test_index_gics_beats_the_vendor_classification() -> None:
+    text = _nasdaq_file("AAPL|Apple Inc. - Common Stock|Q|N|N|100|N|N")
+    sp500 = {"AAPL": {"sector": "Information Technology", "sub_industry": "Hardware"}}
+    enrichment = {"AAPL": {"sector": "Technology", "industry": "Consumer Electronics"}}
+
+    rows = sheet.parse_nasdaq_listed(text, sp500, enrichment)
+
+    assert rows[0][COL["sector"]] == "Information Technology"
+    assert rows[0][COL["industry"]] == "Hardware"
+
+
+def test_percent_above_the_average_is_precomputed() -> None:
+    # Precomputing this is the entire reason the column is viable: as a live
+    # formula it needed a year of history per row.
+    text = _nasdaq_file("AAPL|Apple Inc. - Common Stock|Q|N|N|100|N|N")
+    enrichment = {"AAPL": {"price": 110.0, "sma150": 100.0}}
+
+    rows = sheet.parse_nasdaq_listed(text, {}, enrichment)
+
+    assert rows[0][COL["pct_above_sma"]] == pytest.approx(0.10)
+
+
+def test_percent_above_is_blank_without_both_inputs() -> None:
+    text = _nasdaq_file("AAPL|Apple Inc. - Common Stock|Q|N|N|100|N|N")
+
+    rows = sheet.parse_nasdaq_listed(text, {}, {"AAPL": {"price": 110.0}})
+
+    assert rows[0][COL["pct_above_sma"]] is None
+
+
+def test_merge_prefers_the_screener_but_keeps_pipeline_only_fields() -> None:
+    screener = {"AAPL": {"sector": "Technology", "market_cap": 3e12, "price": 250.0}}
+    pipeline = {
+        "AAPL": {
+            "sector": "Stale",
+            "market_cap": 1.0,
+            "price": 1.0,
+            "pe": 31.5,
+            "sma150": 200.0,
+        }
+    }
+
+    merged = sheet.merge_enrichment(screener, pipeline)
+
+    assert merged["AAPL"]["sector"] == "Technology"
+    assert merged["AAPL"]["market_cap"] == 3e12
+    # P/E and the long average exist nowhere else, so they always survive.
+    assert merged["AAPL"]["pe"] == 31.5
+    assert merged["AAPL"]["sma150"] == 200.0
+
+
+def test_merge_falls_back_to_the_pipeline_when_the_screener_is_silent() -> None:
+    merged = sheet.merge_enrichment({}, {"AAPL": {"sector": "Tech", "price": 9.0}})
+
+    assert merged["AAPL"]["sector"] == "Tech"
+    assert merged["AAPL"]["price"] == 9.0
+
+
+def test_cache_enrichment_skips_symbols_with_no_data() -> None:
+    cache = {
+        "AAPL": store.make_entry("AAPL", sector="Tech", pe_ratio="31.5"),
+        "XYZ": store.make_entry("XYZ", status=store.STATUS_NOT_FOUND),
+    }
+    cache["AAPL"]["ma150"] = "289.04"
+
+    enrichment = sheet.enrichment_from_cache(cache)
+
+    assert enrichment["AAPL"]["pe"] == 31.5
+    assert enrichment["AAPL"]["sma150"] == 289.04
+    assert "XYZ" not in enrichment
+
+
+def test_cache_enrichment_keys_on_the_dotted_symbol() -> None:
+    # The cache stores BRK-B; the listing files and the sheet use BRK.B.
+    cache = {"BRK-B": store.make_entry("BRK-B", sector="Financials")}
+
+    assert "BRK.B" in sheet.enrichment_from_cache(cache)
+
+
+def test_build_rows_sorts_and_can_exclude_etfs() -> None:
+    nasdaq = _nasdaq_file(
+        "ZZZZ|Zeta Corp - Common Stock|Q|N|N|100|N|N",
+        "QQQ|Invesco QQQ Trust|Q|N|N|100|Y|N",
+    )
+    other = _other_file("AAA|Alpha Inc|N|AAA|N|100|N|")
+
+    everything = sheet.build_rows(nasdaq, other, {}, {})
+    assert [row[COL["symbol"]] for row in everything] == ["AAA", "QQQ", "ZZZZ"]
+
+    stocks = sheet.build_rows(nasdaq, other, {}, {}, stocks_only=True)
+    assert [row[COL["symbol"]] for row in stocks] == ["AAA", "ZZZZ"]
+
+
+def test_coverage_counts_only_populated_cells() -> None:
+    text = _nasdaq_file(
+        "AAPL|Apple Inc. - Common Stock|Q|N|N|100|N|N",
+        "BARE|Bare Co - Common Stock|Q|N|N|100|N|N",
+    )
+    rows = sheet.parse_nasdaq_listed(text, {}, {"AAPL": {"sector": "Tech", "pe": 31.5}})
+
+    filled = sheet.coverage(rows)
+
+    assert filled["sector"] == 1
+    assert filled["pe"] == 1
+    assert filled["sma150"] == 0
+
+
+def test_screener_rows_are_indexed_by_display_symbol() -> None:
+    rows = [{"symbol": "BRK/B", "sector": "Financials", "marketCap": "1,000", "lastsale": "$5.00"}]
+
+    lookup = sheet.parse_screener(rows)
+
+    assert lookup["BRK.B"]["market_cap"] == 1000.0
+    assert lookup["BRK.B"]["price"] == 5.0
+
+
+@pytest.mark.parametrize(
+    ("value", "expected"),
+    [(None, ""), (1234.0, 1234), (0.0918586789, 0.091859), ("AAPL", "AAPL")],
+)
+def test_cells_are_written_compactly(value, expected) -> None:
+    # Full binary precision on 11,000 rows bloats the file the sheet downloads.
+    assert build_universe.format_cell(value) == expected
+
+
+def test_written_csv_round_trips_with_blanks_for_missing_numbers(tmp_path) -> None:
+    import csv
+
+    path = tmp_path / "universe.csv"
+    row = ["AAPL", "NASDAQ:AAPL", "Apple", "NASDAQ", "Stock", "✓", "Tech", "Hardware",
+           3.0e12, 250.5, None, 200.0, 0.2525]
+
+    build_universe.write_universe(path, [row])
+
+    with path.open(encoding="utf-8") as handle:
+        written = list(csv.reader(handle))
+
+    assert written[0] == list(sheet.SHEET_COLUMNS)
+    assert written[1][0] == "AAPL"
+    # Blank, not zero: the sheet filters this column numerically.
+    assert written[1][COL["pe"]] == ""
+    assert written[1][COL["market_cap"]] == "3000000000000"
