@@ -8,7 +8,7 @@ from datetime import timedelta
 import pytest
 
 import cache as cache_cli
-from universe import config, quotes, store, symbols
+from universe import config, liquidity, quotes, store, symbols
 from universe.alphavantage import FetchResult, Outcome, classify, mask_key
 
 # --------------------------------------------------------------------------
@@ -45,6 +45,13 @@ def test_normalize_symbol(raw: str, expected: str) -> None:
             "AMX",
             "America Movil, S.A.B. de C.V. American Depositary Shares "
             "(each representing the right to receive twenty Series L Shares)",
+        ),
+        # Verbatim from otherlisted.txt: the parenthetical is never closed, so
+        # naive stripping leaves "right" behind and drops a liquid ADR.
+        (
+            "AMX",
+            "America Movil, S.A.B. de C.V. American Depositary Shares (each "
+            "representing the right to receive twenty (20) Series B Shares",
         ),
     ],
 )
@@ -426,6 +433,151 @@ def test_fetch_quotes_reports_symbols_without_enough_history() -> None:
     )
 
     assert found == {} and failed == ["ZZZZ"]
+
+
+# --------------------------------------------------------------------------
+# Liquidity ranking: which tickers make the universe
+# --------------------------------------------------------------------------
+
+
+class _FakeResponse:
+    """Stands in for the screener response in tests."""
+
+    def __init__(self, payload: dict) -> None:
+        self._payload = payload
+
+    def raise_for_status(self) -> None:
+        return None
+
+    def json(self) -> dict:
+        return self._payload
+
+
+def test_selects_the_most_traded_symbols() -> None:
+    volumes = {"A": 100.0, "B": 500.0, "C": 300.0, "D": 50.0}
+
+    kept = liquidity.select_universe(list("ABCD"), volumes, limit=2)
+
+    assert kept == ["B", "C"]  # sorted output, chosen by volume
+
+
+def test_symbols_without_volume_are_excluded() -> None:
+    # No price data means the row could only ever be blank.
+    volumes = {"A": 100.0, "B": 0.0}
+
+    assert liquidity.select_universe(["A", "B", "GONE"], volumes, limit=10) == ["A"]
+
+
+def test_incumbents_survive_just_past_the_cutoff() -> None:
+    # Hysteresis: a name hovering at the boundary should not flip weekly.
+    volumes = {f"S{i}": float(100 - i) for i in range(20)}
+    candidates = list(volumes)
+
+    fresh = liquidity.select_universe(candidates, volumes, limit=10)
+    assert "S11" not in fresh
+
+    incumbent = liquidity.select_universe(
+        candidates, volumes, limit=10, existing=["S11"]
+    )
+    assert "S11" in incumbent
+
+
+def test_incumbents_are_dropped_once_far_enough_down() -> None:
+    volumes = {f"S{i}": float(100 - i) for i in range(20)}
+
+    kept = liquidity.select_universe(list(volumes), volumes, limit=10, existing=["S19"])
+
+    assert "S19" not in kept
+
+
+def test_shortlist_keeps_headroom_above_the_limit() -> None:
+    screened = {f"S{i}": float(100 - i) for i in range(50)}
+
+    picked = liquidity.shortlist(list(screened), screened, limit=10, factor=2.0)
+
+    # Twice the limit, most active first, so one quiet session cannot push a
+    # genuinely liquid name out of contention.
+    assert picked == [f"S{i}" for i in range(20)]
+
+
+def test_shortlist_measures_incumbents_below_the_cut() -> None:
+    screened = {f"S{i}": float(100 - i) for i in range(50)}
+
+    picked = liquidity.shortlist(
+        list(screened), screened, limit=5, factor=2.0, keep=["S40"]
+    )
+
+    # Retention in select_universe can only apply to symbols we measured.
+    assert "S40" in picked
+
+
+def test_shortlist_drops_symbols_the_screener_cannot_price() -> None:
+    screened = {"A": 100.0}
+
+    picked = liquidity.shortlist(["A", "DELISTED"], screened, limit=10, keep=["DELISTED"])
+
+    assert picked == ["A"]
+
+
+def test_screener_ignores_a_truncated_response(monkeypatch) -> None:
+    rows = [{"symbol": "A", "lastsale": "$10.00", "volume": "100"}]
+    monkeypatch.setattr(
+        liquidity.requests, "get", lambda *a, **k: _FakeResponse({"data": {"rows": rows}})
+    )
+
+    # Too few rows to shortlist from: better to sweep than to silently drop.
+    assert liquidity.screener_dollar_volumes() == {}
+
+
+def test_screener_parses_prices_volumes_and_class_shares(monkeypatch) -> None:
+    rows = [{"symbol": "BRK/B", "lastsale": "$1,234.50", "volume": "2,000"}]
+    rows += [
+        {"symbol": f"S{i}", "lastsale": "$1.00", "volume": "1"}
+        for i in range(liquidity.MIN_SCREENER_ROWS)
+    ]
+    rows.append({"symbol": "HALTED", "lastsale": "$5.00", "volume": "--"})
+    monkeypatch.setattr(
+        liquidity.requests, "get", lambda *a, **k: _FakeResponse({"data": {"rows": rows}})
+    )
+
+    volumes = liquidity.screener_dollar_volumes()
+
+    assert volumes["BRK-B"] == 1234.50 * 2000
+    assert "HALTED" not in volumes  # no volume means nothing to rank on
+
+
+def test_fetch_dollar_volumes_batches_and_survives_a_bad_batch() -> None:
+    seen: list[int] = []
+
+    def downloader(batch):
+        seen.append(len(batch))
+        if "BAD" in batch:
+            raise RuntimeError("rate limited")
+        return {s: 1000.0 for s in batch}
+
+    symbols_in = [f"S{i}" for i in range(250)] + ["BAD"]
+    volumes = liquidity.fetch_dollar_volumes(
+        symbols_in, batch_size=200, downloader=downloader, sleep=lambda _: None
+    )
+
+    assert seen == [200, 51]
+    # The failed batch is skipped without losing the successful one.
+    assert len(volumes) == 200
+    assert "BAD" not in volumes
+
+
+def test_fetch_dollar_volumes_paces_requests() -> None:
+    slept: list[float] = []
+    liquidity.fetch_dollar_volumes(
+        [f"S{i}" for i in range(5)],
+        batch_size=1,
+        pause_seconds=2.0,
+        downloader=lambda batch: {s: 1.0 for s in batch},
+        sleep=slept.append,
+    )
+
+    # A pause between each request, but none after the last.
+    assert slept == [2.0, 2.0, 2.0, 2.0]
 
 
 def test_alpha_vantage_records_shares_outstanding() -> None:

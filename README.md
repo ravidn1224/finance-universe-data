@@ -49,18 +49,21 @@ python cache.py --dry-run          # show what the budget would buy, free
 python cache.py                    # spend today's 25 Alpha Vantage calls
 python update_quotes.py            # refresh prices for the whole universe
 python generate_master.py          # rebuild the CSV from the cache
+python update_tickers.py --dry-run # preview the rebuilt ticker universe
 python -m pytest                   # run the test suite
 ```
 
 `cache.py` takes `--max-calls N`, `--refresh-after-days N`, `--fill-only` and
-`--retry-missing`. `update_quotes.py` takes `--dry-run`, `--limit N` and
-`--batch-size N`.
+`--retry-missing`. `update_quotes.py` takes `--dry-run`, `--limit N`,
+`--batch-size N` and `--threads N`. `update_tickers.py` takes `--limit N`,
+`--quick`, `--no-shortlist`, `--force` and the same batching flags.
 
 ## Automation
 
 | Workflow | Trigger | What it does |
 | --- | --- | --- |
 | `update_master.yml` | Daily 03:00 UTC | Refreshes fundamentals and all prices, rebuilds the CSV, commits only if data changed |
+| `update_tickers.yml` | Weekly, Sunday 06:00 UTC | Re-ranks the universe by liquidity so the list keeps itself current |
 | `ci.yml` | Push / PR | Runs the tests on Python 3.11 and 3.12 |
 
 Add `ALPHAVANTAGE_API_KEY` as a repository secret.
@@ -93,12 +96,34 @@ Cache entries also carry `status`, `fetched_at`, `quoted_at` and
 `sharesOutstanding` for bookkeeping; those are deliberately kept out of the
 published CSV so its schema never shifts.
 
-Roughly 18 of the 915 tickers no longer resolve at either source — companies
-such as Kellanova and Comerica that have since been acquired. They keep their
-last known values; pruning them from `clean_tickers.txt` would be a reasonable
-cleanup.
+## How the ticker universe is chosen
 
-> **Warning:** `clean_tickers.txt` is a curated ~915-symbol list. Running
-> `update_tickers.py` replaces it with the full ~11,500 symbol universe from the
-> exchange listings, which at 25 calls per day would take over a year to fill.
-> Run it only if you intend to widen the universe.
+The exchange listings carry ~11,500 common stocks, far more than 25 Alpha
+Vantage calls a day can supply. `update_tickers.py` keeps the most heavily
+traded `--limit` of them (default 1000), so the list maintains itself: newly
+active companies rise in, and dormant or delisted ones drop out. Symbols
+already in the list survive until they fall well past the cut-off, so names
+hovering at the boundary do not flip in and out week to week.
+
+Ranking every symbol through Yahoo would mean one request each and take close
+to half an hour, so it runs in two stages:
+
+1. **Shortlist.** NASDAQ's screener returns the latest session's price and
+   volume for every listed stock in a *single* request. One session is too
+   noisy to rank on directly — it agrees with the monthly average on about 91%
+   of a top-1000 — but it is easily accurate enough to decide who is in
+   contention, so the top `2 × limit` go through.
+2. **Rank.** Only that shortlist is measured against Yahoo's one-month average
+   dollar volume, which decides the final list.
+
+That takes about a minute instead of ~28. `--quick` stops after stage 1 (a
+couple of seconds, noisier); `--no-shortlist` measures the full listing the
+slow way. If the screener is unreachable or returns a suspiciously short
+response, the run falls back to the full sweep rather than quietly dropping
+symbols, and a result that comes back too small aborts instead of truncating
+the list — use `--force` to override.
+
+Because the screener only lists live securities, this also clears out symbols
+that have been acquired or renamed, which a static list accumulates: `BK`
+became `BNY` in the BNY Mellon rebrand, and `EA`, `MMC`, `AVB` and `EQR` no
+longer trade at all.

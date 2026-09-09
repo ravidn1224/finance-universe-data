@@ -24,7 +24,16 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
         "--batch-size",
         type=int,
         default=quotes.DEFAULT_BATCH_SIZE,
-        help=f"Tickers per request (default: {quotes.DEFAULT_BATCH_SIZE})",
+        help=f"Tickers per batch (default: {quotes.DEFAULT_BATCH_SIZE})",
+    )
+    parser.add_argument(
+        "--threads",
+        type=int,
+        default=quotes.DEFAULT_THREADS,
+        help=(
+            "Concurrent downloads within a batch "
+            f"(default: {quotes.DEFAULT_THREADS}); lower it if Yahoo throttles"
+        ),
     )
     parser.add_argument("--limit", type=int, help="Only process the first N symbols")
     parser.add_argument(
@@ -58,8 +67,13 @@ def main(argv: Sequence[str] | None = None) -> int:
         targets = targets[: args.limit]
 
     batches = -(-len(targets) // max(1, args.batch_size))
-    log.info(f"Fetching quotes for {len(targets)} symbol(s) in {batches} request(s)")
-    found, failed = quotes.fetch_quotes(targets, cache, batch_size=args.batch_size)
+    log.info(
+        f"Fetching quotes for {len(targets)} symbol(s) in {batches} batch(es), "
+        f"{args.threads} download(s) at a time"
+    )
+    found, failed = quotes.fetch_quotes(
+        targets, cache, batch_size=args.batch_size, threads=args.threads
+    )
 
     if failed:
         log.warn(f"{len(failed)} symbol(s) returned no quote: {', '.join(failed[:10])}"

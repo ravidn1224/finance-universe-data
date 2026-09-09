@@ -3,11 +3,11 @@
 Alpha Vantage's free tier costs one call per symbol against a 25/day budget,
 which suits fundamentals that rarely change but is far too slow for prices.
 
-Yahoo is used through its *chart* endpoint via ``yfinance.download``, which
-accepts many tickers per request: the whole universe costs a handful of
-requests rather than one per symbol. That distinction matters -- querying the
-per-symbol quote endpoint 900 times trips Yahoo's rate limiter (HTTP 429) and
-then everything fails, including the bulk endpoint, for a considerable while.
+Yahoo is used through its *chart* endpoint via ``yfinance.download``. The chart
+endpoint is per symbol, so a batch is really one request each; what matters is
+that it tolerates modest concurrency, unlike the per-symbol *quote* endpoint,
+which trips Yahoo's rate limiter (HTTP 429) after a few hundred calls and then
+fails everything, bulk endpoint included, for a considerable while.
 
 Yahoo is an unofficial, undocumented source that can change or fail without
 notice. Failures are therefore reported rather than raised, and callers keep
@@ -18,15 +18,20 @@ from __future__ import annotations
 
 import warnings
 from dataclasses import dataclass
+from functools import partial
 from typing import Callable, Iterable, Mapping, Optional, Sequence
 
 #: Trading days used for the moving average, matching Alpha Vantage's
 #: ``50DayMovingAverage`` that the ``price`` column has always held.
 MA_WINDOW = 50
 
-#: Tickers per request. Yahoo accepts large batches; this keeps each URL
-#: reasonable while holding the whole universe to a handful of requests.
+#: Tickers per batch, keeping memory and any single failure bounded.
 DEFAULT_BATCH_SIZE = 200
+
+#: Concurrent downloads within a batch. Four is ~6x faster than sequential;
+#: higher settings measured no faster, so this is the gentlest setting that
+#: still saturates throughput.
+DEFAULT_THREADS = 4
 
 #: History fetched per batch, comfortably more than MA_WINDOW trading days.
 HISTORY_PERIOD = "6mo"
@@ -50,8 +55,10 @@ def _format_price(value: float) -> str:
     return f"{value:.2f}"
 
 
-def yahoo_downloader(batch: Sequence[str]) -> dict[str, list[float]]:
-    """Download closing prices for a batch of symbols in one request."""
+def yahoo_downloader(
+    batch: Sequence[str], *, threads: int = DEFAULT_THREADS
+) -> dict[str, list[float]]:
+    """Download closing prices for a batch of symbols."""
     import yfinance
 
     with warnings.catch_warnings():
@@ -62,7 +69,7 @@ def yahoo_downloader(batch: Sequence[str]) -> dict[str, list[float]]:
             interval="1d",
             progress=False,
             auto_adjust=True,
-            threads=False,
+            threads=threads,
             group_by="column",
         )
 
@@ -117,6 +124,7 @@ def fetch_quotes(
     cache: Mapping[str, Mapping[str, object]],
     *,
     batch_size: int = DEFAULT_BATCH_SIZE,
+    threads: int = DEFAULT_THREADS,
     downloader: Optional[Downloader] = None,
 ) -> tuple[dict[str, Quote], list[str]]:
     """Fetch quotes for ``symbols`` in bulk.
@@ -127,7 +135,7 @@ def fetch_quotes(
     if not symbols:
         return {}, []
 
-    download = downloader or yahoo_downloader
+    download = downloader or partial(yahoo_downloader, threads=threads)
     quotes: dict[str, Quote] = {}
     failed: list[str] = []
 
