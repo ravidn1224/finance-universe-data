@@ -2,4 +2,4 @@
 
 from __future__ import annotations
 
-__all__ = ["alphavantage", "config", "log", "store", "symbols"]
+__all__ = ["alphavantage", "config", "log", "quotes", "store", "symbols"]

@@ -8,7 +8,7 @@ from datetime import timedelta
 import pytest
 
 import cache as cache_cli
-from universe import config, store, symbols
+from universe import config, quotes, store, symbols
 from universe.alphavantage import FetchResult, Outcome, classify, mask_key
 
 # --------------------------------------------------------------------------
@@ -344,3 +344,153 @@ def test_fill_cache_continues_past_a_transport_error() -> None:
     assert summary.errors == 1
     assert summary.fetched == 1
     assert not summary.stopped_early
+
+
+# --------------------------------------------------------------------------
+# Quotes (Yahoo). The fetcher is injected so tests never touch the network.
+# --------------------------------------------------------------------------
+
+
+def _closes(value: float, count: int = quotes.MA_WINDOW) -> list[float]:
+    return [value] * count
+
+
+def test_moving_average_needs_a_full_window() -> None:
+    assert quotes.moving_average(_closes(10.0)) == 10.0
+    assert quotes.moving_average([10.0] * (quotes.MA_WINDOW - 1)) is None
+
+
+def test_fetch_quotes_formats_like_the_cache() -> None:
+    cache = {
+        "AAPL": store.make_entry("AAPL", price="100", shares_outstanding="10")
+    }
+    series = _closes(110.0)[:-1] + [120.0]  # 50d average 110.2, last close 120
+
+    found, failed = quotes.fetch_quotes(
+        ["AAPL"], cache, downloader=lambda batch: {"AAPL": series}
+    )
+
+    assert failed == []
+    assert found["AAPL"].price == "110.20"
+    # Market cap is shares x latest close, not shares x the average.
+    assert found["AAPL"].market_cap == "1200"
+
+
+def test_market_cap_is_left_alone_without_shares_outstanding() -> None:
+    # Publishing a guess would be worse than keeping the last known figure.
+    cache = {"AAPL": store.make_entry("AAPL", price="100", market_cap="1000")}
+
+    found, _ = quotes.fetch_quotes(
+        ["AAPL"], cache, downloader=lambda batch: {"AAPL": _closes(110.0)}
+    )
+
+    assert found["AAPL"].price == "110.00"
+    assert found["AAPL"].market_cap == ""
+
+    quotes.apply_quotes(cache, found.values(), stamp="now")
+    assert cache["AAPL"]["marketCap"] == "1000"
+
+
+def test_fetch_quotes_batches_the_universe() -> None:
+    seen: list[int] = []
+
+    def downloader(batch):
+        seen.append(len(batch))
+        return {s: _closes(5.0) for s in batch}
+
+    symbols_in = [f"S{i}" for i in range(450)]
+    found, failed = quotes.fetch_quotes(symbols_in, {}, batch_size=200, downloader=downloader)
+
+    # 450 symbols must cost 3 requests, not 450.
+    assert seen == [200, 200, 50]
+    assert len(found) == 450 and failed == []
+
+
+def test_one_failed_batch_does_not_lose_the_others() -> None:
+    def downloader(batch):
+        if "BAD" in batch:
+            raise RuntimeError("rate limited")
+        return {s: _closes(5.0) for s in batch}
+
+    found, failed = quotes.fetch_quotes(
+        ["BAD", "GOOD"], {}, batch_size=1, downloader=downloader
+    )
+
+    assert failed == ["BAD"]
+    assert "GOOD" in found
+
+
+def test_fetch_quotes_reports_symbols_without_enough_history() -> None:
+    found, failed = quotes.fetch_quotes(
+        ["ZZZZ"], {}, downloader=lambda batch: {"ZZZZ": [1.0, 2.0]}
+    )
+
+    assert found == {} and failed == ["ZZZZ"]
+
+
+def test_alpha_vantage_records_shares_outstanding() -> None:
+    # Captured so the daily quote refresh can compute market cap exactly.
+    result = classify(
+        {"Symbol": "AAPL", "Name": "Apple", "SharesOutstanding": "14594180000"}, "AAPL"
+    )
+
+    assert result.entry is not None
+    assert result.entry["sharesOutstanding"] == "14594180000"
+    # It must not reach the published CSV.
+    assert "sharesOutstanding" not in store.to_master_row(result.entry)
+
+
+def test_apply_quotes_updates_only_volatile_fields() -> None:
+    cache = {"AAPL": store.make_entry("AAPL", name="Apple", price="1", market_cap="2")}
+
+    changed = quotes.apply_quotes(
+        cache,
+        [quotes.Quote("AAPL", price="3.00", market_cap="4")],
+        stamp="2026-09-09T00:00:00+00:00",
+    )
+
+    assert changed == 1
+    assert cache["AAPL"]["price"] == "3.00"
+    assert cache["AAPL"]["marketCap"] == "4"
+    assert cache["AAPL"]["name"] == "Apple"  # fundamentals untouched
+    assert cache["AAPL"]["quoted_at"] == "2026-09-09T00:00:00+00:00"
+
+
+def test_apply_quotes_never_blanks_existing_data() -> None:
+    # A partial Yahoo response must not erase a good cached value.
+    cache = {"AAPL": store.make_entry("AAPL", price="1", market_cap="2")}
+
+    quotes.apply_quotes(
+        cache, [quotes.Quote("AAPL", price="", market_cap="")], stamp="now"
+    )
+
+    assert cache["AAPL"]["price"] == "1"
+    assert cache["AAPL"]["marketCap"] == "2"
+    assert "quoted_at" not in cache["AAPL"]
+
+
+def test_apply_quotes_ignores_symbols_without_fundamentals() -> None:
+    cache: dict = {}
+
+    assert quotes.apply_quotes(cache, [quotes.Quote("NEW", "1.00", "2")], stamp="now") == 0
+    assert cache == {}
+
+
+def test_unchanged_quotes_do_not_restamp_the_row() -> None:
+    # Keeps identical data from producing a daily commit.
+    cache = {"AAPL": store.make_entry("AAPL", price="3.00", market_cap="4")}
+
+    changed = quotes.apply_quotes(
+        cache, [quotes.Quote("AAPL", price="3.00", market_cap="4")], stamp="now"
+    )
+
+    assert changed == 0
+    assert "quoted_at" not in cache["AAPL"]
+
+
+def test_last_updated_reports_the_most_recent_source() -> None:
+    entry = store.make_entry("AAPL", fetched_at="2026-01-01T00:00:00+00:00")
+    assert store.last_updated(entry) == "2026-01-01T00:00:00+00:00"
+
+    entry["quoted_at"] = "2026-09-09T00:00:00+00:00"
+    assert store.last_updated(entry) == "2026-09-09T00:00:00+00:00"

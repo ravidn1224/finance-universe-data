@@ -1,8 +1,8 @@
 name: Daily Stock Update
 
-# Spends the free-tier budget (25 calls/day) on the universe: missing symbols
-# first, then the stalest cached entries, so the dataset keeps moving instead
-# of freezing once every ticker has been fetched once.
+# Two sources, matched to how fast each field moves. Alpha Vantage supplies
+# fundamentals within its 25-calls-per-day budget, while Yahoo refreshes prices
+# and market caps for the whole universe every run.
 
 on:
   schedule:
@@ -14,9 +14,9 @@ on:
         type: number
         default: 25
       refresh_after_days:
-        description: "Refresh cached entries older than this many days"
+        description: "Refresh cached fundamentals older than this many days"
         type: number
-        default: 30
+        default: 180
 
 concurrency:
   group: commit-data
@@ -32,7 +32,7 @@ jobs:
       PYTHONUNBUFFERED: "1"
       ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
       MAX_CALLS: ${{ inputs.max_calls || 25 }}
-      REFRESH_AFTER_DAYS: ${{ inputs.refresh_after_days || 30 }}
+      REFRESH_AFTER_DAYS: ${{ inputs.refresh_after_days || 180 }}
 
     steps:
       - name: Checkout repository
@@ -47,8 +47,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch and refresh overviews
+      - name: Fetch and refresh fundamentals
         run: python -u cache.py
+
+      # Yahoo has no practical daily budget, so this covers every symbol and is
+      # what actually keeps the dataset current.
+      - name: Refresh prices and market caps
+        run: python -u update_quotes.py
 
       - name: Rebuild master CSV
         run: python generate_master.py

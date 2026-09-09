@@ -92,9 +92,10 @@ class FetchSettings:
     timeout_seconds: float = 30.0
     #: Retries for transport-level failures (connection resets, 5xx).
     max_retries: int = 3
-    #: Once the universe is cached, entries older than this are re-fetched so
-    #: the dataset keeps moving instead of freezing at whatever it first held.
-    refresh_after_days: int = 30
+    #: How old a fundamentals record may get before it is re-fetched. Prices
+    #: and market caps refresh daily via Yahoo, so Alpha Vantage only has to
+    #: keep up with names, sectors and industries, which rarely change.
+    refresh_after_days: int = 180
     #: Spend the budget only on missing symbols, never on refreshing.
     fill_only: bool = False
     #: Symbols recorded as non-existent are skipped unless this is set.
@@ -108,7 +109,7 @@ class FetchSettings:
             sleep_seconds=_env_float("SLEEP_SECONDS", 12.0),
             timeout_seconds=_env_float("HTTP_TIMEOUT", 30.0, minimum=1.0),
             max_retries=_env_int("MAX_RETRIES", 3),
-            refresh_after_days=_env_int("REFRESH_AFTER_DAYS", 30, minimum=1),
+            refresh_after_days=_env_int("REFRESH_AFTER_DAYS", 180, minimum=1),
             fill_only=_env_flag("FILL_ONLY"),
             retry_missing=_env_flag("RETRY_MISSING"),
             api_key=api_key(),

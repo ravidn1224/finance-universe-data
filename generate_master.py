@@ -28,9 +28,9 @@ def build_frame(tickers: Sequence[str], cache: store.Cache) -> pd.DataFrame:
         entry = cache.get(symbol)
         if entry is not None and store.is_usable(entry):
             row = store.to_master_row(entry)
-            # Report when this row's data was fetched rather than when the file
+            # Report when this row's data last moved rather than when the file
             # was built, so an unchanged dataset produces an unchanged CSV.
-            row["last_updated"] = str(entry.get("fetched_at") or "")
+            row["last_updated"] = store.last_updated(entry)
             hits += 1
         else:
             row = store.to_master_row({"symbol": symbol, "status": store.STATUS_NOT_FOUND})

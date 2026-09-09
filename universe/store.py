@@ -47,8 +47,9 @@ def make_entry(
     price: str = "",
     status: str = STATUS_OK,
     fetched_at: Optional[str] = None,
+    shares_outstanding: str = "",
 ) -> Entry:
-    return {
+    entry = {
         "symbol": symbol,
         "name": name,
         "sector": sector,
@@ -58,6 +59,9 @@ def make_entry(
         "status": status,
         "fetched_at": fetched_at or utc_now_iso(),
     }
+    if shares_outstanding:
+        entry["sharesOutstanding"] = shares_outstanding
+    return entry
 
 
 def entry_status(entry: Mapping[str, Any]) -> str:
@@ -83,6 +87,17 @@ def fetched_at(entry: Mapping[str, Any]) -> datetime:
 
 def age_days(entry: Mapping[str, Any], *, now: Optional[datetime] = None) -> float:
     return ((now or utc_now()) - fetched_at(entry)).total_seconds() / 86400.0
+
+
+def last_updated(entry: Mapping[str, Any]) -> str:
+    """Most recent change to a row, from either data source.
+
+    Fundamentals come from Alpha Vantage (``fetched_at``) and prices from
+    Yahoo (``quoted_at``); the published timestamp reflects whichever moved
+    last.
+    """
+    stamps = [str(entry.get(key) or "") for key in ("fetched_at", "quoted_at")]
+    return max(stamps)
 
 
 def load_cache(path: Path) -> Cache:

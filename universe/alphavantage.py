@@ -65,6 +65,9 @@ def classify(payload: Mapping[str, Any], symbol: str) -> FetchResult:
                 industry=str(payload.get("Industry", "") or ""),
                 market_cap=str(payload.get("MarketCapitalization", "") or ""),
                 price=str(payload.get("50DayMovingAverage", "") or ""),
+                # Kept out of the CSV, but it lets the daily quote refresh
+                # recompute market cap exactly instead of approximating it.
+                shares_outstanding=str(payload.get("SharesOutstanding", "") or ""),
             ),
         )
 

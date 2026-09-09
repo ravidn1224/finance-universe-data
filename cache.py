@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Spend the daily Alpha Vantage budget on the ticker universe.
+"""Spend the daily Alpha Vantage budget on company fundamentals.
 
-Missing symbols are fetched first. Once the universe is fully cached the
-remaining budget refreshes the stalest entries, so the dataset keeps moving
-instead of freezing at whatever it first held.
+Missing symbols are fetched first; the remaining budget refreshes the stalest
+entries so nothing stays frozen. Prices and market caps are not fetched here --
+``update_quotes.py`` refreshes those for the whole universe daily, which the
+25-calls-per-day free tier could never do.
 
     ALPHAVANTAGE_API_KEY=... python cache.py
     ALPHAVANTAGE_API_KEY=... python cache.py --dry-run
@@ -202,7 +203,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     if args.dry_run:
         settings = config.FetchSettings(
             max_calls=args.max_calls or 25,
-            refresh_after_days=args.refresh_after_days or 30,
+            refresh_after_days=args.refresh_after_days or 180,
             fill_only=args.fill_only,
             retry_missing=args.retry_missing,
         )
