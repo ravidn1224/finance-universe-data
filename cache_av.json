@@ -3358,6 +3358,20 @@
     "sector": "INDUSTRIALS",
     "symbol": "DAL"
   },
+  "DAR": {
+    "fetched_at": "2026-09-13T07:52:38+00:00",
+    "industry": "PACKAGED FOODS",
+    "ma150": "59.36",
+    "marketCap": "10274553426",
+    "name": "Darling Ingredients Inc",
+    "peRatio": "17.84",
+    "price": "62.96",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "CONSUMER DEFENSIVE",
+    "sharesOutstanding": "157803000",
+    "status": "ok",
+    "symbol": "DAR"
+  },
   "DASH": {
     "industry": "INTERNET RETAIL",
     "ma150": "179.27",
@@ -3367,6 +3381,20 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "CONSUMER CYCLICAL",
     "symbol": "DASH"
+  },
+  "DAVE": {
+    "fetched_at": "2026-09-13T07:52:50+00:00",
+    "industry": "SOFTWARE - APPLICATION",
+    "ma150": "283.75",
+    "marketCap": "4012613296",
+    "name": "Dave Inc",
+    "peRatio": "22.57",
+    "price": "377.81",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "11441400",
+    "status": "ok",
+    "symbol": "DAVE"
   },
   "DAY": {
     "industry": "SOFTWARE - APPLICATION",
@@ -3385,6 +3413,20 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "FINANCIAL SERVICES",
     "symbol": "DB"
+  },
+  "DBX": {
+    "fetched_at": "2026-09-13T07:53:02+00:00",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "ma150": "27.83",
+    "marketCap": "5060010395",
+    "name": "Dropbox Inc",
+    "peRatio": "19.65",
+    "price": "32.70",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "142295000",
+    "status": "ok",
+    "symbol": "DBX"
   },
   "DD": {
     "industry": "SPECIALTY CHEMICALS",
@@ -3405,6 +3447,20 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "TECHNOLOGY",
     "symbol": "DDOG"
+  },
+  "DDS": {
+    "fetched_at": "2026-09-13T07:53:14+00:00",
+    "industry": "DEPARTMENT STORES",
+    "ma150": "589.85",
+    "marketCap": "7715435002",
+    "name": "Dillard's, Inc.",
+    "peRatio": "14.91",
+    "price": "593.56",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "11859500",
+    "status": "ok",
+    "symbol": "DDS"
   },
   "DE": {
     "industry": "FARM & HEAVY CONSTRUCTION MACHINERY",
@@ -3446,6 +3502,20 @@
     "sector": "CONSUMER DEFENSIVE",
     "symbol": "DEO"
   },
+  "DFTX": {
+    "fetched_at": "2026-09-13T07:53:26+00:00",
+    "industry": "BIOTECHNOLOGY",
+    "ma150": "29.25",
+    "marketCap": "5225532548",
+    "name": "Definium Therapeutics, Inc.",
+    "peRatio": "",
+    "price": "43.13",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "134367000",
+    "status": "ok",
+    "symbol": "DFTX"
+  },
   "DG": {
     "industry": "DISCOUNT STORES",
     "ma150": "122.94",
@@ -3486,6 +3556,20 @@
     "sector": "HEALTHCARE",
     "symbol": "DHR"
   },
+  "DINO": {
+    "fetched_at": "2026-09-13T07:53:38+00:00",
+    "industry": "OIL & GAS REFINING & MARKETING",
+    "ma150": "71.77",
+    "marketCap": "19172225909",
+    "name": "HF Sinclair Corp",
+    "peRatio": "10.27",
+    "price": "91.00",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "ENERGY",
+    "sharesOutstanding": "177784000",
+    "status": "ok",
+    "symbol": "DINO"
+  },
   "DIS": {
     "industry": "ENTERTAINMENT",
     "ma150": "101.39",
@@ -3495,6 +3579,20 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "COMMUNICATION SERVICES",
     "symbol": "DIS"
+  },
+  "DK": {
+    "fetched_at": "2026-09-13T07:53:53+00:00",
+    "industry": "OIL & GAS REFINING & MARKETING",
+    "ma150": "50.06",
+    "marketCap": "4659755107",
+    "name": "Delek US Energy Inc",
+    "peRatio": "20.4",
+    "price": "65.29",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "ENERGY",
+    "sharesOutstanding": "61232000",
+    "status": "ok",
+    "symbol": "DK"
   },
   "DKNG": {
     "industry": "GAMBLING",
@@ -3536,6 +3634,20 @@
     "sector": "CONSUMER DEFENSIVE",
     "symbol": "DLTR"
   },
+  "DNN": {
+    "fetched_at": "2026-09-13T07:54:05+00:00",
+    "industry": "URANIUM",
+    "ma150": "3.46",
+    "marketCap": "2733879143",
+    "name": "Denison Mines Corp",
+    "peRatio": "",
+    "price": "3.17",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "ENERGY",
+    "sharesOutstanding": "905258000",
+    "status": "ok",
+    "symbol": "DNN"
+  },
   "DOC": {
     "industry": "REIT - HEALTHCARE FACILITIES",
     "ma150": "18.94",
@@ -3545,6 +3657,20 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "REAL ESTATE",
     "symbol": "DOC"
+  },
+  "DOCN": {
+    "fetched_at": "2026-09-13T07:54:17+00:00",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "ma150": "114.80",
+    "marketCap": "14456460641",
+    "name": "DigitalOcean Holdings Inc",
+    "peRatio": "59.4",
+    "price": "123.15",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "117580000",
+    "status": "ok",
+    "symbol": "DOCN"
   },
   "DOCS": {
     "industry": "HEALTH INFORMATION SERVICES",
@@ -3664,6 +3790,20 @@
     "sector": "TECHNOLOGY",
     "symbol": "DUOL"
   },
+  "DVA": {
+    "fetched_at": "2026-09-13T07:54:29+00:00",
+    "industry": "MEDICAL CARE FACILITIES",
+    "ma150": "182.08",
+    "marketCap": "11582890195",
+    "name": "DaVita HealthCare Partners Inc",
+    "peRatio": "15.36",
+    "price": "205.06",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "63800000",
+    "status": "ok",
+    "symbol": "DVA"
+  },
   "DVN": {
     "industry": "OIL & GAS E&P",
     "ma150": "45.68",
@@ -3684,6 +3824,20 @@
     "sector": "HEALTHCARE",
     "symbol": "DXCM"
   },
+  "DY": {
+    "fetched_at": "2026-09-13T07:54:41+00:00",
+    "industry": "ENGINEERING & CONSTRUCTION",
+    "ma150": "406.65",
+    "marketCap": "9273602707",
+    "name": "Dycom Industries Inc",
+    "peRatio": "27.02",
+    "price": "384.79",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "INDUSTRIALS",
+    "sharesOutstanding": "30161000",
+    "status": "ok",
+    "symbol": "DY"
+  },
   "E": {
     "industry": "OIL & GAS INTEGRATED",
     "marketCap": "55662731000",
@@ -3699,6 +3853,20 @@
     "price": "197.72",
     "sector": "COMMUNICATION SERVICES",
     "symbol": "EA"
+  },
+  "EAT": {
+    "fetched_at": "2026-09-13T07:54:53+00:00",
+    "industry": "RESTAURANTS",
+    "ma150": "169.79",
+    "marketCap": "8874645079",
+    "name": "Brinker International Inc",
+    "peRatio": "19.57",
+    "price": "213.51",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "41765000",
+    "status": "ok",
+    "symbol": "EAT"
   },
   "EBAY": {
     "industry": "INTERNET RETAIL",
@@ -3717,6 +3885,20 @@
     "price": "9.42",
     "sector": "ENERGY",
     "symbol": "EC"
+  },
+  "ECHO": {
+    "fetched_at": "2026-09-13T07:55:05+00:00",
+    "industry": "TELECOM SERVICES",
+    "ma150": "108.89",
+    "marketCap": "14822485783",
+    "name": "EchoStar Corporation",
+    "peRatio": "",
+    "price": "90.36",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "COMMUNICATION SERVICES",
+    "sharesOutstanding": "159142000",
+    "status": "ok",
+    "symbol": "ECHO"
   },
   "ECL": {
     "industry": "SPECIALTY CHEMICALS",
@@ -3758,6 +3940,20 @@
     "sector": "FINANCIAL SERVICES",
     "symbol": "EG"
   },
+  "EGO": {
+    "fetched_at": "2026-09-13T07:55:17+00:00",
+    "industry": "GOLD",
+    "ma150": "35.84",
+    "marketCap": "11410437500",
+    "name": "Eldorado Gold Corp",
+    "peRatio": "14.88",
+    "price": "37.03",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "BASIC MATERIALS",
+    "sharesOutstanding": "260810000",
+    "status": "ok",
+    "symbol": "EGO"
+  },
   "EHC": {
     "industry": "MEDICAL CARE FACILITIES",
     "ma150": "107.97",
@@ -3787,6 +3983,34 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "CONSUMER DEFENSIVE",
     "symbol": "EL"
+  },
+  "ELAN": {
+    "fetched_at": "2026-09-13T07:55:29+00:00",
+    "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC",
+    "ma150": "23.99",
+    "marketCap": "11572256538",
+    "name": "Elanco Animal Health",
+    "peRatio": "",
+    "price": "24.55",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "499450000",
+    "status": "ok",
+    "symbol": "ELAN"
+  },
+  "ELF": {
+    "fetched_at": "2026-09-13T07:55:42+00:00",
+    "industry": "HOUSEHOLD & PERSONAL PRODUCTS",
+    "ma150": "74.93",
+    "marketCap": "5718465496",
+    "name": "ELF Beauty Inc",
+    "peRatio": "97.89",
+    "price": "89.86",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "CONSUMER DEFENSIVE",
+    "sharesOutstanding": "59008000",
+    "status": "ok",
+    "symbol": "ELF"
   },
   "ELS": {
     "industry": "REIT - RESIDENTIAL",
@@ -3856,6 +4080,34 @@
     "sector": "ENERGY",
     "symbol": "ENB"
   },
+  "ENPH": {
+    "fetched_at": "2026-09-13T07:55:54+00:00",
+    "industry": "SOLAR",
+    "ma150": "43.15",
+    "marketCap": "4803470548",
+    "name": "Enphase Energy Inc",
+    "peRatio": "36.35",
+    "price": "39.50",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "132145000",
+    "status": "ok",
+    "symbol": "ENPH"
+  },
+  "ENS": {
+    "fetched_at": "2026-09-13T07:56:06+00:00",
+    "industry": "ELECTRICAL EQUIPMENT & PARTS",
+    "ma150": "196.76",
+    "marketCap": "6471900030",
+    "name": "Enersys",
+    "peRatio": "19.19",
+    "price": "191.90",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "INDUSTRIALS",
+    "sharesOutstanding": "36065200",
+    "status": "ok",
+    "symbol": "ENS"
+  },
   "ENSG": {
     "industry": "MEDICAL CARE FACILITIES",
     "marketCap": "10747364000",
@@ -3883,6 +4135,34 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "ENERGY",
     "symbol": "EOG"
+  },
+  "EOSE": {
+    "fetched_at": "2026-09-13T07:56:18+00:00",
+    "industry": "ELECTRICAL EQUIPMENT & PARTS",
+    "ma150": "6.13",
+    "marketCap": "1428663667",
+    "name": "Eos Energy Enterprises Inc",
+    "peRatio": "",
+    "price": "3.92",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "INDUSTRIALS",
+    "sharesOutstanding": "361687000",
+    "status": "ok",
+    "symbol": "EOSE"
+  },
+  "EPAM": {
+    "fetched_at": "2026-09-13T07:56:30+00:00",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "ma150": "113.94",
+    "marketCap": "6082623359",
+    "name": "EPAM Systems Inc",
+    "peRatio": "15.53",
+    "price": "101.21",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "51587000",
+    "status": "ok",
+    "symbol": "EPAM"
   },
   "EPD": {
     "industry": "OIL & GAS MIDSTREAM",
@@ -3942,6 +4222,20 @@
     "sector": "ENERGY",
     "symbol": "EQT"
   },
+  "EQX": {
+    "fetched_at": "2026-09-13T07:56:42+00:00",
+    "industry": "GOLD",
+    "ma150": "12.84",
+    "marketCap": "14476503555",
+    "name": "Equinox Gold Corp",
+    "peRatio": "18.79",
+    "price": "10.97",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "BASIC MATERIALS",
+    "sharesOutstanding": "1167460000",
+    "status": "ok",
+    "symbol": "EQX"
+  },
   "ERIC": {
     "industry": "COMMUNICATION EQUIPMENT",
     "ma150": "11.19",
@@ -3972,6 +4266,20 @@
     "sector": "UTILITIES",
     "symbol": "ES"
   },
+  "ESI": {
+    "fetched_at": "2026-09-13T07:56:54+00:00",
+    "industry": "SPECIALTY CHEMICALS",
+    "ma150": "37.96",
+    "marketCap": "8368177277",
+    "name": "Element Solutions Inc",
+    "peRatio": "46.41",
+    "price": "37.30",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "BASIC MATERIALS",
+    "sharesOutstanding": "243686000",
+    "status": "ok",
+    "symbol": "ESI"
+  },
   "ESLT": {
     "industry": "AEROSPACE & DEFENSE",
     "marketCap": "22566111000",
@@ -3989,6 +4297,20 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "REAL ESTATE",
     "symbol": "ESS"
+  },
+  "ESTC": {
+    "fetched_at": "2026-09-13T07:57:06+00:00",
+    "industry": "SOFTWARE - APPLICATION",
+    "ma150": "60.86",
+    "marketCap": "8755199426",
+    "name": "Elastic NV",
+    "peRatio": "23.89",
+    "price": "74.10",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "104991000",
+    "status": "ok",
+    "symbol": "ESTC"
   },
   "ET": {
     "industry": "OIL & GAS MIDSTREAM",
@@ -4017,6 +4339,20 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "UTILITIES",
     "symbol": "ETR"
+  },
+  "ETSY": {
+    "fetched_at": "2026-09-13T07:57:19+00:00",
+    "industry": "INTERNET RETAIL",
+    "ma150": "66.92",
+    "marketCap": "6678058516",
+    "name": "Etsy, Inc.",
+    "peRatio": "22.67",
+    "price": "80.94",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "91782000",
+    "status": "ok",
+    "symbol": "ETSY"
   },
   "EVR": {
     "industry": "CAPITAL MARKETS",
@@ -4095,6 +4431,20 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "HEALTHCARE",
     "symbol": "EXEL"
+  },
+  "EXK": {
+    "fetched_at": "2026-09-13T07:57:31+00:00",
+    "industry": "SILVER",
+    "ma150": "9.75",
+    "marketCap": "3014746010",
+    "name": "Endeavour Silver Corp.",
+    "peRatio": "53.58",
+    "price": "9.34",
+    "quoted_at": "2026-09-13T07:58:37+00:00",
+    "sector": "BASIC MATERIALS",
+    "sharesOutstanding": "296144000",
+    "status": "ok",
+    "symbol": "EXK"
   },
   "EXPD": {
     "industry": "INTEGRATED FREIGHT & LOGISTICS",
