@@ -355,6 +355,20 @@
     "status": "ok",
     "symbol": "AEM"
   },
+  "AEO": {
+    "fetched_at": "2026-09-14T08:24:46+00:00",
+    "industry": "APPAREL RETAIL",
+    "ma150": "17.87",
+    "marketCap": "2516946537",
+    "name": "American Eagle Outfitters Inc",
+    "peRatio": "7.74",
+    "price": "16.91",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "167573000",
+    "status": "ok",
+    "symbol": "AEO"
+  },
   "AEP": {
     "fetched_at": "2026-09-09T07:54:59+00:00",
     "industry": "UTILITIES - REGULATED ELECTRIC",
@@ -1111,6 +1125,20 @@
     "sector": "HEALTHCARE",
     "symbol": "ASND"
   },
+  "ASO": {
+    "fetched_at": "2026-09-14T08:24:58+00:00",
+    "industry": "SPECIALTY RETAIL",
+    "ma150": "52.03",
+    "marketCap": "3409013478",
+    "name": "Academy Sports Outdoors Inc",
+    "peRatio": "9.29",
+    "price": "47.17",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "61579000",
+    "status": "ok",
+    "symbol": "ASO"
+  },
   "ASST": {
     "fetched_at": "2026-09-11T07:39:55+00:00",
     "industry": "ASSET MANAGEMENT",
@@ -1675,6 +1703,20 @@
     "status": "ok",
     "symbol": "BILL"
   },
+  "BIO": {
+    "fetched_at": "2026-09-14T08:25:10+00:00",
+    "industry": "MEDICAL DEVICES",
+    "ma150": "300.91",
+    "marketCap": "8014465751",
+    "name": "Bio-Rad Laboratories Inc",
+    "peRatio": "45.04",
+    "price": "342.37",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "21700600",
+    "status": "ok",
+    "symbol": "BIO"
+  },
   "BIP": {
     "industry": "UTILITIES - DIVERSIFIED",
     "marketCap": "16732802000",
@@ -1968,6 +2010,20 @@
     "sharesOutstanding": "137941000",
     "status": "ok",
     "symbol": "BROS"
+  },
+  "BRZE": {
+    "fetched_at": "2026-09-14T08:25:23+00:00",
+    "industry": "SOFTWARE - APPLICATION",
+    "ma150": "23.19",
+    "marketCap": "2719201021",
+    "name": "Braze Inc",
+    "peRatio": "",
+    "price": "27.43",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "113584000",
+    "status": "ok",
+    "symbol": "BRZE"
   },
   "BSAC": {
     "industry": "BANKS - REGIONAL",
@@ -2857,6 +2913,20 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "CONSUMER DEFENSIVE",
     "symbol": "COKE"
+  },
+  "COLB": {
+    "fetched_at": "2026-09-14T08:25:35+00:00",
+    "industry": "BANKS - REGIONAL",
+    "ma150": "29.48",
+    "marketCap": "8515620043",
+    "name": "Columbia Banking System Inc",
+    "peRatio": "11.85",
+    "price": "31.09",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "FINANCIAL SERVICES",
+    "sharesOutstanding": "282817000",
+    "status": "ok",
+    "symbol": "COLB"
   },
   "COMP": {
     "fetched_at": "2026-09-12T07:34:53+00:00",
@@ -4314,9 +4384,11 @@
   },
   "ET": {
     "industry": "OIL & GAS MIDSTREAM",
+    "ma150": "19.25",
     "marketCap": "57371890000",
     "name": "Energy Transfer LP",
-    "price": "16.81",
+    "price": "20.49",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
     "sector": "ENERGY",
     "symbol": "ET"
   },
@@ -4506,6 +4578,48 @@
     "sector": "INDUSTRIALS",
     "symbol": "FAST"
   },
+  "FBIN": {
+    "fetched_at": "2026-09-14T08:25:47+00:00",
+    "industry": "BUILDING PRODUCTS & EQUIPMENT",
+    "ma150": "44.52",
+    "marketCap": "4858803835",
+    "name": "Fortune Brands Innovations Inc.",
+    "peRatio": "32.85",
+    "price": "47.78",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "INDUSTRIALS",
+    "sharesOutstanding": "119293000",
+    "status": "ok",
+    "symbol": "FBIN"
+  },
+  "FCEL": {
+    "fetched_at": "2026-09-14T08:25:59+00:00",
+    "industry": "ELECTRICAL EQUIPMENT & PARTS",
+    "ma150": "15.47",
+    "marketCap": "1270469087",
+    "name": "FuelCell Energy Inc",
+    "peRatio": "",
+    "price": "20.19",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "INDUSTRIALS",
+    "sharesOutstanding": "79954000",
+    "status": "ok",
+    "symbol": "FCEL"
+  },
+  "FCFS": {
+    "fetched_at": "2026-09-14T08:26:11+00:00",
+    "industry": "CREDIT SERVICES",
+    "ma150": "208.90",
+    "marketCap": "9905251896",
+    "name": "FirstCash Inc",
+    "peRatio": "25.95",
+    "price": "214.67",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "FINANCIAL SERVICES",
+    "sharesOutstanding": "43371800",
+    "status": "ok",
+    "symbol": "FCFS"
+  },
   "FCNCA": {
     "industry": "BANKS - REGIONAL",
     "ma150": "2038.87",
@@ -4553,6 +4667,19 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "INDUSTRIALS",
     "symbol": "FDX"
+  },
+  "FDXF": {
+    "fetched_at": "2026-09-14T08:26:23+00:00",
+    "industry": "INTEGRATED FREIGHT & LOGISTICS",
+    "marketCap": "19184654215",
+    "name": "FedEx Freight Holding Company, Inc.",
+    "peRatio": "29.29",
+    "price": "141.30",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "INDUSTRIALS",
+    "sharesOutstanding": "149518000",
+    "status": "ok",
+    "symbol": "FDXF"
   },
   "FE": {
     "industry": "UTILITIES - REGULATED ELECTRIC",
@@ -4644,6 +4771,20 @@
     "sector": "TECHNOLOGY",
     "symbol": "FIS"
   },
+  "FISV": {
+    "fetched_at": "2026-09-14T08:26:35+00:00",
+    "industry": "SOFTWARE",
+    "ma150": "55.50",
+    "marketCap": "27956360992",
+    "name": "Fiserv, Inc.",
+    "peRatio": "9.88",
+    "price": "52.20",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "542000000",
+    "status": "ok",
+    "symbol": "FISV"
+  },
   "FITB": {
     "industry": "BANKS - REGIONAL",
     "ma150": "51.81",
@@ -4653,6 +4794,20 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "FINANCIAL SERVICES",
     "symbol": "FITB"
+  },
+  "FIVE": {
+    "fetched_at": "2026-09-14T08:26:47+00:00",
+    "industry": "SPECIALTY RETAIL",
+    "ma150": "218.61",
+    "marketCap": "13466208736",
+    "name": "Five Below Inc",
+    "peRatio": "21.94",
+    "price": "223.33",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "55054000",
+    "status": "ok",
+    "symbol": "FIVE"
   },
   "FIX": {
     "industry": "ENGINEERING & CONSTRUCTION",
@@ -4673,6 +4828,34 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "TECHNOLOGY",
     "symbol": "FLEX"
+  },
+  "FLR": {
+    "fetched_at": "2026-09-14T08:26:59+00:00",
+    "industry": "ENGINEERING & CONSTRUCTION",
+    "ma150": "49.69",
+    "marketCap": "7248762302",
+    "name": "Fluor Corporation",
+    "peRatio": "",
+    "price": "52.10",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "INDUSTRIALS",
+    "sharesOutstanding": "133741000",
+    "status": "ok",
+    "symbol": "FLR"
+  },
+  "FLS": {
+    "fetched_at": "2026-09-14T08:27:11+00:00",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "ma150": "76.87",
+    "marketCap": "9464833864",
+    "name": "Flowserve Corporation",
+    "peRatio": "25.94",
+    "price": "75.42",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "INDUSTRIALS",
+    "sharesOutstanding": "127113000",
+    "status": "ok",
+    "symbol": "FLS"
   },
   "FLUT": {
     "industry": "GAMBLING",
@@ -4710,6 +4893,20 @@
     "sector": "TECHNOLOGY",
     "symbol": "FN"
   },
+  "FND": {
+    "fetched_at": "2026-09-14T08:27:23+00:00",
+    "industry": "HOME IMPROVEMENT RETAIL",
+    "ma150": "54.87",
+    "marketCap": "5041236616",
+    "name": "Floor & Decor Holdings Inc",
+    "peRatio": "22.12",
+    "price": "55.10",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "106490000",
+    "status": "ok",
+    "symbol": "FND"
+  },
   "FNF": {
     "industry": "INSURANCE - SPECIALTY",
     "ma150": "48.67",
@@ -4730,6 +4927,34 @@
     "sector": "BASIC MATERIALS",
     "symbol": "FNV"
   },
+  "FORM": {
+    "fetched_at": "2026-09-14T08:27:35+00:00",
+    "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS",
+    "ma150": "116.39",
+    "marketCap": "8980008712",
+    "name": "FormFactor Inc",
+    "peRatio": "79.28",
+    "price": "111.45",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "78121000",
+    "status": "ok",
+    "symbol": "FORM"
+  },
+  "FOUR": {
+    "fetched_at": "2026-09-14T08:27:47+00:00",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "ma150": "46.48",
+    "marketCap": "3557147940",
+    "name": "Shift4 Payments Inc",
+    "peRatio": "70.39",
+    "price": "47.74",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "78960000",
+    "status": "ok",
+    "symbol": "FOUR"
+  },
   "FOX": {
     "industry": "ENTERTAINMENT",
     "marketCap": "27435370000",
@@ -4747,6 +4972,20 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "COMMUNICATION SERVICES",
     "symbol": "FOXA"
+  },
+  "FPS": {
+    "fetched_at": "2026-09-14T08:27:59+00:00",
+    "industry": "ELECTRICAL EQUIPMENT & PARTS",
+    "ma150": "39.64",
+    "marketCap": "8272277141",
+    "name": "Forgent Power Solutions, Inc.",
+    "peRatio": "1591",
+    "price": "36.61",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "INDUSTRIALS",
+    "sharesOutstanding": "259971000",
+    "status": "ok",
+    "symbol": "FPS"
   },
   "FRHC": {
     "industry": "FINANCIAL CONGLOMERATES",
@@ -4766,6 +5005,47 @@
     "sector": "NONE",
     "symbol": "FRMI"
   },
+  "FRO": {
+    "fetched_at": "2026-09-14T08:28:11+00:00",
+    "industry": "OIL & GAS MIDSTREAM",
+    "ma150": "36.31",
+    "marketCap": "10955277626",
+    "name": "Frontline Ltd",
+    "peRatio": "7.38",
+    "price": "40.85",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "ENERGY",
+    "sharesOutstanding": "222623000",
+    "status": "ok",
+    "symbol": "FRO"
+  },
+  "FROG": {
+    "fetched_at": "2026-09-14T08:28:23+00:00",
+    "industry": "SOFTWARE - APPLICATION",
+    "ma150": "67.95",
+    "marketCap": "10749381218",
+    "name": "Jfrog Ltd",
+    "peRatio": "",
+    "price": "88.97",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "123301000",
+    "status": "ok",
+    "symbol": "FROG"
+  },
+  "FRVO": {
+    "fetched_at": "2026-09-14T08:28:35+00:00",
+    "industry": "UTILITIES - RENEWABLE",
+    "marketCap": "4473987064",
+    "name": "Fervo Energy Company Class A common stock",
+    "peRatio": "",
+    "price": "21.29",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "UTILITIES",
+    "sharesOutstanding": "286978000",
+    "status": "ok",
+    "symbol": "FRVO"
+  },
   "FSLR": {
     "industry": "SOLAR",
     "ma150": "221.82",
@@ -4775,6 +5055,20 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "TECHNOLOGY",
     "symbol": "FSLR"
+  },
+  "FSLY": {
+    "fetched_at": "2026-09-14T08:28:47+00:00",
+    "industry": "SOFTWARE - APPLICATION",
+    "ma150": "21.80",
+    "marketCap": "3689387976",
+    "name": "Fastly, Inc. Class A Common Stock",
+    "peRatio": "",
+    "price": "22.56",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "159300000",
+    "status": "ok",
+    "symbol": "FSLY"
   },
   "FTAI": {
     "industry": "RENTAL & LEASING SERVICES",
@@ -4851,6 +5145,34 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "COMMUNICATION SERVICES",
     "symbol": "FWONK"
+  },
+  "G": {
+    "fetched_at": "2026-09-14T08:28:59+00:00",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "ma150": "34.28",
+    "marketCap": "5904714657",
+    "name": "Genpact Limited",
+    "peRatio": "10.46",
+    "price": "33.75",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "168034000",
+    "status": "ok",
+    "symbol": "G"
+  },
+  "GAP": {
+    "fetched_at": "2026-09-14T08:29:12+00:00",
+    "industry": "APPAREL RETAIL",
+    "ma150": "22.66",
+    "marketCap": "7555817780",
+    "name": "The Gap, Inc.",
+    "peRatio": "6.48",
+    "price": "20.44",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "351270000",
+    "status": "ok",
+    "symbol": "GAP"
   },
   "GD": {
     "industry": "AEROSPACE & DEFENSE",
@@ -4952,6 +5274,20 @@
     "sector": "INDUSTRIALS",
     "symbol": "GGG"
   },
+  "GH": {
+    "fetched_at": "2026-09-14T08:29:24+00:00",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "ma150": "122.53",
+    "marketCap": "21119767135",
+    "name": "Guardant Health Inc",
+    "peRatio": "",
+    "price": "159.85",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "134196000",
+    "status": "ok",
+    "symbol": "GH"
+  },
   "GIB": {
     "industry": "INFORMATION TECHNOLOGY SERVICES",
     "marketCap": "19802104000",
@@ -4979,6 +5315,20 @@
     "quoted_at": "2026-09-12T07:37:52+00:00",
     "sector": "CONSUMER DEFENSIVE",
     "symbol": "GIS"
+  },
+  "GKOS": {
+    "fetched_at": "2026-09-14T08:29:36+00:00",
+    "industry": "MEDICAL DEVICES",
+    "ma150": "136.79",
+    "marketCap": "9865074000",
+    "name": "Glaukos Corp",
+    "peRatio": "",
+    "price": "169.44",
+    "quoted_at": "2026-09-14T08:30:19+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "58984000",
+    "status": "ok",
+    "symbol": "GKOS"
   },
   "GL": {
     "industry": "INSURANCE - LIFE",
