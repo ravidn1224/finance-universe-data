@@ -1,13 +1,15 @@
 {
   "A": {
-    "fetched_at": "2026-09-09T07:51:34+00:00",
+    "fetched_at": "2026-09-20T08:13:57+00:00",
     "industry": "DIAGNOSTICS & RESEARCH",
     "ma150": "128.91",
-    "marketCap": "42537366000",
+    "marketCap": "44113430974",
     "name": "Agilent Technologies Inc",
+    "peRatio": "30.86",
     "price": "145.43",
-    "quoted_at": "2026-09-19T07:47:32+00:00",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
     "sector": "HEALTHCARE",
+    "sharesOutstanding": "281929000",
     "status": "ok",
     "symbol": "A"
   },
@@ -82,26 +84,30 @@
     "symbol": "AAP"
   },
   "AAPL": {
-    "fetched_at": "2026-09-09T07:51:46+00:00",
+    "fetched_at": "2026-09-20T08:14:09+00:00",
     "industry": "CONSUMER ELECTRONICS",
     "ma150": "292.13",
-    "marketCap": "4669700047000",
+    "marketCap": "4905541794661",
     "name": "Apple Inc.",
+    "peRatio": "38.5",
     "price": "320.03",
-    "quoted_at": "2026-09-19T07:47:32+00:00",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
     "sector": "TECHNOLOGY",
+    "sharesOutstanding": "14594180000",
     "status": "ok",
     "symbol": "AAPL"
   },
   "ABBV": {
-    "fetched_at": "2026-09-09T07:51:58+00:00",
+    "fetched_at": "2026-09-20T08:14:21+00:00",
     "industry": "DRUG MANUFACTURERS - GENERAL",
     "ma150": "230.03",
-    "marketCap": "453194875000",
+    "marketCap": "466448188220",
     "name": "AbbVie Inc",
+    "peRatio": "74.56",
     "price": "255.25",
-    "quoted_at": "2026-09-19T07:47:32+00:00",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
     "sector": "HEALTHCARE",
+    "sharesOutstanding": "1767117000",
     "status": "ok",
     "symbol": "ABBV"
   },
@@ -120,26 +126,30 @@
     "symbol": "ABCL"
   },
   "ABEV": {
-    "fetched_at": "2026-09-09T07:52:10+00:00",
+    "fetched_at": "2026-09-20T08:14:33+00:00",
     "industry": "BEVERAGES - BREWERS",
     "ma150": "3.04",
-    "marketCap": "46568395000",
+    "marketCap": "45324472662",
     "name": "Ambev SA ADR",
+    "peRatio": "14.7",
     "price": "2.98",
-    "quoted_at": "2026-09-19T07:47:32+00:00",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
     "sector": "CONSUMER DEFENSIVE",
+    "sharesOutstanding": "15416487000",
     "status": "ok",
     "symbol": "ABEV"
   },
   "ABNB": {
-    "fetched_at": "2026-09-09T07:52:22+00:00",
+    "fetched_at": "2026-09-20T08:14:45+00:00",
     "industry": "TRAVEL SERVICES",
     "ma150": "145.60",
-    "marketCap": "108943065000",
+    "marketCap": "69734277112",
     "name": "Airbnb Inc",
+    "peRatio": "37.86",
     "price": "167.01",
-    "quoted_at": "2026-09-19T07:47:32+00:00",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
     "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "419530000",
     "status": "ok",
     "symbol": "ABNB"
   },
@@ -11729,6 +11739,20 @@
     "status": "ok",
     "symbol": "UPST"
   },
+  "URBN": {
+    "fetched_at": "2026-09-20T08:09:57+00:00",
+    "industry": "APPAREL RETAIL",
+    "ma150": "71.50",
+    "marketCap": "6425356783",
+    "name": "Urban Outfitters Inc",
+    "peRatio": "11.87",
+    "price": "76.08",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "85660000",
+    "status": "ok",
+    "symbol": "URBN"
+  },
   "URI": {
     "industry": "RENTAL & LEASING SERVICES",
     "ma150": "961.70",
@@ -11738,6 +11762,20 @@
     "quoted_at": "2026-09-19T07:47:32+00:00",
     "sector": "INDUSTRIALS",
     "symbol": "URI"
+  },
+  "USAR": {
+    "fetched_at": "2026-09-20T08:10:09+00:00",
+    "industry": "OTHER INDUSTRIAL METALS & MINING",
+    "ma150": "19.77",
+    "marketCap": "5769790367",
+    "name": "USA Rare Earth, Inc.",
+    "peRatio": "",
+    "price": "17.01",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "BASIC MATERIALS",
+    "sharesOutstanding": "375393000",
+    "status": "ok",
+    "symbol": "USAR"
   },
   "USB": {
     "industry": "BANKS - REGIONAL",
@@ -11769,6 +11807,20 @@
     "sector": "HEALTHCARE",
     "symbol": "UTHR"
   },
+  "UUUU": {
+    "fetched_at": "2026-09-20T08:10:21+00:00",
+    "industry": "URANIUM",
+    "ma150": "16.83",
+    "marketCap": "3097855749",
+    "name": "Energy Fuels Inc",
+    "peRatio": "",
+    "price": "13.34",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "ENERGY",
+    "sharesOutstanding": "264774000",
+    "status": "ok",
+    "symbol": "UUUU"
+  },
   "V": {
     "industry": "CREDIT SERVICES",
     "ma150": "334.72",
@@ -11778,6 +11830,20 @@
     "quoted_at": "2026-09-19T07:47:32+00:00",
     "sector": "FINANCIAL SERVICES",
     "symbol": "V"
+  },
+  "VAL": {
+    "fetched_at": "2026-09-20T08:10:33+00:00",
+    "industry": "OIL & GAS DRILLING",
+    "ma150": "89.08",
+    "marketCap": "5815959508",
+    "name": "Valaris Ltd",
+    "peRatio": "6.32",
+    "price": "82.42",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "ENERGY",
+    "sharesOutstanding": "69436000",
+    "status": "ok",
+    "symbol": "VAL"
   },
   "VALE": {
     "industry": "OTHER INDUSTRIAL METALS & MINING",
@@ -11809,6 +11875,20 @@
     "sector": "ENERGY",
     "symbol": "VG"
   },
+  "VIAV": {
+    "fetched_at": "2026-09-20T08:10:45+00:00",
+    "industry": "COMMUNICATION EQUIPMENT",
+    "ma150": "40.90",
+    "marketCap": "8725080151",
+    "name": "Viavi Solutions Inc",
+    "peRatio": "",
+    "price": "38.38",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "246750000",
+    "status": "ok",
+    "symbol": "VIAV"
+  },
   "VICI": {
     "industry": "REIT - DIVERSIFIED",
     "ma150": "26.63",
@@ -11819,6 +11899,20 @@
     "sector": "REAL ESTATE",
     "symbol": "VICI"
   },
+  "VICR": {
+    "fetched_at": "2026-09-20T08:10:57+00:00",
+    "industry": "ELECTRONIC COMPONENTS",
+    "ma150": "232.57",
+    "marketCap": "7659118122",
+    "name": "Vicor Corporation",
+    "peRatio": "69.38",
+    "price": "211.52",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "34389000",
+    "status": "ok",
+    "symbol": "VICR"
+  },
   "VIK": {
     "industry": "TRAVEL SERVICES",
     "ma150": "87.30",
@@ -11828,6 +11922,20 @@
     "quoted_at": "2026-09-19T07:47:32+00:00",
     "sector": "CONSUMER CYCLICAL",
     "symbol": "VIK"
+  },
+  "VIRT": {
+    "fetched_at": "2026-09-20T08:11:09+00:00",
+    "industry": "CAPITAL MARKETS",
+    "ma150": "52.89",
+    "marketCap": "5099382750",
+    "name": "Virtu Financial, Inc.",
+    "peRatio": "9.59",
+    "price": "60.30",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "FINANCIAL SERVICES",
+    "sharesOutstanding": "88301000",
+    "status": "ok",
+    "symbol": "VIRT"
   },
   "VIV": {
     "industry": "TELECOM SERVICES",
@@ -11867,6 +11975,20 @@
     "sector": "BASIC MATERIALS",
     "symbol": "VMC"
   },
+  "VMRK": {
+    "fetched_at": "2026-09-20T08:11:21+00:00",
+    "industry": "REIT - RESIDENTIAL",
+    "ma150": "64.22",
+    "marketCap": "47370751325",
+    "name": "Vivmark Residential",
+    "peRatio": "24.2",
+    "price": "66.44",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "REAL ESTATE",
+    "sharesOutstanding": "773779000",
+    "status": "ok",
+    "symbol": "VMRK"
+  },
   "VNOM": {
     "industry": "OIL & GAS MIDSTREAM",
     "marketCap": "11916291000",
@@ -11882,6 +12004,20 @@
     "price": "11.7",
     "sector": "COMMUNICATION SERVICES",
     "symbol": "VOD"
+  },
+  "VOYA": {
+    "fetched_at": "2026-09-20T08:11:33+00:00",
+    "industry": "FINANCIAL CONGLOMERATES",
+    "ma150": "85.10",
+    "marketCap": "9201835692",
+    "name": "Voya Financial Inc",
+    "peRatio": "16.79",
+    "price": "100.03",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "FINANCIAL SERVICES",
+    "sharesOutstanding": "90596000",
+    "status": "ok",
+    "symbol": "VOYA"
   },
   "VRSK": {
     "industry": "CONSULTING SERVICES",
@@ -11923,6 +12059,34 @@
     "sector": "HEALTHCARE",
     "symbol": "VRTX"
   },
+  "VSAT": {
+    "fetched_at": "2026-09-20T08:11:45+00:00",
+    "industry": "COMMUNICATION EQUIPMENT",
+    "ma150": "65.50",
+    "marketCap": "10521802902",
+    "name": "ViaSat Inc",
+    "peRatio": "",
+    "price": "74.90",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "137756000",
+    "status": "ok",
+    "symbol": "VSAT"
+  },
+  "VSH": {
+    "fetched_at": "2026-09-20T08:11:57+00:00",
+    "industry": "SEMICONDUCTORS",
+    "ma150": "33.82",
+    "marketCap": "4593077583",
+    "name": "Vishay Intertechnology Inc",
+    "peRatio": "162.55",
+    "price": "34.08",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "141282000",
+    "status": "ok",
+    "symbol": "VSH"
+  },
   "VST": {
     "industry": "UTILITIES - INDEPENDENT POWER PRODUCERS",
     "ma150": "154.11",
@@ -11932,6 +12096,20 @@
     "quoted_at": "2026-09-19T07:47:32+00:00",
     "sector": "UTILITIES",
     "symbol": "VST"
+  },
+  "VSXY": {
+    "fetched_at": "2026-09-20T08:12:09+00:00",
+    "industry": "APPAREL RETAIL",
+    "ma150": "67.30",
+    "marketCap": "6216008544",
+    "name": "Victoria's Secret & Co",
+    "peRatio": "17.4",
+    "price": "84.78",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "79764000",
+    "status": "ok",
+    "symbol": "VSXY"
   },
   "VTR": {
     "industry": "REIT - HEALTHCARE FACILITIES",
@@ -12079,6 +12257,20 @@
     "sector": "ENERGY",
     "symbol": "WES"
   },
+  "WEX": {
+    "fetched_at": "2026-09-20T08:12:21+00:00",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "ma150": "162.36",
+    "marketCap": "6597175562",
+    "name": "Wex Inc",
+    "peRatio": "19.49",
+    "price": "185.58",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "34081600",
+    "status": "ok",
+    "symbol": "WEX"
+  },
   "WF": {
     "industry": "BANKS - REGIONAL",
     "marketCap": "13444844000",
@@ -12097,6 +12289,20 @@
     "sector": "FINANCIAL SERVICES",
     "symbol": "WFC"
   },
+  "WING": {
+    "fetched_at": "2026-09-20T08:12:33+00:00",
+    "industry": "RESTAURANTS",
+    "ma150": "157.92",
+    "marketCap": "2835399450",
+    "name": "Wingstop Inc",
+    "peRatio": "24.61",
+    "price": "121.90",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "27242500",
+    "status": "ok",
+    "symbol": "WING"
+  },
   "WIT": {
     "industry": "INFORMATION TECHNOLOGY SERVICES",
     "marketCap": "29463880000",
@@ -12104,6 +12310,20 @@
     "price": "2.671",
     "sector": "TECHNOLOGY",
     "symbol": "WIT"
+  },
+  "WIX": {
+    "fetched_at": "2026-09-20T08:12:45+00:00",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "ma150": "67.97",
+    "marketCap": "3284767166",
+    "name": "Wix.Com Ltd",
+    "peRatio": "",
+    "price": "69.18",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "41849500",
+    "status": "ok",
+    "symbol": "WIX"
   },
   "WLK": {
     "industry": "SPECIALTY CHEMICALS",
@@ -12160,6 +12380,20 @@
     "quoted_at": "2026-09-19T07:47:32+00:00",
     "sector": "CONSUMER DEFENSIVE",
     "symbol": "WMT"
+  },
+  "WOLF": {
+    "fetched_at": "2026-09-20T08:12:57+00:00",
+    "industry": "SEMICONDUCTORS",
+    "ma150": "32.64",
+    "marketCap": "1354504298",
+    "name": "Wolfspeed, Inc.",
+    "peRatio": "",
+    "price": "27.69",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "52931000",
+    "status": "ok",
+    "symbol": "WOLF"
   },
   "WPC": {
     "industry": "REIT - DIVERSIFIED",
@@ -12249,6 +12483,20 @@
     "sector": "FINANCIAL SERVICES",
     "symbol": "WTW"
   },
+  "WULF": {
+    "fetched_at": "2026-09-20T08:13:09+00:00",
+    "industry": "CAPITAL MARKETS",
+    "ma150": "19.44",
+    "marketCap": "8487462804",
+    "name": "Terawulf Inc",
+    "peRatio": "",
+    "price": "17.18",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "FINANCIAL SERVICES",
+    "sharesOutstanding": "498969000",
+    "status": "ok",
+    "symbol": "WULF"
+  },
   "WWD": {
     "industry": "AEROSPACE & DEFENSE",
     "ma150": "374.03",
@@ -12279,6 +12527,19 @@
     "sector": "CONSUMER CYCLICAL",
     "symbol": "WYNN"
   },
+  "XE": {
+    "fetched_at": "2026-09-20T08:13:21+00:00",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "4533228562",
+    "name": "X-Energy, Inc. Class A Common Stock",
+    "peRatio": "",
+    "price": "17.49",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "INDUSTRIALS",
+    "sharesOutstanding": "287459000",
+    "status": "ok",
+    "symbol": "XE"
+  },
   "XEL": {
     "industry": "UTILITIES - REGULATED ELECTRIC",
     "ma150": "78.33",
@@ -12298,6 +12559,20 @@
     "quoted_at": "2026-09-19T07:47:32+00:00",
     "sector": "ENERGY",
     "symbol": "XOM"
+  },
+  "XP": {
+    "fetched_at": "2026-09-20T08:13:33+00:00",
+    "industry": "CAPITAL MARKETS",
+    "ma150": "17.96",
+    "marketCap": "8117877003",
+    "name": "Xp Inc",
+    "peRatio": "10.16",
+    "price": "17.51",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "FINANCIAL SERVICES",
+    "sharesOutstanding": "405691000",
+    "status": "ok",
+    "symbol": "XP"
   },
   "XPEV": {
     "industry": "AUTO MANUFACTURERS",
@@ -12406,6 +12681,20 @@
     "quoted_at": "2026-09-19T07:47:32+00:00",
     "sector": "TECHNOLOGY",
     "symbol": "ZBRA"
+  },
+  "ZETA": {
+    "fetched_at": "2026-09-20T08:13:45+00:00",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "ma150": "21.04",
+    "marketCap": "6820462267",
+    "name": "Zeta Global Holdings Corp",
+    "peRatio": "0",
+    "price": "26.62",
+    "quoted_at": "2026-09-20T08:15:42+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "225619000",
+    "status": "ok",
+    "symbol": "ZETA"
   },
   "ZG": {
     "industry": "INTERNET CONTENT & INFORMATION",
