@@ -154,14 +154,16 @@
     "symbol": "ABNB"
   },
   "ABT": {
-    "fetched_at": "2026-09-09T07:52:34+00:00",
+    "fetched_at": "2026-09-21T08:30:00+00:00",
     "industry": "MEDICAL DEVICES",
     "ma150": "99.66",
-    "marketCap": "187452441000",
+    "marketCap": "177554600686",
     "name": "Abbott Laboratories",
+    "peRatio": "33.21",
     "price": "105.98",
-    "quoted_at": "2026-09-19T07:47:32+00:00",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
     "sector": "HEALTHCARE",
+    "sharesOutstanding": "1730383000",
     "status": "ok",
     "symbol": "ABT"
   },
@@ -180,14 +182,16 @@
     "symbol": "ABVX"
   },
   "ACGL": {
-    "fetched_at": "2026-09-09T07:52:46+00:00",
+    "fetched_at": "2026-09-21T08:30:12+00:00",
     "industry": "INSURANCE - DIVERSIFIED",
     "ma150": "96.74",
-    "marketCap": "33474576000",
+    "marketCap": "33061677602",
     "name": "Arch Capital Group Ltd.",
+    "peRatio": "7.58",
     "price": "99.42",
-    "quoted_at": "2026-09-19T07:47:32+00:00",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
     "sector": "FINANCIAL SERVICES",
+    "sharesOutstanding": "341229000",
     "status": "ok",
     "symbol": "ACGL"
   },
@@ -206,38 +210,58 @@
     "symbol": "ACHR"
   },
   "ACM": {
-    "fetched_at": "2026-09-09T07:52:58+00:00",
+    "fetched_at": "2026-09-21T08:30:24+00:00",
     "industry": "ENGINEERING & CONSTRUCTION",
     "ma150": "76.16",
-    "marketCap": "8568608000",
+    "marketCap": "7977865256",
     "name": "Aecom Technology Corporation",
+    "peRatio": "21.83",
     "price": "67.54",
-    "quoted_at": "2026-09-19T07:47:32+00:00",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
     "sector": "INDUSTRIALS",
+    "sharesOutstanding": "128696000",
     "status": "ok",
     "symbol": "ACM"
   },
   "ACN": {
-    "fetched_at": "2026-09-09T07:53:10+00:00",
+    "fetched_at": "2026-09-21T08:30:36+00:00",
     "industry": "INFORMATION TECHNOLOGY SERVICES",
     "ma150": "175.94",
-    "marketCap": "109555991000",
+    "marketCap": "110938961072",
     "name": "Accenture plc",
+    "peRatio": "14.47",
     "price": "170.99",
-    "quoted_at": "2026-09-19T07:47:32+00:00",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
     "sector": "TECHNOLOGY",
+    "sharesOutstanding": "611942000",
     "status": "ok",
     "symbol": "ACN"
   },
+  "ACVA": {
+    "fetched_at": "2026-09-21T08:26:23+00:00",
+    "industry": "AUTO & TRUCK DEALERSHIPS",
+    "ma150": "6.33",
+    "marketCap": "1779587762",
+    "name": "ACV Auctions Inc.",
+    "peRatio": "",
+    "price": "7.82",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "169808000",
+    "status": "ok",
+    "symbol": "ACVA"
+  },
   "ADBE": {
-    "fetched_at": "2026-09-09T07:53:22+00:00",
+    "fetched_at": "2026-09-21T08:30:48+00:00",
     "industry": "SOFTWARE - APPLICATION",
     "ma150": "246.94",
-    "marketCap": "105937732000",
+    "marketCap": "98945699272",
     "name": "Adobe Systems Incorporated",
+    "peRatio": "13.89",
     "price": "256.06",
-    "quoted_at": "2026-09-19T07:47:32+00:00",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
     "sector": "TECHNOLOGY",
+    "sharesOutstanding": "397500000",
     "status": "ok",
     "symbol": "ADBE"
   },
@@ -256,26 +280,30 @@
     "symbol": "ADC"
   },
   "ADI": {
-    "fetched_at": "2026-09-09T07:53:35+00:00",
+    "fetched_at": "2026-09-21T08:31:00+00:00",
     "industry": "SEMICONDUCTORS",
     "ma150": "371.91",
-    "marketCap": "175533834000",
+    "marketCap": "182060762392",
     "name": "Analog Devices Inc",
+    "peRatio": "44.62",
     "price": "372.56",
-    "quoted_at": "2026-09-19T07:47:32+00:00",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
     "sector": "TECHNOLOGY",
+    "sharesOutstanding": "484565000",
     "status": "ok",
     "symbol": "ADI"
   },
   "ADM": {
-    "fetched_at": "2026-09-09T07:53:47+00:00",
+    "fetched_at": "2026-09-21T08:31:12+00:00",
     "industry": "FARM PRODUCTS",
     "ma150": "76.29",
-    "marketCap": "40778600000",
+    "marketCap": "41053352947",
     "name": "Archer-Daniels-Midland Company",
+    "peRatio": "23.27",
     "price": "82.22",
-    "quoted_at": "2026-09-19T07:47:32+00:00",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
     "sector": "CONSUMER DEFENSIVE",
+    "sharesOutstanding": "481960000",
     "status": "ok",
     "symbol": "ADM"
   },
@@ -885,6 +913,20 @@
     "sector": "CONSUMER CYCLICAL",
     "symbol": "AMZN"
   },
+  "AN": {
+    "fetched_at": "2026-09-21T08:26:35+00:00",
+    "industry": "AUTO & TRUCK DEALERSHIPS",
+    "ma150": "197.65",
+    "marketCap": "5563801810",
+    "name": "AutoNation Inc",
+    "peRatio": "7.8",
+    "price": "204.33",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "33060800",
+    "status": "ok",
+    "symbol": "AN"
+  },
   "ANET": {
     "industry": "COMPUTER HARDWARE",
     "ma150": "162.62",
@@ -1226,6 +1268,20 @@
     "quoted_at": "2026-09-19T07:47:32+00:00",
     "sector": "BASIC MATERIALS",
     "symbol": "AU"
+  },
+  "AUGO": {
+    "fetched_at": "2026-09-21T08:26:47+00:00",
+    "industry": "GOLD",
+    "ma150": "74.58",
+    "marketCap": "7398615250",
+    "name": "Aura Minerals Inc. Common Shares",
+    "peRatio": "24.72",
+    "price": "72.27",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "BASIC MATERIALS",
+    "sharesOutstanding": "83837000",
+    "status": "ok",
+    "symbol": "AUGO"
   },
   "AUR": {
     "industry": "INFORMATION TECHNOLOGY SERVICES",
@@ -2170,6 +2226,20 @@
     "sharesOutstanding": "203666000",
     "status": "ok",
     "symbol": "BWA"
+  },
+  "BWIN": {
+    "fetched_at": "2026-09-21T08:26:59+00:00",
+    "industry": "INSURANCE BROKERS",
+    "ma150": "24.13",
+    "marketCap": "3092069300",
+    "name": "The Baldwin Insurance Group, Inc.",
+    "peRatio": "",
+    "price": "29.36",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "FINANCIAL SERVICES",
+    "sharesOutstanding": "96839000",
+    "status": "ok",
+    "symbol": "BWIN"
   },
   "BWXT": {
     "industry": "AEROSPACE & DEFENSE",
@@ -3189,6 +3259,20 @@
     "quoted_at": "2026-09-19T07:47:32+00:00",
     "sector": "INDUSTRIALS",
     "symbol": "CRS"
+  },
+  "CRSP": {
+    "fetched_at": "2026-09-21T08:27:11+00:00",
+    "industry": "BIOTECHNOLOGY",
+    "ma150": "52.97",
+    "marketCap": "5468956213",
+    "name": "Crispr Therapeutics AG",
+    "peRatio": "",
+    "price": "53.03",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "96693000",
+    "status": "ok",
+    "symbol": "CRSP"
   },
   "CRUS": {
     "fetched_at": "2026-09-12T07:36:06+00:00",
@@ -5861,6 +5945,20 @@
     "status": "ok",
     "symbol": "HRB"
   },
+  "HRI": {
+    "fetched_at": "2026-09-21T08:27:23+00:00",
+    "industry": "RENTAL & LEASING SERVICES",
+    "ma150": "135.71",
+    "marketCap": "4521930980",
+    "name": "Herc Holdings Inc",
+    "peRatio": "79.56",
+    "price": "153.31",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "INDUSTRIALS",
+    "sharesOutstanding": "33431400",
+    "status": "ok",
+    "symbol": "HRI"
+  },
   "HRL": {
     "industry": "PACKAGED FOODS",
     "ma150": "22.86",
@@ -6145,6 +6243,19 @@
     "price": "25.09",
     "sector": "FINANCIAL SERVICES",
     "symbol": "ING"
+  },
+  "INIO": {
+    "fetched_at": "2026-09-21T08:27:35+00:00",
+    "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+    "marketCap": "15862499714",
+    "name": "INNIO N.V. Ordinary Shares",
+    "peRatio": "705",
+    "price": "24.60",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "INDUSTRIALS",
+    "sharesOutstanding": "750000000",
+    "status": "ok",
+    "symbol": "INIO"
   },
   "INSM": {
     "industry": "BIOTECHNOLOGY",
@@ -6510,6 +6621,20 @@
     "sector": "FINANCIAL SERVICES",
     "symbol": "JPM"
   },
+  "JXN": {
+    "fetched_at": "2026-09-21T08:27:47+00:00",
+    "industry": "INSURANCE - LIFE",
+    "ma150": "114.29",
+    "marketCap": "8985606306",
+    "name": "Jackson Financial Inc",
+    "peRatio": "144.21",
+    "price": "129.26",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "FINANCIAL SERVICES",
+    "sharesOutstanding": "67729000",
+    "status": "ok",
+    "symbol": "JXN"
+  },
   "K": {
     "industry": "PACKAGED FOODS",
     "marketCap": "29101087000",
@@ -6751,6 +6876,20 @@
     "sharesOutstanding": "132534000",
     "status": "ok",
     "symbol": "KRMN"
+  },
+  "KRYS": {
+    "fetched_at": "2026-09-21T08:27:59+00:00",
+    "industry": "BIOTECHNOLOGY",
+    "ma150": "308.70",
+    "marketCap": "9965028393",
+    "name": "Krystal Biotech Inc",
+    "peRatio": "42.19",
+    "price": "344.20",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "29598800",
+    "status": "ok",
+    "symbol": "KRYS"
   },
   "KSPI": {
     "industry": "SOFTWARE - INFRASTRUCTURE",
@@ -7806,6 +7945,20 @@
     "status": "ok",
     "symbol": "MTDR"
   },
+  "MTN": {
+    "fetched_at": "2026-09-21T08:28:11+00:00",
+    "industry": "RESORTS & CASINOS",
+    "ma150": "135.22",
+    "marketCap": "4981563409",
+    "name": "Vail Resorts Inc",
+    "peRatio": "30.13",
+    "price": "145.34",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "35633500",
+    "status": "ok",
+    "symbol": "MTN"
+  },
   "MTSI": {
     "fetched_at": "2026-09-16T08:13:29+00:00",
     "industry": "SEMICONDUCTORS",
@@ -7875,6 +8028,20 @@
     "sharesOutstanding": "90693000",
     "status": "ok",
     "symbol": "MXL"
+  },
+  "NAVN": {
+    "fetched_at": "2026-09-21T08:28:24+00:00",
+    "industry": "SOFTWARE - APPLICATION",
+    "ma150": "19.59",
+    "marketCap": "5240270310",
+    "name": "Navan, Inc. Class A Common Stock",
+    "peRatio": "",
+    "price": "26.60",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "245331000",
+    "status": "ok",
+    "symbol": "NAVN"
   },
   "NBIS": {
     "industry": "INTERNET CONTENT & INFORMATION",
@@ -8145,6 +8312,20 @@
     "quoted_at": "2026-09-19T07:47:32+00:00",
     "sector": "FINANCIAL SERVICES",
     "symbol": "NTRS"
+  },
+  "NTSK": {
+    "fetched_at": "2026-09-21T08:28:36+00:00",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "ma150": "11.61",
+    "marketCap": "4672191089",
+    "name": "Netskope, Inc. Class A Common Stock",
+    "peRatio": "",
+    "price": "14.24",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "267135000",
+    "status": "ok",
+    "symbol": "NTSK"
   },
   "NU": {
     "industry": "BANKS - REGIONAL",
@@ -8469,6 +8650,20 @@
     "sharesOutstanding": "964737000",
     "status": "ok",
     "symbol": "OPEN"
+  },
+  "ORA": {
+    "fetched_at": "2026-09-21T08:28:48+00:00",
+    "industry": "UTILITIES - RENEWABLE",
+    "ma150": "113.87",
+    "marketCap": "5986117755",
+    "name": "Ormat Technologies Inc",
+    "peRatio": "47.72",
+    "price": "103.79",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "UTILITIES",
+    "sharesOutstanding": "61497000",
+    "status": "ok",
+    "symbol": "ORA"
   },
   "ORCL": {
     "industry": "SOFTWARE - INFRASTRUCTURE",
@@ -9339,6 +9534,20 @@
     "sector": "CONSUMER CYCLICAL",
     "symbol": "RACE"
   },
+  "RARE": {
+    "fetched_at": "2026-09-21T08:29:00+00:00",
+    "industry": "BIOTECHNOLOGY",
+    "ma150": "24.27",
+    "marketCap": "1430526413",
+    "name": "Ultragenyx",
+    "peRatio": "",
+    "price": "24.25",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "98589000",
+    "status": "ok",
+    "symbol": "RARE"
+  },
   "RBA": {
     "industry": "SPECIALTY BUSINESS SERVICES",
     "ma150": "100.50",
@@ -10170,6 +10379,20 @@
     "sector": "BASIC MATERIALS",
     "symbol": "SHW"
   },
+  "SIG": {
+    "fetched_at": "2026-09-21T08:29:12+00:00",
+    "industry": "LUXURY GOODS",
+    "ma150": "88.26",
+    "marketCap": "3846280431",
+    "name": "Signet Jewelers Ltd",
+    "peRatio": "11.66",
+    "price": "90.68",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "38317200",
+    "status": "ok",
+    "symbol": "SIG"
+  },
   "SIMO": {
     "fetched_at": "2026-09-18T07:53:35+00:00",
     "industry": "SEMICONDUCTORS",
@@ -10567,6 +10790,20 @@
     "quoted_at": "2026-09-19T07:47:32+00:00",
     "sector": "UTILITIES",
     "symbol": "SRE"
+  },
+  "SRRK": {
+    "fetched_at": "2026-09-21T08:29:24+00:00",
+    "industry": "BIOTECHNOLOGY",
+    "ma150": "49.33",
+    "marketCap": "5681270436",
+    "name": "Scholar Rock Holding Corp",
+    "peRatio": "",
+    "price": "52.87",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "121785000",
+    "status": "ok",
+    "symbol": "SRRK"
   },
   "SSB": {
     "industry": "BANKS - REGIONAL",
@@ -12289,6 +12526,20 @@
     "sector": "FINANCIAL SERVICES",
     "symbol": "WFC"
   },
+  "WHR": {
+    "fetched_at": "2026-09-21T08:29:36+00:00",
+    "industry": "FURNISHINGS, FIXTURES & APPLIANCES",
+    "ma150": "47.36",
+    "marketCap": "2084411985",
+    "name": "Whirlpool Corporation",
+    "peRatio": "10.52",
+    "price": "38.88",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "65199000",
+    "status": "ok",
+    "symbol": "WHR"
+  },
   "WING": {
     "fetched_at": "2026-09-20T08:12:33+00:00",
     "industry": "RESTAURANTS",
@@ -12703,6 +12954,20 @@
     "price": "71.57",
     "sector": "COMMUNICATION SERVICES",
     "symbol": "ZG"
+  },
+  "ZION": {
+    "fetched_at": "2026-09-21T08:29:48+00:00",
+    "industry": "BANKS - REGIONAL",
+    "ma150": "63.67",
+    "marketCap": "9520514680",
+    "name": "Zions Bancorporation",
+    "peRatio": "8.31",
+    "price": "69.17",
+    "quoted_at": "2026-09-21T08:32:13+00:00",
+    "sector": "FINANCIAL SERVICES",
+    "sharesOutstanding": "145953000",
+    "status": "ok",
+    "symbol": "ZION"
   },
   "ZM": {
     "industry": "SOFTWARE - APPLICATION",
