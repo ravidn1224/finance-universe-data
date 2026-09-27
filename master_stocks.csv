@@ -193,38 +193,38 @@ CBRE,CBRE Group Inc Class A,Real Estate,Real Estate Services,38962317134,144.81,
 CBRS,Cerebras Systems Inc. Class A Common Stock,Technology,Semiconductors,23207067250,202.71,,,2026-09-26T08:17:25+00:00
 CCEP,Coca-Cola European Partners PLC,Consumer Defensive,Beverages - Non-Alcoholic,44769746797,106.15,19.59,100.12,2026-09-26T08:17:25+00:00
 CCI,Crown Castle,Real Estate,Reit - Specialty,28862865642,74.06,28.66,80.66,2026-09-26T08:17:25+00:00
-CCJ,Cameco Corp,Energy,Uranium,38648070000,94.77,,105.09,2026-09-26T08:17:25+00:00
-CCK,Crown Holdings Inc,Consumer Cyclical,Packaging & Containers,11268649000,116.10,,107.42,2026-09-26T08:17:25+00:00
-CCL,Carnival Corporation,Consumer Cyclical,Travel Services,34954641000,25.37,,26.38,2026-09-26T08:17:25+00:00
-CDE,Coeur Mining Inc,Basic Materials,Gold,11091103000,18.64,,18.77,2026-09-26T08:17:25+00:00
-CDNS,Cadence Design Systems Inc,Technology,Software - Application,84973273000,318.38,,330.84,2026-09-26T08:17:25+00:00
-CDW,CDW Corp,Technology,Information Technology Services,18901580000,141.97,,130.38,2026-09-26T08:17:25+00:00
-CEG,Constellation Energy Corp,Utilities,Utilities - Independent Power Producers,113828086000,271.76,,280.35,2026-09-26T08:17:25+00:00
-CELH,Celsius Holdings Inc,Consumer Defensive,Beverages - Non-Alcoholic,10553730000,29.48,,32.96,2026-09-26T08:17:25+00:00
+CCJ,Cameco Corp,Energy,Uranium,38357391177,94.77,154.51,105.09,2026-09-27T08:54:38+00:00
+CCK,Crown Holdings Inc,Consumer Cyclical,Packaging & Containers,11752713394,116.10,15.53,107.42,2026-09-27T08:54:38+00:00
+CCL,Carnival Corporation,Consumer Cyclical,Travel Services,30474690250,25.37,10.02,26.38,2026-09-27T08:54:38+00:00
+CDE,Coeur Mining Inc,Basic Materials,Gold,19756909994,18.64,16.15,18.77,2026-09-27T08:54:38+00:00
+CDNS,Cadence Design Systems Inc,Technology,Software - Application,89951873427,318.38,64.97,330.84,2026-09-27T08:54:38+00:00
+CDW,CDW Corp,Technology,Information Technology Services,16931051394,141.97,16.26,130.38,2026-09-27T08:54:38+00:00
+CEG,Constellation Energy Corp,Utilities,Utilities - Independent Power Producers,93278399997,271.76,25.71,280.35,2026-09-27T08:54:38+00:00
+CELH,Celsius Holdings Inc,Consumer Defensive,Beverages - Non-Alcoholic,7082449592,29.48,121.7,32.96,2026-09-27T08:54:38+00:00
 CENX,Century Aluminum Company,Basic Materials,Aluminum,3800341210,44.62,7.66,52.54,2026-09-26T08:17:25+00:00
-CF,CF Industries Holdings Inc,Basic Materials,Agricultural Inputs,12747271000,125.09,,119.41,2026-09-26T08:17:25+00:00
-CFG,"Citizens Financial Group, Inc.",Financial Services,Banks - Regional,23335979000,70.53,,65.58,2026-09-26T08:17:25+00:00
-CG,Carlyle Group Inc,Financial Services,Asset Management,19723768000,45.75,,46.33,2026-09-26T08:17:25+00:00
+CF,CF Industries Holdings Inc,Basic Materials,Agricultural Inputs,17353928183,125.09,8.51,119.41,2026-09-27T08:54:38+00:00
+CFG,"Citizens Financial Group, Inc.",Financial Services,Banks - Regional,27599728296,70.53,14.28,65.58,2026-09-27T08:54:38+00:00
+CG,Carlyle Group Inc,Financial Services,Asset Management,14264009555,45.75,41.7,46.33,2026-09-27T08:54:38+00:00
 CGNX,Cognex Corporation,Technology,Scientific & Technical Instruments,9868019814,62.16,59.32,59.79,2026-09-26T08:17:25+00:00
-CHD,Church & Dwight Company Inc,Consumer Defensive,Household & Personal Products,20745718000,98.56,,96.97,2026-09-26T08:17:25+00:00
-CHKP,Check Point Software Technologies Ltd,Technology,Software - Infrastructure,20239989000,132.40,,135.34,2026-09-26T08:17:25+00:00
+CHD,Church & Dwight Company Inc,Consumer Defensive,Household & Personal Products,22861720868,98.56,30.89,96.97,2026-09-27T08:54:38+00:00
+CHKP,Check Point Software Technologies Ltd,Technology,Software - Infrastructure,13399735801,132.40,13.47,135.34,2026-09-27T08:54:38+00:00
 CHRD,Chord Energy Corp,Energy,Oil & Gas E&P,7453696694,140.73,10.1,132.66,2026-09-26T08:17:25+00:00
-CHRW,CH Robinson Worldwide Inc,Industrials,Integrated Freight & Logistics,18768452000,156.47,,170.51,2026-09-26T08:17:25+00:00
-CHTR,Charter Communications Inc,Communication Services,Telecom Services,27334588000,142.07,,166.19,2026-09-26T08:17:25+00:00
-CHWY,Chewy Inc,Consumer Cyclical,Internet Retail,14423291000,22.23,,22.93,2026-09-26T08:17:25+00:00
+CHRW,CH Robinson Worldwide Inc,Industrials,Integrated Freight & Logistics,17188782813,156.47,28.13,170.51,2026-09-27T08:54:38+00:00
+CHTR,Charter Communications Inc,Communication Services,Telecom Services,12923453199,142.07,2.938,166.19,2026-09-27T08:54:38+00:00
+CHWY,Chewy Inc,Consumer Cyclical,Internet Retail,4118953333,22.23,28.11,22.93,2026-09-27T08:54:38+00:00
 CHYM,"Chime Financial, Inc. Class A Common Stock",Technology,Software - Application,9293195838,29.19,6.43,23.01,2026-09-26T08:17:25+00:00
-CI,Cigna Corp,Healthcare,Healthcare Plans,74068648000,279.24,,278.28,2026-09-26T08:17:25+00:00
-CIEN,Ciena Corp,Technology,Communication Equipment,28868600000,376.87,,433.46,2026-09-26T08:17:25+00:00
+CI,Cigna Corp,Healthcare,Healthcare Plans,71875924980,279.24,11.24,278.28,2026-09-27T08:54:38+00:00
+CIEN,Ciena Corp,Technology,Communication Equipment,50613050709,376.87,79.67,433.46,2026-09-27T08:54:38+00:00
 CIFR,Cipher Mining Inc,Technology,Information Technology Services,7358499440,18.21,,18.98,2026-09-26T08:17:25+00:00
-CINF,Cincinnati Financial Corporation,Financial Services,Insurance - Property & Casualty,26207123000,172.20,,167.25,2026-09-26T08:17:25+00:00
-CL,Colgate-Palmolive Company,Consumer Defensive,Household & Personal Products,64972870000,90.23,,88.89,2026-09-26T08:17:25+00:00
+CINF,Cincinnati Financial Corporation,Financial Services,Insurance - Property & Casualty,24946313090,172.20,7.67,167.25,2026-09-27T08:54:38+00:00
+CL,Colgate-Palmolive Company,Consumer Defensive,Household & Personal Products,68604706434,90.23,33.88,88.89,2026-09-27T08:54:38+00:00
 CLF,Cleveland-Cliffs Inc,Basic Materials,Steel,6949177374,11.74,,10.85,2026-09-26T08:17:25+00:00
-CLH,Clean Harbors Inc,Industrials,Waste Management,12204636000,314.29,,300.65,2026-09-26T08:17:25+00:00
-CLS,Celestica Inc.,Technology,Electronic Components,39619764000,325.67,,338.63,2026-09-26T08:17:25+00:00
+CLH,Clean Harbors Inc,Industrials,Waste Management,16524442931,314.29,37.99,300.65,2026-09-27T08:54:38+00:00
+CLS,Celestica Inc.,Technology,Electronic Components,46086004148,325.67,37.91,338.63,2026-09-27T08:54:38+00:00
 CLSK,CleanSpark Inc,Financial Services,Capital Markets,3582597101,13.12,,12.91,2026-09-26T08:17:25+00:00
-CLX,The Clorox Company,Consumer Defensive,Household & Personal Products,13166562000,96.67,,98.18,2026-09-26T08:17:25+00:00
-CM,Canadian Imperial Bank Of Commerce,Financial Services,Banks - Diversified,80063660000,116.96,,109.96,2026-09-26T08:17:25+00:00
-CMCSA,Comcast Corp,Communication Services,Telecom Services,98544992000,24.86,,25.84,2026-09-26T08:17:25+00:00
+CLX,The Clorox Company,Consumer Defensive,Household & Personal Products,10134018169,96.67,17.87,98.18,2026-09-27T08:54:38+00:00
+CM,Canadian Imperial Bank Of Commerce,Financial Services,Banks - Diversified,103141414615,116.96,15.33,109.96,2026-09-27T08:54:38+00:00
+CMCSA,Comcast Corp,Communication Services,Telecom Services,77543696180,24.86,7.02,25.84,2026-09-27T08:54:38+00:00
 CME,CME Group Inc,Financial Services,Financial Data & Stock Exchanges,101494407000,267.88,,274.94,2026-09-26T08:17:25+00:00
 CMG,Chipotle Mexican Grill Inc,Consumer Cyclical,Restaurants,46287352000,34.78,,33.85,2026-09-26T08:17:25+00:00
 CMI,Cummins Inc,Industrials,Specialty Industrial Machinery,68739293000,593.01,,616.47,2026-09-26T08:17:25+00:00
@@ -495,7 +495,7 @@ HST,Host Hotels & Resorts Inc,Real Estate,Reit - Hotel & Motel,12280643000,23.10
 HSY,Hershey Co,Consumer Defensive,Confectioners,38139826000,176.77,,187.84,2026-09-26T08:17:25+00:00
 HTFL,"Heartflow, Inc. Common Stock",Healthcare,Health Information Services,4275528021,39.59,,31.91,2026-09-26T08:17:25+00:00
 HTHT,Huazhu Group Ltd,Consumer Cyclical,Lodging,14183500000,43.34,,45.49,2026-09-26T08:17:25+00:00
-HUBB,Hubbell Inc,Industrials,Electrical Equipment & Parts,22928241000,473.80,,489.07,2026-09-26T08:17:25+00:00
+HUBB,Hubbell Inc,Industrials,Electrical Equipment & Parts,22928241000,473.52,,488.70,2026-09-27T08:54:38+00:00
 HUBS,HubSpot Inc,Technology,Software - Application,19355234000,231.32,,225.12,2026-09-26T08:17:25+00:00
 HUM,Humana Inc,Healthcare,Healthcare Plans,29559513000,386.74,,306.84,2026-09-26T08:17:25+00:00
 HUT,Hut 8 Corp. Common Stock,Financial Services,Capital Markets,11933936342,93.53,,87.81,2026-09-26T08:17:25+00:00
@@ -857,7 +857,7 @@ SF,Stifel Financial Corporation,Financial Services,Capital Markets,12465156000,7
 SFM,Sprouts Farmers Market LLC,Consumer Defensive,Grocery Stores,8190430000,78.33,,79.45,2026-09-26T08:17:25+00:00
 SGI,Somnigroup International Inc.,Consumer Cyclical,"Furnishings, Fixtures & Appliances",11660662000,66.38,,72.01,2026-09-26T08:17:25+00:00
 SHAZ,"SharonAI Holdings, Inc. Class A Common Stock",Technology,Information Technology Services,1950282507,58.43,,52.35,2026-09-26T08:17:25+00:00
-SHEL,Shell PLC ADR,Energy,Oil & Gas Integrated,210964382000,91.25,,86.96,2026-09-25T08:31:06+00:00
+SHEL,Shell PLC ADR,Energy,Oil & Gas Integrated,210964382000,91.48,,87.08,2026-09-27T08:54:38+00:00
 SHOP,Shopify Inc,Technology,Software - Application,206524367000,137.95,,124.20,2026-09-26T08:17:25+00:00
 SHW,Sherwin-Williams Co,Basic Materials,Specialty Chemicals,85693366000,338.15,,328.25,2026-09-26T08:17:25+00:00
 SIG,Signet Jewelers Ltd,Consumer Cyclical,Luxury Goods,3918316954,92.12,11.66,88.48,2026-09-26T08:17:25+00:00
