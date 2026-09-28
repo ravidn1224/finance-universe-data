@@ -209,6 +209,20 @@
     "status": "ok",
     "symbol": "ACHR"
   },
+  "ACI": {
+    "fetched_at": "2026-09-28T09:12:38+00:00",
+    "industry": "GROCERY STORES",
+    "ma150": "14.69",
+    "marketCap": "5715709297",
+    "name": "Albertsons Companies",
+    "peRatio": "72.94",
+    "price": "12.31",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
+    "sector": "CONSUMER DEFENSIVE",
+    "sharesOutstanding": "489778000",
+    "status": "ok",
+    "symbol": "ACI"
+  },
   "ACM": {
     "fetched_at": "2026-09-21T08:30:24+00:00",
     "industry": "ENGINEERING & CONSTRUCTION",
@@ -712,6 +726,20 @@
     "sharesOutstanding": "71040000",
     "status": "ok",
     "symbol": "ALGN"
+  },
+  "ALHC": {
+    "fetched_at": "2026-09-28T09:12:50+00:00",
+    "industry": "HEALTHCARE PLANS",
+    "ma150": "17.42",
+    "marketCap": "1703041358",
+    "name": "Alignment Healthcare LLC",
+    "peRatio": "43.21",
+    "price": "13.84",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "207435000",
+    "status": "ok",
+    "symbol": "ALHC"
   },
   "ALK": {
     "fetched_at": "2026-09-10T07:47:23+00:00",
@@ -1810,6 +1838,20 @@
     "sharesOutstanding": "516996000",
     "status": "ok",
     "symbol": "BAX"
+  },
+  "BB": {
+    "fetched_at": "2026-09-28T09:13:02+00:00",
+    "industry": "SOFTWARE - INFRASTRUCTURE",
+    "ma150": "7.07",
+    "marketCap": "4819532742",
+    "name": "BlackBerry Ltd",
+    "peRatio": "63.15",
+    "price": "8.32",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "587032000",
+    "status": "ok",
+    "symbol": "BB"
   },
   "BBD": {
     "fetched_at": "2026-09-25T08:25:38+00:00",
@@ -3397,43 +3439,59 @@
     "symbol": "CMCSA"
   },
   "CME": {
+    "fetched_at": "2026-09-28T09:15:27+00:00",
     "industry": "FINANCIAL DATA & STOCK EXCHANGES",
     "ma150": "274.94",
-    "marketCap": "101494407000",
+    "marketCap": "95100664430",
     "name": "CME Group Inc",
+    "peRatio": "22.41",
     "price": "267.88",
-    "quoted_at": "2026-09-26T08:17:25+00:00",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
     "sector": "FINANCIAL SERVICES",
+    "sharesOutstanding": "359576000",
+    "status": "ok",
     "symbol": "CME"
   },
   "CMG": {
+    "fetched_at": "2026-09-28T09:15:39+00:00",
     "industry": "RESTAURANTS",
     "ma150": "33.85",
-    "marketCap": "46287352000",
+    "marketCap": "39645545843",
     "name": "Chipotle Mexican Grill Inc",
+    "peRatio": "29.01",
     "price": "34.78",
-    "quoted_at": "2026-09-26T08:17:25+00:00",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
     "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "1265418000",
+    "status": "ok",
     "symbol": "CMG"
   },
   "CMI": {
+    "fetched_at": "2026-09-28T09:15:51+00:00",
     "industry": "SPECIALTY INDUSTRIAL MACHINERY",
     "ma150": "616.47",
-    "marketCap": "68739293000",
+    "marketCap": "72281859504",
     "name": "Cummins Inc",
+    "peRatio": "26.82",
     "price": "593.01",
-    "quoted_at": "2026-09-26T08:17:25+00:00",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
     "sector": "INDUSTRIALS",
+    "sharesOutstanding": "137664000",
+    "status": "ok",
     "symbol": "CMI"
   },
   "CMS": {
+    "fetched_at": "2026-09-28T09:16:03+00:00",
     "industry": "UTILITIES - REGULATED ELECTRIC",
     "ma150": "72.85",
-    "marketCap": "22957885000",
+    "marketCap": "19739672389",
     "name": "CMS Energy Corporation",
+    "peRatio": "18.96",
     "price": "69.26",
-    "quoted_at": "2026-09-26T08:17:25+00:00",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
     "sector": "UTILITIES",
+    "sharesOutstanding": "313577000",
+    "status": "ok",
     "symbol": "CMS"
   },
   "CNA": {
@@ -3445,73 +3503,101 @@
     "symbol": "CNA"
   },
   "CNC": {
+    "fetched_at": "2026-09-28T09:16:16+00:00",
     "industry": "HEALTHCARE PLANS",
     "ma150": "55.55",
-    "marketCap": "19336319000",
+    "marketCap": "30538770749",
     "name": "Centene Corp",
+    "peRatio": "",
     "price": "65.08",
-    "quoted_at": "2026-09-26T08:17:25+00:00",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
     "sector": "HEALTHCARE",
+    "sharesOutstanding": "493995000",
+    "status": "ok",
     "symbol": "CNC"
   },
   "CNH": {
+    "fetched_at": "2026-09-28T09:16:28+00:00",
     "industry": "FARM & HEAVY CONSTRUCTION MACHINERY",
     "ma150": "11.09",
-    "marketCap": "11795234000",
+    "marketCap": "16201833529",
     "name": "CNH Industrial N.V.",
+    "peRatio": "52.36",
     "price": "11.85",
-    "quoted_at": "2026-09-26T08:17:25+00:00",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
     "sector": "INDUSTRIALS",
+    "sharesOutstanding": "1237726000",
+    "status": "ok",
     "symbol": "CNH"
   },
   "CNI": {
+    "fetched_at": "2026-09-28T09:16:40+00:00",
     "industry": "RAILROADS",
     "ma150": "115.91",
-    "marketCap": "60070035000",
+    "marketCap": "73053813184",
     "name": "Canadian National Railway Company",
+    "peRatio": "21.99",
     "price": "124.58",
-    "quoted_at": "2026-09-26T08:17:25+00:00",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
     "sector": "INDUSTRIALS",
+    "sharesOutstanding": "604100000",
+    "status": "ok",
     "symbol": "CNI"
   },
   "CNM": {
+    "fetched_at": "2026-09-28T09:16:52+00:00",
     "industry": "INDUSTRIAL DISTRIBUTION",
     "ma150": "47.49",
-    "marketCap": "9579125000",
+    "marketCap": "7864692047",
     "name": "Core & Main Inc",
+    "peRatio": "17.55",
     "price": "43.87",
-    "quoted_at": "2026-09-26T08:17:25+00:00",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
     "sector": "INDUSTRIALS",
+    "sharesOutstanding": "184444000",
+    "status": "ok",
     "symbol": "CNM"
   },
   "CNP": {
+    "fetched_at": "2026-09-28T09:17:04+00:00",
     "industry": "UTILITIES - REGULATED ELECTRIC",
     "ma150": "41.80",
-    "marketCap": "26101674000",
+    "marketCap": "24267244901",
     "name": "CenterPoint Energy Inc",
+    "peRatio": "21.93",
     "price": "40.19",
-    "quoted_at": "2026-09-26T08:17:25+00:00",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
     "sector": "UTILITIES",
+    "sharesOutstanding": "658720000",
+    "status": "ok",
     "symbol": "CNP"
   },
   "CNQ": {
+    "fetched_at": "2026-09-28T09:17:16+00:00",
     "industry": "OIL & GAS E&P",
     "ma150": "45.68",
-    "marketCap": "70395281000",
+    "marketCap": "97735714685",
     "name": "Canadian Natural Resources Ltd",
+    "peRatio": "11.94",
     "price": "48.02",
-    "quoted_at": "2026-09-26T08:17:25+00:00",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
     "sector": "ENERGY",
+    "sharesOutstanding": "2061500000",
+    "status": "ok",
     "symbol": "CNQ"
   },
   "COF": {
+    "fetched_at": "2026-09-28T09:17:28+00:00",
     "industry": "CREDIT SERVICES",
     "ma150": "197.48",
-    "marketCap": "140099060000",
+    "marketCap": "122819695128",
     "name": "Capital One Financial Corporation",
+    "peRatio": "11.02",
     "price": "211.72",
-    "quoted_at": "2026-09-26T08:17:25+00:00",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
     "sector": "FINANCIAL SERVICES",
+    "sharesOutstanding": "613485000",
+    "status": "ok",
     "symbol": "COF"
   },
   "COHR": {
@@ -3949,6 +4035,20 @@
     "quoted_at": "2026-09-26T08:17:25+00:00",
     "sector": "BASIC MATERIALS",
     "symbol": "CTVA"
+  },
+  "CUBE": {
+    "fetched_at": "2026-09-28T09:13:14+00:00",
+    "industry": "REIT - INDUSTRIAL",
+    "ma150": "39.51",
+    "marketCap": "8515626771",
+    "name": "CubeSmart",
+    "peRatio": "25.73",
+    "price": "40.56",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
+    "sector": "REAL ESTATE",
+    "sharesOutstanding": "225162000",
+    "status": "ok",
+    "symbol": "CUBE"
   },
   "CUK": {
     "industry": "TRAVEL SERVICES",
@@ -4667,6 +4767,20 @@
     "sharesOutstanding": "260810000",
     "status": "ok",
     "symbol": "EGO"
+  },
+  "EGP": {
+    "fetched_at": "2026-09-28T09:13:27+00:00",
+    "industry": "REIT - INDUSTRIAL",
+    "ma150": "199.24",
+    "marketCap": "10836335190",
+    "name": "EastGroup Properties Inc",
+    "peRatio": "35.42",
+    "price": "204.08",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
+    "sector": "REAL ESTATE",
+    "sharesOutstanding": "53773000",
+    "status": "ok",
+    "symbol": "EGP"
   },
   "EHC": {
     "industry": "MEDICAL CARE FACILITIES",
@@ -5984,6 +6098,19 @@
     "sector": "FINANCIAL SERVICES",
     "symbol": "GL"
   },
+  "GLND": {
+    "fetched_at": "2026-09-28T09:13:39+00:00",
+    "industry": "OIL & GAS E&P",
+    "marketCap": "242265306",
+    "name": "Greenland Energy Company Common Stock",
+    "peRatio": "",
+    "price": "1.87",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
+    "sector": "ENERGY",
+    "sharesOutstanding": "43730200",
+    "status": "ok",
+    "symbol": "GLND"
+  },
   "GLPI": {
     "industry": "REIT - SPECIALTY",
     "ma150": "43.98",
@@ -6131,6 +6258,34 @@
     "quoted_at": "2026-09-26T08:17:25+00:00",
     "sector": "TECHNOLOGY",
     "symbol": "GRAB"
+  },
+  "GRAL": {
+    "fetched_at": "2026-09-28T09:13:51+00:00",
+    "industry": "DIAGNOSTICS & RESEARCH",
+    "ma150": "64.55",
+    "marketCap": "5667694091",
+    "name": "GRAIL, LLC",
+    "peRatio": "",
+    "price": "78.24",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "44666200",
+    "status": "ok",
+    "symbol": "GRAL"
+  },
+  "GRML": {
+    "fetched_at": "2026-09-28T09:14:03+00:00",
+    "industry": "OTHER PRECIOUS METALS & MINING",
+    "ma150": "14.96",
+    "marketCap": "111649093",
+    "name": "Greenland Mines Ltd",
+    "peRatio": "",
+    "price": "8.21",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
+    "sector": "BASIC MATERIALS",
+    "sharesOutstanding": "7615900",
+    "status": "ok",
+    "symbol": "GRML"
   },
   "GRMN": {
     "industry": "SCIENTIFIC & TECHNICAL INSTRUMENTS",
@@ -8102,6 +8257,20 @@
     "sector": "CONSUMER CYCLICAL",
     "symbol": "MGA"
   },
+  "MGM": {
+    "fetched_at": "2026-09-28T09:14:15+00:00",
+    "industry": "RESORTS & CASINOS",
+    "ma150": "41.30",
+    "marketCap": "8196900401",
+    "name": "MGM Resorts International",
+    "peRatio": "19.75",
+    "price": "42.45",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "251593000",
+    "status": "ok",
+    "symbol": "MGM"
+  },
   "MGY": {
     "fetched_at": "2026-09-16T08:11:29+00:00",
     "industry": "OIL & GAS E&P",
@@ -9139,6 +9308,20 @@
     "quoted_at": "2026-09-26T08:17:25+00:00",
     "sector": "TECHNOLOGY",
     "symbol": "ON"
+  },
+  "ONB": {
+    "fetched_at": "2026-09-28T09:14:27+00:00",
+    "industry": "BANKS - REGIONAL",
+    "ma150": "24.39",
+    "marketCap": "9751709212",
+    "name": "Old National Bancorp",
+    "peRatio": "11.28",
+    "price": "25.99",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
+    "sector": "FINANCIAL SERVICES",
+    "sharesOutstanding": "382570000",
+    "status": "ok",
+    "symbol": "ONB"
   },
   "ONC": {
     "industry": "BIOTECHNOLOGY",
@@ -10683,9 +10866,11 @@
   },
   "SAIL": {
     "industry": "SOFTWARE - INFRASTRUCTURE",
+    "ma150": "15.33",
     "marketCap": "11493562000",
     "name": "SailPoint, Inc. Common Stock",
-    "price": "20.29",
+    "price": "18.33",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
     "sector": "TECHNOLOGY",
     "symbol": "SAIL"
   },
@@ -11322,6 +11507,20 @@
     "quoted_at": "2026-09-26T08:17:25+00:00",
     "sector": "COMMUNICATION SERVICES",
     "symbol": "SPOT"
+  },
+  "SPXC": {
+    "fetched_at": "2026-09-28T09:14:39+00:00",
+    "industry": "BUILDING PRODUCTS & EQUIPMENT",
+    "ma150": "211.47",
+    "marketCap": "8654359604",
+    "name": "SPX Corp",
+    "peRatio": "30.42",
+    "price": "201.22",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
+    "sector": "INDUSTRIALS",
+    "sharesOutstanding": "50086000",
+    "status": "ok",
+    "symbol": "SPXC"
   },
   "SQM": {
     "industry": "SPECIALTY CHEMICALS",
@@ -12286,6 +12485,20 @@
     "sector": "TECHNOLOGY",
     "symbol": "TXN"
   },
+  "TXNM": {
+    "fetched_at": "2026-09-28T09:14:51+00:00",
+    "industry": "UTILITIES - REGULATED ELECTRIC",
+    "ma150": "57.82",
+    "marketCap": "6444573570",
+    "name": "TXNM Energy, Inc.",
+    "peRatio": "31.98",
+    "price": "57.74",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
+    "sector": "UTILITIES",
+    "sharesOutstanding": "110126000",
+    "status": "ok",
+    "symbol": "TXNM"
+  },
   "TXRH": {
     "industry": "RESTAURANTS",
     "ma150": "178.79",
@@ -12734,6 +12947,20 @@
     "sector": "COMMUNICATION SERVICES",
     "symbol": "VIV"
   },
+  "VKTX": {
+    "fetched_at": "2026-09-28T09:15:03+00:00",
+    "industry": "BIOTECHNOLOGY",
+    "ma150": "33.51",
+    "marketCap": "4427575771",
+    "name": "Viking Therapeutics Inc",
+    "peRatio": "",
+    "price": "33.87",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "124510000",
+    "status": "ok",
+    "symbol": "VKTX"
+  },
   "VLO": {
     "industry": "OIL & GAS REFINING & MARKETING",
     "ma150": "277.84",
@@ -13077,6 +13304,20 @@
     "quoted_at": "2026-09-26T08:17:25+00:00",
     "sector": "FINANCIAL SERVICES",
     "symbol": "WFC"
+  },
+  "WFRD": {
+    "fetched_at": "2026-09-28T09:15:15+00:00",
+    "industry": "OIL & GAS EQUIPMENT & SERVICES",
+    "ma150": "94.20",
+    "marketCap": "6084241091",
+    "name": "Weatherford International plc",
+    "peRatio": "16.78",
+    "price": "88.52",
+    "quoted_at": "2026-09-28T09:18:42+00:00",
+    "sector": "ENERGY",
+    "sharesOutstanding": "71512000",
+    "status": "ok",
+    "symbol": "WFRD"
   },
   "WHR": {
     "fetched_at": "2026-09-21T08:29:36+00:00",
