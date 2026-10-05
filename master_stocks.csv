@@ -9,7 +9,7 @@ ABBV,AbbVie Inc,Healthcare,Drug Manufacturers - General,464433702883,257.84,74.5
 ABNB,Airbnb Inc,Consumer Cyclical,Travel Services,68144254827,169.68,37.86,147.65,2026-10-03T08:51:51+00:00
 ABT,Abbott Laboratories,Healthcare,Medical Devices,168712342500,106.84,33.21,98.88,2026-10-03T08:51:51+00:00
 ABVX,Abivax SA American Depositary Shares,Healthcare,Biotechnology,8104151280,114.22,,116.20,2026-10-03T08:51:51+00:00
-ACA,,,,,,,,
+ACA,Arcosa Inc,Industrials,Engineering & Construction,7194146200,145.47,32.7,130.89,2026-10-05T09:57:46+00:00
 ACCV,,,,,,,,
 ACGL,Arch Capital Group Ltd.,Financial Services,Insurance - Diversified,31939033879,98.20,7.58,96.45,2026-10-03T08:51:51+00:00
 ACHR,Archer Aviation Inc,Industrials,Aerospace & Defense,3765431927,5.59,,5.68,2026-10-03T08:51:51+00:00
@@ -63,7 +63,7 @@ AMD,Advanced Micro Devices Inc,Technology,Semiconductors,1034842183409,513.53,14
 AME,Ametek Inc,Industrials,Specialty Industrial Machinery,57757722051,243.58,35.27,233.21,2026-10-03T08:51:51+00:00
 AMG,"Affiliated Managers Group, Inc.",Financial Services,Asset Management,9605142468,364.16,12.63,329.18,2026-10-03T08:51:51+00:00
 AMGN,Amgen Inc,Healthcare,Drug Manufacturers - General,217896325900,408.54,24.45,367.52,2026-10-03T08:51:51+00:00
-AMH,American Homes 4 Rent,Real Estate,Reit - Residential,13570149000,32.48,,,
+AMH,American Homes 4 Rent,Real Estate,Reit - Residential,10868786882,32.57,24.02,31.32,2026-10-05T09:57:46+00:00
 AMKR,Amkor Technology Inc,Technology,Semiconductor Equipment & Materials,13918281154,51.66,22.74,60.43,2026-10-03T08:51:51+00:00
 AMP,Ameriprise Financial Inc,Financial Services,Asset Management,43363553353,543.27,12.95,489.75,2026-10-03T08:51:51+00:00
 AMRZ,Amrize Ltd,Basic Materials,Building Materials,20378461842,43.69,18.81,50.47,2026-10-03T08:51:51+00:00
@@ -112,7 +112,7 @@ AXON,Axon Enterprise Inc.,Industrials,Aerospace & Defense,33579314446,529.79,189
 AXP,American Express Company,Financial Services,Credit Services,204470360976,327.45,19.01,322.50,2026-10-03T08:51:51+00:00
 AXSM,Axsome Therapeutics Inc,Healthcare,Biotechnology,9389294250,209.41,,208.46,2026-10-03T08:51:51+00:00
 AXTI,AXT Inc,Technology,Semiconductor Equipment & Materials,5630753690,68.23,2297.0,73.27,2026-10-03T08:51:51+00:00
-AYI,Acuity Brands Inc,Industrials,Electrical Equipment & Parts,11228880000,338.91,,309.19,2026-09-12T07:37:52+00:00
+AYI,Acuity Brands Inc,Industrials,Electrical Equipment & Parts,9242885272,330.36,20.49,308.53,2026-10-05T09:57:46+00:00
 AZN,AstraZeneca PLC,Healthcare,Drug Manufacturers - General,243335572934,163.34,25.21,179.14,2026-10-03T08:51:51+00:00
 AZO,AutoZone Inc,Consumer Cyclical,Auto Parts,45155501664,2963.65,19.27,3201.16,2026-10-03T08:51:51+00:00
 B,Barrick Mining Corporation,Basic Materials,Gold,66213912567,42.31,11.38,40.96,2026-10-03T08:51:51+00:00
@@ -162,7 +162,7 @@ BRK-B,Berkshire Hathaway Inc,Financial Services,Insurance - Diversified,70774878
 BRKR,Bruker Corporation,Healthcare,Medical Devices,9635183416,58.86,,50.45,2026-10-03T08:51:51+00:00
 BRO,Brown & Brown Inc,Financial Services,Insurance Brokers,20046485049,68.60,19.72,65.19,2026-10-03T08:51:51+00:00
 BROS,Dutch Bros Inc,Consumer Cyclical,Restaurants,5334178217,49.12,63.32,54.67,2026-10-03T08:51:51+00:00
-BRX,,,,,,,,
+BRX,Brixmor Property,Real Estate,Reit - Retail,8405223893,29.07,19.56,29.57,2026-10-05T09:57:46+00:00
 BSX,Boston Scientific Corp,Healthcare,Medical Devices,61737195789,46.88,18.02,53.04,2026-10-03T08:51:51+00:00
 BSY,Bentley Systems Inc,Technology,Software - Application,9365328807,34.22,35.44,33.67,2026-10-03T08:51:51+00:00
 BTDR,Bitdeer Technologies Group Class A Ordinary Shares,Technology,Software - Application,2505749744,10.93,,12.12,2026-10-03T08:51:51+00:00
@@ -415,7 +415,7 @@ FPS,"Forgent Power Solutions, Inc.",Industrials,Electrical Equipment & Parts,104
 FRMI,Fermi Inc.,Real Estate,Reit - Specialty,2581082144,5.54,,6.32,2026-10-04T09:17:28+00:00
 FRO,Frontline Ltd,Energy,Oil & Gas Midstream,11741137394,42.50,7.38,36.08,2026-10-03T08:51:51+00:00
 FROG,Jfrog Ltd,Technology,Software - Application,11775245500,89.74,,72.68,2026-10-03T08:51:51+00:00
-FRT,,,,,,,,
+FRT,Federal Realty Investment Trust,Real Estate,Reit - Retail,9270187622,115.28,21.55,113.62,2026-10-05T09:57:46+00:00
 FRVO,Fervo Energy Company Class A common stock,Utilities,Utilities - Renewable,4146832045,18.16,,,2026-10-03T08:51:51+00:00
 FSLR,First Solar Inc,Technology,Solar,18765336766,207.51,10.61,218.08,2026-10-04T09:17:28+00:00
 FSLY,"Fastly, Inc. Class A Common Stock",Technology,Software - Application,4111532915,24.29,,22.81,2026-10-03T08:51:51+00:00
@@ -443,13 +443,13 @@ GKOS,Glaukos Corp,Healthcare,Medical Devices,9658630000,171.99,,141.41,2026-10-0
 GLND,Greenland Energy Company Common Stock,Energy,Oil & Gas E&P,163113647,2.09,,,2026-10-03T08:51:51+00:00
 GLPI,Gaming & Leisure Properties,Real Estate,Reit - Specialty,10961828009,41.41,11.02,43.72,2026-10-04T09:17:28+00:00
 GLW,Corning Incorporated,Technology,Electronic Components,141431297823,152.80,75.66,164.61,2026-10-04T09:17:28+00:00
-GLXY,Galaxy Digital Holdings Ltd,Financial Services,Capital Markets,10739197000,23.00,,24.88,2026-10-03T08:51:51+00:00
-GM,General Motors Company,Consumer Cyclical,Auto Manufacturers,69996757000,85.31,,79.97,2026-10-03T08:51:51+00:00
-GME,GameStop Corp.,Consumer Cyclical,Specialty Retail,10091384000,20.52,,22.11,2026-10-03T08:51:51+00:00
+GLXY,Galaxy Digital Holdings Ltd,Financial Services,Capital Markets,4480373416,23.00,,24.88,2026-10-05T09:57:46+00:00
+GM,General Motors Company,Consumer Cyclical,Auto Manufacturers,70791455004,85.31,34.94,79.97,2026-10-05T09:57:46+00:00
+GME,GameStop Corp.,Consumer Cyclical,Specialty Retail,12461175085,20.52,16.25,22.11,2026-10-05T09:57:46+00:00
 GMED,Globus Medical,Healthcare,Medical Devices,8454499029,79.55,18.97,82.71,2026-10-03T08:51:51+00:00
-GNRC,Generac Holdings Inc,Industrials,Specialty Industrial Machinery,8898265000,200.80,,225.21,2026-10-03T08:51:51+00:00
-GOOG,Alphabet Inc Class C,Communication Services,Internet Content & Information,3864435360000,341.64,,342.71,2026-10-03T08:51:51+00:00
-GOOGL,Alphabet Inc Class A,Communication Services,Internet Content & Information,3878058983000,344.23,,344.94,2026-10-03T08:51:51+00:00
+GNRC,Generac Holdings Inc,Industrials,Specialty Industrial Machinery,12805075380,200.80,47.86,225.21,2026-10-05T09:57:46+00:00
+GOOG,Alphabet Inc Class C,Communication Services,Internet Content & Information,1881114483734,341.64,17.07,342.71,2026-10-05T09:57:46+00:00
+GOOGL,Alphabet Inc Class A,Communication Services,Internet Content & Information,2015368086000,344.23,17.24,344.94,2026-10-05T09:57:46+00:00
 GPC,Genuine Parts Co,Consumer Cyclical,Auto Parts,18140008000,131.38,,114.78,2026-10-03T08:51:51+00:00
 GPN,Global Payments Inc,Industrials,Specialty Business Services,18379915000,87.86,,76.26,2026-10-03T08:51:51+00:00
 GRAB,Grab Holdings Ltd,Technology,Software - Application,22274150000,3.36,,3.58,2026-10-03T08:51:51+00:00
@@ -502,7 +502,7 @@ IAG,IAMGold Corporation,Basic Materials,Gold,10574920261,18.75,10.23,17.97,2026-
 IBKR,Interactive Brokers Group Inc,Financial Services,Capital Markets,110529929000,90.60,,84.41,2026-10-03T08:51:51+00:00
 IBM,International Business Machines,Technology,Information Technology Services,288440582000,231.51,,242.79,2026-10-03T08:51:51+00:00
 IBN,ICICI Bank Limited,Financial Services,Banks - Regional,111625380000,29.30,,27.92,2026-10-03T08:51:51+00:00
-IBRX,,,,,,,,
+IBRX,Immunitybio Inc,Healthcare,Biotechnology,10900413098,8.00,,7.90,2026-10-05T09:57:46+00:00
 ICE,Intercontinental Exchange Inc,Financial Services,Financial Data & Stock Exchanges,90042155000,154.93,,151.13,2026-10-03T08:51:51+00:00
 ICLR,ICON PLC,Healthcare,Diagnostics & Research,14387844000,167.31,,141.62,2026-10-03T08:51:51+00:00
 IDXX,IDEXX Laboratories Inc,Healthcare,Diagnostics & Research,60233937000,543.80,,559.10,2026-10-03T08:51:51+00:00
@@ -514,7 +514,7 @@ INCY,Incyte Corporation,Healthcare,Biotechnology,20507869000,123.63,,108.38,2026
 INFQ,"Infleqtion, Inc.",Technology,Software - Infrastructure,2963444464,12.56,,12.57,2026-10-03T08:51:51+00:00
 INFY,Infosys Ltd ADR,Technology,Information Technology Services,73449816000,11.64,,12.10,2026-10-03T08:51:51+00:00
 INIO,INNIO N.V. Ordinary Shares,Industrials,Specialty Industrial Machinery,14992499828,22.52,705,,2026-10-03T08:51:51+00:00
-INOD,,,,,,,,
+INOD,Innodata Inc,Technology,Information Technology Services,2409195779,61.07,54.32,64.09,2026-10-05T09:57:46+00:00
 INSM,Insmed Inc,Healthcare,Biotechnology,44311831000,119.82,,123.01,2026-10-03T08:51:51+00:00
 INTC,Intel Corporation,Technology,Semiconductors,193471201000,100.87,,93.50,2026-10-03T08:51:51+00:00
 INTU,Intuit Inc,Technology,Software - Application,176527884000,323.37,,345.79,2026-10-03T08:51:51+00:00
@@ -566,7 +566,7 @@ KMI,Kinder Morgan Inc,Energy,Oil & Gas Midstream,60780450000,31.44,,31.87,2026-1
 KMX,CarMax Inc,Consumer Cyclical,Auto & Truck Dealerships,7793751860,59.29,38.09,49.72,2026-10-03T08:51:51+00:00
 KNX,Knight Transportation Inc,Industrials,Trucking,10865590908,68.60,251.74,67.59,2026-10-03T08:51:51+00:00
 KO,The Coca-Cola Company,Consumer Defensive,Beverages - Non-Alcoholic,314684146000,87.56,,81.34,2026-10-03T08:51:51+00:00
-KOD,,,,,,,,
+KOD,Kodiak Sciences Inc,Healthcare,Biotechnology,5936087858,43.65,,38.85,2026-10-05T09:57:46+00:00
 KR,Kroger Company,Consumer Defensive,Grocery Stores,44584989000,58.06,,62.74,2026-10-03T08:51:51+00:00
 KRMN,Karman Holdings Inc.,Industrials,Aerospace & Defense,4524710679,45.29,130.67,61.32,2026-10-03T08:51:51+00:00
 KRYS,Krystal Biotech Inc,Healthcare,Biotechnology,9539101228,342.43,42.19,312.91,2026-10-03T08:51:51+00:00
@@ -574,7 +574,7 @@ KTOS,Kratos Defense & Security Solutions,Industrials,Aerospace & Defense,1284877
 KVUE,Kenvue Inc.,Consumer Defensive,Household & Personal Products,33295864000,18.41,,17.73,2026-10-03T08:51:51+00:00
 KVYO,"Klaviyo, Inc.",Technology,Software - Application,2213491875,17.58,545.33,17.36,2026-10-03T08:51:51+00:00
 L,Loews Corp,Financial Services,Insurance - Property & Casualty,22375086000,110.76,,109.76,2026-10-03T08:51:51+00:00
-LAD,,,,,,,,
+LAD,Lithia Motors Inc,Consumer Cyclical,Auto & Truck Dealerships,6765738445,355.74,10.19,307.32,2026-10-05T09:57:46+00:00
 LDOS,Leidos Holdings Inc,Technology,Information Technology Services,24517622000,130.17,,133.81,2026-10-03T08:51:51+00:00
 LECO,Lincoln Electric Holdings Inc,Industrials,Tools & Accessories,13213244000,270.44,,262.51,2026-10-03T08:51:51+00:00
 LEN,Lennar Corporation,Consumer Cyclical,Residential Construction,32427287000,83.72,,87.56,2026-10-03T08:51:51+00:00
@@ -677,7 +677,7 @@ NFLX,Netflix Inc,Communication Services,Entertainment,455851246000,75.56,,83.31,
 NI,NiSource Inc,Utilities,Utilities - Regulated Gas,20883753000,41.65,,44.94,2026-10-03T08:51:51+00:00
 NIO,Nio Inc Class A ADR,Consumer Cyclical,Auto Manufacturers,13907626000,4.16,,5.11,2026-10-03T08:51:51+00:00
 NKE,Nike Inc,Consumer Cyclical,Footwear & Accessories,95536153000,38.72,,43.24,2026-10-03T08:51:51+00:00
-NKTR,,,,,,,,
+NKTR,Nektar Therapeutics,Healthcare,Biotechnology,1487952003,69.48,,71.29,2026-10-05T09:57:46+00:00
 NLY,"Annaly Capital Management, Inc.",Real Estate,Reit - Mortgage,15573112000,21.44,,20.89,2026-10-03T08:51:51+00:00
 NOC,Northrop Grumman Corporation,Industrials,Aerospace & Defense,81936458000,536.81,,576.76,2026-10-03T08:51:51+00:00
 NOK,Nokia Corp ADR,Technology,Communication Equipment,33716548000,10.07,,11.09,2026-10-03T08:51:51+00:00
@@ -778,7 +778,7 @@ PSKY,Paramount Skydance Corporation Class B Common Stock,Communication Services,
 PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,55348859000,240.26,,196.38,2026-10-03T08:51:51+00:00
 PTC,PTC Inc,Technology,Software - Application,21015233000,142.27,,138.75,2026-10-03T08:51:51+00:00
 PTEN,Patterson-UTI Energy Inc,Energy,Oil & Gas Drilling,4275325865,11.37,,10.82,2026-10-03T08:51:51+00:00
-PTGX,,,,,,,,
+PTGX,Protagonist Therapeutics Inc,Healthcare,Biotechnology,9063002322,144.98,134.67,120.13,2026-10-05T09:57:46+00:00
 PURR,Hyperliquid Strategies Inc Common Stock,Financial Services,Capital Markets,2352293888,10.07,3.696,7.99,2026-10-03T08:51:51+00:00
 PWR,Quanta Services Inc,Industrials,Engineering & Construction,69320991000,642.93,,648.95,2026-10-03T08:51:51+00:00
 PYPL,PayPal Holdings Inc,Financial Services,Credit Services,59892675000,56.42,,49.47,2026-10-03T08:51:51+00:00
@@ -848,7 +848,7 @@ SBAC,SBA Communications Corp,Real Estate,Reit - Specialty,20701995000,179.48,,18
 SBUX,Starbucks Corporation,Consumer Cyclical,Restaurants,99052782000,102.12,,100.27,2026-10-03T08:51:51+00:00
 SCCO,Southern Copper Corporation,Basic Materials,Copper,110397686000,196.78,,183.03,2026-10-03T08:51:51+00:00
 SCHW,Charles Schwab Corp,Financial Services,Capital Markets,168325300000,106.23,,97.41,2026-10-03T08:51:51+00:00
-SDEV,,,,,,,,
+SDEV,Stablecoin Development Corporation,Financial Services,Asset Management,378600201,1.29,,1.33,2026-10-05T09:57:46+00:00
 SE,Sea Ltd,Consumer Cyclical,Internet Retail,82296685000,110.26,,96.99,2026-10-03T08:51:51+00:00
 SEDG,SolarEdge Technologies Inc,Technology,Solar,2035895349,34.58,,45.04,2026-10-03T08:51:51+00:00
 SEI,"Solaris Energy Infrastructure, Inc.",Energy,Oil & Gas Equipment & Services,4932791780,59.73,77.83,64.59,2026-10-03T08:51:51+00:00
@@ -930,7 +930,7 @@ TENB,Tenable Holdings Inc,Technology,Software - Infrastructure,4058658832,35.14,
 TER,Teradyne Inc,Technology,Semiconductor Equipment & Materials,28933886000,374.84,,362.83,2026-10-03T08:51:51+00:00
 TEVA,Teva Pharma Industries Ltd ADR,Healthcare,Drug Manufacturers - Specialty & Generic,30850427000,36.93,,33.98,2026-10-03T08:51:51+00:00
 TFC,Truist Financial Corp,Financial Services,Banks - Regional,59958735000,50.23,,48.81,2026-10-03T08:51:51+00:00
-TFX,,,,,,,,
+TFX,Teleflex Incorporated,Healthcare,Medical Instruments & Supplies,5259262404,133.01,,127.60,2026-10-05T09:57:46+00:00
 TGT,Target Corporation,Consumer Defensive,Discount Stores,41177649000,155.39,,134.88,2026-10-03T08:51:51+00:00
 TGTX,TG Therapeutics Inc,Healthcare,Biotechnology,8310930500,53.71,20.39,45.12,2026-10-03T08:51:51+00:00
 THC,Tenet Healthcare Corporation,Healthcare,Medical Care Facilities,19158030000,261.73,,216.24,2026-10-03T08:51:51+00:00
@@ -964,7 +964,7 @@ TTD,Trade Desk Inc,Communication Services,Advertising Agencies,19342582000,14.52
 TTE,TotalEnergies SE ADR,Energy,Oil & Gas Integrated,141623427000,87.58,,85.90,2026-10-03T08:51:51+00:00
 TTMI,TTM Technologies Inc,Technology,Electronic Components,13892372116,123.06,51.24,137.52,2026-10-03T08:51:51+00:00
 TTWO,Take-Two Interactive Software Inc,Communication Services,Electronic Gaming & Multimedia,45468529000,226.21,,222.65,2026-10-03T08:51:51+00:00
-TVTX,,,,,,,,
+TVTX,Travere Therapeutics Inc,Healthcare,Biotechnology,5366278759,62.25,,49.23,2026-10-05T09:57:46+00:00
 TW,Tradeweb Markets Inc,Financial Services,Capital Markets,23784133000,103.56,,107.89,2026-10-03T08:51:51+00:00
 TWLO,Twilio Inc,Technology,Software - Infrastructure,19898804000,237.18,,192.81,2026-10-03T08:51:51+00:00
 TWST,Twist Bioscience Corp,Healthcare,Biotechnology,12509009549,135.71,,88.84,2026-10-03T08:51:51+00:00
@@ -986,7 +986,7 @@ UI,Ubiquiti Networks Inc,Technology,Communication Equipment,35276747000,569.69,,
 UL,Unilever PLC ADR,Consumer Defensive,Household & Personal Products,149036499000,62.97,,60.29,2026-10-03T08:51:51+00:00
 ULTA,Ulta Beauty Inc,Consumer Cyclical,Specialty Retail,24218042000,534.56,,522.49,2026-10-03T08:51:51+00:00
 UMC,United Microelectronics,Technology,Semiconductors,18732474000,20.93,,17.75,2026-10-03T08:51:51+00:00
-UNF,,,,,,,,
+UNF,Unifirst Corporation,Industrials,Specialty Business Services,3659093544,278.33,39.84,268.12,2026-10-05T09:57:46+00:00
 UNH,UnitedHealth Group Incorporated,Healthcare,Healthcare Plans,298718396000,392.02,,367.83,2026-10-03T08:51:51+00:00
 UNM,Unum Group,Financial Services,Insurance - Life,12938698000,91.15,,84.42,2026-10-03T08:51:51+00:00
 UNP,Union Pacific Corporation,Industrials,Railroads,137512485000,289.84,,270.84,2026-10-03T08:51:51+00:00
@@ -1003,7 +1003,7 @@ V,Visa Inc. Class A,Financial Services,Credit Services,649128641000,368.50,,338.
 VAL,Valaris Ltd,Energy,Oil & Gas Drilling,5443087998,82.98,6.32,88.19,2026-10-03T08:51:51+00:00
 VALE,Vale SA ADR,Basic Materials,Other Industrial Metals & Mining,53957759000,14.42,,15.03,2026-10-03T08:51:51+00:00
 VEEV,Veeva Systems Inc Class A,Healthcare,Health Information Services,39499313000,250.73,,199.11,2026-10-03T08:51:51+00:00
-VFC,,,,,,,,
+VFC,VF Corporation,Consumer Cyclical,Apparel Manufacturing,5633624520,14.11,20.77,16.24,2026-10-05T09:57:46+00:00
 VG,"Venture Global, Inc.",Energy,Oil & Gas Midstream,18262905000,13.82,,13.22,2026-10-03T08:51:51+00:00
 VIAV,Viavi Solutions Inc,Technology,Communication Equipment,11621924623,38.30,,41.72,2026-10-03T08:51:51+00:00
 VICI,VICI Properties Inc,Real Estate,Reit - Diversified,30803145000,25.02,,26.29,2026-10-03T08:51:51+00:00
@@ -1061,7 +1061,7 @@ WY,Weyerhaeuser Company,Real Estate,Reit - Specialty,16024758000,22.93,,23.45,20
 WYNN,Wynn Resorts Limited,Consumer Cyclical,Resorts & Casinos,13379699000,92.68,,98.43,2026-10-03T08:51:51+00:00
 XE,"X-Energy, Inc. Class A Common Stock",Industrials,Specialty Industrial Machinery,4133660453,17.43,,,2026-10-03T08:51:51+00:00
 XEL,Xcel Energy Inc,Utilities,Utilities - Regulated Electric,48571331000,75.36,,77.68,2026-10-03T08:51:51+00:00
-XENE,,,,,,,,
+XENE,Xenon Pharmaceuticals Inc,Healthcare,Biotechnology,3681856844,56.43,,56.62,2026-10-05T09:57:46+00:00
 XOM,Exxon Mobil Corp,Energy,Oil & Gas Integrated,494195606000,160.22,,152.82,2026-10-03T08:51:51+00:00
 XP,Xp Inc,Financial Services,Capital Markets,8722356500,18.30,10.16,17.94,2026-10-03T08:51:51+00:00
 XPO,XPO Logistics Inc,Industrials,Trucking,16729281000,191.27,,201.90,2026-10-03T08:51:51+00:00

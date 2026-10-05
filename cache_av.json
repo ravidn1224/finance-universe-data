@@ -181,6 +181,31 @@
     "status": "ok",
     "symbol": "ABVX"
   },
+  "ACA": {
+    "fetched_at": "2026-10-05T09:52:17+00:00",
+    "industry": "ENGINEERING & CONSTRUCTION",
+    "ma150": "130.89",
+    "marketCap": "7194146200",
+    "name": "Arcosa Inc",
+    "peRatio": "32.7",
+    "price": "145.47",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
+    "sector": "INDUSTRIALS",
+    "sharesOutstanding": "49106800",
+    "status": "ok",
+    "symbol": "ACA"
+  },
+  "ACCV": {
+    "fetched_at": "2026-10-05T09:52:29+00:00",
+    "industry": "",
+    "marketCap": "",
+    "name": "",
+    "peRatio": "",
+    "price": "",
+    "sector": "",
+    "status": "not_found",
+    "symbol": "ACCV"
+  },
   "ACGL": {
     "fetched_at": "2026-09-21T08:30:12+00:00",
     "industry": "INSURANCE - DIVERSIFIED",
@@ -938,11 +963,17 @@
     "symbol": "AMGN"
   },
   "AMH": {
+    "fetched_at": "2026-10-05T09:55:41+00:00",
     "industry": "REIT - RESIDENTIAL",
-    "marketCap": "13570149000",
+    "ma150": "31.32",
+    "marketCap": "10868786882",
     "name": "American Homes 4 Rent",
-    "price": "32.48",
+    "peRatio": "24.02",
+    "price": "32.57",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
     "sector": "REAL ESTATE",
+    "sharesOutstanding": "359180000",
+    "status": "ok",
     "symbol": "AMH"
   },
   "AMKR": {
@@ -1676,13 +1707,17 @@
     "symbol": "AXTI"
   },
   "AYI": {
+    "fetched_at": "2026-10-05T09:55:53+00:00",
     "industry": "ELECTRICAL EQUIPMENT & PARTS",
-    "ma150": "309.19",
-    "marketCap": "11228880000",
+    "ma150": "308.53",
+    "marketCap": "9242885272",
     "name": "Acuity Brands Inc",
-    "price": "338.91",
-    "quoted_at": "2026-09-12T07:37:52+00:00",
+    "peRatio": "20.49",
+    "price": "330.36",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
     "sector": "INDUSTRIALS",
+    "sharesOutstanding": "29935500",
+    "status": "ok",
     "symbol": "AYI"
   },
   "AZN": {
@@ -2488,6 +2523,20 @@
     "sharesOutstanding": "137941000",
     "status": "ok",
     "symbol": "BROS"
+  },
+  "BRX": {
+    "fetched_at": "2026-10-05T09:52:41+00:00",
+    "industry": "REIT - RETAIL",
+    "ma150": "29.57",
+    "marketCap": "8405223893",
+    "name": "Brixmor Property",
+    "peRatio": "19.56",
+    "price": "29.07",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
+    "sector": "REAL ESTATE",
+    "sharesOutstanding": "306872000",
+    "status": "ok",
+    "symbol": "BRX"
   },
   "BRZE": {
     "fetched_at": "2026-09-14T08:25:23+00:00",
@@ -6303,6 +6352,20 @@
     "status": "ok",
     "symbol": "FROG"
   },
+  "FRT": {
+    "fetched_at": "2026-10-05T09:52:53+00:00",
+    "industry": "REIT - RETAIL",
+    "ma150": "113.62",
+    "marketCap": "9270187622",
+    "name": "Federal Realty Investment Trust",
+    "peRatio": "21.55",
+    "price": "115.28",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
+    "sector": "REAL ESTATE",
+    "sharesOutstanding": "86889000",
+    "status": "ok",
+    "symbol": "FRT"
+  },
   "FRVO": {
     "fetched_at": "2026-09-14T08:28:35+00:00",
     "industry": "UTILITIES - RENEWABLE",
@@ -6728,23 +6791,31 @@
     "symbol": "GLW"
   },
   "GLXY": {
+    "fetched_at": "2026-10-05T09:56:05+00:00",
     "industry": "CAPITAL MARKETS",
     "ma150": "24.88",
-    "marketCap": "10739197000",
+    "marketCap": "4480373416",
     "name": "Galaxy Digital Holdings Ltd",
+    "peRatio": "",
     "price": "23.00",
-    "quoted_at": "2026-10-03T08:51:51+00:00",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
     "sector": "FINANCIAL SERVICES",
+    "sharesOutstanding": "194292000",
+    "status": "ok",
     "symbol": "GLXY"
   },
   "GM": {
+    "fetched_at": "2026-10-05T09:56:18+00:00",
     "industry": "AUTO MANUFACTURERS",
     "ma150": "79.97",
-    "marketCap": "69996757000",
+    "marketCap": "70791455004",
     "name": "General Motors Company",
+    "peRatio": "34.94",
     "price": "85.31",
-    "quoted_at": "2026-10-03T08:51:51+00:00",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
     "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "904452000",
+    "status": "ok",
     "symbol": "GM"
   },
   "GMAB": {
@@ -6758,13 +6829,17 @@
     "symbol": "GMAB"
   },
   "GME": {
+    "fetched_at": "2026-10-05T09:56:30+00:00",
     "industry": "SPECIALTY RETAIL",
     "ma150": "22.11",
-    "marketCap": "10091384000",
+    "marketCap": "12461175085",
     "name": "GameStop Corp.",
+    "peRatio": "16.25",
     "price": "20.52",
-    "quoted_at": "2026-10-03T08:51:51+00:00",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
     "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "504501000",
+    "status": "ok",
     "symbol": "GME"
   },
   "GMED": {
@@ -6782,33 +6857,45 @@
     "symbol": "GMED"
   },
   "GNRC": {
+    "fetched_at": "2026-10-05T09:56:42+00:00",
     "industry": "SPECIALTY INDUSTRIAL MACHINERY",
     "ma150": "225.21",
-    "marketCap": "8898265000",
+    "marketCap": "12805075380",
     "name": "Generac Holdings Inc",
+    "peRatio": "47.86",
     "price": "200.80",
-    "quoted_at": "2026-10-03T08:51:51+00:00",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
     "sector": "INDUSTRIALS",
+    "sharesOutstanding": "59064000",
+    "status": "ok",
     "symbol": "GNRC"
   },
   "GOOG": {
+    "fetched_at": "2026-10-05T09:56:54+00:00",
     "industry": "INTERNET CONTENT & INFORMATION",
     "ma150": "342.71",
-    "marketCap": "3864435360000",
+    "marketCap": "1881114483734",
     "name": "Alphabet Inc Class C",
+    "peRatio": "17.07",
     "price": "341.64",
-    "quoted_at": "2026-10-03T08:51:51+00:00",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
     "sector": "COMMUNICATION SERVICES",
+    "sharesOutstanding": "5527000000",
+    "status": "ok",
     "symbol": "GOOG"
   },
   "GOOGL": {
+    "fetched_at": "2026-10-05T09:57:06+00:00",
     "industry": "INTERNET CONTENT & INFORMATION",
     "ma150": "344.94",
-    "marketCap": "3878058983000",
+    "marketCap": "2015368086000",
     "name": "Alphabet Inc Class A",
+    "peRatio": "17.24",
     "price": "344.23",
-    "quoted_at": "2026-10-03T08:51:51+00:00",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
     "sector": "COMMUNICATION SERVICES",
+    "sharesOutstanding": "5867156000",
+    "status": "ok",
     "symbol": "GOOGL"
   },
   "GPC": {
@@ -7422,6 +7509,20 @@
     "sector": "FINANCIAL SERVICES",
     "symbol": "IBN"
   },
+  "IBRX": {
+    "fetched_at": "2026-10-05T09:53:05+00:00",
+    "industry": "BIOTECHNOLOGY",
+    "ma150": "7.90",
+    "marketCap": "10900413098",
+    "name": "Immunitybio Inc",
+    "peRatio": "",
+    "price": "8.00",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "1059836000",
+    "status": "ok",
+    "symbol": "IBRX"
+  },
   "ICE": {
     "industry": "FINANCIAL DATA & STOCK EXCHANGES",
     "ma150": "151.13",
@@ -7558,6 +7659,20 @@
     "sharesOutstanding": "750000000",
     "status": "ok",
     "symbol": "INIO"
+  },
+  "INOD": {
+    "fetched_at": "2026-10-05T09:53:17+00:00",
+    "industry": "INFORMATION TECHNOLOGY SERVICES",
+    "ma150": "64.09",
+    "marketCap": "2409195779",
+    "name": "Innodata Inc",
+    "peRatio": "54.32",
+    "price": "61.07",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
+    "sector": "TECHNOLOGY",
+    "sharesOutstanding": "34382700",
+    "status": "ok",
+    "symbol": "INOD"
   },
   "INSM": {
     "industry": "BIOTECHNOLOGY",
@@ -8147,6 +8262,20 @@
     "sector": "CONSUMER DEFENSIVE",
     "symbol": "KO"
   },
+  "KOD": {
+    "fetched_at": "2026-10-05T09:53:29+00:00",
+    "industry": "BIOTECHNOLOGY",
+    "ma150": "38.85",
+    "marketCap": "5936087858",
+    "name": "Kodiak Sciences Inc",
+    "peRatio": "",
+    "price": "43.65",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "62849000",
+    "status": "ok",
+    "symbol": "KOD"
+  },
   "KOF": {
     "industry": "BEVERAGES - NON-ALCOHOLIC",
     "marketCap": "18426401000",
@@ -8244,6 +8373,20 @@
     "quoted_at": "2026-10-03T08:51:51+00:00",
     "sector": "FINANCIAL SERVICES",
     "symbol": "L"
+  },
+  "LAD": {
+    "fetched_at": "2026-10-05T09:53:41+00:00",
+    "industry": "AUTO & TRUCK DEALERSHIPS",
+    "ma150": "307.32",
+    "marketCap": "6765738445",
+    "name": "Lithia Motors Inc",
+    "peRatio": "10.19",
+    "price": "355.74",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "21983100",
+    "status": "ok",
+    "symbol": "LAD"
   },
   "LAMR": {
     "industry": "REIT - SPECIALTY",
@@ -9501,6 +9644,20 @@
     "sector": "CONSUMER CYCLICAL",
     "symbol": "NKE"
   },
+  "NKTR": {
+    "fetched_at": "2026-10-05T09:53:53+00:00",
+    "industry": "BIOTECHNOLOGY",
+    "ma150": "71.29",
+    "marketCap": "1487952003",
+    "name": "Nektar Therapeutics",
+    "peRatio": "",
+    "price": "69.48",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "34143000",
+    "status": "ok",
+    "symbol": "NKTR"
+  },
   "NLY": {
     "industry": "REIT - MORTGAGE",
     "ma150": "20.89",
@@ -10693,6 +10850,20 @@
     "status": "ok",
     "symbol": "PTEN"
   },
+  "PTGX": {
+    "fetched_at": "2026-10-05T09:54:05+00:00",
+    "industry": "BIOTECHNOLOGY",
+    "ma150": "120.13",
+    "marketCap": "9063002322",
+    "name": "Protagonist Therapeutics Inc",
+    "peRatio": "134.67",
+    "price": "144.98",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "64708000",
+    "status": "ok",
+    "symbol": "PTGX"
+  },
   "PUK": {
     "industry": "INSURANCE - LIFE",
     "marketCap": "37034848000",
@@ -11567,6 +11738,20 @@
     "price": "81.19",
     "sector": "CONSUMER CYCLICAL",
     "symbol": "SCI"
+  },
+  "SDEV": {
+    "fetched_at": "2026-10-05T09:54:17+00:00",
+    "industry": "ASSET MANAGEMENT",
+    "ma150": "1.33",
+    "marketCap": "378600201",
+    "name": "Stablecoin Development Corporation",
+    "peRatio": "",
+    "price": "1.29",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
+    "sector": "FINANCIAL SERVICES",
+    "sharesOutstanding": "50615000",
+    "status": "ok",
+    "symbol": "SDEV"
   },
   "SE": {
     "industry": "INTERNET RETAIL",
@@ -12590,6 +12775,20 @@
     "sector": "FINANCIAL SERVICES",
     "symbol": "TFC"
   },
+  "TFX": {
+    "fetched_at": "2026-10-05T09:54:29+00:00",
+    "industry": "MEDICAL INSTRUMENTS & SUPPLIES",
+    "ma150": "127.60",
+    "marketCap": "5259262404",
+    "name": "Teleflex Incorporated",
+    "peRatio": "",
+    "price": "133.01",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "42372400",
+    "status": "ok",
+    "symbol": "TFX"
+  },
   "TGT": {
     "industry": "DISCOUNT STORES",
     "ma150": "134.88",
@@ -13024,6 +13223,20 @@
     "sector": "COMMUNICATION SERVICES",
     "symbol": "TU"
   },
+  "TVTX": {
+    "fetched_at": "2026-10-05T09:54:41+00:00",
+    "industry": "BIOTECHNOLOGY",
+    "ma150": "49.23",
+    "marketCap": "5366278759",
+    "name": "Travere Therapeutics Inc",
+    "peRatio": "",
+    "price": "62.25",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "94261000",
+    "status": "ok",
+    "symbol": "TVTX"
+  },
   "TW": {
     "industry": "CAPITAL MARKETS",
     "ma150": "107.89",
@@ -13284,6 +13497,20 @@
     "sector": "TECHNOLOGY",
     "symbol": "UMC"
   },
+  "UNF": {
+    "fetched_at": "2026-10-05T09:54:53+00:00",
+    "industry": "SPECIALTY BUSINESS SERVICES",
+    "ma150": "268.12",
+    "marketCap": "3659093544",
+    "name": "Unifirst Corporation",
+    "peRatio": "39.84",
+    "price": "278.33",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
+    "sector": "INDUSTRIALS",
+    "sharesOutstanding": "14532900",
+    "status": "ok",
+    "symbol": "UNF"
+  },
   "UNH": {
     "industry": "HEALTHCARE PLANS",
     "ma150": "367.83",
@@ -13463,6 +13690,20 @@
     "quoted_at": "2026-10-03T08:51:51+00:00",
     "sector": "HEALTHCARE",
     "symbol": "VEEV"
+  },
+  "VFC": {
+    "fetched_at": "2026-10-05T09:55:05+00:00",
+    "industry": "APPAREL MANUFACTURING",
+    "ma150": "16.24",
+    "marketCap": "5633624520",
+    "name": "VF Corporation",
+    "peRatio": "20.77",
+    "price": "14.11",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
+    "sector": "CONSUMER CYCLICAL",
+    "sharesOutstanding": "393135000",
+    "status": "ok",
+    "symbol": "VFC"
   },
   "VG": {
     "industry": "OIL & GAS MIDSTREAM",
@@ -13743,6 +13984,17 @@
     "quoted_at": "2026-10-03T08:51:51+00:00",
     "sector": "HEALTHCARE",
     "symbol": "VTRS"
+  },
+  "VYLR": {
+    "fetched_at": "2026-10-05T09:55:17+00:00",
+    "industry": "",
+    "marketCap": "",
+    "name": "",
+    "peRatio": "",
+    "price": "",
+    "sector": "",
+    "status": "not_found",
+    "symbol": "VYLR"
   },
   "VZ": {
     "industry": "TELECOM SERVICES",
@@ -14190,6 +14442,20 @@
     "quoted_at": "2026-10-03T08:51:51+00:00",
     "sector": "UTILITIES",
     "symbol": "XEL"
+  },
+  "XENE": {
+    "fetched_at": "2026-10-05T09:55:29+00:00",
+    "industry": "BIOTECHNOLOGY",
+    "ma150": "56.62",
+    "marketCap": "3681856844",
+    "name": "Xenon Pharmaceuticals Inc",
+    "peRatio": "",
+    "price": "56.43",
+    "quoted_at": "2026-10-05T09:57:46+00:00",
+    "sector": "HEALTHCARE",
+    "sharesOutstanding": "96840000",
+    "status": "ok",
+    "symbol": "XENE"
   },
   "XOM": {
     "industry": "OIL & GAS INTEGRATED",
