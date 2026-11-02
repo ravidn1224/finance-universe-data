@@ -383,7 +383,7 @@ FANG,Diamondback Energy Inc,Energy,Oil & Gas E&P,59660861555,197.38,35.4,194.39,
 FAST,Fastenal Company,Industrials,Industrial Distribution,59566621005,50.24,43.38,47.40,2026-10-31T09:14:54+00:00
 FBIN,Fortune Brands Innovations Inc.,Industrials,Building Products & Equipment,5338361750,41.11,32.85,42.54,2026-10-31T09:14:54+00:00
 FCEL,FuelCell Energy Inc,Industrials,Electrical Equipment & Parts,897083901,15.92,,17.33,2026-10-31T09:14:54+00:00
-FCFS,FirstCash Inc,Financial Services,Credit Services,9336213430,217.02,25.95,213.63,2026-10-17T07:29:38+00:00
+FCFS,FirstCash Inc,Financial Services,Credit Services,7861138750,213.41,25.95,213.75,2026-11-02T10:29:43+00:00
 FCNCA,"First Citizens BancShares, Inc.",Financial Services,Banks - Regional,24203723951,2149.93,11.05,2087.47,2026-10-31T09:14:54+00:00
 FCX,Freeport-McMoran Copper & Gold Inc,Basic Materials,Copper,89708046213,71.46,35.31,66.30,2026-10-31T09:14:54+00:00
 FDS,FactSet Research Systems Inc,Financial Services,Financial Data & Stock Exchanges,11721322095,292.36,18.26,258.23,2026-10-31T09:14:54+00:00
@@ -594,7 +594,7 @@ LMT,Lockheed Martin Corporation,Industrials,Aerospace & Defense,106894303000,543
 LNG,Cheniere Energy Inc,Energy,Oil & Gas Midstream,45812859000,282.12,,263.23,2026-10-31T09:14:54+00:00
 LNT,Alliant Energy Corp,Utilities,Utilities - Regulated Electric,17857520000,66.47,,69.97,2026-10-31T09:14:54+00:00
 LNTH,Lantheus Holdings Inc,Healthcare,Drug Manufacturers - Specialty & Generic,6560037940,100.26,24,97.71,2026-10-31T09:14:54+00:00
-LOGI,Logitech International SA,Technology,Computer Hardware,16555265000,100.55,,99.44,2026-10-03T08:51:51+00:00
+LOGI,Logitech International SA,Technology,Computer Hardware,16555265000,101.33,,101.29,2026-11-02T10:29:43+00:00
 LOW,Lowe's Companies Inc,Consumer Cyclical,Home Improvement Retail,136019517000,195.15,,211.74,2026-10-31T09:14:54+00:00
 LPLA,LPL Financial Holdings Inc,Financial Services,Capital Markets,28496597000,330.25,,319.31,2026-10-31T09:14:54+00:00
 LQDA,Liquidia Technologies Inc,Healthcare,Drug Manufacturers - Specialty & Generic,4033275663,52.99,46.65,59.85,2026-10-31T09:14:54+00:00
@@ -856,7 +856,7 @@ RVTY,Revvity Inc.,Healthcare,Diagnostics & Research,12119138000,144.43,,116.23,2
 RXO,,,,,,,,
 RXRX,,,,,,,,
 RY,Royal Bank of Canada,Financial Services,Banks - Diversified,217314132000,200.39,,194.66,2026-10-31T09:14:54+00:00
-RYAAY,Ryanair Holdings PLC ADR,Industrials,Airlines,35833991000,61.58,,,
+RYAAY,Ryanair Holdings PLC ADR,Industrials,Airlines,35833991000,54.07,,57.38,2026-11-02T10:29:43+00:00
 S,SentinelOne Inc,Technology,Software - Infrastructure,8605927469,22.93,,18.92,2026-10-31T09:14:54+00:00
 SAIA,Saia Inc,Industrials,Trucking,9168383121,342.04,33.13,395.41,2026-10-31T09:14:54+00:00
 SAIL,"SailPoint, Inc. Common Stock",Technology,Software - Infrastructure,11493562000,19.90,,16.42,2026-10-31T09:14:54+00:00
