@@ -6178,9 +6178,11 @@
   },
   "FMX": {
     "industry": "BEVERAGES - BREWERS",
+    "ma150": "120.57",
     "marketCap": "33150841000",
     "name": "Fomento Economico Mexicano",
-    "price": "95.23",
+    "price": "122.02",
+    "quoted_at": "2026-11-16T10:33:03+00:00",
     "sector": "CONSUMER DEFENSIVE",
     "symbol": "FMX"
   },
@@ -8333,11 +8335,11 @@
   },
   "KNSL": {
     "industry": "INSURANCE - PROPERTY & CASUALTY",
-    "ma150": "344.87",
+    "ma150": "345.15",
     "marketCap": "8968169000",
     "name": "Kinsale Capital Group Inc",
-    "price": "364.08",
-    "quoted_at": "2026-09-19T07:47:32+00:00",
+    "price": "360.05",
+    "quoted_at": "2026-11-16T10:33:03+00:00",
     "sector": "FINANCIAL SERVICES",
     "symbol": "KNSL"
   },
@@ -8493,11 +8495,11 @@
   },
   "LAMR": {
     "industry": "REIT - SPECIALTY",
-    "ma150": "143.83",
+    "ma150": "149.43",
     "marketCap": "13408934000",
     "name": "Lamar Advertising Company",
-    "price": "151.74",
-    "quoted_at": "2026-09-26T08:17:25+00:00",
+    "price": "150.48",
+    "quoted_at": "2026-11-16T10:33:03+00:00",
     "sector": "REAL ESTATE",
     "symbol": "LAMR"
   },
@@ -9325,9 +9327,11 @@
   },
   "MPLX": {
     "industry": "OIL & GAS MIDSTREAM",
+    "ma150": "55.45",
     "marketCap": "55365853000",
     "name": "MPLX LP",
-    "price": "50.88",
+    "price": "56.86",
+    "quoted_at": "2026-11-16T10:33:03+00:00",
     "sector": "ENERGY",
     "symbol": "MPLX"
   },
@@ -9841,11 +9845,11 @@
   },
   "NTES": {
     "industry": "ELECTRONIC GAMING & MULTIMEDIA",
-    "ma150": "119.80",
+    "ma150": "121.28",
     "marketCap": "88795415000",
     "name": "NetEase Inc",
-    "price": "121.91",
-    "quoted_at": "2026-10-10T09:21:58+00:00",
+    "price": "120.14",
+    "quoted_at": "2026-11-16T10:33:03+00:00",
     "sector": "COMMUNICATION SERVICES",
     "symbol": "NTES"
   },
@@ -11840,9 +11844,11 @@
   },
   "SCI": {
     "industry": "PERSONAL SERVICES",
+    "ma150": "78.78",
     "marketCap": "11134605000",
     "name": "Service Corporation International",
-    "price": "81.19",
+    "price": "78.37",
+    "quoted_at": "2026-11-16T10:33:03+00:00",
     "sector": "CONSUMER CYCLICAL",
     "symbol": "SCI"
   },
@@ -13287,12 +13293,12 @@
   "TTEK": {
     "fetched_at": "2026-09-19T07:45:21+00:00",
     "industry": "ENGINEERING & CONSTRUCTION",
-    "ma150": "31.86",
-    "marketCap": "8480177007",
+    "ma150": "32.80",
+    "marketCap": "9942188989",
     "name": "Tetra Tech Inc",
     "peRatio": "22.02",
-    "price": "35.18",
-    "quoted_at": "2026-10-03T08:51:51+00:00",
+    "price": "36.06",
+    "quoted_at": "2026-11-16T10:33:03+00:00",
     "sector": "INDUSTRIALS",
     "sharesOutstanding": "256044000",
     "status": "ok",
